@@ -21,7 +21,7 @@ A Minecraft Java Edition mod (NeoForge, Minecraft 1.21.1) that rewards what you 
 
 ## How I built it
 
-I built this with Claude and Claude Code. I set the design and the rules for each feature, and Claude wrote most of the code. My job was to break features down into clear specs, review the output, play-test it, and send back bugs until the tests and the game agreed. [Check this wording matches how you worked.]
+I built this with Claude and Claude Code. I set the design and the rules for each feature, and Claude wrote most of the code. My job was to break features down into clear specs, review the output, play-test it, and send back bugs until the tests and the game agreed.
 
 One real problem: the mason's wand could duplicate items. Placing copies of a double slab only charged one slab item, but breaking each copy dropped two. The fix counts what each block is really worth (two for a double slab, the count for stacked blocks such as layers and candles) and charges that many items. A GameTest now places 30 slabs as double slabs and checks that exactly 15 are built with none left over.
 
