@@ -1,0 +1,26 @@
+{
+  "rarity": "mythical",
+  "category": "exploration",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:legendary_card",
+    "chance": 0.15
+  },
+  "icon": "minecraft:nether_star",
+  "art": "minecraft:crying_obsidian",
+  "perk": {
+    "mechanic": "habits:wild_card",
+    "values": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  }
+}

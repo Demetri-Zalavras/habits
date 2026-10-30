@@ -1,0 +1,26 @@
+{
+  "rarity": "epic",
+  "category": "nature",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:mega_tree",
+    "chance": 0.167
+  },
+  "icon": "minecraft:dark_oak_sapling",
+  "art": "minecraft:dark_oak_log",
+  "perk": {
+    "mechanic": "habits:nature/old_growth",
+    "values": [
+      120,
+      100,
+      85,
+      70,
+      55,
+      45,
+      35,
+      25,
+      15,
+      5
+    ]
+  }
+}

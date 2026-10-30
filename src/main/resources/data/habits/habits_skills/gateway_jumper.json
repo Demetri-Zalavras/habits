@@ -1,0 +1,26 @@
+{
+  "rarity": "epic",
+  "category": "exploration",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:gateway_jump",
+    "chance": 0.0333
+  },
+  "icon": "minecraft:end_crystal",
+  "art": "minecraft:purpur_block",
+  "perk": {
+    "mechanic": "habits:movement/gateway_jumper",
+    "values": [
+      1,
+      3,
+      5,
+      7,
+      9,
+      12,
+      14,
+      16,
+      18,
+      20
+    ]
+  }
+}

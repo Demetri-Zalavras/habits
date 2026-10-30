@@ -1,0 +1,29 @@
+{
+  "rarity": "common",
+  "category": "guardian",
+  "trigger": {
+    "type": "damage_taken",
+    "match": "minecraft:freeze",
+    "chance": 0.00333
+  },
+  "icon": "minecraft:powder_snow_bucket",
+  "art": "minecraft:snow_block",
+  "perk": {
+    "mechanic": "habits:survival/snow_born",
+    "params": {
+      "walk": "0,0,0,0,0,0,0,0,0,1"
+    },
+    "values": [
+      20,
+      29,
+      38,
+      47,
+      56,
+      64,
+      73,
+      82,
+      91,
+      100
+    ]
+  }
+}

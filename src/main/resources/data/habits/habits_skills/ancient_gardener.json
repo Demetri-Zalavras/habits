@@ -1,0 +1,33 @@
+{
+  "rarity": "rare",
+  "category": "farming",
+  "trigger": {
+    "type": "break_block",
+    "match": [
+      "minecraft:torchflower",
+      "minecraft:pitcher_plant",
+      "minecraft:pitcher_crop"
+    ],
+    "chance": 0.0167
+  },
+  "icon": "minecraft:torchflower",
+  "art": "minecraft:moss_block",
+  "perk": {
+    "mechanic": "habits:ancient_gardener",
+    "params": {
+      "radius": "2,8"
+    },
+    "values": [
+      25,
+      55,
+      85,
+      115,
+      145,
+      175,
+      205,
+      240,
+      270,
+      300
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "rarity": "rare",
+  "category": "nature",
+  "class_passive": true,
+  "trigger": {
+    "type": "custom_units",
+    "match": "habits:forest_walk",
+    "chance": 0.000129
+  },
+  "icon": "minecraft:oak_sapling",
+  "art": "minecraft:oak_leaves",
+  "perk": {
+    "type": "regen",
+    "values": [
+      4.0,
+      6.9,
+      9.8,
+      12.7,
+      15.6,
+      18.4,
+      21.3,
+      24.2,
+      27.1,
+      30.0
+    ],
+    "params": {
+      "condition": "biome=#minecraft:is_forest"
+    }
+  }
+}

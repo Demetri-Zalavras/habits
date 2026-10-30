@@ -1,0 +1,30 @@
+{
+  "rarity": "common",
+  "category": "farming",
+  "trigger": {
+    "type": "plant",
+    "match": "minecraft:wheat",
+    "chance": 0.0025
+  },
+  "icon": "minecraft:wheat_seeds",
+  "art": "minecraft:farmland",
+  "perk": {
+    "type": "hunger_save",
+    "params": {
+      "condition": "day"
+    },
+    "values": [
+      3,
+      6,
+      9,
+      12,
+      15,
+      18,
+      21,
+      24,
+      27,
+      30
+    ]
+  },
+  "perk_text": "Hunger -{v}% in daylight"
+}

@@ -1,0 +1,26 @@
+{
+  "rarity": "rare",
+  "category": "building",
+  "class": "habits:class/building/steeplejack",
+  "trigger": {
+    "type": "climb_distance",
+    "chance": 0.000236
+  },
+  "icon": "minecraft:oak_fence",
+  "art": "minecraft:oak_planks",
+  "perk": {
+    "mechanic": "habits:building/pole_climber",
+    "values": [
+      60.0,
+      64.4,
+      68.9,
+      73.3,
+      77.8,
+      82.2,
+      86.7,
+      91.1,
+      95.6,
+      100.0
+    ]
+  }
+}

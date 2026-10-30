@@ -1,0 +1,27 @@
+{
+  "rarity": "common",
+  "category": "farming",
+  "trigger": {
+    "type": "till",
+    "match": "#minecraft:logs",
+    "item": "#minecraft:axes",
+    "chance": 0.005
+  },
+  "icon": "minecraft:honey_bottle",
+  "art": "minecraft:stripped_oak_log",
+  "perk": {
+    "mechanic": "habits:sap_tap",
+    "values": [
+      3,
+      6,
+      9,
+      12,
+      15,
+      18,
+      21,
+      24,
+      27,
+      30
+    ]
+  }
+}

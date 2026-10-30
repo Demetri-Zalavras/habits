@@ -1,0 +1,31 @@
+{
+  "rarity": "common",
+  "category": "nature",
+  "trigger": {
+    "type": "custom_units",
+    "match": "habits:nature_rain_walk",
+    "chance": 0.000386
+  },
+  "icon": "minecraft:feather",
+  "art": "minecraft:light_blue_wool",
+  "perk": {
+    "type": "mob_effect_conditional",
+    "values": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      2
+    ],
+    "params": {
+      "effect": "minecraft:speed",
+      "condition": "in_rain"
+    }
+  },
+  "perk_text": "Speed {v} in the rain"
+}

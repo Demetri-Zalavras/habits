@@ -1,0 +1,28 @@
+{
+  "rarity": "common",
+  "category": "movement",
+  "trigger": {
+    "type": "sprint_distance",
+    "chance": 0.000297
+  },
+  "icon": "minecraft:golden_carrot",
+  "art": "minecraft:hay_block",
+  "perk": {
+    "mechanic": "habits:movement/runners_lungs",
+    "params": {
+      "any_food_level": "6"
+    },
+    "values": [
+      2,
+      4,
+      6,
+      8,
+      10,
+      12,
+      14,
+      16,
+      18,
+      20
+    ]
+  }
+}

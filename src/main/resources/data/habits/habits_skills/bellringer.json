@@ -1,0 +1,30 @@
+{
+  "rarity": "common",
+  "category": "crafting",
+  "trigger": {
+    "type": "stat_increment",
+    "match": "minecraft:bell_ring",
+    "chance": 0.005
+  },
+  "icon": "minecraft:bell",
+  "art": "minecraft:gold_block",
+  "perk": {
+    "mechanic": "habits:bellringer",
+    "params": {
+      "glow": "3..10",
+      "slow_from": "10"
+    },
+    "values": [
+      16,
+      21,
+      27,
+      32,
+      37,
+      43,
+      48,
+      53,
+      59,
+      64
+    ]
+  }
+}

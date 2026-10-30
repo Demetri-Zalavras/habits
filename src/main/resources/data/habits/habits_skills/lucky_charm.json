@@ -1,0 +1,26 @@
+{
+  "rarity": "legendary",
+  "category": "exploration",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:card_dropped",
+    "chance": 0.00758
+  },
+  "icon": "minecraft:rabbit_foot",
+  "art": "minecraft:emerald_block",
+  "perk": {
+    "mechanic": "habits:lucky_charm",
+    "values": [
+      5,
+      15,
+      25,
+      35,
+      45,
+      55,
+      65,
+      75,
+      90,
+      100
+    ]
+  }
+}

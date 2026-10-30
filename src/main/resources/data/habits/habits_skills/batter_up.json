@@ -1,0 +1,30 @@
+{
+  "rarity": "rare",
+  "category": "warrior",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:melee_kill",
+    "chance": 0.0333,
+    "entity": "minecraft:ghast"
+  },
+  "icon": "minecraft:fire_charge",
+  "art": "minecraft:quartz_bricks",
+  "perk": {
+    "mechanic": "habits:melee/batter_up",
+    "params": {
+      "homing": "0.05,0.3"
+    },
+    "values": [
+      1.5,
+      1.8,
+      2.1,
+      2.3,
+      2.6,
+      2.9,
+      3.2,
+      3.4,
+      3.7,
+      4.0
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "rarity": "uncommon",
+  "category": "guardian",
+  "trigger": {
+    "type": "die",
+    "chance": 0.625
+  },
+  "icon": "minecraft:recovery_compass",
+  "art": "minecraft:soul_soil",
+  "perk": {
+    "mechanic": "habits:survival/grave_map",
+    "values": [
+      3,
+      6,
+      9,
+      12,
+      15,
+      18,
+      21,
+      24,
+      27,
+      30
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "rarity": "rare",
+  "category": "crafting",
+  "class": "habits:class/crafting/runewright",
+  "trigger": {
+    "type": "anvil",
+    "match": "minecraft:enchanted_book",
+    "chance": 0.17
+  },
+  "icon": "minecraft:enchanted_book",
+  "art": "minecraft:bookshelf",
+  "perk": {
+    "type": "anvil_discount",
+    "values": [
+      10,
+      13,
+      16,
+      18,
+      21,
+      24,
+      27,
+      29,
+      32,
+      35
+    ]
+  }
+}

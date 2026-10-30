@@ -1,0 +1,35 @@
+{
+  "rarity": "common",
+  "category": "mining",
+  "trigger": {
+    "type": "break_block",
+    "match": [
+      "minecraft:gravel",
+      "#minecraft:sand",
+      "minecraft:clay"
+    ],
+    "chance": 0.00167
+  },
+  "icon": "minecraft:flint",
+  "art": "minecraft:gravel",
+  "perk": {
+    "mechanic": "habits:sifter",
+    "params": {
+      "nugget_level": "4",
+      "diamond_level": "10",
+      "diamond_chance": "0.1"
+    },
+    "values": [
+      3.0,
+      6.0,
+      9.0,
+      12.0,
+      15.0,
+      18.0,
+      21.0,
+      24.0,
+      27.0,
+      30.0
+    ]
+  }
+}

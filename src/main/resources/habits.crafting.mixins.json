@@ -1,0 +1,9 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.habits.perk.crafting.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": ["ItemCraftedByMixin"],
+  "client": [],
+  "injectors": {"defaultRequire": 1}
+}

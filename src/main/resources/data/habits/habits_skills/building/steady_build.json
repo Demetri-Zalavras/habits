@@ -1,0 +1,26 @@
+{
+  "rarity": "common",
+  "category": "building",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:building/build_streak",
+    "chance": 0.2
+  },
+  "icon": "minecraft:bread",
+  "art": "minecraft:hay_block",
+  "perk": {
+    "type": "hunger_save",
+    "values": [
+      4,
+      8,
+      12,
+      16,
+      20,
+      24,
+      28,
+      32,
+      36,
+      40
+    ]
+  }
+}

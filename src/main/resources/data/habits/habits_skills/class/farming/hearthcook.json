@@ -1,0 +1,30 @@
+{
+  "rarity": "epic",
+  "category": "farming",
+  "class_passive": true,
+  "trigger": {
+    "type": "eat",
+    "chance": 0.0167
+  },
+  "icon": "minecraft:rabbit_stew",
+  "art": "minecraft:smoker",
+  "perk": {
+    "mechanic": "habits:farming/hearth_meal",
+    "values": [
+      6,
+      8,
+      10,
+      12,
+      15,
+      18,
+      21,
+      24,
+      27,
+      30
+    ],
+    "params": {
+      "regen": "0,1",
+      "strength": "0,1"
+    }
+  }
+}

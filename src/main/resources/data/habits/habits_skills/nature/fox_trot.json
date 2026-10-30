@@ -1,0 +1,29 @@
+{
+  "rarity": "uncommon",
+  "category": "nature",
+  "trigger": {
+    "type": "sneak_distance",
+    "chance": 0.000801
+  },
+  "icon": "minecraft:fox_spawn_egg",
+  "art": "minecraft:podzol",
+  "perk": {
+    "type": "attribute",
+    "values": [
+      0.1,
+      0.1,
+      0.2,
+      0.2,
+      0.2,
+      0.3,
+      0.4,
+      0.4,
+      0.5,
+      0.5
+    ],
+    "params": {
+      "attribute": "minecraft:player.sneaking_speed"
+    }
+  },
+  "perk_text": "Sneaking speed +{v}"
+}

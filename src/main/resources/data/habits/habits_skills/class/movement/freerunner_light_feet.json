@@ -1,0 +1,30 @@
+{
+  "rarity": "uncommon",
+  "category": "movement",
+  "trigger": {
+    "type": "jump",
+    "chance": 0.00104
+  },
+  "icon": "minecraft:leather_boots",
+  "art": "minecraft:sandstone",
+  "perk": {
+    "type": "hunger_save",
+    "params": {
+      "condition": "sprinting"
+    },
+    "values": [
+      5,
+      9,
+      13,
+      17,
+      21,
+      24,
+      28,
+      32,
+      36,
+      40
+    ]
+  },
+  "class": "habits:class/movement/freerunner",
+  "perk_text": "Sprint hunger -{v}%"
+}

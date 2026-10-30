@@ -1,0 +1,32 @@
+{
+  "rarity": "uncommon",
+  "category": "warrior",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:burning_kill",
+    "chance": 0.208
+  },
+  "icon": "minecraft:fire_charge",
+  "art": "minecraft:netherrack",
+  "perk": {
+    "type": "mob_effect_conditional",
+    "params": {
+      "effect": "minecraft:strength",
+      "condition": "on_fire",
+      "value_max": "2"
+    },
+    "values": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      2.0,
+      2.0,
+      2.0
+    ]
+  },
+  "perk_text": "Strength {v} while you are on fire"
+}

@@ -1,0 +1,18 @@
+{
+  "rarity": "common",
+  "category": "crafting",
+  "trigger": {
+    "type": "stat_increment",
+    "match": "minecraft:interact_with_blast_furnace",
+    "chance": 0.03333
+  },
+  "icon": "minecraft:iron_nugget",
+  "art": "minecraft:blast_furnace",
+  "perk": {
+    "mechanic": "habits:crafting/byproducts",
+    "values": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50],
+    "params": {
+      "table": "minecraft:iron_ingot=minecraft:iron_nugget,minecraft:gold_ingot=minecraft:gold_nugget,minecraft:copper_ingot=minecraft:raw_copper,minecraft:glass=minecraft:sand,minecraft:netherite_scrap=minecraft:gold_nugget"
+    }
+  }
+}

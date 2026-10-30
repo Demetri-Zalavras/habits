@@ -1,0 +1,29 @@
+{
+  "rarity": "common",
+  "category": "building",
+  "trigger": {
+    "type": "place_block",
+    "match": "#minecraft:small_flowers",
+    "chance": 0.0167
+  },
+  "icon": "minecraft:poppy",
+  "art": "minecraft:grass_block",
+  "perk": {
+    "mechanic": "habits:building/flower_bed",
+    "values": [
+      1,
+      2,
+      2,
+      3,
+      3,
+      4,
+      4,
+      5,
+      6,
+      7
+    ],
+    "params": {
+      "radius": "2..3"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "rarity": "rare",
+  "category": "guardian",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:anchor_spawn",
+    "chance": 0.333
+  },
+  "icon": "minecraft:respawn_anchor",
+  "art": "minecraft:crying_obsidian",
+  "perk": {
+    "mechanic": "habits:survival/anchor_bound",
+    "values": [
+      10,
+      16,
+      21,
+      27,
+      32,
+      38,
+      43,
+      49,
+      54,
+      60
+    ]
+  }
+}

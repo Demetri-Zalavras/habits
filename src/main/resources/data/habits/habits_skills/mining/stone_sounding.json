@@ -1,0 +1,26 @@
+{
+  "rarity": "uncommon",
+  "category": "mining",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:mining/hollow_break",
+    "chance": 0.01042
+  },
+  "icon": "minecraft:bell",
+  "art": "minecraft:stone",
+  "perk": {
+    "mechanic": "habits:mining/stone_sounding",
+    "values": [
+      2,
+      3,
+      3,
+      4,
+      5,
+      5,
+      6,
+      7,
+      7,
+      8
+    ]
+  }
+}

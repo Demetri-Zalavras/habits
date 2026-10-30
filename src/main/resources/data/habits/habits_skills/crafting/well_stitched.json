@@ -1,0 +1,19 @@
+{
+  "rarity": "uncommon",
+  "category": "crafting",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:smithing_trim",
+    "chance": 0.125
+  },
+  "icon": "minecraft:leather_chestplate",
+  "art": "minecraft:brown_wool",
+  "perk": {
+    "type": "durability_save",
+    "values": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50],
+    "params": {
+      "item": "#minecraft:trimmable_armor"
+    }
+  },
+  "perk_text": "Armor: {v}% chance to save durability"
+}

@@ -1,0 +1,27 @@
+{
+  "rarity": "legendary",
+  "category": "movement",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:mount_fall",
+    "min": 8,
+    "chance": 0.1
+  },
+  "icon": "minecraft:golden_horse_armor",
+  "art": "minecraft:quartz_block",
+  "perk": {
+    "mechanic": "habits:movement/pegasus",
+    "values": [
+      40,
+      46,
+      51,
+      57,
+      62,
+      68,
+      73,
+      79,
+      84,
+      90
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "rarity": "rare",
+  "category": "mining",
+  "trigger": {
+    "type": "bucket_fill",
+    "match": "minecraft:lava_bucket",
+    "chance": 0.01667
+  },
+  "icon": "minecraft:lava_bucket",
+  "art": "minecraft:magma_block",
+  "perk": {
+    "mechanic": "habits:mining/lava_sense",
+    "params": {
+      "block": "minecraft:lava",
+      "color": "FF6A00",
+      "glow_s": "6..15",
+      "source": "1"
+    },
+    "values": [
+      6,
+      8,
+      10,
+      12,
+      14,
+      16,
+      18,
+      20,
+      22,
+      24
+    ]
+  }
+}

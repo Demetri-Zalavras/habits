@@ -1,0 +1,26 @@
+{
+  "rarity": "uncommon",
+  "category": "crafting",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:villager_born",
+    "chance": 0.125
+  },
+  "icon": "minecraft:bell",
+  "art": "minecraft:hay_block",
+  "perk": {
+    "mechanic": "habits:job_fair",
+    "values": [
+      50,
+      55,
+      60,
+      65,
+      70,
+      75,
+      80,
+      85,
+      90,
+      100
+    ]
+  }
+}

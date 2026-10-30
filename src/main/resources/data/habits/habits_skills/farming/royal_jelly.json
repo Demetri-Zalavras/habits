@@ -1,0 +1,26 @@
+{
+  "rarity": "epic",
+  "category": "farming",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:farming/smoked_hive",
+    "chance": 0.008
+  },
+  "icon": "minecraft:honey_block",
+  "art": "minecraft:honeycomb_block",
+  "perk": {
+    "mechanic": "habits:farming/royal_jelly",
+    "values": [
+      5,
+      8,
+      11,
+      13,
+      16,
+      19,
+      22,
+      24,
+      27,
+      30
+    ]
+  }
+}

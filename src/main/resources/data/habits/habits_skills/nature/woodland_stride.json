@@ -1,0 +1,32 @@
+{
+  "rarity": "uncommon",
+  "category": "nature",
+  "trigger": {
+    "type": "plant",
+    "match": "#minecraft:saplings",
+    "chance": 0.00625
+  },
+  "icon": "minecraft:birch_sapling",
+  "art": "minecraft:podzol",
+  "perk": {
+    "type": "attribute",
+    "values": [
+      2,
+      4,
+      6,
+      8,
+      10,
+      12,
+      14,
+      16,
+      18,
+      20
+    ],
+    "params": {
+      "attribute": "minecraft:generic.movement_speed",
+      "operation": "add_multiplied_base",
+      "condition": "biome=#minecraft:is_forest"
+    }
+  },
+  "perk_text": "Move {v}% faster in forests"
+}

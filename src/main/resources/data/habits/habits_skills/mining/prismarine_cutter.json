@@ -1,0 +1,35 @@
+{
+  "rarity": "common",
+  "category": "mining",
+  "trigger": {
+    "type": "break_block",
+    "match": [
+      "minecraft:prismarine",
+      "minecraft:prismarine_bricks",
+      "minecraft:dark_prismarine"
+    ],
+    "chance": 0.004
+  },
+  "icon": "minecraft:prismarine_crystals",
+  "art": "minecraft:prismarine",
+  "perk": {
+    "mechanic": "habits:mining/prismarine_cutter",
+    "params": {
+      "block": "minecraft:prismarine,minecraft:prismarine_bricks,minecraft:dark_prismarine",
+      "item": "minecraft:prismarine_crystals",
+      "count": "1..2"
+    },
+    "values": [
+      5,
+      8.3,
+      11.7,
+      15,
+      18.3,
+      21.7,
+      25,
+      28.3,
+      31.7,
+      35
+    ]
+  }
+}

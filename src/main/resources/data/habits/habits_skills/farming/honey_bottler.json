@@ -1,0 +1,26 @@
+{
+  "rarity": "common",
+  "category": "farming",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:farming/honey_bottled",
+    "chance": 0.1
+  },
+  "icon": "minecraft:honey_bottle",
+  "art": "minecraft:honey_block",
+  "perk": {
+    "mechanic": "habits:farming/honey_bottler",
+    "values": [
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      3,
+      3,
+      3,
+      4
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "rarity": "rare",
+  "category": "crafting",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:never",
+    "chance": 0
+  },
+  "icon": "minecraft:enchanting_table",
+  "art": "minecraft:bookshelf",
+  "perk": {
+    "type": "enchant_discount",
+    "values": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ]
+  },
+  "title": {
+    "stat_type": "minecraft:custom",
+    "stat": "minecraft:enchant_item",
+    "min": 100
+  }
+}

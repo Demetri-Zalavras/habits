@@ -1,0 +1,29 @@
+{
+  "rarity": "common",
+  "category": "exploration",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:nether_minute",
+    "chance": 0.1
+  },
+  "icon": "minecraft:netherrack",
+  "art": "minecraft:netherrack",
+  "perk": {
+    "mechanic": "habits:movement/nether_native",
+    "params": {
+      "ghast": "10..70"
+    },
+    "values": [
+      5,
+      10,
+      15,
+      20,
+      25,
+      30,
+      35,
+      40,
+      45,
+      50
+    ]
+  }
+}

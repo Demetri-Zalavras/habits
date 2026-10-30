@@ -1,0 +1,26 @@
+{
+  "rarity": "uncommon",
+  "category": "movement",
+  "trigger": {
+    "type": "custom_units",
+    "match": "habits:bubble_ride",
+    "chance": 0.000521
+  },
+  "icon": "minecraft:prismarine_shard",
+  "art": "minecraft:sea_lantern",
+  "perk": {
+    "mechanic": "habits:movement/bubble_elevator",
+    "values": [
+      4,
+      5,
+      7,
+      8,
+      9,
+      11,
+      12,
+      13,
+      15,
+      16
+    ]
+  }
+}

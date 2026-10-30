@@ -1,0 +1,62 @@
+{
+  "rarity": "epic",
+  "category": "nature",
+  "trigger": {
+    "type": "break_block",
+    "match": "minecraft:dandelion",
+    "chance": 0.00278
+  },
+  "icon": "minecraft:dandelion",
+  "art": "minecraft:yellow_wool",
+  "perk": {
+    "mechanic": "habits:nature/dandelion_wish",
+    "values": [
+      5,
+      9,
+      13,
+      17,
+      21,
+      24,
+      28,
+      32,
+      36,
+      40
+    ],
+    "params": {
+      "seconds": "30,180",
+      "effects": "minecraft:luck,minecraft:regeneration,minecraft:speed,minecraft:haste,minecraft:jump_boost,minecraft:night_vision,minecraft:absorption,minecraft:hero_of_the_village"
+    }
+  },
+  "forks": [
+    {
+      "level": 5,
+      "options": [
+        {
+          "id": "long_wish"
+        },
+        {
+          "id": "fleeting_wish",
+          "scale": 1.6,
+          "params": {
+            "seconds": "15,90"
+          }
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "options": [
+        {
+          "id": "any_wish"
+        },
+        {
+          "id": "battle_wish",
+          "scale": 0.8,
+          "params": {
+            "effects": "minecraft:strength,minecraft:resistance,minecraft:regeneration,minecraft:speed"
+          }
+        }
+      ]
+    }
+  ]
+}

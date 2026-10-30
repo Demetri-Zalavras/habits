@@ -1,0 +1,31 @@
+{
+  "rarity": "rare",
+  "category": "warrior",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:melee_hit",
+    "entity": "#c:bosses",
+    "chance": 0.0008
+  },
+  "icon": "minecraft:wither_skeleton_skull",
+  "art": "minecraft:obsidian",
+  "perk": {
+    "type": "damage_bonus",
+    "params": {
+      "entity": "#c:bosses"
+    },
+    "values": [
+      4.0,
+      7.0,
+      10.0,
+      13.0,
+      16.0,
+      19.0,
+      22.0,
+      25.0,
+      28.0,
+      31.0
+    ]
+  },
+  "perk_text": "Damage to bosses +{v}%"
+}

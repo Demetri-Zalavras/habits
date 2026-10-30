@@ -1,0 +1,30 @@
+{
+  "rarity": "common",
+  "category": "ranger",
+  "trigger": {
+    "type": "damage_dealt",
+    "match": "minecraft:wind_charge",
+    "chance": 0.0167
+  },
+  "icon": "minecraft:wind_charge",
+  "art": "minecraft:tuff_bricks",
+  "perk": {
+    "mechanic": "habits:gale_thrower",
+    "values": [
+      10.0,
+      20.0,
+      30.0,
+      40.0,
+      50.0,
+      60.0,
+      70.0,
+      80.0,
+      90.0,
+      100.0
+    ],
+    "params": {
+      "knock": "10..100",
+      "vortex": "0,0,0,0,0,1,1,1.5,1.5,2"
+    }
+  }
+}

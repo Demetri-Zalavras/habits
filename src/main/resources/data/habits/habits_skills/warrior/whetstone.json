@@ -1,0 +1,31 @@
+{
+  "rarity": "common",
+  "category": "warrior",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:enchanted_kill/unbreaking",
+    "chance": 0.0333
+  },
+  "icon": "minecraft:grindstone",
+  "art": "minecraft:smooth_stone",
+  "perk": {
+    "type": "durability_save",
+    "params": {
+      "item": "#minecraft:swords,#minecraft:axes,minecraft:mace,minecraft:trident",
+      "value_max": "90"
+    },
+    "values": [
+      5.0,
+      10.0,
+      15.0,
+      20.0,
+      25.0,
+      30.0,
+      35.0,
+      40.0,
+      45.0,
+      50.0
+    ]
+  },
+  "perk_text": "{v}% chance a weapon hit costs no durability"
+}

@@ -1,0 +1,30 @@
+{
+  "rarity": "uncommon",
+  "category": "nature",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:nature_rain_catch",
+    "chance": 0.0156
+  },
+  "icon": "minecraft:water_bucket",
+  "art": "minecraft:light_blue_wool",
+  "perk": {
+    "type": "fishing_speed",
+    "values": [
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2,
+      3,
+      3
+    ],
+    "params": {
+      "condition": "in_rain"
+    }
+  },
+  "perk_text": "Lure +{v} in the rain"
+}

@@ -1,0 +1,26 @@
+{
+  "rarity": "uncommon",
+  "category": "ranger",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:ranged/trident_stuck",
+    "chance": 0.04
+  },
+  "icon": "minecraft:lead",
+  "art": "minecraft:dark_prismarine",
+  "perk": {
+    "mechanic": "habits:ranged/lanyard",
+    "values": [
+      10,
+      9,
+      8,
+      7,
+      6,
+      5,
+      4,
+      3,
+      2,
+      1
+    ]
+  }
+}

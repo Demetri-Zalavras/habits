@@ -1,0 +1,29 @@
+{
+  "rarity": "common",
+  "category": "warrior",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:duel_kill",
+    "chance": 0.05
+  },
+  "icon": "minecraft:bell",
+  "art": "minecraft:polished_granite",
+  "perk": {
+    "mechanic": "habits:melee/duelist",
+    "params": {
+      "taken": "5,30"
+    },
+    "values": [
+      10.0,
+      16.0,
+      21.0,
+      27.0,
+      32.0,
+      38.0,
+      43.0,
+      49.0,
+      54.0,
+      60.0
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "rarity": "rare",
+  "category": "warrior",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:melee_kill",
+    "chance": 0.0667,
+    "entity": "minecraft:evoker"
+  },
+  "icon": "minecraft:totem_of_undying",
+  "art": "minecraft:dark_oak_planks",
+  "perk": {
+    "mechanic": "habits:melee/fang_strike",
+    "params": {
+      "fangs": "3,12",
+      "cooldown": "2"
+    },
+    "values": [
+      30.0,
+      38.0,
+      46.0,
+      53.0,
+      61.0,
+      69.0,
+      77.0,
+      84.0,
+      92.0,
+      100.0
+    ]
+  }
+}

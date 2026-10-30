@@ -1,0 +1,31 @@
+{
+  "rarity": "rare",
+  "category": "guardian",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:never",
+    "chance": 0
+  },
+  "icon": "minecraft:leather_chestplate",
+  "art": "minecraft:white_wool",
+  "perk": {
+    "type": "thorns",
+    "values": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ]
+  },
+  "title": {
+    "stat_type": "minecraft:custom",
+    "stat": "minecraft:damage_taken",
+    "min": 100000
+  }
+}

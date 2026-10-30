@@ -1,0 +1,30 @@
+{
+  "rarity": "rare",
+  "category": "guardian",
+  "trigger": {
+    "type": "damage_taken",
+    "match": "minecraft:indirect_magic",
+    "chance": 0.0111
+  },
+  "icon": "minecraft:totem_of_undying",
+  "art": "minecraft:dark_oak_planks",
+  "perk": {
+    "mechanic": "habits:survival/hex_ward",
+    "params": {
+      "fizzle": "5..40",
+      "glow_range": "16"
+    },
+    "values": [
+      10,
+      16,
+      21,
+      27,
+      32,
+      38,
+      43,
+      49,
+      54,
+      60
+    ]
+  }
+}

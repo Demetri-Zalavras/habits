@@ -1,0 +1,26 @@
+{
+  "rarity": "common",
+  "category": "movement",
+  "trigger": {
+    "type": "custom_units",
+    "match": "habits:crawl",
+    "chance": 0.00167
+  },
+  "icon": "minecraft:oak_trapdoor",
+  "art": "minecraft:spruce_planks",
+  "perk": {
+    "mechanic": "habits:movement/crawl_space",
+    "values": [
+      20,
+      34,
+      49,
+      63,
+      78,
+      92,
+      107,
+      121,
+      136,
+      150
+    ]
+  }
+}

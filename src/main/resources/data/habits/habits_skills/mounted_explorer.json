@@ -1,0 +1,26 @@
+{
+  "rarity": "rare",
+  "category": "movement",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:long_ride",
+    "chance": 0.333
+  },
+  "icon": "minecraft:leather_horse_armor",
+  "art": "minecraft:birch_planks",
+  "perk": {
+    "mechanic": "habits:movement/mounted_explorer",
+    "values": [
+      16,
+      25,
+      34,
+      43,
+      52,
+      60,
+      69,
+      78,
+      87,
+      96
+    ]
+  }
+}

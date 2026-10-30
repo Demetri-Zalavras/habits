@@ -1,0 +1,26 @@
+{
+  "rarity": "common",
+  "category": "nature",
+  "trigger": {
+    "type": "break_block",
+    "match": "#minecraft:small_flowers",
+    "chance": 0.005
+  },
+  "icon": "minecraft:poppy",
+  "art": "minecraft:grass_block",
+  "perk": {
+    "mechanic": "habits:nature/bouquet",
+    "values": [
+      5,
+      10,
+      15,
+      20,
+      25,
+      30,
+      35,
+      40,
+      45,
+      50
+    ]
+  }
+}

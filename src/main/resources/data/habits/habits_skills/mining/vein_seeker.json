@@ -1,0 +1,31 @@
+{
+  "rarity": "rare",
+  "category": "mining",
+  "trigger": {
+    "type": "pickup_item",
+    "match": "minecraft:raw_copper",
+    "chance": 0.00167
+  },
+  "icon": "minecraft:raw_copper_block",
+  "art": "minecraft:raw_iron_block",
+  "perk": {
+    "mechanic": "habits:mining/vein_seeker",
+    "params": {
+      "block": "minecraft:raw_iron_block,minecraft:raw_copper_block",
+      "color": "E0773B",
+      "glow_s": "6..15"
+    },
+    "values": [
+      8,
+      11,
+      13,
+      16,
+      19,
+      21,
+      24,
+      27,
+      29,
+      32
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "rarity": "uncommon",
+  "category": "farming",
+  "trigger": {
+    "type": "breed",
+    "match": "minecraft:chicken",
+    "chance": 0.0156
+  },
+  "icon": "minecraft:feather",
+  "art": "minecraft:white_wool",
+  "perk": {
+    "type": "damage_type_resist",
+    "params": {
+      "damage": "minecraft:fall",
+      "condition": "holding=minecraft:feather"
+    },
+    "values": [
+      10,
+      19,
+      28,
+      37,
+      46,
+      54,
+      63,
+      72,
+      81,
+      90
+    ]
+  },
+  "perk_text": "Fall damage -{v}% while holding a feather"
+}

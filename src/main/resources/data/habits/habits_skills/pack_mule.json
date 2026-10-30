@@ -1,0 +1,31 @@
+{
+  "rarity": "uncommon",
+  "category": "movement",
+  "trigger": {
+    "type": "ride_distance",
+    "match": [
+      "minecraft:donkey",
+      "minecraft:mule",
+      "minecraft:llama",
+      "minecraft:trader_llama"
+    ],
+    "chance": 0.000156
+  },
+  "icon": "minecraft:chest",
+  "art": "minecraft:barrel",
+  "perk": {
+    "mechanic": "habits:movement/pack_mule",
+    "values": [
+      8,
+      14,
+      20,
+      27,
+      33,
+      39,
+      45,
+      52,
+      58,
+      64
+    ]
+  }
+}

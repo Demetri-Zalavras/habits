@@ -1,0 +1,29 @@
+{
+  "rarity": "common",
+  "category": "exploration",
+  "trigger": {
+    "type": "enter_structure",
+    "match": [
+      "minecraft:shipwreck",
+      "minecraft:shipwreck_beached"
+    ],
+    "chance": 1.0
+  },
+  "icon": "minecraft:spruce_boat",
+  "art": "minecraft:stripped_spruce_log",
+  "perk": {
+    "mechanic": "habits:movement/shipwrecked",
+    "values": [
+      64,
+      114,
+      164,
+      213,
+      263,
+      313,
+      363,
+      412,
+      462,
+      512
+    ]
+  }
+}

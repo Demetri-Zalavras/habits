@@ -1,0 +1,33 @@
+{
+  "rarity": "uncommon",
+  "category": "mining",
+  "trigger": {
+    "type": "enter_structure",
+    "match": [
+      "minecraft:mineshaft",
+      "minecraft:mineshaft_mesa"
+    ],
+    "chance": 0.15
+  },
+  "icon": "minecraft:chest_minecart",
+  "art": "minecraft:oak_planks",
+  "perk": {
+    "type": "hunger_save",
+    "params": {
+      "condition": "underground"
+    },
+    "values": [
+      5,
+      9,
+      14,
+      18,
+      23,
+      27,
+      32,
+      36,
+      41,
+      45
+    ]
+  },
+  "perk_text": "Underground you get hungry {v}% slower"
+}

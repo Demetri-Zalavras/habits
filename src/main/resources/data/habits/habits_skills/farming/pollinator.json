@@ -1,0 +1,29 @@
+{
+  "rarity": "uncommon",
+  "category": "farming",
+  "trigger": {
+    "type": "breed",
+    "match": "minecraft:bee",
+    "chance": 0.0156
+  },
+  "icon": "minecraft:sunflower",
+  "art": "minecraft:honeycomb_block",
+  "perk": {
+    "mechanic": "habits:farming/pollinator",
+    "params": {
+      "radius": "8,24"
+    },
+    "values": [
+      5,
+      10,
+      15,
+      20,
+      25,
+      30,
+      35,
+      40,
+      45,
+      50
+    ]
+  }
+}

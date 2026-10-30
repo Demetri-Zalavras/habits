@@ -1,0 +1,26 @@
+{
+  "rarity": "rare",
+  "category": "movement",
+  "trigger": {
+    "type": "custom_units",
+    "match": "habits:waterfall",
+    "chance": 0.00056
+  },
+  "icon": "minecraft:salmon",
+  "art": "minecraft:light_blue_concrete",
+  "perk": {
+    "mechanic": "habits:movement/salmon_run",
+    "values": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  }
+}

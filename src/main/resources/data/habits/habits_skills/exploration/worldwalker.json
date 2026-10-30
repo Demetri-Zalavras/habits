@@ -1,0 +1,42 @@
+{
+  "rarity": "legendary",
+  "category": "exploration",
+  "trigger": {
+    "type": "enter_biome",
+    "chance": 0.004
+  },
+  "icon": "minecraft:globe_banner_pattern",
+  "art": "minecraft:moss_block",
+  "perk": {
+    "type": "xp_bonus",
+    "values": [
+      10,
+      16,
+      21,
+      27,
+      32,
+      38,
+      43,
+      49,
+      54,
+      60
+    ]
+  },
+  "forks": [
+    {
+      "level": 5,
+      "options": [
+        {
+          "id": "any_hour"
+        },
+        {
+          "id": "night_owl",
+          "scale": 1.8,
+          "params": {
+            "condition": "night"
+          }
+        }
+      ]
+    }
+  ]
+}

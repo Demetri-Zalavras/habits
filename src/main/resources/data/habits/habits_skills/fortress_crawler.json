@@ -1,0 +1,29 @@
+{
+  "rarity": "rare",
+  "category": "exploration",
+  "trigger": {
+    "type": "enter_structure",
+    "match": "minecraft:fortress",
+    "chance": 0.333
+  },
+  "icon": "minecraft:blaze_rod",
+  "art": "minecraft:nether_bricks",
+  "perk": {
+    "mechanic": "habits:movement/fortress_crawler",
+    "params": {
+      "blaze": "5..1"
+    },
+    "values": [
+      20,
+      29,
+      38,
+      47,
+      56,
+      64,
+      73,
+      82,
+      91,
+      100
+    ]
+  }
+}

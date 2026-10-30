@@ -1,0 +1,29 @@
+{
+  "rarity": "common",
+  "category": "mining",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:dig_up",
+    "chance": 0.005
+  },
+  "icon": "minecraft:gravel",
+  "art": "minecraft:gravel",
+  "perk": {
+    "mechanic": "habits:gravel_guard",
+    "params": {
+      "inventory_level": "10"
+    },
+    "values": [
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      2
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "rarity": "common",
+  "category": "crafting",
+  "trigger": {
+    "type": "anvil",
+    "chance": 0.1
+  },
+  "icon": "minecraft:name_tag",
+  "art": "minecraft:anvil",
+  "perk": {
+    "mechanic": "habits:crafting/brand_name",
+    "values": [1, 1, 2, 2, 3, 3, 4, 4, 5, 6]
+  }
+}

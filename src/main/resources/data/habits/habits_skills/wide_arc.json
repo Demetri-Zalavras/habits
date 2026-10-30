@@ -1,0 +1,30 @@
+{
+  "rarity": "common",
+  "category": "warrior",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:sweep",
+    "chance": 0.0125,
+    "min": 2
+  },
+  "icon": "minecraft:diamond_sword",
+  "art": "minecraft:smooth_sandstone",
+  "perk": {
+    "mechanic": "habits:melee/wide_arc",
+    "params": {
+      "reach": "0.5,3"
+    },
+    "values": [
+      50.0,
+      56.0,
+      61.0,
+      67.0,
+      72.0,
+      78.0,
+      83.0,
+      89.0,
+      94.0,
+      100.0
+    ]
+  }
+}

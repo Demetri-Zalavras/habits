@@ -1,0 +1,31 @@
+{
+  "rarity": "rare",
+  "category": "nature",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:never",
+    "chance": 0
+  },
+  "icon": "minecraft:cod",
+  "art": "minecraft:barrel",
+  "perk": {
+    "type": "fishing_luck",
+    "values": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "title": {
+    "stat_type": "minecraft:custom",
+    "stat": "minecraft:fish_caught",
+    "min": 500
+  }
+}

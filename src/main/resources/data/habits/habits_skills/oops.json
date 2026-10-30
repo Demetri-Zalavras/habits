@@ -1,0 +1,26 @@
+{
+  "rarity": "common",
+  "category": "building",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:quick_undo",
+    "chance": 0.05
+  },
+  "icon": "minecraft:clock",
+  "art": "minecraft:oak_planks",
+  "perk": {
+    "mechanic": "habits:oops",
+    "values": [
+      1,
+      2,
+      4,
+      8,
+      12,
+      16,
+      24,
+      32,
+      48,
+      64
+    ]
+  }
+}

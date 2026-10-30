@@ -1,0 +1,26 @@
+{
+  "rarity": "rare",
+  "category": "farming",
+  "trigger": {
+    "type": "craft",
+    "match": "minecraft:pumpkin_pie",
+    "chance": 0.05
+  },
+  "icon": "minecraft:pumpkin_pie",
+  "art": "minecraft:smoker",
+  "perk": {
+    "mechanic": "habits:farming/chefs_special",
+    "values": [
+      5,
+      9,
+      13,
+      17,
+      21,
+      24,
+      28,
+      32,
+      36,
+      40
+    ]
+  }
+}

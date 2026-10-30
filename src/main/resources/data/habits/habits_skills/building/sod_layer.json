@@ -1,0 +1,26 @@
+{
+  "rarity": "common",
+  "category": "building",
+  "trigger": {
+    "type": "place_block",
+    "match": "#minecraft:dirt",
+    "chance": 0.01
+  },
+  "icon": "minecraft:grass_block",
+  "art": "minecraft:dirt",
+  "perk": {
+    "mechanic": "habits:building/sod_layer",
+    "values": [
+      10.0,
+      20.0,
+      30.0,
+      40.0,
+      50.0,
+      60.0,
+      70.0,
+      80.0,
+      90.0,
+      100.0
+    ]
+  }
+}

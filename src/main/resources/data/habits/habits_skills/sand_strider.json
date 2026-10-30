@@ -1,0 +1,29 @@
+{
+  "rarity": "common",
+  "category": "movement",
+  "trigger": {
+    "type": "custom_units",
+    "match": "habits:sand_walk",
+    "chance": 0.000386
+  },
+  "icon": "minecraft:sand",
+  "art": "minecraft:sand",
+  "perk": {
+    "mechanic": "habits:movement/sand_strider",
+    "params": {
+      "step": "0,0,0,0.4,0.4,0.4,0.4,0.4,0.4,0.4"
+    },
+    "values": [
+      5,
+      9,
+      13,
+      17,
+      21,
+      24,
+      28,
+      32,
+      36,
+      40
+    ]
+  }
+}

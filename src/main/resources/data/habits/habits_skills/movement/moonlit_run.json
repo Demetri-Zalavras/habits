@@ -1,0 +1,32 @@
+{
+  "rarity": "common",
+  "category": "movement",
+  "trigger": {
+    "type": "custom_units",
+    "match": "habits:night_walk",
+    "chance": 0.000386
+  },
+  "icon": "minecraft:clock",
+  "art": "minecraft:obsidian",
+  "perk": {
+    "type": "attribute",
+    "params": {
+      "attribute": "minecraft:generic.movement_speed",
+      "operation": "add_multiplied_base",
+      "condition": "night"
+    },
+    "values": [
+      2,
+      3,
+      5,
+      6,
+      8,
+      9,
+      11,
+      12,
+      14,
+      15
+    ]
+  },
+  "perk_text": "Move speed +{v}% at night"
+}

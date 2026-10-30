@@ -1,0 +1,19 @@
+{
+  "rarity": "common",
+  "category": "crafting",
+  "trigger": {
+    "type": "craft",
+    "match": ["minecraft:shears", "minecraft:flint_and_steel", "minecraft:brush", "minecraft:fishing_rod", "minecraft:carrot_on_a_stick", "minecraft:warped_fungus_on_a_stick"],
+    "chance": 0.33333
+  },
+  "icon": "minecraft:shears",
+  "art": "minecraft:iron_block",
+  "perk": {
+    "type": "durability_save",
+    "values": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50],
+    "params": {
+      "item": "minecraft:shears,minecraft:flint_and_steel,minecraft:brush,minecraft:fishing_rod,minecraft:carrot_on_a_stick,minecraft:warped_fungus_on_a_stick"
+    }
+  },
+  "perk_text": "Gadgets: {v}% chance to save durability"
+}

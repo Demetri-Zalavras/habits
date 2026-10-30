@@ -1,0 +1,31 @@
+{
+  "rarity": "common",
+  "category": "warrior",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:enchanted_kill/smite",
+    "chance": 0.0333
+  },
+  "icon": "minecraft:bone",
+  "art": "minecraft:soul_soil",
+  "perk": {
+    "type": "drop_bonus",
+    "params": {
+      "entity": "#minecraft:undead",
+      "value_max": "100"
+    },
+    "values": [
+      5.0,
+      9.0,
+      13.0,
+      17.0,
+      21.0,
+      25.0,
+      29.0,
+      33.0,
+      37.0,
+      41.0
+    ]
+  },
+  "perk_text": "{v}% chance undead drop their loot twice"
+}

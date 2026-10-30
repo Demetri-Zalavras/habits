@@ -1,0 +1,30 @@
+{
+  "rarity": "common",
+  "category": "mining",
+  "trigger": {
+    "type": "till",
+    "match": "#minecraft:logs",
+    "item": "#minecraft:axes",
+    "chance": 0.005
+  },
+  "icon": "minecraft:stripped_oak_log",
+  "art": "minecraft:stripped_oak_log",
+  "perk": {
+    "mechanic": "habits:bark_peeler",
+    "params": {
+      "stick_chance": "0..50"
+    },
+    "values": [
+      2,
+      5,
+      8,
+      12,
+      15,
+      18,
+      22,
+      25,
+      29,
+      32
+    ]
+  }
+}

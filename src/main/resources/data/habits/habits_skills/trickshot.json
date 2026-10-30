@@ -1,0 +1,26 @@
+{
+  "rarity": "uncommon",
+  "category": "ranger",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:trickshot",
+    "chance": 0.208
+  },
+  "icon": "minecraft:lever",
+  "art": "minecraft:bookshelf",
+  "perk": {
+    "mechanic": "habits:trickshot",
+    "values": [
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2,
+      3,
+      3
+    ]
+  }
+}

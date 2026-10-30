@@ -1,0 +1,1 @@
+{"rarity":"common","category":"exploration","trigger":{"type":"use_item","match":["waystones:warp_scroll","waystones:return_scroll","waystones:bound_scroll"],"chance":0.1},"icon":"waystones:warp_scroll","art":"minecraft:paper","perk":{"type":"xp_bonus","base":3,"per_level":3}}

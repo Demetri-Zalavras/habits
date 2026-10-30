@@ -1,0 +1,26 @@
+{
+  "rarity": "legendary",
+  "category": "movement",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:shot_sprinting",
+    "chance": 0.004
+  },
+  "icon": "minecraft:spectral_arrow",
+  "art": "minecraft:target",
+  "perk": {
+    "mechanic": "habits:movement/sidestep",
+    "values": [
+      5,
+      10,
+      15,
+      20,
+      25,
+      30,
+      35,
+      40,
+      45,
+      50
+    ]
+  }
+}

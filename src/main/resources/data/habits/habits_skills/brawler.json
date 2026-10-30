@@ -1,0 +1,31 @@
+{
+  "rarity": "common",
+  "category": "warrior",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:melee_hit",
+    "chance": 0.0025,
+    "item": "minecraft:air"
+  },
+  "icon": "minecraft:leather",
+  "art": "minecraft:spruce_planks",
+  "perk": {
+    "mechanic": "habits:melee/brawler",
+    "params": {
+      "speed": "5,15",
+      "max": "3,6"
+    },
+    "values": [
+      2.0,
+      2.8,
+      3.6,
+      4.3,
+      5.1,
+      5.9,
+      6.7,
+      7.4,
+      8.2,
+      9.0
+    ]
+  }
+}

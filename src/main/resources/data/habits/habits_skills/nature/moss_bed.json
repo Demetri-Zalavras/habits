@@ -1,0 +1,26 @@
+{
+  "rarity": "common",
+  "category": "nature",
+  "trigger": {
+    "type": "bonemeal",
+    "match": "minecraft:moss_block",
+    "chance": 0.00667
+  },
+  "icon": "minecraft:moss_carpet",
+  "art": "minecraft:moss_block",
+  "perk": {
+    "mechanic": "habits:nature/moss_bed",
+    "values": [
+      2,
+      4,
+      6,
+      8,
+      10,
+      12,
+      14,
+      16,
+      18,
+      20
+    ]
+  }
+}

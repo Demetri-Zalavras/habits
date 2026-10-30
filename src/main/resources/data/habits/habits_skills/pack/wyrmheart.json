@@ -1,0 +1,8 @@
+{
+  "rarity": "mythical",
+  "category": "ranger",
+  "trigger": {"type": "custom", "match": "habits:dragon_solo", "entity": ["iceandfire:fire_dragon", "iceandfire:ice_dragon", "iceandfire:lightning_dragon"], "min": 4, "chance": 0.33},
+  "icon": "iceandfire:dragonsteel_fire_sword",
+  "art": "iceandfire:dragonsteel_fire_block",
+  "perk": {"mechanic": "habits:melee/wyrmheart", "params": {"older": "10,40"}, "values": [1, 1, 2, 2, 2, 3, 3, 3, 4, 4]}
+}

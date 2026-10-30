@@ -1,0 +1,68 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "habits:item/progression/charm_base"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "habits:kind": 0.1
+      },
+      "model": "habits:item/progression/charm_mining"
+    },
+    {
+      "predicate": {
+        "habits:kind": 0.2
+      },
+      "model": "habits:item/progression/charm_farming"
+    },
+    {
+      "predicate": {
+        "habits:kind": 0.3
+      },
+      "model": "habits:item/progression/charm_combat"
+    },
+    {
+      "predicate": {
+        "habits:kind": 0.4
+      },
+      "model": "habits:item/progression/charm_movement"
+    },
+    {
+      "predicate": {
+        "habits:kind": 0.5
+      },
+      "model": "habits:item/progression/charm_survival"
+    },
+    {
+      "predicate": {
+        "habits:kind": 0.6
+      },
+      "model": "habits:item/progression/charm_crafting"
+    },
+    {
+      "predicate": {
+        "habits:kind": 0.7
+      },
+      "model": "habits:item/progression/charm_nature"
+    },
+    {
+      "predicate": {
+        "habits:kind": 0.8
+      },
+      "model": "habits:item/progression/charm_exploration"
+    },
+    {
+      "predicate": {
+        "habits:kind": 0.9
+      },
+      "model": "habits:item/progression/charm_building"
+    },
+    {
+      "predicate": {
+        "habits:kind": 1.0
+      },
+      "model": "habits:item/progression/charm_odd"
+    }
+  ]
+}

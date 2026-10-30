@@ -1,0 +1,36 @@
+{
+  "rarity": "uncommon",
+  "category": "exploration",
+  "trigger": {
+    "type": "enter_structure",
+    "match": [
+      "minecraft:stronghold",
+      "minecraft:trial_chambers",
+      "minecraft:ancient_city",
+      "minecraft:mansion"
+    ],
+    "chance": 0.25
+  },
+  "icon": "minecraft:golden_pickaxe",
+  "art": "minecraft:cracked_stone_bricks",
+  "perk": {
+    "mechanic": "habits:exploration/ruin_haste",
+    "params": {
+      "effect": "minecraft:haste",
+      "structure": "any",
+      "level": "1..2"
+    },
+    "values": [
+      2,
+      4,
+      6,
+      8,
+      10,
+      12,
+      14,
+      16,
+      18,
+      20
+    ]
+  }
+}

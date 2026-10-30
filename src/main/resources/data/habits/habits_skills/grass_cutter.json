@@ -1,0 +1,34 @@
+{
+  "rarity": "common",
+  "category": "farming",
+  "trigger": {
+    "type": "break_block",
+    "match": [
+      "minecraft:short_grass",
+      "minecraft:tall_grass",
+      "minecraft:fern",
+      "minecraft:large_fern"
+    ],
+    "chance": 0.00167
+  },
+  "icon": "minecraft:short_grass",
+  "art": "minecraft:grass_block",
+  "perk": {
+    "mechanic": "habits:grass_cutter",
+    "params": {
+      "rare": "2,10"
+    },
+    "values": [
+      5,
+      11,
+      17,
+      23,
+      29,
+      36,
+      42,
+      48,
+      54,
+      60
+    ]
+  }
+}

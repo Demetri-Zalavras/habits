@@ -1,0 +1,31 @@
+{
+  "rarity": "uncommon",
+  "category": "warrior",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:sneak_kill",
+    "chance": 0.0625
+  },
+  "icon": "minecraft:flint",
+  "art": "minecraft:gray_concrete",
+  "perk": {
+    "type": "damage_bonus",
+    "params": {
+      "damage": "minecraft:player_attack",
+      "condition": "sneaking"
+    },
+    "values": [
+      5.0,
+      8.0,
+      11.0,
+      14.0,
+      17.0,
+      20.0,
+      23.0,
+      26.0,
+      29.0,
+      32.0
+    ]
+  },
+  "perk_text": "Melee damage +{v}% while sneaking"
+}

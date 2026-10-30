@@ -1,0 +1,30 @@
+{
+  "rarity": "rare",
+  "category": "warrior",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:double_kill",
+    "chance": 0.111
+  },
+  "icon": "minecraft:red_dye",
+  "art": "minecraft:red_concrete",
+  "perk": {
+    "mechanic": "habits:melee/bloodbath",
+    "params": {
+      "radius": "2,4",
+      "seconds": "3,6"
+    },
+    "values": [
+      1.0,
+      1.2,
+      1.4,
+      1.7,
+      1.9,
+      2.1,
+      2.3,
+      2.6,
+      2.8,
+      3.0
+    ]
+  }
+}

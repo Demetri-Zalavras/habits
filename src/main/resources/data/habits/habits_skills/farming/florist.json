@@ -1,0 +1,26 @@
+{
+  "rarity": "common",
+  "category": "farming",
+  "trigger": {
+    "type": "bonemeal",
+    "match": "#minecraft:flowers",
+    "chance": 0.01
+  },
+  "icon": "minecraft:allium",
+  "art": "minecraft:moss_block",
+  "perk": {
+    "mechanic": "habits:farming/florist",
+    "values": [
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      3,
+      3,
+      3,
+      4
+    ]
+  }
+}

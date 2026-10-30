@@ -1,0 +1,50 @@
+{
+  "rarity": "legendary",
+  "category": "building",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:long_reach",
+    "chance": 0.000833
+  },
+  "icon": "minecraft:blaze_rod",
+  "art": "minecraft:quartz_block",
+  "perk": {
+    "mechanic": "habits:building/fill_wand",
+    "values": [
+      16,
+      32,
+      48,
+      64,
+      96,
+      128,
+      192,
+      256,
+      384,
+      512
+    ],
+    "params": {
+      "per_tick": "16"
+    }
+  },
+  "forks": [
+    {
+      "level": 5,
+      "options": [
+        {
+          "id": "big_box",
+          "scale": 1.5,
+          "params": {
+            "per_tick": "8"
+          }
+        },
+        {
+          "id": "quick_fill",
+          "scale": 0.7,
+          "params": {
+            "per_tick": "48"
+          }
+        }
+      ]
+    }
+  ]
+}

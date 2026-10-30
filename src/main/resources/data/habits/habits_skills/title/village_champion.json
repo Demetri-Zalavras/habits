@@ -1,0 +1,35 @@
+{
+  "rarity": "epic",
+  "category": "warrior",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:never",
+    "chance": 0
+  },
+  "icon": "minecraft:white_banner",
+  "art": "minecraft:emerald_block",
+  "perk": {
+    "type": "damage_bonus",
+    "params": {
+      "entity": "#minecraft:raiders"
+    },
+    "values": [
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5
+    ]
+  },
+  "title": {
+    "stat_type": "minecraft:custom",
+    "stat": "minecraft:raid_win",
+    "min": 10
+  },
+  "perk_text": "Damage +{v}% to raiders"
+}

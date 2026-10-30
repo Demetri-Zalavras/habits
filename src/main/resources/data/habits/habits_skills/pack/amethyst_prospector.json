@@ -1,0 +1,1 @@
+{"rarity":"rare","category":"exploration","trigger":{"type":"enter_biome","match":["terralith:amethyst_rainforest","terralith:amethyst_canyon"],"chance":0.4},"icon":"minecraft:amethyst_shard","art":"minecraft:amethyst_block","perk":{"type":"drop_bonus","params":{"block":"#minecraft:crystal_sound_blocks"},"base":10,"per_level":5}}

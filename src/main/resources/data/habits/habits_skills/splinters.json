@@ -1,0 +1,31 @@
+{
+  "rarity": "common",
+  "category": "warrior",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:melee_kill",
+    "chance": 0.025,
+    "item": "minecraft:wooden_sword"
+  },
+  "icon": "minecraft:wooden_sword",
+  "art": "minecraft:oak_log",
+  "perk": {
+    "mechanic": "habits:melee/splinters",
+    "params": {
+      "seconds": "2,6",
+      "stacks": "1,3"
+    },
+    "values": [
+      1.0,
+      1.1,
+      1.2,
+      1.3,
+      1.4,
+      1.6,
+      1.7,
+      1.8,
+      1.9,
+      2.0
+    ]
+  }
+}

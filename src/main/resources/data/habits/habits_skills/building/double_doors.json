@@ -1,0 +1,29 @@
+{
+  "rarity": "uncommon",
+  "category": "building",
+  "trigger": {
+    "type": "place_block",
+    "match": [
+      "#minecraft:doors",
+      "#minecraft:fence_gates"
+    ],
+    "chance": 0.0312
+  },
+  "icon": "minecraft:spruce_door",
+  "art": "minecraft:spruce_planks",
+  "perk": {
+    "mechanic": "habits:building/double_doors",
+    "values": [
+      1,
+      1,
+      2,
+      2,
+      3,
+      3,
+      4,
+      4,
+      5,
+      6
+    ]
+  }
+}

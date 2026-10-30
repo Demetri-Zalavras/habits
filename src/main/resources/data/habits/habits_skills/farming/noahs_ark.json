@@ -1,0 +1,46 @@
+{
+  "rarity": "legendary",
+  "category": "farming",
+  "trigger": {
+    "type": "breed",
+    "match": "minecraft:goat",
+    "chance": 0.002
+  },
+  "icon": "minecraft:oak_boat",
+  "art": "minecraft:oak_planks",
+  "perk": {
+    "mechanic": "habits:farming/noahs_ark",
+    "params": {
+      "animals": "minecraft:cow,minecraft:pig,minecraft:sheep,minecraft:chicken,minecraft:rabbit,minecraft:goat"
+    },
+    "values": [
+      2,
+      4,
+      6,
+      8,
+      10,
+      12,
+      14,
+      16,
+      18,
+      20
+    ]
+  },
+  "forks": [
+    {
+      "level": 5,
+      "options": [
+        {
+          "id": "full_ark"
+        },
+        {
+          "id": "small_critters",
+          "scale": 1.6,
+          "params": {
+            "animals": "minecraft:chicken,minecraft:rabbit"
+          }
+        }
+      ]
+    }
+  ]
+}

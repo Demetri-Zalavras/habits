@@ -1,0 +1,30 @@
+{
+  "rarity": "uncommon",
+  "category": "nature",
+  "trigger": {
+    "type": "interact_entity",
+    "match": "minecraft:mooshroom",
+    "item": "minecraft:bowl",
+    "chance": 0.0312
+  },
+  "icon": "minecraft:mushroom_stew",
+  "art": "minecraft:mycelium",
+  "perk": {
+    "mechanic": "habits:stew_herder",
+    "params": {
+      "effect": "5,50"
+    },
+    "values": [
+      2,
+      3,
+      5,
+      6,
+      8,
+      10,
+      11,
+      13,
+      14,
+      16
+    ]
+  }
+}

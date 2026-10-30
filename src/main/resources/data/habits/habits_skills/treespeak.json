@@ -1,0 +1,47 @@
+{
+  "rarity": "epic",
+  "category": "farming",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:mega_tree",
+    "chance": 0.167
+  },
+  "icon": "minecraft:dark_oak_sapling",
+  "art": "minecraft:dark_oak_log",
+  "perk": {
+    "mechanic": "habits:treespeak",
+    "params": {
+      "mega_level": "10,10"
+    },
+    "values": [
+      300,
+      267,
+      234,
+      200,
+      167,
+      134,
+      100,
+      67,
+      40,
+      10
+    ]
+  },
+  "forks": [
+    {
+      "level": 5,
+      "options": [
+        {
+          "id": "quick_grove",
+          "scale": 0.75
+        },
+        {
+          "id": "giant_grove",
+          "scale": 1.6,
+          "params": {
+            "mega_level": "5,5"
+          }
+        }
+      ]
+    }
+  ]
+}

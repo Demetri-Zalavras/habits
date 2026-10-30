@@ -1,0 +1,30 @@
+{
+  "rarity": "common",
+  "category": "exploration",
+  "trigger": {
+    "type": "enter_structure",
+    "chance": 0.12
+  },
+  "icon": "minecraft:lantern",
+  "art": "minecraft:stone_bricks",
+  "perk": {
+    "mechanic": "habits:exploration/dungeon_lamp",
+    "params": {
+      "effect": "minecraft:night_vision",
+      "structure": "any",
+      "level": "1"
+    },
+    "values": [
+      12,
+      17,
+      23,
+      28,
+      33,
+      39,
+      44,
+      49,
+      55,
+      60
+    ]
+  }
+}

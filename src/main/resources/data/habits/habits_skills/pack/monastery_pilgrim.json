@@ -1,0 +1,1 @@
+{"rarity":"rare","category":"exploration","trigger":{"type":"enter_structure","match":["dungeons_arise:monastery","dungeons_arise:kisegi_sanctuary"],"chance":0.6},"icon":"minecraft:bell","art":"minecraft:bamboo_planks","perk":{"type":"enchant_discount","base":4,"per_level":3}}

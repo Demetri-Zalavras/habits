@@ -1,0 +1,35 @@
+{
+  "rarity": "epic",
+  "category": "farming",
+  "class": "habits:class/farming/hearthcook",
+  "trigger": {
+    "type": "eat",
+    "match": [
+      "minecraft:mushroom_stew",
+      "minecraft:beetroot_soup",
+      "minecraft:rabbit_stew",
+      "minecraft:suspicious_stew"
+    ],
+    "chance": 0.03
+  },
+  "icon": "minecraft:mushroom_stew",
+  "art": "minecraft:campfire",
+  "perk": {
+    "mechanic": "habits:farming/hearty_meal",
+    "values": [
+      4,
+      4,
+      4,
+      6,
+      6,
+      6,
+      8,
+      8,
+      8,
+      10
+    ],
+    "params": {
+      "seconds": "60,180"
+    }
+  }
+}

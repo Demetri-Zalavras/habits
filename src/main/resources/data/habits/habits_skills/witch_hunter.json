@@ -1,0 +1,26 @@
+{
+  "rarity": "uncommon",
+  "category": "exploration",
+  "trigger": {
+    "type": "enter_structure",
+    "match": "minecraft:swamp_hut",
+    "chance": 1.0
+  },
+  "icon": "minecraft:splash_potion",
+  "art": "minecraft:spruce_planks",
+  "perk": {
+    "mechanic": "habits:movement/witch_hunter",
+    "values": [
+      10,
+      17,
+      23,
+      30,
+      37,
+      43,
+      50,
+      57,
+      63,
+      70
+    ]
+  }
+}

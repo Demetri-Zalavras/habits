@@ -1,0 +1,32 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.habits.perk.movement.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "AbstractMinecartMixin",
+    "BasePressurePlateBlockMixin",
+    "BlockStateBaseMixin",
+    "BubbleColumnBlockMixin",
+    "EntityMixin",
+    "FoodOnAStickItemMixin",
+    "GuardianAttackGoalMixin",
+    "GuardianMixin",
+    "LivingEntityMixin",
+    "NetherPortalBlockMixin",
+    "PiglinAiMixin",
+    "PowderSnowBlockMixin",
+    "SculkShriekerBlockEntityMixin",
+    "TridentItemMixin",
+    "TripWireBlockMixin",
+    "VaultServerMixin",
+    "WardenVibrationUserMixin"
+  ],
+  "client": [
+    "LightTextureMixin",
+    "LocalPlayerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

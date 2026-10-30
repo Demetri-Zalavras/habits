@@ -1,0 +1,26 @@
+{
+  "rarity": "uncommon",
+  "category": "mining",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:mining/monster_near",
+    "chance": 0.03125
+  },
+  "icon": "minecraft:feather",
+  "art": "minecraft:yellow_wool",
+  "perk": {
+    "mechanic": "habits:mining/canary",
+    "values": [
+      8,
+      11,
+      13,
+      16,
+      19,
+      21,
+      24,
+      27,
+      29,
+      32
+    ]
+  }
+}

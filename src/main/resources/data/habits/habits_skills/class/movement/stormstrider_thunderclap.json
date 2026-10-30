@@ -1,0 +1,32 @@
+{
+  "rarity": "epic",
+  "category": "movement",
+  "trigger": {
+    "type": "fall",
+    "min": 8,
+    "chance": 0.0167
+  },
+  "icon": "minecraft:anvil",
+  "art": "minecraft:cracked_stone_bricks",
+  "perk": {
+    "mechanic": "habits:movement/ground_slam",
+    "params": {
+      "dmg": "1..3",
+      "cap": "10..40",
+      "min_fall": "3"
+    },
+    "values": [
+      3,
+      3.6,
+      4.1,
+      4.7,
+      5.2,
+      5.8,
+      6.3,
+      6.9,
+      7.4,
+      8
+    ]
+  },
+  "class": "habits:class/movement/stormstrider"
+}

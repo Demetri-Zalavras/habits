@@ -1,0 +1,29 @@
+{
+  "rarity": "common",
+  "category": "exploration",
+  "trigger": {
+    "type": "enter_biome",
+    "match": [
+      "minecraft:swamp",
+      "minecraft:mangrove_swamp"
+    ],
+    "chance": 0.2
+  },
+  "icon": "minecraft:mangrove_propagule",
+  "art": "minecraft:mud_bricks",
+  "perk": {
+    "mechanic": "habits:movement/swamp_wader",
+    "values": [
+      10,
+      17,
+      23,
+      30,
+      37,
+      43,
+      50,
+      57,
+      63,
+      70
+    ]
+  }
+}

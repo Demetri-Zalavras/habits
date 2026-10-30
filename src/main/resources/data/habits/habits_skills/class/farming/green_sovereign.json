@@ -1,0 +1,30 @@
+{
+  "rarity": "legendary",
+  "category": "farming",
+  "class_passive": true,
+  "trigger": {
+    "type": "harvest_crop",
+    "match": "#minecraft:crops",
+    "chance": 0.0002
+  },
+  "icon": "minecraft:sunflower",
+  "art": "minecraft:moss_block",
+  "perk": {
+    "mechanic": "habits:farming/verdant_crown",
+    "values": [
+      25,
+      33,
+      41,
+      49,
+      57,
+      65,
+      73,
+      81,
+      90,
+      100
+    ],
+    "params": {
+      "grow": "1,4"
+    }
+  }
+}

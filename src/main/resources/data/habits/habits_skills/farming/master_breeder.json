@@ -1,0 +1,66 @@
+{
+  "rarity": "epic",
+  "category": "farming",
+  "trigger": {
+    "type": "breed",
+    "match": [
+      "minecraft:chicken",
+      "minecraft:goat",
+      "minecraft:mooshroom"
+    ],
+    "chance": 0.0042
+  },
+  "icon": "minecraft:lead",
+  "art": "minecraft:hay_block",
+  "perk": {
+    "type": "breed_twins",
+    "params": {
+      "entity": "minecraft:cow,minecraft:sheep,minecraft:chicken,minecraft:goat,minecraft:mooshroom"
+    },
+    "values": [
+      10,
+      16,
+      21,
+      27,
+      32,
+      38,
+      43,
+      49,
+      54,
+      60
+    ]
+  },
+  "perk_text": "{v}% chance cows, sheep, chickens and goats have twins",
+  "forks": [
+    {
+      "level": 5,
+      "options": [
+        {
+          "id": "whole_herd"
+        },
+        {
+          "id": "cattle_focus",
+          "scale": 1.5,
+          "params": {
+            "entity": "minecraft:cow,minecraft:mooshroom"
+          }
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "options": [
+        {
+          "id": "any_hour"
+        },
+        {
+          "id": "moon_breeder",
+          "scale": 1.5,
+          "params": {
+            "condition": "night"
+          }
+        }
+      ]
+    }
+  ]
+}

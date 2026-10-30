@@ -1,0 +1,26 @@
+{
+  "rarity": "uncommon",
+  "category": "movement",
+  "trigger": {
+    "type": "ride_distance",
+    "match": "minecraft:minecart",
+    "chance": 0.00013
+  },
+  "icon": "minecraft:powered_rail",
+  "art": "minecraft:redstone_block",
+  "perk": {
+    "mechanic": "habits:movement/pedal_power",
+    "values": [
+      10,
+      16,
+      21,
+      27,
+      32,
+      38,
+      43,
+      49,
+      54,
+      60
+    ]
+  }
+}

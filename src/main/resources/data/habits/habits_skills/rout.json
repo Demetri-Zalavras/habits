@@ -1,0 +1,31 @@
+{
+  "rarity": "uncommon",
+  "category": "warrior",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:melee_kill",
+    "chance": 0.0208,
+    "entity": "#minecraft:raiders"
+  },
+  "icon": "minecraft:white_banner",
+  "art": "minecraft:dark_oak_log",
+  "perk": {
+    "mechanic": "habits:melee/rout",
+    "params": {
+      "seconds": "2,6",
+      "radius": "6,16"
+    },
+    "values": [
+      15.0,
+      24.0,
+      34.0,
+      43.0,
+      53.0,
+      62.0,
+      72.0,
+      81.0,
+      91.0,
+      100.0
+    ]
+  }
+}

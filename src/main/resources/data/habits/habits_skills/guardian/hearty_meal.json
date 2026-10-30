@@ -1,0 +1,30 @@
+{
+  "rarity": "common",
+  "category": "guardian",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:eat_hurt",
+    "chance": 0.1,
+    "min": 50
+  },
+  "icon": "minecraft:cooked_beef",
+  "art": "minecraft:smoker",
+  "perk": {
+    "mechanic": "habits:survival/hearty_meal",
+    "values": [
+      1,
+      1.6,
+      2.1,
+      2.7,
+      3.2,
+      3.8,
+      4.3,
+      4.9,
+      5.4,
+      6
+    ],
+    "params": {
+      "below": "50"
+    }
+  }
+}

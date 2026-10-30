@@ -1,0 +1,33 @@
+{
+  "rarity": "uncommon",
+  "category": "mining",
+  "trigger": {
+    "type": "break_block",
+    "match": [
+      "minecraft:glowstone",
+      "minecraft:shroomlight",
+      "minecraft:ochre_froglight",
+      "minecraft:verdant_froglight",
+      "minecraft:pearlescent_froglight"
+    ],
+    "chance": 0.00313
+  },
+  "icon": "minecraft:lantern",
+  "art": "minecraft:glowstone",
+  "perk": {
+    "mechanic": "habits:lantern_bearer",
+    "params": {"value_max": "15"},
+    "values": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ]
+  }
+}

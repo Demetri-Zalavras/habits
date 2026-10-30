@@ -1,0 +1,25 @@
+{
+  "rarity": "common",
+  "category": "crafting",
+  "trigger": {
+    "type": "brew",
+    "chance": 0.0167
+  },
+  "icon": "minecraft:brewing_stand",
+  "art": "minecraft:nether_bricks",
+  "perk": {
+    "mechanic": "habits:brewer",
+    "values": [
+      10,
+      30,
+      50,
+      70,
+      90,
+      110,
+      130,
+      150,
+      175,
+      200
+    ]
+  }
+}

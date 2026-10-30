@@ -1,0 +1,31 @@
+{
+  "rarity": "epic",
+  "category": "nature",
+  "class": "habits:class/nature/beastcaller",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:feed_animal",
+    "chance": 0.00521
+  },
+  "icon": "minecraft:goat_horn",
+  "art": "minecraft:podzol",
+  "perk": {
+    "mechanic": "habits:nature/guard_dog",
+    "values": [
+      16,
+      19,
+      23,
+      26,
+      30,
+      33,
+      37,
+      40,
+      44,
+      48
+    ],
+    "params": {
+      "cooldown": "15,3",
+      "seconds": "8,20"
+    }
+  }
+}

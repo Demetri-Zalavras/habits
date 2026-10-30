@@ -1,0 +1,50 @@
+{
+  "rarity": "legendary",
+  "category": "guardian",
+  "trigger": {
+    "type": "damage_taken",
+    "match": "minecraft:sonic_boom",
+    "chance": 0.125
+  },
+  "icon": "minecraft:sculk_shrieker",
+  "art": "minecraft:sculk",
+  "perk": {
+    "mechanic": "habits:survival/sound_proof",
+    "params": {
+      "darkness_cut": "20..100"
+    },
+    "values": [
+      10,
+      17,
+      24,
+      32,
+      39,
+      46,
+      53,
+      61,
+      68,
+      75
+    ]
+  },
+  "forks": [
+    {
+      "level": 5,
+      "options": [
+        {
+          "id": "boom_ward",
+          "scale": 1.2,
+          "params": {
+            "darkness_cut": "10..50"
+          }
+        },
+        {
+          "id": "dark_ward",
+          "scale": 0.75,
+          "params": {
+            "darkness_cut": "40..100"
+          }
+        }
+      ]
+    }
+  ]
+}

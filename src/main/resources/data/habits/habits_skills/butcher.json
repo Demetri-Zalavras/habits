@@ -1,0 +1,39 @@
+{
+  "rarity": "common",
+  "category": "warrior",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:melee_kill",
+    "chance": 0.025,
+    "entity": [
+      "minecraft:cow",
+      "minecraft:pig",
+      "minecraft:sheep",
+      "minecraft:chicken",
+      "minecraft:rabbit",
+      "minecraft:mooshroom",
+      "minecraft:goat"
+    ]
+  },
+  "icon": "minecraft:beef",
+  "art": "minecraft:stripped_spruce_log",
+  "perk": {
+    "mechanic": "habits:melee/butcher",
+    "params": {
+      "cooked": "10,100",
+      "hide": "0,0,0,0,0,0,0,0,0,1"
+    },
+    "values": [
+      1.0,
+      1.0,
+      2.0,
+      2.0,
+      2.0,
+      3.0,
+      3.0,
+      3.0,
+      4.0,
+      4.0
+    ]
+  }
+}

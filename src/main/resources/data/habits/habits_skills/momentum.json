@@ -1,0 +1,30 @@
+{
+  "rarity": "common",
+  "category": "warrior",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:full_charge_kill",
+    "chance": 0.0333
+  },
+  "icon": "minecraft:sugar",
+  "art": "minecraft:quartz_block",
+  "perk": {
+    "mechanic": "habits:melee/momentum",
+    "params": {
+      "speed_seconds": "0,3",
+      "speed_level": "0,0,0,0,0,0,0,0,1,1"
+    },
+    "values": [
+      30.0,
+      38.0,
+      46.0,
+      53.0,
+      61.0,
+      69.0,
+      77.0,
+      84.0,
+      92.0,
+      95.0
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "rarity": "rare",
+  "category": "exploration",
+  "trigger": {
+    "type": "enter_structure",
+    "match": "minecraft:end_city",
+    "chance": 0.4
+  },
+  "icon": "minecraft:shulker_shell",
+  "art": "minecraft:purpur_block",
+  "perk": {
+    "mechanic": "habits:exploration/purpur_drift",
+    "params": {
+      "effect": "minecraft:slow_falling",
+      "structure": "minecraft:end_city",
+      "level": "1"
+    },
+    "values": [
+      3,
+      5,
+      7,
+      9,
+      11,
+      12,
+      14,
+      16,
+      18,
+      20
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "rarity": "rare",
+  "category": "ranger",
+  "trigger": {
+    "type": "damage_taken",
+    "match": "minecraft:fly_into_wall",
+    "chance": 0.0667
+  },
+  "icon": "minecraft:elytra",
+  "art": "minecraft:white_concrete",
+  "perk": {
+    "mechanic": "habits:survival/crumple_zone",
+    "params": {
+      "cling": "0.2..2"
+    },
+    "values": [
+      20,
+      29,
+      38,
+      47,
+      56,
+      64,
+      73,
+      82,
+      91,
+      100
+    ]
+  }
+}

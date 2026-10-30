@@ -1,0 +1,30 @@
+{
+  "rarity": "uncommon",
+  "category": "warrior",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:melee_kill",
+    "chance": 0.0156,
+    "item": "#minecraft:axes"
+  },
+  "icon": "minecraft:zombie_head",
+  "art": "minecraft:mossy_cobblestone",
+  "perk": {
+    "mechanic": "habits:melee/headhunter",
+    "params": {
+      "wither": "0.5,6"
+    },
+    "values": [
+      1.0,
+      2.6,
+      4.1,
+      5.7,
+      7.2,
+      8.8,
+      10.3,
+      11.9,
+      13.4,
+      15.0
+    ]
+  }
+}

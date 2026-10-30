@@ -1,0 +1,29 @@
+{
+  "rarity": "rare",
+  "category": "building",
+  "trigger": {
+    "type": "place_block",
+    "chance": 0.0333,
+    "match": "#minecraft:banners"
+  },
+  "icon": "minecraft:white_banner",
+  "art": "minecraft:white_wool",
+  "perk": {
+    "mechanic": "habits:standard_bearer",
+    "params": {
+      "mob_damage": "5..50"
+    },
+    "values": [
+      4,
+      6,
+      8,
+      10,
+      12,
+      15,
+      17,
+      19,
+      21,
+      24
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.habits.perk.survival.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "EntityMixin",
+    "FoodDataMixin",
+    "FallingBlockEntityMixin",
+    "LivingEntityMixin",
+    "PiglinAiMixin",
+    "PowderSnowBlockMixin",
+    "ServerEntityMixin"
+  ],
+  "client": [
+    "GuiMixin",
+    "MinecraftMixin"
+  ],
+  "injectors": {"defaultRequire": 1}
+}

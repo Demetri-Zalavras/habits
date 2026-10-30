@@ -1,0 +1,30 @@
+{
+  "rarity": "rare",
+  "category": "ranger",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:underwater_arrow_hit",
+    "chance": 0.0333
+  },
+  "icon": "minecraft:prismarine_shard",
+  "art": "minecraft:prismarine",
+  "perk": {
+    "mechanic": "habits:tide_archer",
+    "values": [
+      10.0,
+      20.0,
+      30.0,
+      40.0,
+      50.0,
+      60.0,
+      70.0,
+      80.0,
+      90.0,
+      100.0
+    ],
+    "params": {
+      "value_max": "100",
+      "aquatic": "5..50"
+    }
+  }
+}

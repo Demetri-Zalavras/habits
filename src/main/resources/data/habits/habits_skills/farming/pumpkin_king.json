@@ -1,0 +1,26 @@
+{
+  "rarity": "epic",
+  "category": "farming",
+  "trigger": {
+    "type": "place_block",
+    "match": "minecraft:jack_o_lantern",
+    "chance": 0.05
+  },
+  "icon": "minecraft:jack_o_lantern",
+  "art": "minecraft:pumpkin",
+  "perk": {
+    "mechanic": "habits:farming/pumpkin_king",
+    "values": [
+      4,
+      5,
+      7,
+      8,
+      9,
+      11,
+      12,
+      13,
+      15,
+      16
+    ]
+  }
+}

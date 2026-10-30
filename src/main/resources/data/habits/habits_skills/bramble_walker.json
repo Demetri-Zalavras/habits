@@ -1,0 +1,29 @@
+{
+  "rarity": "common",
+  "category": "guardian",
+  "trigger": {
+    "type": "damage_taken",
+    "match": "minecraft:sweet_berry_bush",
+    "chance": 0.000833
+  },
+  "icon": "minecraft:sweet_berries",
+  "art": "minecraft:podzol",
+  "perk": {
+    "mechanic": "habits:survival/bramble_walker",
+    "params": {
+      "pick_interval": "10..1"
+    },
+    "values": [
+      30,
+      38,
+      46,
+      53,
+      61,
+      69,
+      77,
+      84,
+      92,
+      100
+    ]
+  }
+}

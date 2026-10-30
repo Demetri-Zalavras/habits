@@ -1,0 +1,30 @@
+{
+  "rarity": "rare",
+  "category": "mining",
+  "trigger": {
+    "type": "break_block",
+    "match": [
+      "minecraft:raw_iron_block",
+      "minecraft:raw_copper_block",
+      "minecraft:raw_gold_block"
+    ],
+    "chance": 0.0167
+  },
+  "icon": "minecraft:raw_iron_block",
+  "art": "minecraft:raw_iron_block",
+  "perk": {
+    "mechanic": "habits:compactor",
+    "values": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      8,
+      10,
+      12,
+      16
+    ]
+  }
+}

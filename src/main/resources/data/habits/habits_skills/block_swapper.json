@@ -1,0 +1,26 @@
+{
+  "rarity": "uncommon",
+  "category": "building",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:swap_block",
+    "chance": 0.0125
+  },
+  "icon": "minecraft:sticky_piston",
+  "art": "minecraft:stone_bricks",
+  "perk": {
+    "mechanic": "habits:block_swapper",
+    "values": [
+      1,
+      1,
+      2,
+      4,
+      6,
+      9,
+      12,
+      16,
+      20,
+      25
+    ]
+  }
+}

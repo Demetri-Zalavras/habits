@@ -1,0 +1,26 @@
+{
+  "rarity": "epic",
+  "category": "mining",
+  "trigger": {
+    "type": "pickup_item",
+    "match": "minecraft:raw_gold",
+    "chance": 0.00417
+  },
+  "icon": "minecraft:recovery_compass",
+  "art": "minecraft:gold_ore",
+  "perk": {
+    "mechanic": "habits:mining/ore_compass",
+    "values": [
+      8,
+      11,
+      13,
+      16,
+      19,
+      21,
+      24,
+      27,
+      29,
+      32
+    ]
+  }
+}

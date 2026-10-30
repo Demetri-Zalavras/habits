@@ -1,0 +1,26 @@
+{
+  "rarity": "common",
+  "category": "guardian",
+  "trigger": {
+    "type": "use_item",
+    "match": "minecraft:milk_bucket",
+    "chance": 0.1
+  },
+  "icon": "minecraft:milk_bucket",
+  "art": "minecraft:white_concrete",
+  "perk": {
+    "mechanic": "habits:survival/milk_drinker",
+    "values": [
+      20,
+      29,
+      38,
+      47,
+      56,
+      64,
+      73,
+      82,
+      91,
+      100
+    ]
+  }
+}

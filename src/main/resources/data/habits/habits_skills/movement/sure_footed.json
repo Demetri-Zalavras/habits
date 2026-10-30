@@ -1,0 +1,32 @@
+{
+  "rarity": "uncommon",
+  "category": "movement",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:sprint_hurt",
+    "chance": 0.031
+  },
+  "icon": "minecraft:anvil",
+  "art": "minecraft:cobblestone",
+  "perk": {
+    "type": "attribute",
+    "params": {
+      "attribute": "minecraft:generic.knockback_resistance",
+      "operation": "add_value",
+      "condition": "sprinting"
+    },
+    "values": [
+      0.1,
+      0.2,
+      0.3,
+      0.4,
+      0.5,
+      0.6,
+      0.7,
+      0.8,
+      0.9,
+      1
+    ]
+  },
+  "perk_text": "Knockback resistance +{v} while sprinting (1 is full)"
+}

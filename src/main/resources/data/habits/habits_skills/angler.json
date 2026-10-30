@@ -1,0 +1,28 @@
+{
+  "rarity": "common",
+  "category": "nature",
+  "trigger": {
+    "type": "fish",
+    "chance": 0.025
+  },
+  "icon": "minecraft:fishing_rod",
+  "art": "minecraft:prismarine",
+  "perk": {
+    "mechanic": "habits:angler",
+    "params": {
+      "recast_level": "10,10"
+    },
+    "values": [
+      20,
+      29,
+      38,
+      47,
+      56,
+      64,
+      73,
+      82,
+      91,
+      100
+    ]
+  }
+}

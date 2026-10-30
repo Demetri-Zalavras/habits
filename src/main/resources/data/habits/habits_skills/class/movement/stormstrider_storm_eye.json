@@ -1,0 +1,33 @@
+{
+  "rarity": "epic",
+  "category": "movement",
+  "trigger": {
+    "type": "damage_taken",
+    "match": "#minecraft:is_projectile",
+    "chance": 0.0042
+  },
+  "icon": "minecraft:spectral_arrow",
+  "art": "minecraft:target",
+  "perk": {
+    "type": "damage_type_resist",
+    "params": {
+      "damage": "#minecraft:is_projectile,minecraft:lightning_bolt",
+      "condition": "sprinting",
+      "value_max": "100"
+    },
+    "values": [
+      10,
+      16,
+      21,
+      27,
+      32,
+      38,
+      43,
+      49,
+      54,
+      60
+    ]
+  },
+  "class": "habits:class/movement/stormstrider",
+  "perk_text": "Projectiles and lightning hurt {v}% less while sprinting"
+}

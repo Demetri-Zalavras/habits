@@ -1,0 +1,26 @@
+{
+  "rarity": "rare",
+  "category": "ranger",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:ranged/invisible_hit",
+    "chance": 0.03
+  },
+  "icon": "minecraft:glass_pane",
+  "art": "minecraft:tinted_glass",
+  "perk": {
+    "mechanic": "habits:ranged/unseen",
+    "values": [
+      10.0,
+      20.0,
+      30.0,
+      40.0,
+      50.0,
+      60.0,
+      70.0,
+      80.0,
+      90.0,
+      100.0
+    ]
+  }
+}

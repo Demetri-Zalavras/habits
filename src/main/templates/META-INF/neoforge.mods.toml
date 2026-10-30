@@ -1,0 +1,78 @@
+
+modLoader="javafml" #mandatory
+
+loaderVersion="${loader_version_range}" #mandatory
+
+license="${mod_license}"
+
+[[mods]] #mandatory
+
+modId="${mod_id}" #mandatory
+
+version="${mod_version}" #mandatory
+
+displayName="${mod_name}" #mandatory
+
+authors="${mod_authors}"
+
+description='''
+${mod_description}
+'''
+
+[[dependencies.${mod_id}]] #optional
+    # the modid of the dependency
+    modId="neoforge" #mandatory
+    # The type of the dependency. Can be one of "required", "optional", "incompatible" or "discouraged" (case insensitive).
+    # 'required' requires the mod to exist, 'optional' does not
+    # 'incompatible' will prevent the game from loading when the mod exists, and 'discouraged' will show a warning
+    type="required" #mandatory
+    # Optional field describing why the dependency is required or why it is incompatible
+    # reason="..."
+    # The version range of the dependency
+    versionRange="[${neo_version},)" #mandatory
+    # An ordering relationship for the dependency.
+    # BEFORE - This mod is loaded BEFORE the dependency
+    # AFTER - This mod is loaded AFTER the dependency
+    ordering="NONE"
+    # Side this dependency is applied on - BOTH, CLIENT, or SERVER
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="minecraft"
+    type="required"
+    # This version range declares a minimum of the current minecraft version up to but not including the next major version
+    versionRange="${minecraft_version_range}"
+    ordering="NONE"
+    side="BOTH"
+
+# gates: the GameTest server needs datapack dimensions (arise:dungeon)
+
+# Mixin configs, one per owning package (each config's "package" may hold mixin classes only).
+
+[[mixins]]
+config="habits.farming.mixins.json"
+[[mixins]]
+config="habits.melee.mixins.json"
+[[mixins]]
+config="habits.mining.mixins.json"
+[[mixins]]
+config="habits.mixins.json"
+[[mixins]]
+config="habits.movement.mixins.json"
+[[mixins]]
+config="habits.ranged.mixins.json"
+[[mixins]]
+config="habits.survival.mixins.json"
+[[mixins]]
+config="habits.utility.mixins.json"
+[[mixins]]
+config="habits.crafting.mixins.json"
+[[mixins]]
+config="habits.nature.mixins.json"
+[[mixins]]
+config="habits.exploration.mixins.json"
+[[mixins]]
+config="habits.building.mixins.json"
+
+[[accessTransformers]]
+file="META-INF/accesstransformer.cfg"

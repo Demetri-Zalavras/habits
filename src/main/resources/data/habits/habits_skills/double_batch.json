@@ -1,0 +1,25 @@
+{
+  "rarity": "uncommon",
+  "category": "crafting",
+  "trigger": {
+    "type": "brew",
+    "chance": 0.0104
+  },
+  "icon": "minecraft:glass_bottle",
+  "art": "minecraft:nether_bricks",
+  "perk": {
+    "mechanic": "habits:double_batch",
+    "values": [
+      3,
+      7,
+      10,
+      14,
+      17,
+      21,
+      24,
+      28,
+      31,
+      35
+    ]
+  }
+}

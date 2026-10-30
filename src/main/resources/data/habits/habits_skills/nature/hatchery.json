@@ -1,0 +1,29 @@
+{
+  "rarity": "common",
+  "category": "nature",
+  "trigger": {
+    "type": "shoot_projectile",
+    "match": "minecraft:egg",
+    "chance": 0.01
+  },
+  "icon": "minecraft:egg",
+  "art": "minecraft:hay_block",
+  "perk": {
+    "mechanic": "habits:nature/hatchery",
+    "values": [
+      10,
+      16,
+      21,
+      27,
+      32,
+      38,
+      43,
+      49,
+      54,
+      60
+    ],
+    "params": {
+      "chicks": "1,3"
+    }
+  }
+}

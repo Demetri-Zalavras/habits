@@ -1,0 +1,27 @@
+{
+  "rarity": "uncommon",
+  "category": "exploration",
+  "trigger": {
+    "type": "enter_biome",
+    "match": "#minecraft:is_badlands",
+    "chance": 0.312
+  },
+  "icon": "minecraft:raw_gold",
+  "art": "minecraft:terracotta",
+  "perk": {
+    "mechanic": "habits:movement/mesa_runner",
+    "params": {"value_max": "64"},
+    "values": [
+      8,
+      12,
+      17,
+      21,
+      26,
+      30,
+      35,
+      39,
+      44,
+      48
+    ]
+  }
+}

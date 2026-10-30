@@ -1,0 +1,31 @@
+{
+  "rarity": "uncommon",
+  "category": "farming",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:farming/night_harvest",
+    "chance": 0.0016
+  },
+  "icon": "minecraft:clock",
+  "art": "minecraft:farmland",
+  "perk": {
+    "type": "crop_growth_aura",
+    "params": {
+      "radius": "8",
+      "condition": "night"
+    },
+    "values": [
+      3,
+      6,
+      9,
+      12,
+      15,
+      18,
+      21,
+      24,
+      27,
+      30
+    ]
+  },
+  "perk_text": "At night, crops within 8 blocks get a {v}% growth chance every second"
+}

@@ -1,0 +1,31 @@
+{
+  "rarity": "rare",
+  "category": "mining",
+  "class_passive": true,
+  "trigger": {
+    "type": "custom",
+    "match": "habits:mining/tunnel_dig",
+    "chance": 0.00083
+  },
+  "icon": "minecraft:iron_pickaxe",
+  "art": "minecraft:deepslate",
+  "perk": {
+    "type": "mining_speed",
+    "params": {
+      "condition": "underground"
+    },
+    "values": [
+      10,
+      15,
+      20,
+      25,
+      30,
+      35,
+      40,
+      45,
+      50,
+      55
+    ]
+  },
+  "perk_text": "Mine {v}% faster underground"
+}

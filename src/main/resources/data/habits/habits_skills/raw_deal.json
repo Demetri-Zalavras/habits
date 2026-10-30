@@ -1,0 +1,35 @@
+{
+  "rarity": "common",
+  "category": "guardian",
+  "trigger": {
+    "type": "eat",
+    "match": [
+      "minecraft:beef",
+      "minecraft:porkchop",
+      "minecraft:mutton",
+      "minecraft:chicken",
+      "minecraft:rabbit"
+    ],
+    "chance": 0.1
+  },
+  "icon": "minecraft:beef",
+  "art": "minecraft:mud",
+  "perk": {
+    "mechanic": "habits:survival/raw_deal",
+    "params": {
+      "cooked": "0,0,0,0,0,0,0,0,0,1"
+    },
+    "values": [
+      20,
+      29,
+      38,
+      47,
+      56,
+      64,
+      73,
+      82,
+      91,
+      100
+    ]
+  }
+}

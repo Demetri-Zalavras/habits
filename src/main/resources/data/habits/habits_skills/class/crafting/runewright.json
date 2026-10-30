@@ -1,0 +1,29 @@
+{
+  "rarity": "epic",
+  "category": "crafting",
+  "class_passive": true,
+  "trigger": {
+    "type": "enchant",
+    "chance": 0.033
+  },
+  "icon": "minecraft:enchanting_table",
+  "art": "minecraft:amethyst_block",
+  "perk": {
+    "mechanic": "habits:crafting/runewright",
+    "values": [
+      10,
+      14,
+      19,
+      23,
+      28,
+      32,
+      37,
+      41,
+      46,
+      50
+    ],
+    "params": {
+      "over": "0..1"
+    }
+  }
+}

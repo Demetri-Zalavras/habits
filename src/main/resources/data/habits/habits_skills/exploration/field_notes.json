@@ -1,0 +1,28 @@
+{
+  "rarity": "common",
+  "category": "exploration",
+  "trigger": {
+    "type": "enter_biome",
+    "chance": 0.04
+  },
+  "icon": "minecraft:writable_book",
+  "art": "minecraft:birch_planks",
+  "perk": {
+    "mechanic": "habits:exploration/field_notes",
+    "params": {
+      "minutes": "10"
+    },
+    "values": [
+      5,
+      9,
+      13,
+      17,
+      21,
+      24,
+      28,
+      32,
+      36,
+      40
+    ]
+  }
+}

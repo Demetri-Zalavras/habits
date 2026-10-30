@@ -1,0 +1,31 @@
+{
+  "rarity": "uncommon",
+  "category": "exploration",
+  "trigger": {
+    "type": "enter_structure",
+    "match": "minecraft:pillager_outpost",
+    "chance": 0.4
+  },
+  "icon": "minecraft:crossbow",
+  "art": "minecraft:dark_oak_planks",
+  "perk": {
+    "type": "damage_type_resist",
+    "params": {
+      "damage": "minecraft:arrow,minecraft:trident",
+      "value_max": "100"
+    },
+    "values": [
+      5,
+      9,
+      13,
+      17,
+      21,
+      24,
+      28,
+      32,
+      36,
+      40
+    ]
+  },
+  "perk_text": "Arrow damage -{v}%"
+}

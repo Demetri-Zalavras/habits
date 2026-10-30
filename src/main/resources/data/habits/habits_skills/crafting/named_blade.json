@@ -1,0 +1,15 @@
+{
+  "rarity": "rare",
+  "category": "crafting",
+  "trigger": {
+    "type": "anvil",
+    "match": ["#minecraft:swords", "#minecraft:axes"],
+    "chance": 0.11111
+  },
+  "icon": "minecraft:golden_sword",
+  "art": "minecraft:anvil",
+  "perk": {
+    "mechanic": "habits:crafting/named_blade",
+    "values": [3, 6, 9, 12, 15, 18, 21, 24, 27, 30]
+  }
+}

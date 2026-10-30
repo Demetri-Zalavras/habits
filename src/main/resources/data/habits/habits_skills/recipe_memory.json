@@ -1,0 +1,25 @@
+{
+  "rarity": "common",
+  "category": "crafting",
+  "trigger": {
+    "type": "craft",
+    "chance": 0.0167
+  },
+  "icon": "minecraft:knowledge_book",
+  "art": "minecraft:bookshelf",
+  "perk": {
+    "mechanic": "habits:recipe_memory",
+    "values": [
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2,
+      2,
+      3
+    ]
+  }
+}

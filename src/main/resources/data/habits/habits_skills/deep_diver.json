@@ -1,0 +1,30 @@
+{
+  "rarity": "uncommon",
+  "category": "guardian",
+  "trigger": {
+    "type": "drink_potion",
+    "match": [
+      "minecraft:water_breathing",
+      "minecraft:long_water_breathing",
+      "minecraft:strong_water_breathing"
+    ],
+    "chance": 0.0625
+  },
+  "icon": "minecraft:heart_of_the_sea",
+  "art": "minecraft:prismarine",
+  "perk": {
+    "mechanic": "habits:survival/deep_diver",
+    "values": [
+      50,
+      56,
+      61,
+      67,
+      72,
+      78,
+      83,
+      89,
+      94,
+      100
+    ]
+  }
+}

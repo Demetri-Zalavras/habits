@@ -1,0 +1,31 @@
+{
+  "rarity": "uncommon",
+  "category": "exploration",
+  "trigger": {
+    "type": "kill_entity",
+    "match": "minecraft:breeze",
+    "chance": 0.08
+  },
+  "icon": "minecraft:breeze_rod",
+  "art": "minecraft:chiseled_tuff",
+  "perk": {
+    "type": "damage_type_resist",
+    "params": {
+      "damage": "minecraft:wind_charge",
+      "value_max": "100"
+    },
+    "values": [
+      10,
+      18,
+      26,
+      33,
+      41,
+      49,
+      57,
+      64,
+      72,
+      80
+    ]
+  },
+  "perk_text": "Wind charge damage -{v}%"
+}

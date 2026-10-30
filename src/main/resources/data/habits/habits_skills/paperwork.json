@@ -1,0 +1,31 @@
+{
+  "rarity": "uncommon",
+  "category": "exploration",
+  "trigger": {
+    "type": "use_item",
+    "match": "minecraft:writable_book",
+    "chance": 0.0625
+  },
+  "icon": "minecraft:written_book",
+  "art": "minecraft:bookshelf",
+  "perk": {
+    "mechanic": "habits:paperwork",
+    "params": {
+      "channel": "3..0",
+      "keep_from": "5",
+      "more_titles_from": "10"
+    },
+    "values": [
+      300,
+      270,
+      240,
+      210,
+      180,
+      150,
+      120,
+      90,
+      60,
+      30
+    ]
+  }
+}

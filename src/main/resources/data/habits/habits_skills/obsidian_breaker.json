@@ -1,0 +1,32 @@
+{
+  "rarity": "uncommon",
+  "category": "mining",
+  "trigger": {
+    "type": "break_block",
+    "match": [
+      "minecraft:obsidian",
+      "minecraft:crying_obsidian"
+    ],
+    "chance": 0.0104
+  },
+  "icon": "minecraft:obsidian",
+  "art": "minecraft:obsidian",
+  "perk": {
+    "mechanic": "habits:obsidian_breaker",
+    "params": {
+      "iron_level": "5"
+    },
+    "values": [
+      10.0,
+      18.89,
+      27.78,
+      36.67,
+      45.56,
+      54.44,
+      63.33,
+      72.22,
+      81.11,
+      90.0
+    ]
+  }
+}

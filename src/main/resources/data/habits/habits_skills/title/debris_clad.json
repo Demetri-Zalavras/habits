@@ -1,0 +1,34 @@
+{
+  "rarity": "epic",
+  "category": "guardian",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:never",
+    "chance": 0
+  },
+  "icon": "minecraft:netherite_chestplate",
+  "art": "minecraft:ancient_debris",
+  "perk": {
+    "type": "attribute",
+    "params": {
+      "attribute": "minecraft:generic.armor_toughness",
+      "operation": "add_value"
+    },
+    "values": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ]
+  },
+  "title": {
+    "advancement": "minecraft:nether/netherite_armor"
+  },
+  "perk_text": "Armor toughness +{v}"
+}

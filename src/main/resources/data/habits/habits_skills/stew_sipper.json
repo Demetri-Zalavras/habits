@@ -1,0 +1,33 @@
+{
+  "rarity": "common",
+  "category": "guardian",
+  "trigger": {
+    "type": "eat",
+    "match": [
+      "minecraft:mushroom_stew",
+      "minecraft:rabbit_stew",
+      "minecraft:beetroot_soup"
+    ],
+    "chance": 0.1
+  },
+  "icon": "minecraft:mushroom_stew",
+  "art": "minecraft:mushroom_stem",
+  "perk": {
+    "mechanic": "habits:survival/stew_sipper",
+    "params": {
+      "amp": "0,0,0,0,0,1,1,1,1,1"
+    },
+    "values": [
+      3,
+      4,
+      6,
+      7,
+      8,
+      10,
+      11,
+      12,
+      14,
+      15
+    ]
+  }
+}

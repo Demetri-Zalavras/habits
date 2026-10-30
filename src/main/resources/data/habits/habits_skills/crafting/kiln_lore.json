@@ -1,0 +1,18 @@
+{
+  "rarity": "common",
+  "category": "crafting",
+  "trigger": {
+    "type": "smelt",
+    "match": ["minecraft:brick", "minecraft:nether_brick", "#minecraft:terracotta", "minecraft:smooth_stone", "minecraft:stone"],
+    "chance": 0.05
+  },
+  "icon": "minecraft:brick",
+  "art": "minecraft:bricks",
+  "perk": {
+    "mechanic": "habits:crafting/kiln_lore",
+    "values": [10, 20, 30, 40, 50, 60, 70, 80, 90, 100],
+    "params": {
+      "items": "minecraft:brick,minecraft:nether_brick,#minecraft:terracotta,minecraft:smooth_stone,minecraft:stone"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "rarity": "uncommon",
+  "category": "crafting",
+  "trigger": {
+    "type": "craft",
+    "match": [
+      "minecraft:bow",
+      "minecraft:crossbow"
+    ],
+    "chance": 0.2
+  },
+  "icon": "minecraft:bow",
+  "art": "minecraft:string",
+  "perk": {
+    "type": "durability_save",
+    "params": {
+      "item": "minecraft:bow,minecraft:crossbow"
+    },
+    "values": [
+      5,
+      10,
+      15,
+      20,
+      25,
+      30,
+      35,
+      40,
+      45,
+      50
+    ]
+  },
+  "perk_text": "Bows and crossbows: {v}% chance to save durability"
+}

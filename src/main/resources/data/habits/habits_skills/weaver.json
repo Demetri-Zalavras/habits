@@ -1,0 +1,31 @@
+{
+  "rarity": "common",
+  "category": "crafting",
+  "trigger": {
+    "type": "stat_increment",
+    "match": "minecraft:interact_with_loom",
+    "chance": 0.0333
+  },
+  "icon": "minecraft:loom",
+  "art": "minecraft:white_wool",
+  "perk": {
+    "mechanic": "habits:weaver",
+    "params": {
+      "colors": "white=slow_falling,orange=fire_resistance,magenta=regeneration,light_blue=jump_boost,yellow=speed,lime=haste,pink=health_boost,gray=resistance,light_gray=water_breathing,cyan=dolphins_grace,purple=night_vision,blue=water_breathing,brown=resistance,green=luck,red=strength,black=night_vision",
+      "amp": "0..1",
+      "share_from": "2"
+    },
+    "values": [
+      4,
+      6,
+      8,
+      10,
+      13,
+      15,
+      17,
+      19,
+      21,
+      24
+    ]
+  }
+}

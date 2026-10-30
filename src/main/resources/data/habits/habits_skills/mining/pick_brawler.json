@@ -1,0 +1,36 @@
+{
+  "rarity": "common",
+  "category": "mining",
+  "trigger": {
+    "type": "kill_entity",
+    "match": [
+      "#minecraft:zombies",
+      "#minecraft:skeletons",
+      "minecraft:creeper",
+      "minecraft:spider"
+    ],
+    "item": "#minecraft:shovels",
+    "chance": 0.03333
+  },
+  "icon": "minecraft:iron_shovel",
+  "art": "minecraft:dirt",
+  "perk": {
+    "type": "damage_bonus",
+    "params": {
+      "item": "#minecraft:pickaxes,#minecraft:shovels"
+    },
+    "values": [
+      5,
+      10,
+      15,
+      20,
+      25,
+      30,
+      35,
+      40,
+      45,
+      50
+    ]
+  },
+  "perk_text": "Pickaxes and shovels hit +{v}% harder"
+}

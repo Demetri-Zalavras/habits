@@ -1,0 +1,32 @@
+{
+  "rarity": "epic",
+  "category": "mining",
+  "class": "habits:class/mining/oreseer",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:mining/buried_ore",
+    "chance": 0.0056
+  },
+  "icon": "minecraft:spyglass",
+  "art": "minecraft:gold_ore",
+  "perk": {
+    "mechanic": "habits:mining/oreseer_sight",
+    "params": {
+      "block": "#c:ores",
+      "color": "FFD24A",
+      "glow_s": "6..12"
+    },
+    "values": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      12,
+      13,
+      14,
+      15,
+      16
+    ]
+  }
+}

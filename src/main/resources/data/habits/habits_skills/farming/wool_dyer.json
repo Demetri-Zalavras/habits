@@ -1,0 +1,27 @@
+{
+  "rarity": "common",
+  "category": "farming",
+  "trigger": {
+    "type": "interact_entity",
+    "match": "minecraft:sheep",
+    "item": "#c:dyes",
+    "chance": 0.02
+  },
+  "icon": "minecraft:lime_dye",
+  "art": "minecraft:lime_wool",
+  "perk": {
+    "mechanic": "habits:farming/wool_dyer",
+    "values": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60,
+      70,
+      80,
+      90,
+      100
+    ]
+  }
+}

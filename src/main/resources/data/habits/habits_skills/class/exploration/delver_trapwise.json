@@ -1,0 +1,31 @@
+{
+  "rarity": "uncommon",
+  "category": "exploration",
+  "trigger": {
+    "type": "damage_taken",
+    "match": "#minecraft:is_projectile",
+    "chance": 0.0156
+  },
+  "icon": "minecraft:dispenser",
+  "art": "minecraft:cobblestone",
+  "perk": {
+    "mechanic": "habits:exploration/delver_trapwise",
+    "params": {
+      "side": "taken",
+      "damage": "#minecraft:is_projectile,#minecraft:is_explosion,minecraft:magic,minecraft:indirect_magic"
+    },
+    "values": [
+      10,
+      16,
+      21,
+      27,
+      32,
+      38,
+      43,
+      49,
+      54,
+      60
+    ]
+  },
+  "class": "habits:class/exploration/delver"
+}

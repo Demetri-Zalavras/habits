@@ -1,0 +1,35 @@
+{
+  "rarity": "uncommon",
+  "category": "building",
+  "trigger": {
+    "type": "break_block",
+    "match": [
+      "minecraft:clay",
+      "#minecraft:sand",
+      "minecraft:gravel"
+    ],
+    "item": "#minecraft:shovels",
+    "chance": 0.00156
+  },
+  "icon": "minecraft:clay_ball",
+  "art": "minecraft:clay",
+  "perk": {
+    "type": "drop_bonus",
+    "values": [
+      5.0,
+      10.0,
+      15.0,
+      20.0,
+      25.0,
+      30.0,
+      35.0,
+      40.0,
+      45.0,
+      50.0
+    ],
+    "params": {
+      "block": "minecraft:clay,#minecraft:sand,minecraft:gravel"
+    }
+  },
+  "perk_text": "{v}% chance clay, sand and gravel drop double"
+}

@@ -1,0 +1,30 @@
+{
+  "rarity": "common",
+  "category": "crafting",
+  "trigger": {
+    "type": "stat_increment",
+    "match": "minecraft:play_record",
+    "chance": 0.2
+  },
+  "icon": "minecraft:jukebox",
+  "art": "minecraft:jukebox",
+  "perk": {
+    "mechanic": "habits:dj",
+    "params": {
+      "songs": "13=night_vision,11=night_vision,cat=luck,blocks=haste,chirp=jump_boost,far=speed,mall=haste,mellohi=regeneration,stal=strength,strad=speed,ward=resistance,wait=water_breathing,pigstep=strength,otherside=speed,5=resistance,relic=luck,creator=haste,creator_music_box=regeneration,precipice=jump_boost,default=speed",
+      "amp": "0..1"
+    },
+    "values": [
+      8,
+      11,
+      15,
+      18,
+      22,
+      25,
+      29,
+      32,
+      36,
+      40
+    ]
+  }
+}

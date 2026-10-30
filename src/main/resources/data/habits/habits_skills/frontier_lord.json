@@ -1,0 +1,30 @@
+{
+  "rarity": "mythical",
+  "category": "exploration",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:elite_far_kill",
+    "min": 3,
+    "chance": 0.25
+  },
+  "icon": "minecraft:recovery_compass",
+  "art": "minecraft:reinforced_deepslate",
+  "perk": {
+    "mechanic": "habits:movement/frontier_lord",
+    "params": {
+      "sigil": "5..50"
+    },
+    "values": [
+      5,
+      10,
+      15,
+      20,
+      25,
+      30,
+      35,
+      40,
+      45,
+      50
+    ]
+  }
+}

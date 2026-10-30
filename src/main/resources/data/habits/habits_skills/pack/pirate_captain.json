@@ -1,0 +1,1 @@
+{"rarity":"rare","category":"warrior","trigger":{"type":"enter_structure","match":["dungeons_arise:undead_pirate_ship","dungeons_arise:illager_galley","dungeons_arise:illager_corsair"],"chance":0.6},"icon":"minecraft:spyglass","art":"minecraft:dark_oak_planks","perk":{"type":"damage_bonus","params":{"entity":"#minecraft:undead"},"base":5,"per_level":4}}

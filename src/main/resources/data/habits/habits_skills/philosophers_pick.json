@@ -1,0 +1,30 @@
+{
+  "rarity": "mythical",
+  "category": "mining",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:ore_rainbow",
+    "chance": 0.33
+  },
+  "icon": "minecraft:netherite_pickaxe",
+  "art": "minecraft:deepslate_gold_ore",
+  "perk": {
+    "mechanic": "habits:philosophers_pick",
+    "values": [
+      3,
+      5,
+      7,
+      9,
+      11,
+      13,
+      15,
+      17,
+      19,
+      22
+    ],
+    "params": {
+      "scrap_from": "10",
+      "scrap_chance": "2"
+    }
+  }
+}

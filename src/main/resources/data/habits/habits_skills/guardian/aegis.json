@@ -1,0 +1,30 @@
+{
+  "rarity": "legendary",
+  "category": "guardian",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:block_streak",
+    "chance": 0.02,
+    "min": 15
+  },
+  "icon": "minecraft:netherite_ingot",
+  "art": "minecraft:crying_obsidian",
+  "perk": {
+    "mechanic": "habits:survival/aegis",
+    "values": [
+      60,
+      54,
+      49,
+      43,
+      38,
+      32,
+      27,
+      21,
+      16,
+      10
+    ],
+    "params": {
+      "streak_window": "60"
+    }
+  }
+}

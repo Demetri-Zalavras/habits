@@ -1,0 +1,29 @@
+{
+  "rarity": "rare",
+  "category": "crafting",
+  "trigger": {
+    "type": "stat_increment",
+    "match": "minecraft:tune_noteblock",
+    "chance": 0.00111
+  },
+  "icon": "minecraft:note_block",
+  "art": "minecraft:jukebox",
+  "perk": {
+    "mechanic": "habits:perfect_pitch",
+    "params": {
+      "radius": "8"
+    },
+    "values": [
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      1,
+      1.2,
+      1.4,
+      1.6,
+      1.8,
+      2
+    ]
+  }
+}

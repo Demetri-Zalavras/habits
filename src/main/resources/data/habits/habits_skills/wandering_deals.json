@@ -1,0 +1,30 @@
+{
+  "rarity": "rare",
+  "category": "crafting",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:trade_wandering",
+    "chance": 0.0167
+  },
+  "icon": "minecraft:lead",
+  "art": "minecraft:blue_wool",
+  "perk": {
+    "mechanic": "habits:wandering_deals",
+    "params": {
+      "slots": "1..3",
+      "offers": "minecraft:heart_of_the_sea=24,minecraft:echo_shard=12,minecraft:sniffer_egg=16,minecraft:nautilus_shell=8,minecraft:wild_armor_trim_smithing_template=20,minecraft:coast_armor_trim_smithing_template=20,minecraft:music_disc_pigstep=24,minecraft:totem_of_undying=32"
+    },
+    "values": [
+      10.0,
+      20.0,
+      30.0,
+      40.0,
+      50.0,
+      60.0,
+      70.0,
+      80.0,
+      90.0,
+      100.0
+    ]
+  }
+}

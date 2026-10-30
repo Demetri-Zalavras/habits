@@ -1,0 +1,9 @@
+{
+  "rarity": "rare",
+  "category": "ranger",
+  "trigger": {"type": "damage_dealt", "match": "#minecraft:is_projectile", "item": "minecraft:crossbow", "entity": "#minecraft:skeletons", "chance": 0.00556},
+  "icon": "minecraft:crossbow",
+  "art": "minecraft:bone_block",
+  "perk": {"type": "damage_bonus", "params": {"damage": "#minecraft:is_projectile", "item": "minecraft:crossbow"}, "base": 5, "per_level": 5},
+  "perk_text": "Crossbow damage +{v}%"
+}

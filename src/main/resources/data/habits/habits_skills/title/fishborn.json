@@ -1,0 +1,36 @@
+{
+  "rarity": "rare",
+  "category": "movement",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:never",
+    "chance": 0
+  },
+  "icon": "minecraft:tropical_fish",
+  "art": "minecraft:prismarine",
+  "perk": {
+    "type": "attribute",
+    "params": {
+      "attribute": "minecraft:generic.oxygen_bonus",
+      "operation": "add_value"
+    },
+    "values": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "title": {
+    "stat_type": "minecraft:custom",
+    "stat": "minecraft:swim_one_cm",
+    "min": 1000000
+  },
+  "perk_text": "Breath +{v}"
+}

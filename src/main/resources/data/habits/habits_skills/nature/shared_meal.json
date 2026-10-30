@@ -1,0 +1,32 @@
+{
+  "rarity": "uncommon",
+  "category": "nature",
+  "trigger": {
+    "type": "interact_entity",
+    "match": [
+      "minecraft:wolf",
+      "minecraft:cat"
+    ],
+    "chance": 0.0625
+  },
+  "icon": "minecraft:bone",
+  "art": "minecraft:white_wool",
+  "perk": {
+    "mechanic": "habits:nature/shared_meal",
+    "values": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "params": {
+      "radius": "12,24"
+    }
+  }
+}

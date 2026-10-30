@@ -1,0 +1,1 @@
+{"rarity":"rare","category":"guardian","trigger":{"type":"use_item","match":["supplementaries:bomb","supplementaries:bomb_blue"],"chance":0.05},"icon":"supplementaries:bomb","art":"minecraft:tnt","perk":{"type":"damage_type_resist","params":{"damage":"#minecraft:is_explosion"},"base":5,"per_level":5}}

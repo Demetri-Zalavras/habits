@@ -1,0 +1,29 @@
+{
+  "rarity": "uncommon",
+  "category": "guardian",
+  "trigger": {
+    "type": "custom_units",
+    "match": "habits:shield_up_seconds",
+    "chance": 0.006
+  },
+  "icon": "minecraft:turtle_scute",
+  "art": "minecraft:prismarine",
+  "perk": {
+    "mechanic": "habits:survival/shell_rest",
+    "values": [
+      0.2,
+      0.29,
+      0.38,
+      0.47,
+      0.56,
+      0.64,
+      0.73,
+      0.82,
+      0.91,
+      1
+    ],
+    "params": {
+      "calm": "3..1"
+    }
+  }
+}

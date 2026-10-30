@@ -1,0 +1,29 @@
+{
+  "rarity": "common",
+  "category": "farming",
+  "trigger": {
+    "type": "plant",
+    "match": "#minecraft:saplings",
+    "chance": 0.01
+  },
+  "icon": "minecraft:spruce_sapling",
+  "art": "minecraft:podzol",
+  "perk": {
+    "mechanic": "habits:forester",
+    "params": {
+      "delay": "10,1"
+    },
+    "values": [
+      20,
+      29,
+      38,
+      47,
+      56,
+      64,
+      73,
+      82,
+      91,
+      100
+    ]
+  }
+}

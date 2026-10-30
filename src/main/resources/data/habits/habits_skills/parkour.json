@@ -1,0 +1,29 @@
+{
+  "rarity": "uncommon",
+  "category": "movement",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:long_jump",
+    "chance": 0.0156
+  },
+  "icon": "minecraft:golden_boots",
+  "art": "minecraft:oak_planks",
+  "perk": {
+    "mechanic": "habits:movement/parkour",
+    "params": {
+      "grab": "0.2..0.6"
+    },
+    "values": [
+      5,
+      9,
+      13,
+      17,
+      21,
+      24,
+      28,
+      32,
+      36,
+      40
+    ]
+  }
+}

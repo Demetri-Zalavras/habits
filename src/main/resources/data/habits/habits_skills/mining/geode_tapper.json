@@ -1,0 +1,30 @@
+{
+  "rarity": "uncommon",
+  "category": "mining",
+  "trigger": {
+    "type": "break_block",
+    "match": "minecraft:amethyst_cluster",
+    "chance": 0.0104
+  },
+  "icon": "minecraft:amethyst_cluster",
+  "art": "minecraft:budding_amethyst",
+  "perk": {
+    "type": "drop_bonus",
+    "params": {
+      "block": "minecraft:amethyst_cluster"
+    },
+    "values": [
+      5,
+      10,
+      15,
+      20,
+      25,
+      30,
+      35,
+      40,
+      45,
+      50
+    ]
+  },
+  "perk_text": "{v}% chance an amethyst cluster drops double"
+}

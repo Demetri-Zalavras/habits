@@ -1,0 +1,26 @@
+{
+  "rarity": "epic",
+  "category": "mining",
+  "trigger": {
+    "type": "enter_structure",
+    "match": "minecraft:fortress",
+    "chance": 0.15
+  },
+  "icon": "minecraft:magma_cream",
+  "art": "minecraft:netherrack",
+  "perk": {
+    "mechanic": "habits:mining/fireproof_haul",
+    "values": [
+      25,
+      33,
+      42,
+      50,
+      58,
+      67,
+      75,
+      83,
+      92,
+      100
+    ]
+  }
+}

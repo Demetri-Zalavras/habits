@@ -1,0 +1,29 @@
+{
+  "rarity": "common",
+  "category": "ranger",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:arrow_pickup",
+    "chance": 0.0167
+  },
+  "icon": "minecraft:arrow",
+  "art": "minecraft:barrel",
+  "perk": {
+    "mechanic": "habits:quartermaster",
+    "values": [
+      10,
+      15,
+      20,
+      25,
+      30,
+      35,
+      40,
+      45,
+      50,
+      60
+    ],
+    "params": {
+      "return": "0,0,0,0,100,90,80,70,65,60"
+    }
+  }
+}

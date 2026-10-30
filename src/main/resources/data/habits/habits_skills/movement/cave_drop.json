@@ -1,0 +1,31 @@
+{
+  "rarity": "rare",
+  "category": "movement",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:cave_fall",
+    "chance": 0.033
+  },
+  "icon": "minecraft:pointed_dripstone",
+  "art": "minecraft:dripstone_block",
+  "perk": {
+    "type": "damage_type_resist",
+    "params": {
+      "damage": "minecraft:fall",
+      "condition": "underground"
+    },
+    "values": [
+      8,
+      16,
+      24,
+      32,
+      40,
+      48,
+      56,
+      64,
+      72,
+      80
+    ]
+  },
+  "perk_text": "Fall damage -{v}% underground"
+}

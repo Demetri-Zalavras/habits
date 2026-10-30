@@ -1,0 +1,30 @@
+{
+  "rarity": "rare",
+  "category": "mining",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:mining/buried_ore",
+    "chance": 0.01111
+  },
+  "icon": "minecraft:compass",
+  "art": "minecraft:iron_ore",
+  "perk": {
+    "mechanic": "habits:mining/prospector",
+    "params": {
+      "count": "1..5",
+      "cooldown_s": "3"
+    },
+    "values": [
+      4,
+      5,
+      7,
+      8,
+      9,
+      11,
+      12,
+      13,
+      15,
+      16
+    ]
+  }
+}

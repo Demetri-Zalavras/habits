@@ -1,0 +1,26 @@
+{
+  "rarity": "uncommon",
+  "category": "movement",
+  "trigger": {
+    "type": "custom_units",
+    "match": "habits:shaft",
+    "chance": 0.000625
+  },
+  "icon": "minecraft:cobblestone_wall",
+  "art": "minecraft:bricks",
+  "perk": {
+    "mechanic": "habits:movement/chimney_climber",
+    "values": [
+      3,
+      5,
+      8,
+      11,
+      14,
+      17,
+      20,
+      24,
+      28,
+      60
+    ]
+  }
+}

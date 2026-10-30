@@ -1,0 +1,26 @@
+{
+  "rarity": "uncommon",
+  "category": "guardian",
+  "trigger": {
+    "type": "eat",
+    "match": "minecraft:honey_bottle",
+    "chance": 0.0625
+  },
+  "icon": "minecraft:honey_bottle",
+  "art": "minecraft:honey_block",
+  "perk": {
+    "mechanic": "habits:survival/honey_cure",
+    "values": [
+      20,
+      29,
+      38,
+      47,
+      56,
+      64,
+      73,
+      82,
+      91,
+      100
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "rarity": "uncommon",
+  "category": "guardian",
+  "trigger": {
+    "type": "damage_taken",
+    "match": "minecraft:stalagmite",
+    "chance": 0.312
+  },
+  "icon": "minecraft:pointed_dripstone",
+  "art": "minecraft:dripstone_block",
+  "perk": {
+    "mechanic": "habits:survival/spike_lander",
+    "values": [
+      20,
+      29,
+      38,
+      47,
+      56,
+      64,
+      73,
+      82,
+      91,
+      100
+    ]
+  }
+}

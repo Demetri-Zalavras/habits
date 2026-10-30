@@ -1,0 +1,25 @@
+{
+  "rarity": "common",
+  "category": "crafting",
+  "trigger": {
+    "type": "smelt",
+    "chance": 0.025
+  },
+  "icon": "minecraft:coal",
+  "art": "minecraft:furnace",
+  "perk": {
+    "mechanic": "habits:stoker",
+    "values": [
+      10,
+      30,
+      50,
+      70,
+      90,
+      110,
+      130,
+      150,
+      175,
+      200
+    ]
+  }
+}

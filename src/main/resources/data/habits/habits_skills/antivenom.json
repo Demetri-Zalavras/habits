@@ -1,0 +1,29 @@
+{
+  "rarity": "common",
+  "category": "guardian",
+  "trigger": {
+    "type": "damage_taken",
+    "match": "minecraft:magic",
+    "chance": 0.00208
+  },
+  "icon": "minecraft:spider_eye",
+  "art": "minecraft:moss_block",
+  "perk": {
+    "mechanic": "habits:survival/antivenom",
+    "params": {
+      "floor": "1..6"
+    },
+    "values": [
+      15,
+      22,
+      29,
+      37,
+      44,
+      51,
+      58,
+      66,
+      73,
+      80
+    ]
+  }
+}

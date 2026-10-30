@@ -1,0 +1,18 @@
+{
+  "rarity": "common",
+  "category": "crafting",
+  "trigger": {
+    "type": "stat_increment",
+    "match": "minecraft:interact_with_furnace",
+    "chance": 0.03333
+  },
+  "icon": "minecraft:coal",
+  "art": "minecraft:furnace",
+  "perk": {
+    "mechanic": "habits:crafting/forge_rhythm",
+    "values": [10, 16, 21, 27, 32, 38, 43, 49, 54, 60],
+    "params": {
+      "amp": "0..1"
+    }
+  }
+}

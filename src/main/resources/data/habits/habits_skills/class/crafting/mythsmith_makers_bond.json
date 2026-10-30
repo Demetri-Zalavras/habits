@@ -1,0 +1,30 @@
+{
+  "rarity": "legendary",
+  "category": "crafting",
+  "class": "habits:class/crafting/mythsmith",
+  "trigger": {
+    "type": "damage_dealt",
+    "match": "minecraft:player_attack",
+    "chance": 0.0008
+  },
+  "icon": "minecraft:golden_sword",
+  "art": "minecraft:gold_block",
+  "perk": {
+    "mechanic": "habits:crafting/makers_bond",
+    "values": [
+      10,
+      12,
+      14,
+      17,
+      19,
+      21,
+      23,
+      26,
+      28,
+      30
+    ],
+    "params": {
+      "guard": "2..5"
+    }
+  }
+}

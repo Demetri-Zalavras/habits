@@ -1,0 +1,30 @@
+{
+  "rarity": "common",
+  "category": "guardian",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:ambushed",
+    "chance": 0.15,
+    "min": 120
+  },
+  "icon": "minecraft:iron_chestplate",
+  "art": "minecraft:stone_bricks",
+  "perk": {
+    "mechanic": "habits:survival/rested_guard",
+    "values": [
+      15,
+      20,
+      25,
+      30,
+      35,
+      40,
+      45,
+      50,
+      55,
+      60
+    ],
+    "params": {
+      "quiet": "30..10"
+    }
+  }
+}

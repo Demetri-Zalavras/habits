@@ -1,0 +1,29 @@
+{
+  "rarity": "common",
+  "category": "nature",
+  "trigger": {
+    "type": "pickup_item",
+    "match": "minecraft:egg",
+    "chance": 0.05
+  },
+  "icon": "minecraft:egg",
+  "art": "minecraft:hay_block",
+  "perk": {
+    "mechanic": "habits:egg_collector",
+    "params": {
+      "radius": "8,24"
+    },
+    "values": [
+      1.5,
+      2,
+      2.5,
+      3,
+      3.5,
+      4,
+      4.5,
+      5,
+      5.5,
+      6
+    ]
+  }
+}

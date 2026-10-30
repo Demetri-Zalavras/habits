@@ -1,0 +1,29 @@
+{
+  "rarity": "common",
+  "category": "building",
+  "trigger": {
+    "type": "use_item",
+    "match": "minecraft:painting",
+    "chance": 0.05
+  },
+  "icon": "minecraft:painting",
+  "art": "minecraft:oak_planks",
+  "perk": {
+    "mechanic": "habits:building/gallery",
+    "values": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "params": {
+      "any_size_level": "5"
+    }
+  }
+}

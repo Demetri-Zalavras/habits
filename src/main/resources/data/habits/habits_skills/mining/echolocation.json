@@ -1,0 +1,33 @@
+{
+  "rarity": "uncommon",
+  "category": "mining",
+  "trigger": {
+    "type": "break_block",
+    "match": [
+      "minecraft:amethyst_block",
+      "minecraft:budding_amethyst"
+    ],
+    "chance": 0.00417
+  },
+  "icon": "minecraft:amethyst_shard",
+  "art": "minecraft:amethyst_block",
+  "perk": {
+    "mechanic": "habits:mining/echolocation",
+    "params": {
+      "cooldown_s": "20..5",
+      "glow_s": "3"
+    },
+    "values": [
+      6,
+      8,
+      10,
+      12,
+      14,
+      16,
+      18,
+      20,
+      22,
+      24
+    ]
+  }
+}

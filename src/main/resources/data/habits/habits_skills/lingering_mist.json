@@ -1,0 +1,30 @@
+{
+  "rarity": "uncommon",
+  "category": "ranger",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:lingering_hit",
+    "chance": 0.0312
+  },
+  "icon": "minecraft:lingering_potion",
+  "art": "minecraft:purple_stained_glass",
+  "perk": {
+    "mechanic": "habits:lingering_mist",
+    "values": [
+      20.0,
+      40.0,
+      60.0,
+      80.0,
+      100.0,
+      120.0,
+      140.0,
+      160.0,
+      180.0,
+      200.0
+    ],
+    "params": {
+      "shrink": "100..0",
+      "drift": "0..2"
+    }
+  }
+}

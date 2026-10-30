@@ -1,0 +1,27 @@
+{
+  "rarity": "rare",
+  "category": "building",
+  "class": "habits:class/building/steeplejack",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:jump_pillar",
+    "chance": 0.00167
+  },
+  "icon": "minecraft:oak_slab",
+  "art": "minecraft:stripped_spruce_log",
+  "perk": {
+    "mechanic": "habits:building/hover",
+    "values": [
+      1,
+      1.5,
+      2,
+      2.5,
+      3,
+      3.5,
+      4,
+      4.5,
+      5,
+      6
+    ]
+  }
+}

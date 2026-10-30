@@ -1,0 +1,27 @@
+{
+  "rarity": "rare",
+  "category": "warrior",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:melee_kill",
+    "chance": 0.0167,
+    "entity": "minecraft:breeze"
+  },
+  "icon": "minecraft:breeze_rod",
+  "art": "minecraft:tuff_bricks",
+  "perk": {
+    "mechanic": "habits:melee/deflector",
+    "values": [
+      8.0,
+      13.0,
+      17.0,
+      22.0,
+      27.0,
+      31.0,
+      36.0,
+      41.0,
+      45.0,
+      50.0
+    ]
+  }
+}

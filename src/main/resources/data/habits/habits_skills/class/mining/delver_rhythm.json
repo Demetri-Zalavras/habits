@@ -1,0 +1,32 @@
+{
+  "rarity": "uncommon",
+  "category": "mining",
+  "class": "habits:class/mining/delver",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:dark_break",
+    "chance": 0.003
+  },
+  "icon": "minecraft:golden_pickaxe",
+  "art": "minecraft:tuff",
+  "perk": {
+    "type": "mob_effect_conditional",
+    "params": {
+      "effect": "minecraft:haste",
+      "condition": "underground"
+    },
+    "values": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      2
+    ]
+  },
+  "perk_text": "Haste {v} while underground"
+}

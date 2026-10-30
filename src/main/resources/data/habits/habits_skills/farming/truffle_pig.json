@@ -1,0 +1,36 @@
+{
+  "rarity": "uncommon",
+  "category": "farming",
+  "trigger": {
+    "type": "interact_entity",
+    "match": "minecraft:pig",
+    "item": [
+      "minecraft:carrot",
+      "minecraft:potato",
+      "minecraft:beetroot"
+    ],
+    "chance": 0.01
+  },
+  "icon": "minecraft:brown_mushroom",
+  "art": "minecraft:podzol",
+  "perk": {
+    "mechanic": "habits:farming/truffle_pig",
+    "params": {
+      "items": "minecraft:brown_mushroom,minecraft:red_mushroom,minecraft:beetroot_seeds,minecraft:potato,minecraft:carrot,minecraft:bone",
+      "rare": "2,10",
+      "rare_items": "minecraft:emerald,minecraft:golden_carrot,minecraft:torchflower_seeds"
+    },
+    "values": [
+      600,
+      540,
+      480,
+      420,
+      360,
+      300,
+      240,
+      180,
+      120,
+      60
+    ]
+  }
+}

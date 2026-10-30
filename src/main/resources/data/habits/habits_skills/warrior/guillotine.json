@@ -1,0 +1,30 @@
+{
+  "rarity": "epic",
+  "category": "warrior",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:one_shot",
+    "item": "#minecraft:axes",
+    "chance": 0.0056
+  },
+  "icon": "minecraft:diamond_axe",
+  "art": "minecraft:stripped_dark_oak_log",
+  "perk": {
+    "mechanic": "habits:melee/guillotine",
+    "params": {
+      "value_max": "50"
+    },
+    "values": [
+      8.0,
+      10.0,
+      12.0,
+      14.0,
+      16.0,
+      17.0,
+      19.0,
+      21.0,
+      23.0,
+      25.0
+    ]
+  }
+}

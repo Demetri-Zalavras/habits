@@ -1,0 +1,30 @@
+{
+  "rarity": "uncommon",
+  "category": "ranger",
+  "trigger": {
+    "type": "eat",
+    "match": "minecraft:spider_eye",
+    "chance": 0.0625
+  },
+  "icon": "minecraft:spider_eye",
+  "art": "minecraft:cobweb",
+  "perk": {
+    "mechanic": "habits:survival/spider_sense",
+    "params": {
+      "seconds": "5..60",
+      "poison_cut": "20..100"
+    },
+    "values": [
+      4,
+      6,
+      8,
+      11,
+      13,
+      15,
+      17,
+      20,
+      22,
+      24
+    ]
+  }
+}

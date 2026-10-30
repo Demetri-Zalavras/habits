@@ -1,0 +1,26 @@
+{
+  "rarity": "rare",
+  "category": "building",
+  "trigger": {
+    "type": "place_block",
+    "match": "minecraft:tripwire_hook",
+    "chance": 0.0167
+  },
+  "icon": "minecraft:tripwire_hook",
+  "art": "minecraft:oak_planks",
+  "perk": {
+    "mechanic": "habits:building/tripwire_spool",
+    "values": [
+      4,
+      6,
+      8,
+      11,
+      14,
+      18,
+      22,
+      28,
+      34,
+      40
+    ]
+  }
+}

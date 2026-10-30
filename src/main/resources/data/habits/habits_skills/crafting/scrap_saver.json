@@ -1,0 +1,15 @@
+{
+  "rarity": "uncommon",
+  "category": "crafting",
+  "trigger": {
+    "type": "anvil",
+    "match": "#minecraft:trimmable_armor",
+    "chance": 0.20833
+  },
+  "icon": "minecraft:leather",
+  "art": "minecraft:iron_block",
+  "perk": {
+    "mechanic": "habits:crafting/scrap_saver",
+    "values": [10, 16, 21, 27, 32, 38, 43, 49, 54, 60]
+  }
+}

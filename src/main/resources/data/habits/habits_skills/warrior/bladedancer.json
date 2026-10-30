@@ -1,0 +1,31 @@
+{
+  "rarity": "rare",
+  "category": "warrior",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:sweep",
+    "item": "#minecraft:swords",
+    "min": 3,
+    "chance": 0.0167
+  },
+  "icon": "minecraft:phantom_membrane",
+  "art": "minecraft:white_concrete",
+  "perk": {
+    "mechanic": "habits:melee/flow",
+    "params": {
+      "cap": "10,50"
+    },
+    "values": [
+      2.0,
+      2.3,
+      2.7,
+      3.0,
+      3.3,
+      3.7,
+      4.0,
+      4.3,
+      4.7,
+      5.0
+    ]
+  }
+}

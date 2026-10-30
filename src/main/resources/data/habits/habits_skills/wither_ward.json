@@ -1,0 +1,29 @@
+{
+  "rarity": "rare",
+  "category": "guardian",
+  "trigger": {
+    "type": "damage_taken",
+    "match": "minecraft:wither",
+    "chance": 0.00111
+  },
+  "icon": "minecraft:wither_rose",
+  "art": "minecraft:soul_sand",
+  "perk": {
+    "mechanic": "habits:survival/wither_ward",
+    "params": {
+      "heal": "0.4..4"
+    },
+    "values": [
+      15,
+      22,
+      29,
+      37,
+      44,
+      51,
+      58,
+      66,
+      73,
+      80
+    ]
+  }
+}

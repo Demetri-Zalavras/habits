@@ -1,0 +1,29 @@
+{
+  "rarity": "uncommon",
+  "category": "guardian",
+  "trigger": {
+    "type": "eat",
+    "match": "minecraft:poisonous_potato",
+    "chance": 0.0625
+  },
+  "icon": "minecraft:poisonous_potato",
+  "art": "minecraft:farmland",
+  "perk": {
+    "mechanic": "habits:survival/bad_potato",
+    "params": {
+      "buff_seconds": "3..30"
+    },
+    "values": [
+      30,
+      38,
+      46,
+      53,
+      61,
+      69,
+      77,
+      84,
+      92,
+      100
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "rarity": "rare",
+  "category": "guardian",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:drink_hurt",
+    "chance": 0.1,
+    "min": 60
+  },
+  "icon": "minecraft:potion",
+  "art": "minecraft:brewing_stand",
+  "perk": {
+    "mechanic": "habits:survival/emergency_flask",
+    "values": [
+      120,
+      110,
+      100,
+      90,
+      80,
+      70,
+      60,
+      50,
+      40,
+      30
+    ],
+    "params": {
+      "threshold": "6"
+    }
+  }
+}

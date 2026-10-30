@@ -1,0 +1,14 @@
+{
+  "rarity": "epic",
+  "category": "crafting",
+  "trigger": {
+    "type": "drink_potion",
+    "chance": 0.01667
+  },
+  "icon": "minecraft:potion",
+  "art": "minecraft:purpur_block",
+  "perk": {
+    "mechanic": "habits:crafting/shared_draught",
+    "values": [2, 3, 4, 5, 6, 8, 9, 10, 11, 12]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "rarity": "uncommon",
+  "category": "guardian",
+  "trigger": {
+    "type": "damage_taken",
+    "match": "minecraft:falling_stalactite",
+    "chance": 0.208
+  },
+  "icon": "minecraft:pointed_dripstone",
+  "art": "minecraft:dripstone_block",
+  "perk": {
+    "mechanic": "habits:survival/drip_dodger",
+    "params": {
+      "warn": "3..12"
+    },
+    "values": [
+      20,
+      28,
+      36,
+      43,
+      51,
+      59,
+      67,
+      74,
+      82,
+      90
+    ]
+  }
+}

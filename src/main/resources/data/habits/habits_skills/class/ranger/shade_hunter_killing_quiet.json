@@ -1,0 +1,31 @@
+{
+  "rarity": "rare",
+  "category": "ranger",
+  "class": "habits:class/ranger/shade_hunter",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:unaware_hit",
+    "chance": 0.0156
+  },
+  "icon": "minecraft:tipped_arrow",
+  "art": "minecraft:sculk",
+  "perk": {
+    "mechanic": "habits:silent_archer",
+    "values": [
+      40.0,
+      55.0,
+      70.0,
+      85.0,
+      100.0,
+      115.0,
+      130.0,
+      145.0,
+      160.0,
+      175.0
+    ],
+    "params": {
+      "calm": "2..10",
+      "calm_s": "6"
+    }
+  }
+}

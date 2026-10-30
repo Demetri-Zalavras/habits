@@ -1,0 +1,26 @@
+{
+  "rarity": "uncommon",
+  "category": "warrior",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:improvised_kill",
+    "chance": 0.0625
+  },
+  "icon": "minecraft:stick",
+  "art": "minecraft:crafting_table",
+  "perk": {
+    "mechanic": "habits:melee/improviser",
+    "values": [
+      5.0,
+      5.3,
+      5.7,
+      6.0,
+      6.3,
+      6.7,
+      7.0,
+      7.3,
+      7.7,
+      8.0
+    ]
+  }
+}

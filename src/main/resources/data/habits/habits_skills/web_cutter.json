@@ -1,0 +1,34 @@
+{
+  "rarity": "common",
+  "category": "mining",
+  "trigger": {
+    "type": "break_block",
+    "match": "minecraft:cobweb",
+    "item": [
+      "minecraft:shears",
+      "#c:tools/shear",
+      "#minecraft:swords"
+    ],
+    "chance": 0.00667
+  },
+  "icon": "minecraft:string",
+  "art": "minecraft:cobweb",
+  "perk": {
+    "mechanic": "habits:web_cutter",
+    "params": {
+      "radius_level": "10"
+    },
+    "values": [
+      20.0,
+      28.89,
+      37.78,
+      46.67,
+      55.56,
+      64.44,
+      73.33,
+      82.22,
+      91.11,
+      100.0
+    ]
+  }
+}

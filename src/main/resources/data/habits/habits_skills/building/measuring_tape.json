@@ -1,0 +1,26 @@
+{
+  "rarity": "uncommon",
+  "category": "building",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:long_reach",
+    "chance": 0.00625
+  },
+  "icon": "minecraft:paper",
+  "art": "minecraft:birch_planks",
+  "perk": {
+    "mechanic": "habits:building/measuring_tape",
+    "values": [
+      8,
+      16,
+      24,
+      32,
+      48,
+      64,
+      80,
+      96,
+      112,
+      128
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "rarity": "epic",
+  "category": "exploration",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:never",
+    "chance": 0
+  },
+  "icon": "minecraft:filled_map",
+  "art": "minecraft:grass_block",
+  "perk": {
+    "type": "xp_bonus",
+    "values": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ]
+  },
+  "title": {
+    "advancement": "minecraft:adventure/adventuring_time"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "rarity": "common",
+  "category": "movement",
+  "trigger": {
+    "type": "ride_distance",
+    "match": "minecraft:minecart",
+    "chance": 0.000208
+  },
+  "icon": "minecraft:rail",
+  "art": "minecraft:smooth_stone",
+  "perk": {
+    "mechanic": "habits:movement/rail_runner",
+    "values": [
+      10,
+      16,
+      21,
+      27,
+      32,
+      38,
+      43,
+      49,
+      54,
+      60
+    ]
+  }
+}

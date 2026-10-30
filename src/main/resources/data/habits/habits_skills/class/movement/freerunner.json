@@ -1,0 +1,29 @@
+{
+  "rarity": "rare",
+  "category": "movement",
+  "trigger": {
+    "type": "jump",
+    "chance": 0.00056
+  },
+  "icon": "minecraft:feather",
+  "art": "minecraft:bricks",
+  "perk": {
+    "mechanic": "habits:movement/freerunner",
+    "params": {
+      "jump": "5..20"
+    },
+    "values": [
+      5,
+      7,
+      9,
+      12,
+      14,
+      16,
+      18,
+      21,
+      23,
+      25
+    ]
+  },
+  "class_passive": true
+}

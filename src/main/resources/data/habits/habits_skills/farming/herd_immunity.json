@@ -1,0 +1,29 @@
+{
+  "rarity": "rare",
+  "category": "farming",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:farming/big_herd",
+    "chance": 0.0167
+  },
+  "icon": "minecraft:leather",
+  "art": "minecraft:hay_block",
+  "perk": {
+    "mechanic": "habits:farming/herd_immunity",
+    "params": {
+      "animals": "4"
+    },
+    "values": [
+      5,
+      8,
+      11,
+      13,
+      16,
+      19,
+      22,
+      24,
+      27,
+      30
+    ]
+  }
+}

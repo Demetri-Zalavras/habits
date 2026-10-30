@@ -1,0 +1,31 @@
+{
+  "rarity": "uncommon",
+  "category": "mining",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:mining/exposed_ore",
+    "chance": 0.01562
+  },
+  "icon": "minecraft:torch",
+  "art": "minecraft:coal_ore",
+  "perk": {
+    "type": "mining_speed",
+    "params": {
+      "block": "#c:ores",
+      "condition": "underground"
+    },
+    "values": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60,
+      70,
+      80,
+      90,
+      100
+    ]
+  },
+  "perk_text": "Underground, ore mines +{v}% faster"
+}

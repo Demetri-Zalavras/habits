@@ -1,0 +1,26 @@
+{
+  "rarity": "uncommon",
+  "category": "nature",
+  "trigger": {
+    "type": "custom_units",
+    "match": "habits:river_swim",
+    "chance": 0.000347
+  },
+  "icon": "minecraft:ender_eye",
+  "art": "minecraft:dark_prismarine",
+  "perk": {
+    "mechanic": "habits:nature/deep_watch",
+    "values": [
+      12,
+      16,
+      20,
+      24,
+      28,
+      32,
+      36,
+      40,
+      44,
+      48
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "rarity": "common",
+  "category": "farming",
+  "trigger": {
+    "type": "craft",
+    "match": "minecraft:sugar",
+    "chance": 0.0167
+  },
+  "icon": "minecraft:sugar",
+  "art": "minecraft:sugar_cane",
+  "perk": {
+    "mechanic": "habits:survival/sweet_tooth",
+    "params": {
+      "amp": "0,0,0,0,0,1,1,1,1,1"
+    },
+    "values": [
+      5,
+      9,
+      13,
+      17,
+      21,
+      24,
+      28,
+      32,
+      36,
+      40
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "rarity": "uncommon",
+  "category": "guardian",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:turtle_underwater_minute",
+    "chance": 0.0625
+  },
+  "icon": "minecraft:turtle_helmet",
+  "art": "minecraft:sand",
+  "perk": {
+    "mechanic": "habits:survival/turtle_shell",
+    "params": {
+      "crouch_resist": "0,0,0,0,0,0,0,0,0,1"
+    },
+    "values": [
+      5,
+      11,
+      17,
+      23,
+      29,
+      36,
+      42,
+      48,
+      54,
+      60
+    ]
+  }
+}

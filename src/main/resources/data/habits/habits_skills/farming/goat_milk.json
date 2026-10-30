@@ -1,0 +1,27 @@
+{
+  "rarity": "uncommon",
+  "category": "farming",
+  "trigger": {
+    "type": "interact_entity",
+    "match": "minecraft:goat",
+    "item": "minecraft:bucket",
+    "chance": 0.03
+  },
+  "icon": "minecraft:milk_bucket",
+  "art": "minecraft:packed_mud",
+  "perk": {
+    "mechanic": "habits:survival/milk_drinker",
+    "values": [
+      20,
+      29,
+      38,
+      47,
+      56,
+      64,
+      73,
+      82,
+      91,
+      100
+    ]
+  }
+}

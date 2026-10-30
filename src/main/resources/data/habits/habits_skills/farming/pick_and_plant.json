@@ -1,0 +1,27 @@
+{
+  "rarity": "common",
+  "category": "farming",
+  "trigger": {
+    "type": "harvest_crop",
+    "match": "minecraft:wheat",
+    "item": "minecraft:wheat_seeds",
+    "chance": 0.0025
+  },
+  "icon": "minecraft:wheat",
+  "art": "minecraft:farmland",
+  "perk": {
+    "mechanic": "habits:farming/pick_and_plant",
+    "values": [
+      5,
+      10,
+      15,
+      20,
+      25,
+      30,
+      35,
+      40,
+      45,
+      50
+    ]
+  }
+}

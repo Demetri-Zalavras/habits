@@ -1,0 +1,30 @@
+{
+  "rarity": "uncommon",
+  "category": "building",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:build_golem",
+    "chance": 0.312
+  },
+  "icon": "minecraft:carved_pumpkin",
+  "art": "minecraft:iron_block",
+  "perk": {
+    "mechanic": "habits:golem_maker",
+    "params": {
+      "damage": "0..100",
+      "follow": "8..32"
+    },
+    "values": [
+      20,
+      40,
+      60,
+      80,
+      100,
+      120,
+      140,
+      160,
+      180,
+      200
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "rarity": "rare",
+  "category": "exploration",
+  "trigger": {
+    "type": "sprint_distance",
+    "chance": 0.0002
+  },
+  "icon": "minecraft:sugar",
+  "art": "minecraft:grass_block",
+  "perk": {
+    "type": "attribute",
+    "params": {
+      "attribute": "minecraft:generic.movement_speed",
+      "operation": "add_multiplied_base",
+      "condition": "day"
+    },
+    "values": [
+      3,
+      4,
+      6,
+      7,
+      8,
+      10,
+      11,
+      12,
+      14,
+      15
+    ]
+  },
+  "class": "habits:class/exploration/wayfarer",
+  "perk_text": "Speed +{v}% by day"
+}

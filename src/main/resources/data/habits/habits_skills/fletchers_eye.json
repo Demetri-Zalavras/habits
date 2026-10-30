@@ -1,0 +1,26 @@
+{
+  "rarity": "uncommon",
+  "category": "crafting",
+  "trigger": {
+    "type": "interact_block",
+    "match": "minecraft:fletching_table",
+    "chance": 0.0625
+  },
+  "icon": "minecraft:tipped_arrow",
+  "art": "minecraft:fletching_table",
+  "perk": {
+    "mechanic": "habits:fletchers_eye",
+    "values": [
+      8,
+      12,
+      16,
+      20,
+      26,
+      32,
+      40,
+      48,
+      56,
+      64
+    ]
+  }
+}

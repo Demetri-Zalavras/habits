@@ -1,0 +1,30 @@
+{
+  "rarity": "uncommon",
+  "category": "warrior",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:sprint_hit",
+    "item": "#minecraft:swords",
+    "chance": 0.0063
+  },
+  "icon": "minecraft:rabbit_foot",
+  "art": "minecraft:dirt_path",
+  "perk": {
+    "mechanic": "habits:melee/lunge",
+    "params": {
+      "cooldown": "6,2"
+    },
+    "values": [
+      4.0,
+      5.0,
+      5.0,
+      6.0,
+      7.0,
+      7.0,
+      8.0,
+      9.0,
+      9.0,
+      10.0
+    ]
+  }
+}

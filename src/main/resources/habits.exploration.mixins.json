@@ -1,0 +1,9 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.habits.perk.exploration.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": ["BrushableBlockEntityMixin"],
+  "client": [],
+  "injectors": {"defaultRequire": 1}
+}

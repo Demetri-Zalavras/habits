@@ -1,0 +1,50 @@
+{
+  "rarity": "epic",
+  "category": "mining",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:mining/stone_streak",
+    "chance": 0.01667
+  },
+  "icon": "minecraft:netherite_pickaxe",
+  "art": "minecraft:stone",
+  "perk": {
+    "mechanic": "habits:mining/earthbreaker",
+    "params": {
+      "per_tick": "6"
+    },
+    "values": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      6,
+      7,
+      8,
+      8,
+      9
+    ]
+  },
+  "forks": [
+    {
+      "level": 5,
+      "options": [
+        {
+          "id": "deep_bore",
+          "scale": 1.3,
+          "params": {
+            "per_tick": "3"
+          }
+        },
+        {
+          "id": "quick_face",
+          "scale": 0.75,
+          "params": {
+            "per_tick": "12"
+          }
+        }
+      ]
+    }
+  ]
+}

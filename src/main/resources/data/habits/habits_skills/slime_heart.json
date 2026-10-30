@@ -1,0 +1,29 @@
+{
+  "rarity": "rare",
+  "category": "ranger",
+  "trigger": {
+    "type": "drink_potion",
+    "match": "minecraft:oozing",
+    "chance": 0.0333
+  },
+  "icon": "minecraft:slime_ball",
+  "art": "minecraft:slime_block",
+  "perk": {
+    "mechanic": "habits:survival/slime_heart",
+    "params": {
+      "ooze_chance": "10"
+    },
+    "values": [
+      10,
+      12,
+      14,
+      17,
+      19,
+      21,
+      23,
+      26,
+      28,
+      30
+    ]
+  }
+}

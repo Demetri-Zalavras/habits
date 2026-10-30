@@ -1,0 +1,30 @@
+{
+  "rarity": "uncommon",
+  "category": "guardian",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:heal_splash_ally",
+    "chance": 0.05
+  },
+  "icon": "minecraft:red_dye",
+  "art": "minecraft:red_wool",
+  "perk": {
+    "mechanic": "habits:survival/transfusion",
+    "values": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "params": {
+      "floor": "6",
+      "cooldown": "10..3"
+    }
+  }
+}

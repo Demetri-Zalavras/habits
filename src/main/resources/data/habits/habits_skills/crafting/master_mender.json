@@ -1,0 +1,15 @@
+{
+  "rarity": "uncommon",
+  "category": "crafting",
+  "trigger": {
+    "type": "anvil",
+    "match": ["#minecraft:pickaxes", "#minecraft:axes", "#minecraft:shovels", "#minecraft:hoes", "#minecraft:swords"],
+    "chance": 0.125
+  },
+  "icon": "minecraft:diamond_pickaxe",
+  "art": "minecraft:anvil",
+  "perk": {
+    "mechanic": "habits:crafting/master_mender",
+    "values": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
+  }
+}

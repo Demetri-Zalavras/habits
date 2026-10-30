@@ -1,0 +1,31 @@
+{
+  "rarity": "uncommon",
+  "category": "warrior",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:melee_kill",
+    "chance": 0.0208,
+    "entity": "minecraft:wither_skeleton"
+  },
+  "icon": "minecraft:wither_skeleton_skull",
+  "art": "minecraft:blackstone",
+  "perk": {
+    "mechanic": "habits:melee/wither_hand",
+    "params": {
+      "chance": "10,100",
+      "level": "0,0,0,0,0,1,1,1,1,1"
+    },
+    "values": [
+      2.0,
+      2.4,
+      2.9,
+      3.3,
+      3.8,
+      4.2,
+      4.7,
+      5.1,
+      5.6,
+      6.0
+    ]
+  }
+}

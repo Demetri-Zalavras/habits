@@ -1,0 +1,1 @@
+{"rarity":"uncommon","category":"guardian","trigger":{"type":"enter_biome","match":["terralith:caldera","terralith:basalt_cliffs","terralith:ashen_savanna"],"chance":0.3},"icon":"minecraft:magma_block","art":"minecraft:basalt","perk":{"type":"damage_type_resist","params":{"damage":"#minecraft:is_fire"},"base":4,"per_level":4}}

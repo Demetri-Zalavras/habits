@@ -1,0 +1,31 @@
+{
+  "rarity": "uncommon",
+  "category": "ranger",
+  "trigger": {
+    "type": "damage_dealt",
+    "match": "minecraft:fireworks",
+    "chance": 0.0156
+  },
+  "icon": "minecraft:firework_rocket",
+  "art": "minecraft:red_wool",
+  "perk": {
+    "mechanic": "habits:firework_artillery",
+    "values": [
+      1,
+      1.3,
+      1.7,
+      2,
+      2.3,
+      2.7,
+      3,
+      3.3,
+      3.7,
+      4
+    ],
+    "params": {
+      "blast": "0.5..3",
+      "turn": "6..20",
+      "lock": "8..24"
+    }
+  }
+}

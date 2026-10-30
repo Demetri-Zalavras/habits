@@ -1,0 +1,29 @@
+{
+  "rarity": "common",
+  "category": "mining",
+  "trigger": {
+    "type": "pickup_item",
+    "match": "minecraft:coal",
+    "chance": 0.025
+  },
+  "icon": "minecraft:coal",
+  "art": "minecraft:coal_ore",
+  "perk": {
+    "mechanic": "habits:mining/coal_stoker",
+    "params": {
+      "food": "1..3"
+    },
+    "values": [
+      10,
+      16,
+      21,
+      27,
+      32,
+      38,
+      43,
+      49,
+      54,
+      60
+    ]
+  }
+}

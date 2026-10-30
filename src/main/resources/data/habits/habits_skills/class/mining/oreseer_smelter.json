@@ -1,0 +1,30 @@
+{
+  "rarity": "rare",
+  "category": "mining",
+  "class": "habits:class/mining/oreseer",
+  "trigger": {
+    "type": "break_block",
+    "match": "#minecraft:iron_ores",
+    "chance": 0.0083
+  },
+  "icon": "minecraft:blast_furnace",
+  "art": "minecraft:iron_ore",
+  "perk": {
+    "mechanic": "habits:hot_pick",
+    "params": {
+      "bonus": "10..50"
+    },
+    "values": [
+      30,
+      38,
+      46,
+      53,
+      61,
+      69,
+      77,
+      84,
+      92,
+      100
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "rarity": "common",
+  "category": "warrior",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:melee_kill",
+    "chance": 0.025,
+    "item": [
+      "minecraft:iron_sword",
+      "minecraft:iron_axe"
+    ]
+  },
+  "icon": "minecraft:iron_axe",
+  "art": "minecraft:smithing_table",
+  "perk": {
+    "mechanic": "habits:melee/tempered_edge",
+    "values": [
+      1.0,
+      2.0,
+      3.0,
+      3.0,
+      4.0,
+      5.0,
+      6.0,
+      6.0,
+      7.0,
+      8.0
+    ]
+  }
+}

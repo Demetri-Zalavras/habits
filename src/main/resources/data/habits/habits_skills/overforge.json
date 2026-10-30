@@ -1,0 +1,29 @@
+{
+  "rarity": "mythical",
+  "category": "crafting",
+  "trigger": {
+    "type": "anvil",
+    "min": 30,
+    "chance": 0.33
+  },
+  "icon": "minecraft:anvil",
+  "art": "minecraft:obsidian",
+  "perk": {
+    "mechanic": "habits:overforge",
+    "values": [
+      3,
+      6,
+      9,
+      12,
+      15,
+      18,
+      21,
+      24,
+      27,
+      30
+    ],
+    "params": {
+      "no_cap_from": "10"
+    }
+  }
+}

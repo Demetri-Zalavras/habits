@@ -1,0 +1,26 @@
+{
+  "rarity": "epic",
+  "category": "farming",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:sun_planting",
+    "chance": 0.00167
+  },
+  "icon": "minecraft:sunflower",
+  "art": "minecraft:grass_block",
+  "perk": {
+    "mechanic": "habits:photosynthesis",
+    "values": [
+      60,
+      53,
+      47,
+      40,
+      34,
+      27,
+      21,
+      14,
+      8,
+      4
+    ]
+  }
+}

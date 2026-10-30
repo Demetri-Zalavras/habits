@@ -1,0 +1,26 @@
+{
+  "rarity": "uncommon",
+  "category": "nature",
+  "trigger": {
+    "type": "custom_units",
+    "match": "habits:storm_walk",
+    "chance": 0.000241
+  },
+  "icon": "minecraft:clock",
+  "art": "minecraft:white_wool",
+  "perk": {
+    "mechanic": "habits:nature/cloud_reader",
+    "values": [
+      3,
+      6,
+      9,
+      12,
+      15,
+      18,
+      21,
+      24,
+      27,
+      30
+    ]
+  }
+}

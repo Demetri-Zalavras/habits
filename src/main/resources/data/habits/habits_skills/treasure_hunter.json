@@ -1,0 +1,36 @@
+{
+  "rarity": "rare",
+  "category": "nature",
+  "trigger": {
+    "type": "fish",
+    "match": [
+      "minecraft:enchanted_book",
+      "minecraft:bow",
+      "minecraft:fishing_rod",
+      "minecraft:saddle",
+      "minecraft:name_tag",
+      "minecraft:nautilus_shell"
+    ],
+    "chance": 0.167
+  },
+  "icon": "minecraft:nautilus_shell",
+  "art": "minecraft:prismarine_bricks",
+  "perk": {
+    "mechanic": "habits:treasure_hunter",
+    "params": {
+      "chest": "0.2,2"
+    },
+    "values": [
+      2,
+      5,
+      7,
+      10,
+      12,
+      15,
+      17,
+      20,
+      22,
+      25
+    ]
+  }
+}

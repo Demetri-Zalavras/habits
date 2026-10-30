@@ -1,0 +1,30 @@
+{
+  "rarity": "uncommon",
+  "category": "guardian",
+  "trigger": {
+    "type": "damage_taken",
+    "match": "minecraft:fireworks",
+    "chance": 0.0208
+  },
+  "icon": "minecraft:firework_rocket",
+  "art": "minecraft:red_wool",
+  "perk": {
+    "mechanic": "habits:survival/grand_finale",
+    "params": {
+      "heal": "0.1..1",
+      "glow_seconds": "2"
+    },
+    "values": [
+      30,
+      38,
+      46,
+      53,
+      61,
+      69,
+      77,
+      84,
+      92,
+      100
+    ]
+  }
+}

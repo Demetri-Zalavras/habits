@@ -1,0 +1,30 @@
+{
+  "rarity": "common",
+  "category": "mining",
+  "trigger": {
+    "type": "break_block",
+    "match": "#minecraft:coal_ores",
+    "chance": 0.0167
+  },
+  "icon": "minecraft:torch",
+  "art": "minecraft:coal_ore",
+  "perk": {
+    "mechanic": "habits:torchlight",
+    "params": {
+      "value_max": "14",
+      "cooldown_s": "10..1"
+    },
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      4,
+      5,
+      6,
+      6,
+      7
+    ]
+  }
+}

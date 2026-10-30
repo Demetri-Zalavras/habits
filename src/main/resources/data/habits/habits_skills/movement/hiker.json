@@ -1,0 +1,30 @@
+{
+  "rarity": "common",
+  "category": "movement",
+  "trigger": {
+    "type": "enter_biome",
+    "match": "#minecraft:is_mountain",
+    "chance": 0.2
+  },
+  "icon": "minecraft:goat_horn",
+  "art": "minecraft:calcite",
+  "perk": {
+    "type": "hunger_save",
+    "params": {
+      "condition": "biome=#minecraft:is_mountain"
+    },
+    "values": [
+      6,
+      12,
+      18,
+      24,
+      30,
+      36,
+      42,
+      48,
+      54,
+      60
+    ]
+  },
+  "perk_text": "Hunger -{v}% in the mountains"
+}

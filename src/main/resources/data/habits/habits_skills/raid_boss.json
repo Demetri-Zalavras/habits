@@ -1,0 +1,72 @@
+{
+  "rarity": "legendary",
+  "category": "warrior",
+  "trigger": {
+    "type": "stat_increment",
+    "match": "minecraft:raid_win",
+    "chance": 0.33
+  },
+  "icon": "minecraft:totem_of_undying",
+  "art": "minecraft:dark_oak_planks",
+  "perk": {
+    "mechanic": "habits:raid_boss",
+    "params": {
+      "totems": "1..3",
+      "emeralds": "4..32",
+      "strength": "0..1",
+      "resist_from": "10"
+    },
+    "values": [
+      20,
+      29,
+      38,
+      47,
+      56,
+      64,
+      73,
+      82,
+      91,
+      100
+    ]
+  },
+  "forks": [
+    {
+      "level": 5,
+      "options": [
+        {
+          "id": "totem_hunter",
+          "scale": 1.2,
+          "params": {
+            "emeralds": "2..16"
+          }
+        },
+        {
+          "id": "war_chest",
+          "scale": 0.7,
+          "params": {
+            "emeralds": "8..64"
+          }
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "options": [
+        {
+          "id": "warlord",
+          "params": {
+            "strength": "2",
+            "totems": "2"
+          }
+        },
+        {
+          "id": "hoarder",
+          "params": {
+            "strength": "0",
+            "totems": "4"
+          }
+        }
+      ]
+    }
+  ]
+}

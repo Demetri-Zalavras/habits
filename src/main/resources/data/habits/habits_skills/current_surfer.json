@@ -1,0 +1,29 @@
+{
+  "rarity": "common",
+  "category": "movement",
+  "trigger": {
+    "type": "custom_units",
+    "match": "habits:river_swim",
+    "chance": 0.000556
+  },
+  "icon": "minecraft:salmon",
+  "art": "minecraft:clay",
+  "perk": {
+    "mechanic": "habits:movement/current_surfer",
+    "params": {
+      "resist": "20..90"
+    },
+    "values": [
+      1.2,
+      1.4,
+      1.6,
+      1.8,
+      2.0,
+      2.2,
+      2.4,
+      2.6,
+      2.8,
+      3.0
+    ]
+  }
+}

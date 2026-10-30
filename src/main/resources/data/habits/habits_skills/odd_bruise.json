@@ -1,0 +1,26 @@
+{
+  "rarity": "common",
+  "category": "guardian",
+  "trigger": {
+    "type": "damage_taken",
+    "match": "minecraft:generic",
+    "chance": 0.5
+  },
+  "icon": "minecraft:bone",
+  "art": "minecraft:stone",
+  "perk": {
+    "mechanic": "habits:survival/odd_bruise",
+    "values": [
+      10,
+      18,
+      26,
+      33,
+      41,
+      49,
+      57,
+      64,
+      72,
+      80
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "rarity": "common",
+  "category": "crafting",
+  "trigger": {
+    "type": "open_container",
+    "match": ["minecraft:furnace", "minecraft:blast_furnace", "minecraft:smoker"],
+    "chance": 0.03333
+  },
+  "icon": "minecraft:coal_block",
+  "art": "minecraft:furnace",
+  "perk": {
+    "mechanic": "habits:crafting/stokers_pocket",
+    "values": [4, 8, 12, 16, 24, 32, 40, 48, 56, 64]
+  }
+}

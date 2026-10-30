@@ -1,0 +1,74 @@
+{
+  "rarity": "legendary",
+  "category": "ranger",
+  "trigger": {
+    "type": "kill_entity",
+    "match": "minecraft:warden",
+    "item": [
+      "minecraft:bow",
+      "minecraft:crossbow"
+    ],
+    "chance": 0.5
+  },
+  "icon": "minecraft:echo_shard",
+  "art": "minecraft:sculk",
+  "perk": {
+    "mechanic": "habits:ranged/sonic_shot",
+    "values": [
+      6.0,
+      7.0,
+      8.0,
+      9.0,
+      10.0,
+      11.0,
+      12.0,
+      13.0,
+      14.0,
+      15.0
+    ],
+    "params": {
+      "every": "8,8,7,7,6,6,5,5,4,4",
+      "range": "16..24"
+    }
+  },
+  "forks": [
+    {
+      "level": 5,
+      "options": [
+        {
+          "id": "rapid_boom",
+          "scale": 0.6,
+          "params": {
+            "every": "8,8,7,7,4,4,3,3,2,2"
+          }
+        },
+        {
+          "id": "charged_boom",
+          "scale": 1.7,
+          "params": {
+            "every": "8,8,7,7,9,9,8,8,7,7"
+          }
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "options": [
+        {
+          "id": "long_beam",
+          "scale": 0.8,
+          "params": {
+            "range": "24..36"
+          }
+        },
+        {
+          "id": "point_blank",
+          "scale": 1.25,
+          "params": {
+            "range": "10..14"
+          }
+        }
+      ]
+    }
+  ]
+}

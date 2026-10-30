@@ -1,0 +1,30 @@
+{
+  "rarity": "rare",
+  "category": "ranger",
+  "trigger": {
+    "type": "damage_dealt",
+    "match": "minecraft:arrow",
+    "entity": "minecraft:shulker",
+    "chance": 0.00556
+  },
+  "icon": "minecraft:shulker_shell",
+  "art": "minecraft:purpur_block",
+  "perk": {
+    "mechanic": "habits:shulker_sniper",
+    "values": [
+      10,
+      14,
+      19,
+      23,
+      28,
+      32,
+      37,
+      41,
+      46,
+      50
+    ],
+    "params": {
+      "secs": "1..4"
+    }
+  }
+}

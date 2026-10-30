@@ -1,0 +1,26 @@
+{
+  "rarity": "epic",
+  "category": "building",
+  "trigger": {
+    "type": "bucket_fill",
+    "match": "minecraft:water_bucket",
+    "chance": 0.00833
+  },
+  "icon": "minecraft:dried_kelp_block",
+  "art": "minecraft:sand",
+  "perk": {
+    "mechanic": "habits:building/dry_up",
+    "values": [
+      8,
+      12,
+      16,
+      24,
+      32,
+      48,
+      64,
+      80,
+      100,
+      128
+    ]
+  }
+}

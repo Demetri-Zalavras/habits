@@ -1,0 +1,33 @@
+{
+  "rarity": "uncommon",
+  "category": "warrior",
+  "trigger": {
+    "type": "drink_potion",
+    "match": [
+      "minecraft:strength",
+      "minecraft:long_strength",
+      "minecraft:strong_strength"
+    ],
+    "chance": 0.0625
+  },
+  "icon": "minecraft:blaze_powder",
+  "art": "minecraft:red_nether_bricks",
+  "perk": {
+    "mechanic": "habits:survival/heavy_hands",
+    "params": {
+      "amp": "0..2"
+    },
+    "values": [
+      1.0,
+      1.2,
+      1.4,
+      1.7,
+      1.9,
+      2.1,
+      2.3,
+      2.6,
+      2.8,
+      3.0
+    ]
+  }
+}

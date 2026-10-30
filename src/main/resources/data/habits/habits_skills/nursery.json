@@ -1,0 +1,29 @@
+{
+  "rarity": "common",
+  "category": "nature",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:feed_baby",
+    "chance": 0.0333
+  },
+  "icon": "minecraft:egg",
+  "art": "minecraft:hay_block",
+  "perk": {
+    "mechanic": "habits:nursery",
+    "params": {
+      "radius": "8,32"
+    },
+    "values": [
+      2,
+      4,
+      6,
+      8,
+      10,
+      12,
+      14,
+      16,
+      18,
+      20
+    ]
+  }
+}

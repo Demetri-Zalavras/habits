@@ -1,0 +1,31 @@
+{
+  "rarity": "common",
+  "category": "crafting",
+  "trigger": {
+    "type": "stat_increment",
+    "match": "minecraft:play_noteblock",
+    "chance": 0.00167
+  },
+  "icon": "minecraft:note_block",
+  "art": "minecraft:note_block",
+  "perk": {
+    "mechanic": "habits:composer",
+    "params": {
+      "slow_amp": "0..2",
+      "seconds": "2..4",
+      "weak_from": "10"
+    },
+    "values": [
+      4,
+      5,
+      7,
+      8,
+      9,
+      11,
+      12,
+      13,
+      15,
+      16
+    ]
+  }
+}

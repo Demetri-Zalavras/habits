@@ -1,0 +1,31 @@
+{
+  "rarity": "common",
+  "category": "nature",
+  "trigger": {
+    "type": "interact_entity",
+    "match": [
+      "minecraft:wolf",
+      "minecraft:cat",
+      "minecraft:parrot",
+      "minecraft:horse"
+    ],
+    "chance": 0.05
+  },
+  "icon": "minecraft:cooked_chicken",
+  "art": "minecraft:white_wool",
+  "perk": {
+    "mechanic": "habits:nature/pet_medic",
+    "values": [
+      2,
+      4,
+      6,
+      8,
+      10,
+      12,
+      14,
+      16,
+      18,
+      20
+    ]
+  }
+}

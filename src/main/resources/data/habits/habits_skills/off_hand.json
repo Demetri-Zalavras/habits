@@ -1,0 +1,26 @@
+{
+  "rarity": "uncommon",
+  "category": "warrior",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:dual_wield_hit",
+    "chance": 0.00313
+  },
+  "icon": "minecraft:golden_sword",
+  "art": "minecraft:jungle_planks",
+  "perk": {
+    "mechanic": "habits:melee/off_hand",
+    "values": [
+      10.0,
+      16.0,
+      21.0,
+      27.0,
+      32.0,
+      38.0,
+      43.0,
+      49.0,
+      54.0,
+      60.0
+    ]
+  }
+}

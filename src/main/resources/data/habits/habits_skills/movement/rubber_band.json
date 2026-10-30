@@ -1,0 +1,26 @@
+{
+  "rarity": "uncommon",
+  "category": "movement",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:pearl_teleport",
+    "chance": 0.0104
+  },
+  "icon": "minecraft:slime_ball",
+  "art": "minecraft:purpur_block",
+  "perk": {
+    "mechanic": "habits:movement/rubber_band",
+    "values": [
+      2,
+      2.7,
+      3.3,
+      4,
+      4.7,
+      5.3,
+      6,
+      6.7,
+      7.3,
+      8
+    ]
+  }
+}

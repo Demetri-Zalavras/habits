@@ -1,0 +1,29 @@
+{
+  "rarity": "rare",
+  "category": "building",
+  "trigger": {
+    "type": "sleep",
+    "chance": 0.667
+  },
+  "icon": "minecraft:red_bed",
+  "art": "minecraft:red_wool",
+  "perk": {
+    "mechanic": "habits:building/cozy_home",
+    "values": [
+      30,
+      60,
+      90,
+      120,
+      150,
+      180,
+      210,
+      240,
+      270,
+      300
+    ],
+    "params": {
+      "decor": "6",
+      "radius": "6"
+    }
+  }
+}

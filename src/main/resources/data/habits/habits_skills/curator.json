@@ -1,0 +1,32 @@
+{
+  "rarity": "uncommon",
+  "category": "building",
+  "trigger": {
+    "type": "use_item",
+    "chance": 0.0104,
+    "match": [
+      "minecraft:item_frame",
+      "minecraft:glow_item_frame"
+    ]
+  },
+  "icon": "minecraft:item_frame",
+  "art": "minecraft:oak_planks",
+  "perk": {
+    "mechanic": "habits:curator",
+    "params": {
+      "label_level": "5"
+    },
+    "values": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  }
+}

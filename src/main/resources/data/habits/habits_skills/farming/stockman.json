@@ -1,0 +1,39 @@
+{
+  "rarity": "rare",
+  "category": "farming",
+  "trigger": {
+    "type": "kill_entity",
+    "match": [
+      "minecraft:cow",
+      "minecraft:pig",
+      "minecraft:sheep",
+      "minecraft:chicken",
+      "minecraft:rabbit",
+      "minecraft:goat",
+      "minecraft:mooshroom"
+    ],
+    "item": "#minecraft:axes",
+    "chance": 0.011
+  },
+  "icon": "minecraft:iron_axe",
+  "art": "minecraft:stripped_spruce_log",
+  "perk": {
+    "type": "drop_bonus",
+    "params": {
+      "entity": "minecraft:cow,minecraft:pig,minecraft:sheep,minecraft:chicken,minecraft:rabbit,minecraft:goat,minecraft:mooshroom"
+    },
+    "values": [
+      10,
+      16,
+      21,
+      27,
+      32,
+      38,
+      43,
+      49,
+      54,
+      60
+    ]
+  },
+  "perk_text": "{v}% chance farm animals drop twice"
+}

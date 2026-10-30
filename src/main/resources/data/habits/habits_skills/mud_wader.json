@@ -1,0 +1,26 @@
+{
+  "rarity": "common",
+  "category": "movement",
+  "trigger": {
+    "type": "custom_units",
+    "match": "habits:mud_walk",
+    "chance": 0.000386
+  },
+  "icon": "minecraft:mud",
+  "art": "minecraft:mud",
+  "perk": {
+    "mechanic": "habits:movement/mud_wader",
+    "values": [
+      20,
+      29,
+      38,
+      47,
+      56,
+      64,
+      73,
+      82,
+      91,
+      100
+    ]
+  }
+}

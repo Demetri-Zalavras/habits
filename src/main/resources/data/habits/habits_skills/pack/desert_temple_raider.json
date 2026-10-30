@@ -1,0 +1,1 @@
+{"rarity":"uncommon","category":"exploration","trigger":{"type":"enter_structure","match":"betterdeserttemples:desert_temple","chance":0.5},"icon":"minecraft:sandstone","art":"minecraft:sand","perk":{"type":"drop_bonus","params":{"block":"#minecraft:sand,#minecraft:terracotta"},"base":5,"per_level":5}}

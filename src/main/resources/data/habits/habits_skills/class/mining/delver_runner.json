@@ -1,0 +1,33 @@
+{
+  "rarity": "rare",
+  "category": "mining",
+  "class": "habits:class/mining/delver",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:mining/stair_dig",
+    "chance": 0.0042
+  },
+  "icon": "minecraft:rail",
+  "art": "minecraft:deepslate_bricks",
+  "perk": {
+    "type": "attribute",
+    "params": {
+      "attribute": "minecraft:generic.movement_speed",
+      "operation": "add_multiplied_base",
+      "condition": "underground"
+    },
+    "values": [
+      4,
+      5,
+      6,
+      8,
+      9,
+      10,
+      11,
+      13,
+      14,
+      15
+    ]
+  },
+  "perk_text": "Move {v}% faster underground"
+}

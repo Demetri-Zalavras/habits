@@ -1,0 +1,73 @@
+{
+  "rarity": "epic",
+  "category": "warrior",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:melee_kill",
+    "entity": "minecraft:vex",
+    "chance": 0.0083
+  },
+  "icon": "minecraft:vex_armor_trim_smithing_template",
+  "art": "minecraft:amethyst_block",
+  "perk": {
+    "mechanic": "habits:melee/spirit_blades",
+    "params": {
+      "seconds": "6,12",
+      "damage": "2,6",
+      "radius": "4",
+      "value_max": "6"
+    },
+    "values": [
+      1.0,
+      1.0,
+      2.0,
+      2.0,
+      2.0,
+      3.0,
+      3.0,
+      3.0,
+      4.0,
+      4.0
+    ]
+  },
+  "forks": [
+    {
+      "level": 5,
+      "options": [
+        {
+          "id": "wide_orbit",
+          "params": {
+            "radius": "7",
+            "damage": "1.5,4"
+          }
+        },
+        {
+          "id": "tight_orbit",
+          "params": {
+            "radius": "2.5",
+            "damage": "3,8"
+          }
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "options": [
+        {
+          "id": "long_vigil",
+          "scale": 0.75,
+          "params": {
+            "seconds": "10,20"
+          }
+        },
+        {
+          "id": "blade_storm",
+          "scale": 1.5,
+          "params": {
+            "seconds": "4,8"
+          }
+        }
+      ]
+    }
+  ]
+}

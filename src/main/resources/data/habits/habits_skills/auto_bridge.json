@@ -1,0 +1,26 @@
+{
+  "rarity": "uncommon",
+  "category": "building",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:edge_bridge",
+    "chance": 0.00417
+  },
+  "icon": "minecraft:cobblestone",
+  "art": "minecraft:oak_planks",
+  "perk": {
+    "mechanic": "habits:auto_bridge",
+    "values": [
+      0.5,
+      1,
+      2,
+      3,
+      4,
+      6,
+      8,
+      10,
+      15,
+      20
+    ]
+  }
+}

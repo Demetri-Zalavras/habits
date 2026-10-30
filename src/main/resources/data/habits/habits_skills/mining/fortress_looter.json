@@ -1,0 +1,35 @@
+{
+  "rarity": "common",
+  "category": "mining",
+  "trigger": {
+    "type": "break_block",
+    "match": [
+      "minecraft:nether_bricks",
+      "minecraft:cracked_nether_bricks",
+      "minecraft:chiseled_nether_bricks"
+    ],
+    "chance": 0.004
+  },
+  "icon": "minecraft:nether_wart",
+  "art": "minecraft:nether_bricks",
+  "perk": {
+    "mechanic": "habits:mining/fortress_looter",
+    "params": {
+      "block": "minecraft:nether_bricks,minecraft:cracked_nether_bricks,minecraft:chiseled_nether_bricks,minecraft:nether_brick_fence,minecraft:nether_brick_stairs,minecraft:nether_brick_slab",
+      "item": "minecraft:nether_wart",
+      "count": "1"
+    },
+    "values": [
+      3,
+      5.4,
+      7.9,
+      10.3,
+      12.8,
+      15.2,
+      17.7,
+      20.1,
+      22.6,
+      25
+    ]
+  }
+}

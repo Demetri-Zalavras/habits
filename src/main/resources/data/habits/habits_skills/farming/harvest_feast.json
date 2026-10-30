@@ -1,0 +1,26 @@
+{
+  "rarity": "uncommon",
+  "category": "farming",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:farming/hungry_harvest",
+    "chance": 0.00625
+  },
+  "icon": "minecraft:carrot",
+  "art": "minecraft:hay_block",
+  "perk": {
+    "mechanic": "habits:farming/harvest_feast",
+    "values": [
+      2,
+      4,
+      6,
+      8,
+      10,
+      12,
+      14,
+      16,
+      18,
+      20
+    ]
+  }
+}

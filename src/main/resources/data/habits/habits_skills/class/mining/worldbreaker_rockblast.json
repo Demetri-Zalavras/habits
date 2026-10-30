@@ -1,0 +1,30 @@
+{
+  "rarity": "epic",
+  "category": "mining",
+  "class": "habits:class/mining/worldbreaker",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:tnt_lit",
+    "chance": 0.0052
+  },
+  "icon": "minecraft:tnt",
+  "art": "minecraft:tnt",
+  "perk": {
+    "mechanic": "habits:demolitionist",
+    "params": {
+      "self_cut": "50..100"
+    },
+    "values": [
+      5,
+      5,
+      5.5,
+      5.5,
+      6,
+      6,
+      6.5,
+      7,
+      7.5,
+      8
+    ]
+  }
+}

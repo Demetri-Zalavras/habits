@@ -1,0 +1,14 @@
+{
+  "rarity": "legendary",
+  "category": "crafting",
+  "trigger": {
+    "type": "craft",
+    "chance": 0.00139
+  },
+  "icon": "minecraft:crafting_table",
+  "art": "minecraft:crafting_table",
+  "perk": {
+    "mechanic": "habits:crafting/echo_craft",
+    "values": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+  }
+}

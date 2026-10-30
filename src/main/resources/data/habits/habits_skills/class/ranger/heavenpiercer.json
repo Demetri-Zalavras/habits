@@ -1,0 +1,30 @@
+{
+  "rarity": "legendary",
+  "category": "ranger",
+  "class_passive": true,
+  "trigger": {
+    "type": "custom",
+    "match": "habits:ranged/crit_arrow_hit",
+    "chance": 0.0015
+  },
+  "icon": "minecraft:spectral_arrow",
+  "art": "minecraft:quartz_block",
+  "perk": {
+    "mechanic": "habits:ranged/heavenpiercer",
+    "values": [
+      30,
+      37,
+      44,
+      51,
+      58,
+      65,
+      72,
+      80,
+      90,
+      100
+    ],
+    "params": {
+      "pierce": "1,1,2,2,3,3,4,4,5,6"
+    }
+  }
+}

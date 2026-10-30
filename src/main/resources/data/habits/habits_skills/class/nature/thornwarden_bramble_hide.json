@@ -1,0 +1,30 @@
+{
+  "rarity": "uncommon",
+  "category": "nature",
+  "class": "habits:class/nature/thornwarden",
+  "trigger": {
+    "type": "break_block",
+    "match": "#minecraft:leaves",
+    "chance": 0.001
+  },
+  "icon": "minecraft:sweet_berries",
+  "art": "minecraft:spruce_leaves",
+  "perk": {
+    "type": "thorns",
+    "values": [
+      5.0,
+      8.3,
+      11.7,
+      15.0,
+      18.3,
+      21.7,
+      25.0,
+      28.3,
+      31.7,
+      35.0
+    ],
+    "params": {
+      "condition": "biome=#minecraft:is_forest"
+    }
+  }
+}

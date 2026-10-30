@@ -1,0 +1,29 @@
+{
+  "rarity": "rare",
+  "category": "ranger",
+  "trigger": {
+    "type": "damage_taken",
+    "match": "minecraft:mob_projectile",
+    "chance": 0.00833
+  },
+  "icon": "minecraft:shulker_shell",
+  "art": "minecraft:purpur_block",
+  "perk": {
+    "mechanic": "habits:survival/bullet_surfer",
+    "params": {
+      "steer": "0.05..0.3"
+    },
+    "values": [
+      20,
+      27,
+      33,
+      40,
+      47,
+      53,
+      60,
+      67,
+      73,
+      80
+    ]
+  }
+}

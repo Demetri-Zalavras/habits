@@ -1,0 +1,25 @@
+{
+  "rarity": "common",
+  "category": "exploration",
+  "trigger": {
+    "type": "sleep",
+    "chance": 0.15
+  },
+  "icon": "minecraft:red_bed",
+  "art": "minecraft:spruce_log",
+  "perk": {
+    "type": "hunger_save",
+    "values": [
+      2,
+      4,
+      6,
+      8,
+      10,
+      12,
+      14,
+      16,
+      18,
+      20
+    ]
+  }
+}

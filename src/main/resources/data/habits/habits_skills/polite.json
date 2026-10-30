@@ -1,0 +1,32 @@
+{
+  "rarity": "uncommon",
+  "category": "nature",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:polite_chat",
+    "chance": 0.125
+  },
+  "icon": "minecraft:poppy",
+  "art": "minecraft:pink_wool",
+  "perk": {
+    "mechanic": "habits:polite",
+    "params": {
+      "heal": "2..8",
+      "cooldown": "30",
+      "all_villagers_from": "10",
+      "gifts": "minecraft:bread,minecraft:apple,minecraft:cookie,minecraft:emerald,minecraft:pumpkin_pie"
+    },
+    "values": [
+      8,
+      11,
+      13,
+      16,
+      19,
+      21,
+      24,
+      27,
+      29,
+      32
+    ]
+  }
+}

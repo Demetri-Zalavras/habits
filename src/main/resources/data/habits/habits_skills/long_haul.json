@@ -1,0 +1,34 @@
+{
+  "rarity": "rare",
+  "category": "exploration",
+  "trigger": {
+    "type": "custom",
+    "match": [
+      "habits:far_1000",
+      "habits:far_5000",
+      "habits:far_10000",
+      "habits:far_30000"
+    ],
+    "chance": 1.0
+  },
+  "icon": "minecraft:map",
+  "art": "minecraft:mossy_cobblestone",
+  "perk": {
+    "mechanic": "habits:movement/long_haul",
+    "params": {
+      "rate": "1..5"
+    },
+    "values": [
+      10,
+      16,
+      21,
+      27,
+      32,
+      38,
+      43,
+      49,
+      54,
+      60
+    ]
+  }
+}

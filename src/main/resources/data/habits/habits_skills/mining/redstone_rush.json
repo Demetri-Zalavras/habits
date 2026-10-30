@@ -1,0 +1,31 @@
+{
+  "rarity": "uncommon",
+  "category": "mining",
+  "trigger": {
+    "type": "pickup_item",
+    "match": "minecraft:redstone",
+    "chance": 0.01042
+  },
+  "icon": "minecraft:redstone",
+  "art": "minecraft:redstone_ore",
+  "perk": {
+    "mechanic": "habits:mining/redstone_rush",
+    "params": {
+      "block": "#minecraft:redstone_ores",
+      "effect": "minecraft:speed",
+      "amplifier": "1..2"
+    },
+    "values": [
+      3,
+      4,
+      6,
+      7,
+      8,
+      10,
+      11,
+      12,
+      14,
+      15
+    ]
+  }
+}

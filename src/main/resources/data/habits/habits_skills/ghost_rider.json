@@ -1,0 +1,26 @@
+{
+  "rarity": "legendary",
+  "category": "nature",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:skeleton_horse_mount",
+    "chance": 0.833
+  },
+  "icon": "minecraft:skeleton_horse_spawn_egg",
+  "art": "minecraft:soul_sand",
+  "perk": {
+    "mechanic": "habits:ghost_rider",
+    "values": [
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2,
+      2,
+      3
+    ]
+  }
+}

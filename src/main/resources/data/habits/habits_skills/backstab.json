@@ -1,0 +1,26 @@
+{
+  "rarity": "uncommon",
+  "category": "ranger",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:backstab",
+    "chance": 0.0208
+  },
+  "icon": "minecraft:shears",
+  "art": "minecraft:black_wool",
+  "perk": {
+    "mechanic": "habits:melee/backstab",
+    "values": [
+      1.5,
+      1.8,
+      2.1,
+      2.3,
+      2.6,
+      2.9,
+      3.2,
+      3.4,
+      3.7,
+      4.0
+    ]
+  }
+}

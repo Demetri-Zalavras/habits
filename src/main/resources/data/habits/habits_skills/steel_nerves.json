@@ -1,0 +1,28 @@
+{
+  "rarity": "uncommon",
+  "category": "crafting",
+  "trigger": {
+    "type": "anvil",
+    "chance": 0.0625
+  },
+  "icon": "minecraft:chipped_anvil",
+  "art": "minecraft:iron_block",
+  "perk": {
+    "mechanic": "habits:steel_nerves",
+    "params": {
+      "repair": "5..50"
+    },
+    "values": [
+      10.0,
+      20.0,
+      30.0,
+      40.0,
+      50.0,
+      60.0,
+      70.0,
+      80.0,
+      90.0,
+      100.0
+    ]
+  }
+}

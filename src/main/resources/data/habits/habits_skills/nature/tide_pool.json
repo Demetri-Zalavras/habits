@@ -1,0 +1,30 @@
+{
+  "rarity": "rare",
+  "category": "nature",
+  "trigger": {
+    "type": "bucket_fill",
+    "match": "minecraft:water_bucket",
+    "chance": 0.0167
+  },
+  "icon": "minecraft:tropical_fish_bucket",
+  "art": "minecraft:sand",
+  "perk": {
+    "mechanic": "habits:nature/tide_pool",
+    "values": [
+      4,
+      8,
+      12,
+      16,
+      20,
+      24,
+      28,
+      32,
+      36,
+      40
+    ],
+    "params": {
+      "biome": "#minecraft:is_ocean,#minecraft:is_beach,#minecraft:is_river",
+      "buckets": "minecraft:cod_bucket*4,minecraft:salmon_bucket*3,minecraft:tropical_fish_bucket*2,minecraft:pufferfish_bucket*1,minecraft:axolotl_bucket*0.2"
+    }
+  }
+}

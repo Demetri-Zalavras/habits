@@ -1,0 +1,31 @@
+{
+  "rarity": "common",
+  "category": "exploration",
+  "trigger": {
+    "type": "enter_biome",
+    "match": [
+      "#minecraft:is_forest",
+      "minecraft:cherry_grove",
+      "minecraft:old_growth_pine_taiga",
+      "minecraft:old_growth_spruce_taiga"
+    ],
+    "chance": 0.2
+  },
+  "icon": "minecraft:oak_sapling",
+  "art": "minecraft:oak_log",
+  "perk": {
+    "mechanic": "habits:movement/forest_ranger",
+    "values": [
+      20,
+      29,
+      38,
+      47,
+      56,
+      64,
+      73,
+      82,
+      91,
+      100
+    ]
+  }
+}

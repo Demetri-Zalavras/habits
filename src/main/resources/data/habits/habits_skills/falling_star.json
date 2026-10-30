@@ -1,0 +1,20 @@
+{
+  "rarity": "mythical",
+  "category": "ranger",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:arrow_hit_100",
+    "chance": 0.25
+  },
+  "icon": "minecraft:bow",
+  "art": "minecraft:obsidian",
+  "perk": {
+    "mechanic": "habits:falling_star",
+    "values": [6, 8, 10, 12, 14, 16, 18, 20, 22, 24],
+    "params": {
+      "every": "8,8,7,7,6,6,5,5,5,4",
+      "radius": "3",
+      "delay": "20"
+    }
+  }
+}

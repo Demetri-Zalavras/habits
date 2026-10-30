@@ -1,0 +1,32 @@
+{
+  "rarity": "uncommon",
+  "category": "nature",
+  "trigger": {
+    "type": "bucket_fill",
+    "match": [
+      "minecraft:cod_bucket",
+      "minecraft:salmon_bucket",
+      "minecraft:pufferfish_bucket",
+      "minecraft:tropical_fish_bucket",
+      "minecraft:tadpole_bucket"
+    ],
+    "chance": 0.0312
+  },
+  "icon": "minecraft:bucket",
+  "art": "minecraft:clay",
+  "perk": {
+    "mechanic": "habits:bucket_anything",
+    "values": [
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2,
+      2,
+      3
+    ]
+  }
+}

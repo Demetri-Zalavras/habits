@@ -1,0 +1,18 @@
+{
+  "rarity": "common",
+  "category": "crafting",
+  "trigger": {
+    "type": "stat_increment",
+    "match": "minecraft:interact_with_smoker",
+    "chance": 0.05
+  },
+  "icon": "minecraft:smoker",
+  "art": "minecraft:smoker",
+  "perk": {
+    "mechanic": "habits:crafting/hearthfire",
+    "values": [2, 2, 3, 3, 3, 4, 4, 4, 5, 5],
+    "params": {
+      "amp": "0"
+    }
+  }
+}

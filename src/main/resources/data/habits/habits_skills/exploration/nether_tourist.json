@@ -1,0 +1,32 @@
+{
+  "rarity": "uncommon",
+  "category": "exploration",
+  "trigger": {
+    "type": "enter_dimension",
+    "match": "minecraft:the_nether",
+    "chance": 0.15
+  },
+  "icon": "minecraft:magma_block",
+  "art": "minecraft:netherrack",
+  "perk": {
+    "type": "damage_type_resist",
+    "params": {
+      "damage": "#minecraft:is_fire",
+      "condition": "dimension=minecraft:the_nether",
+      "value_max": "100"
+    },
+    "values": [
+      5,
+      10,
+      15,
+      20,
+      25,
+      30,
+      35,
+      40,
+      45,
+      50
+    ]
+  },
+  "perk_text": "Fire damage -{v}% in the Nether"
+}

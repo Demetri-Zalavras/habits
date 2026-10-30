@@ -1,0 +1,1 @@
+{"rarity":"common","category":"guardian","trigger":{"type":"use_item","match":"farmersdelight:apple_cider","chance":0.08},"icon":"farmersdelight:apple_cider","art":"minecraft:red_mushroom_block","perk":{"type":"regen","base":2,"per_level":1}}

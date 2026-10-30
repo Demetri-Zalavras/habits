@@ -1,0 +1,26 @@
+{
+  "rarity": "common",
+  "category": "farming",
+  "trigger": {
+    "type": "use_item",
+    "match": "minecraft:egg",
+    "chance": 0.0167
+  },
+  "icon": "minecraft:egg",
+  "art": "minecraft:hay_block",
+  "perk": {
+    "mechanic": "habits:farming/hatchery",
+    "values": [
+      10,
+      14,
+      19,
+      23,
+      28,
+      32,
+      37,
+      41,
+      46,
+      50
+    ]
+  }
+}

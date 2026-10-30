@@ -1,0 +1,29 @@
+{
+  "rarity": "common",
+  "category": "crafting",
+  "trigger": {
+    "type": "open_container",
+    "match": [
+      "minecraft:chest",
+      "minecraft:trapped_chest"
+    ],
+    "chance": 0.025
+  },
+  "icon": "minecraft:chest",
+  "art": "minecraft:oak_planks",
+  "perk": {
+    "mechanic": "habits:rummager",
+    "values": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      2
+    ]
+  }
+}

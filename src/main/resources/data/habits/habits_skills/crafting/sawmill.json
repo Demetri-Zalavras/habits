@@ -1,0 +1,19 @@
+{
+  "rarity": "common",
+  "category": "crafting",
+  "trigger": {
+    "type": "craft",
+    "match": "#minecraft:planks",
+    "chance": 0.03333
+  },
+  "icon": "minecraft:oak_planks",
+  "art": "minecraft:oak_log",
+  "perk": {
+    "mechanic": "habits:crafting/sawmill",
+    "values": [10, 16, 21, 27, 32, 38, 43, 49, 54, 60],
+    "params": {
+      "items": "#minecraft:planks",
+      "extra": "2..4"
+    }
+  }
+}

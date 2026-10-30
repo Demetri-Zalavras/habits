@@ -1,0 +1,26 @@
+{
+  "rarity": "common",
+  "category": "farming",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:farming/comb_sheared",
+    "chance": 0.1
+  },
+  "icon": "minecraft:honeycomb",
+  "art": "minecraft:honeycomb_block",
+  "perk": {
+    "mechanic": "habits:farming/comb_cutter",
+    "values": [
+      0.5,
+      1.0,
+      1.5,
+      2.0,
+      2.5,
+      3.0,
+      3.5,
+      4.0,
+      4.5,
+      5.0
+    ]
+  }
+}

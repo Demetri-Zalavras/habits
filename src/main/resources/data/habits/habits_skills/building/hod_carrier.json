@@ -1,0 +1,29 @@
+{
+  "rarity": "rare",
+  "category": "building",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:pickup_full",
+    "chance": 0.0333
+  },
+  "icon": "minecraft:bundle",
+  "art": "minecraft:barrel",
+  "perk": {
+    "mechanic": "habits:pack_rat",
+    "values": [
+      9,
+      9,
+      18,
+      18,
+      27,
+      27,
+      36,
+      36,
+      45,
+      54
+    ],
+    "params": {
+      "value_max": "54"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "rarity": "common",
+  "category": "crafting",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:stonecutter_take",
+    "chance": 0.0167
+  },
+  "icon": "minecraft:stonecutter",
+  "art": "minecraft:stone_bricks",
+  "perk": {
+    "mechanic": "habits:mason",
+    "values": [
+      10,
+      14,
+      19,
+      23,
+      28,
+      32,
+      37,
+      41,
+      46,
+      50
+    ]
+  }
+}

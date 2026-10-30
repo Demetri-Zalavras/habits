@@ -1,0 +1,50 @@
+{
+  "rarity": "epic",
+  "category": "crafting",
+  "trigger": {
+    "type": "stat_increment",
+    "match": "minecraft:play_record",
+    "chance": 0.0333
+  },
+  "icon": "minecraft:music_disc_cat",
+  "art": "minecraft:jukebox",
+  "perk": {
+    "mechanic": "habits:collectors_ear",
+    "params": {
+      "ping": "16..96"
+    },
+    "values": [
+      20,
+      29,
+      38,
+      47,
+      56,
+      64,
+      73,
+      82,
+      91,
+      100
+    ]
+  },
+  "forks": [
+    {
+      "level": 5,
+      "options": [
+        {
+          "id": "disc_luck",
+          "scale": 1.4,
+          "params": {
+            "ping": "8..48"
+          }
+        },
+        {
+          "id": "keen_ear",
+          "scale": 0.8,
+          "params": {
+            "ping": "32..160"
+          }
+        }
+      ]
+    }
+  ]
+}

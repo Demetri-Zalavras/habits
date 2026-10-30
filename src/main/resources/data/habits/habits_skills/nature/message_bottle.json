@@ -1,0 +1,31 @@
+{
+  "rarity": "rare",
+  "category": "nature",
+  "trigger": {
+    "type": "fish",
+    "match": [
+      "minecraft:potion",
+      "minecraft:bowl",
+      "minecraft:stick",
+      "minecraft:string"
+    ],
+    "chance": 0.167
+  },
+  "icon": "minecraft:glass_bottle",
+  "art": "minecraft:sand",
+  "perk": {
+    "mechanic": "habits:nature/message_bottle",
+    "values": [
+      1,
+      2,
+      3,
+      3,
+      4,
+      5,
+      6,
+      6,
+      7,
+      8
+    ]
+  }
+}

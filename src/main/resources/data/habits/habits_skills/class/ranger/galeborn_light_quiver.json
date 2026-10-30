@@ -1,0 +1,32 @@
+{
+  "rarity": "rare",
+  "category": "ranger",
+  "class": "habits:class/ranger/galeborn",
+  "trigger": {
+    "type": "sprint_distance",
+    "chance": 0.0006
+  },
+  "icon": "minecraft:feather",
+  "art": "minecraft:white_wool",
+  "perk": {
+    "type": "attribute",
+    "values": [
+      5.0,
+      6.7,
+      8.3,
+      10.0,
+      11.7,
+      13.3,
+      15.0,
+      16.7,
+      18.3,
+      20.0
+    ],
+    "params": {
+      "attribute": "minecraft:generic.movement_speed",
+      "operation": "add_multiplied_base",
+      "condition": "holding=#c:tools/ranged_weapon"
+    }
+  },
+  "perk_text": "Move speed +{v}% while holding a ranged weapon"
+}

@@ -1,0 +1,29 @@
+{
+  "rarity": "uncommon",
+  "category": "mining",
+  "trigger": {
+    "type": "break_block",
+    "match": [
+      "minecraft:nether_gold_ore",
+      "minecraft:gilded_blackstone"
+    ],
+    "chance": 0.0104
+  },
+  "icon": "minecraft:gold_nugget",
+  "art": "minecraft:nether_gold_ore",
+  "perk": {
+    "mechanic": "habits:golden_truce",
+    "values": [
+      10,
+      9,
+      8,
+      7,
+      6,
+      5,
+      4,
+      3,
+      2,
+      1
+    ]
+  }
+}

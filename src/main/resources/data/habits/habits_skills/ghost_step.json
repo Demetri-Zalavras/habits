@@ -1,0 +1,28 @@
+{
+  "rarity": "common",
+  "category": "movement",
+  "trigger": {
+    "type": "sneak_distance",
+    "chance": 0.00128
+  },
+  "icon": "minecraft:sculk_sensor",
+  "art": "minecraft:black_wool",
+  "perk": {
+    "mechanic": "habits:movement/ghost_step",
+    "params": {
+      "sculk_level": "4"
+    },
+    "values": [
+      10,
+      18,
+      26,
+      33,
+      41,
+      49,
+      57,
+      64,
+      72,
+      80
+    ]
+  }
+}

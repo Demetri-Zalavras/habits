@@ -1,0 +1,34 @@
+{
+  "rarity": "legendary",
+  "category": "crafting",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:never",
+    "chance": 0
+  },
+  "icon": "minecraft:nether_star",
+  "art": "minecraft:beacon",
+  "perk": {
+    "type": "attribute",
+    "params": {
+      "attribute": "minecraft:generic.max_health",
+      "operation": "add_value"
+    },
+    "values": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ]
+  },
+  "title": {
+    "maxed": 20
+  },
+  "perk_text": "Max health +{v}"
+}

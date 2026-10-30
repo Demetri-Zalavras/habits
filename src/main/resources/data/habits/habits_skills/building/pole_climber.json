@@ -1,0 +1,25 @@
+{
+  "rarity": "rare",
+  "category": "building",
+  "trigger": {
+    "type": "climb_distance",
+    "chance": 0.000236
+  },
+  "icon": "minecraft:iron_bars",
+  "art": "minecraft:oak_planks",
+  "perk": {
+    "mechanic": "habits:building/pole_climber",
+    "values": [
+      40,
+      47,
+      53,
+      60,
+      67,
+      73,
+      80,
+      87,
+      93,
+      100
+    ]
+  }
+}

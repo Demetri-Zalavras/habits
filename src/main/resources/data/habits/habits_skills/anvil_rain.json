@@ -1,0 +1,30 @@
+{
+  "rarity": "rare",
+  "category": "crafting",
+  "trigger": {
+    "type": "damage_taken",
+    "match": "minecraft:falling_anvil",
+    "chance": 0.167
+  },
+  "icon": "minecraft:anvil",
+  "art": "minecraft:anvil",
+  "perk": {
+    "mechanic": "habits:anvil_rain",
+    "params": {
+      "cooldown": "30..6",
+      "stun_from": "10"
+    },
+    "values": [
+      4,
+      6,
+      8,
+      10,
+      12,
+      14,
+      16,
+      18,
+      21,
+      24
+    ]
+  }
+}

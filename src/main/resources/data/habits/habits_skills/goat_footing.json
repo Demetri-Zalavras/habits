@@ -1,0 +1,29 @@
+{
+  "rarity": "uncommon",
+  "category": "guardian",
+  "trigger": {
+    "type": "damage_taken",
+    "match": "minecraft:mob_attack_no_aggro",
+    "chance": 0.125
+  },
+  "icon": "minecraft:goat_horn",
+  "art": "minecraft:snow_block",
+  "perk": {
+    "mechanic": "habits:survival/goat_footing",
+    "params": {
+      "horn": "1..10"
+    },
+    "values": [
+      30,
+      38,
+      46,
+      53,
+      61,
+      69,
+      77,
+      84,
+      92,
+      100
+    ]
+  }
+}

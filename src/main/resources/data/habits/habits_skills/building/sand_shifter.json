@@ -1,0 +1,26 @@
+{
+  "rarity": "common",
+  "category": "building",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:sand_column",
+    "chance": 0.00333
+  },
+  "icon": "minecraft:sand",
+  "art": "minecraft:sandstone",
+  "perk": {
+    "mechanic": "habits:sandman",
+    "values": [
+      4,
+      7,
+      10,
+      14,
+      17,
+      20,
+      23,
+      26,
+      29,
+      32
+    ]
+  }
+}

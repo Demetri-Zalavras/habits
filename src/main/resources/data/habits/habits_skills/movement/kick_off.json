@@ -1,0 +1,25 @@
+{
+  "rarity": "uncommon",
+  "category": "movement",
+  "trigger": {
+    "type": "climb_distance",
+    "chance": 0.000443
+  },
+  "icon": "minecraft:twisting_vines",
+  "art": "minecraft:warped_planks",
+  "perk": {
+    "mechanic": "habits:movement/kick_off",
+    "values": [
+      2,
+      2.7,
+      3.3,
+      4,
+      4.7,
+      5.3,
+      6,
+      6.7,
+      7.3,
+      8
+    ]
+  }
+}

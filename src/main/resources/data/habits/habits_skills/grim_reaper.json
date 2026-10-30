@@ -1,0 +1,30 @@
+{
+  "rarity": "uncommon",
+  "category": "warrior",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:melee_kill",
+    "chance": 0.0156,
+    "item": "#minecraft:hoes"
+  },
+  "icon": "minecraft:iron_hoe",
+  "art": "minecraft:soul_soil",
+  "perk": {
+    "mechanic": "habits:melee/grim_reaper",
+    "params": {
+      "xp": "20,100"
+    },
+    "values": [
+      1.0,
+      1.4,
+      1.9,
+      2.3,
+      2.8,
+      3.2,
+      3.7,
+      4.1,
+      4.6,
+      5.0
+    ]
+  }
+}

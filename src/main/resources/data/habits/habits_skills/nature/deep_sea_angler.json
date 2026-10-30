@@ -1,0 +1,30 @@
+{
+  "rarity": "rare",
+  "category": "nature",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:nature_ocean_catch",
+    "chance": 0.00833
+  },
+  "icon": "minecraft:heart_of_the_sea",
+  "art": "minecraft:dark_prismarine",
+  "perk": {
+    "type": "fishing_luck",
+    "values": [
+      1,
+      1,
+      2,
+      2,
+      2,
+      3,
+      3,
+      3,
+      4,
+      4
+    ],
+    "params": {
+      "condition": "biome=#minecraft:is_deep_ocean"
+    }
+  },
+  "perk_text": "Luck of the Sea +{v} over deep ocean"
+}

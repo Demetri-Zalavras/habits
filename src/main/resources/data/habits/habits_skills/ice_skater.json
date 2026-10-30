@@ -1,0 +1,29 @@
+{
+  "rarity": "common",
+  "category": "movement",
+  "trigger": {
+    "type": "custom_units",
+    "match": "habits:ice_walk",
+    "chance": 0.000386
+  },
+  "icon": "minecraft:ice",
+  "art": "minecraft:packed_ice",
+  "perk": {
+    "mechanic": "habits:movement/ice_skater",
+    "params": {
+      "control_level": "3"
+    },
+    "values": [
+      10,
+      18,
+      26,
+      33,
+      41,
+      49,
+      57,
+      64,
+      72,
+      80
+    ]
+  }
+}

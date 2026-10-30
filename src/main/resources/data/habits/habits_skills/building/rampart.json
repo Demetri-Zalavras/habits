@@ -1,0 +1,32 @@
+{
+  "rarity": "uncommon",
+  "category": "building",
+  "trigger": {
+    "type": "place_block",
+    "match": "#minecraft:walls",
+    "chance": 0.00625
+  },
+  "icon": "minecraft:cobblestone_wall",
+  "art": "minecraft:stone_bricks",
+  "perk": {
+    "type": "attribute",
+    "params": {
+      "attribute": "minecraft:generic.knockback_resistance",
+      "operation": "add_value",
+      "condition": "sneaking"
+    },
+    "values": [
+      0.1,
+      0.2,
+      0.3,
+      0.4,
+      0.5,
+      0.6,
+      0.7,
+      0.8,
+      0.9,
+      1.0
+    ]
+  },
+  "perk_text": "Knockback resistance +{v} while sneaking"
+}

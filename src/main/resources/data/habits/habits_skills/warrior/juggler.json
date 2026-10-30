@@ -1,0 +1,30 @@
+{
+  "rarity": "uncommon",
+  "category": "warrior",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:air_kill",
+    "chance": 0.0625
+  },
+  "icon": "minecraft:slime_ball",
+  "art": "minecraft:slime_block",
+  "perk": {
+    "mechanic": "habits:melee/juggler",
+    "params": {
+      "stacks": "2,5",
+      "pop": "0.55,0.75"
+    },
+    "values": [
+      5.0,
+      7.0,
+      8.0,
+      10.0,
+      12.0,
+      13.0,
+      15.0,
+      17.0,
+      18.0,
+      20.0
+    ]
+  }
+}

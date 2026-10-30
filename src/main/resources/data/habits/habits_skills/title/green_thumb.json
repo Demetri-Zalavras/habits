@@ -1,0 +1,31 @@
+{
+  "rarity": "uncommon",
+  "category": "farming",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:never",
+    "chance": 0
+  },
+  "icon": "minecraft:bone_meal",
+  "art": "minecraft:farmland",
+  "perk": {
+    "type": "crop_growth_aura",
+    "values": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "title": {
+    "stat_type": "minecraft:used",
+    "stat": "minecraft:bone_meal",
+    "min": 1000
+  }
+}

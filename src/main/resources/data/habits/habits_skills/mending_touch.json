@@ -1,0 +1,28 @@
+{
+  "rarity": "rare",
+  "category": "crafting",
+  "trigger": {
+    "type": "xp_pickup",
+    "chance": 0.000833
+  },
+  "icon": "minecraft:enchanted_book",
+  "art": "minecraft:lapis_block",
+  "perk": {
+    "mechanic": "habits:mending_touch",
+    "params": {
+      "rate_pct": "2.5"
+    },
+    "values": [
+      5,
+      4.5,
+      4,
+      3.5,
+      3,
+      2.5,
+      2,
+      1.5,
+      1.25,
+      1
+    ]
+  }
+}

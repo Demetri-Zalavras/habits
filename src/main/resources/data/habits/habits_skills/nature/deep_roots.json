@@ -1,0 +1,31 @@
+{
+  "rarity": "rare",
+  "category": "nature",
+  "trigger": {
+    "type": "plant",
+    "match": "#minecraft:saplings",
+    "chance": 0.00333
+  },
+  "icon": "minecraft:hanging_roots",
+  "art": "minecraft:rooted_dirt",
+  "perk": {
+    "type": "attribute",
+    "values": [
+      0.1,
+      0.2,
+      0.3,
+      0.4,
+      0.5,
+      0.6,
+      0.7,
+      0.8,
+      0.9,
+      1.0
+    ],
+    "params": {
+      "attribute": "minecraft:generic.knockback_resistance",
+      "condition": "sneaking"
+    }
+  },
+  "perk_text": "Knockback resistance +{v} while sneaking"
+}

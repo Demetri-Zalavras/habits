@@ -1,0 +1,51 @@
+{
+  "rarity": "epic",
+  "category": "exploration",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:sky_high",
+    "chance": 0.0833
+  },
+  "icon": "minecraft:light_gray_stained_glass",
+  "art": "minecraft:white_concrete",
+  "perk": {
+    "mechanic": "habits:movement/sky_watcher",
+    "params": {
+      "value_max": "95",
+      "min_y": "100..-64"
+    },
+    "values": [
+      50,
+      54,
+      59,
+      63,
+      68,
+      72,
+      77,
+      81,
+      86,
+      90
+    ]
+  },
+  "forks": [
+    {
+      "level": 5,
+      "options": [
+        {
+          "id": "high_watch",
+          "scale": 1.15,
+          "params": {
+            "min_y": "120..40"
+          }
+        },
+        {
+          "id": "low_glide",
+          "scale": 0.8,
+          "params": {
+            "min_y": "60..-64"
+          }
+        }
+      ]
+    }
+  ]
+}

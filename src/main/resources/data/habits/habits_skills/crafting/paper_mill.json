@@ -1,0 +1,19 @@
+{
+  "rarity": "common",
+  "category": "crafting",
+  "trigger": {
+    "type": "craft",
+    "match": ["minecraft:paper", "minecraft:book"],
+    "chance": 0.05
+  },
+  "icon": "minecraft:paper",
+  "art": "minecraft:bookshelf",
+  "perk": {
+    "mechanic": "habits:crafting/paper_mill",
+    "values": [10, 16, 21, 27, 32, 38, 43, 49, 54, 60],
+    "params": {
+      "items": "minecraft:paper,minecraft:book",
+      "extra": "1..3"
+    }
+  }
+}

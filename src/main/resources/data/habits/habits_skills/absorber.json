@@ -1,0 +1,32 @@
+{
+  "rarity": "uncommon",
+  "category": "warrior",
+  "trigger": {
+    "type": "custom",
+    "match": [
+      "habits:effect_absorption"
+    ],
+    "chance": 0.125
+  },
+  "icon": "minecraft:golden_apple",
+  "art": "minecraft:gold_block",
+  "perk": {
+    "mechanic": "habits:survival/absorber",
+    "params": {
+      "shock_radius": "0.3..3",
+      "shock_push": "0.3..1"
+    },
+    "values": [
+      20,
+      34,
+      49,
+      63,
+      78,
+      92,
+      107,
+      121,
+      136,
+      150
+    ]
+  }
+}

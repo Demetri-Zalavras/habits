@@ -1,0 +1,34 @@
+{
+  "rarity": "common",
+  "category": "mining",
+  "trigger": {
+    "type": "break_block",
+    "match": [
+      "minecraft:snow",
+      "minecraft:snow_block",
+      "minecraft:powder_snow"
+    ],
+    "item": "#minecraft:shovels",
+    "chance": 0.00125
+  },
+  "icon": "minecraft:snowball",
+  "art": "minecraft:snow_block",
+  "perk": {
+    "mechanic": "habits:snowplow",
+    "params": {
+      "powder_level": "10"
+    },
+    "values": [
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2,
+      3,
+      3,
+      3
+    ]
+  }
+}

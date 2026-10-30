@@ -1,0 +1,39 @@
+{
+  "rarity": "uncommon",
+  "category": "farming",
+  "class": "habits:class/farming/drover",
+  "trigger": {
+    "type": "kill_entity",
+    "match": [
+      "minecraft:cow",
+      "minecraft:pig",
+      "minecraft:sheep",
+      "minecraft:chicken",
+      "minecraft:rabbit",
+      "minecraft:goat",
+      "minecraft:mooshroom"
+    ],
+    "chance": 0.008
+  },
+  "icon": "minecraft:beef",
+  "art": "minecraft:packed_mud",
+  "perk": {
+    "type": "drop_bonus",
+    "values": [
+      10.0,
+      13.0,
+      16.0,
+      19.0,
+      22.0,
+      25.0,
+      28.0,
+      31.0,
+      34.0,
+      37.0
+    ],
+    "params": {
+      "entity": "minecraft:cow,minecraft:pig,minecraft:sheep,minecraft:chicken,minecraft:rabbit,minecraft:goat,minecraft:mooshroom"
+    }
+  },
+  "perk_text": "{v}% chance farm animals drop twice"
+}

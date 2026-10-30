@@ -1,0 +1,33 @@
+{
+  "rarity": "common",
+  "category": "guardian",
+  "trigger": {
+    "type": "eat",
+    "match": [
+      "minecraft:apple",
+      "minecraft:melon_slice",
+      "minecraft:sweet_berries"
+    ],
+    "chance": 0.1
+  },
+  "icon": "minecraft:apple",
+  "art": "minecraft:oak_leaves",
+  "perk": {
+    "mechanic": "habits:survival/orchard_snacker",
+    "params": {
+      "saturation": "0.5..2"
+    },
+    "values": [
+      10,
+      17,
+      23,
+      30,
+      37,
+      43,
+      50,
+      57,
+      63,
+      70
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "rarity": "uncommon",
+  "category": "ranger",
+  "trigger": {
+    "type": "damage_dealt",
+    "match": "minecraft:trident",
+    "chance": 0.01
+  },
+  "icon": "minecraft:lightning_rod",
+  "art": "minecraft:cyan_terracotta",
+  "perk": {
+    "type": "damage_bonus",
+    "values": [
+      5.0,
+      10.0,
+      15.0,
+      20.0,
+      25.0,
+      30.0,
+      35.0,
+      40.0,
+      45.0,
+      50.0
+    ],
+    "params": {
+      "damage": "minecraft:trident",
+      "condition": "in_rain"
+    }
+  },
+  "perk_text": "Trident damage in the rain +{v}%"
+}

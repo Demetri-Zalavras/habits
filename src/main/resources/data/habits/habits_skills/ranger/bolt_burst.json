@@ -1,0 +1,27 @@
+{
+  "rarity": "epic",
+  "category": "ranger",
+  "trigger": {
+    "type": "kill_entity",
+    "match": "minecraft:ravager",
+    "item": "minecraft:crossbow",
+    "chance": 0.25
+  },
+  "icon": "minecraft:firework_star",
+  "art": "minecraft:tnt",
+  "perk": {
+    "mechanic": "habits:ranged/bolt_burst",
+    "values": [
+      1.0,
+      1.25,
+      1.5,
+      1.75,
+      2.0,
+      2.25,
+      2.5,
+      2.75,
+      3.0,
+      3.25
+    ]
+  }
+}

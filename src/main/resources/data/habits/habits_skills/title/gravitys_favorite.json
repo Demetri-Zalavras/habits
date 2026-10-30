@@ -1,0 +1,34 @@
+{
+  "rarity": "rare",
+  "category": "movement",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:never",
+    "chance": 0
+  },
+  "icon": "minecraft:feather",
+  "art": "minecraft:hay_block",
+  "perk": {
+    "type": "damage_type_resist",
+    "params": {
+      "damage": "minecraft:fall"
+    },
+    "values": [
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5
+    ]
+  },
+  "title": {
+    "stat_type": "minecraft:custom",
+    "stat": "minecraft:fall_one_cm",
+    "min": 100000
+  }
+}

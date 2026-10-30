@@ -1,0 +1,34 @@
+{
+  "rarity": "common",
+  "category": "farming",
+  "trigger": {
+    "type": "plant",
+    "match": [
+      "minecraft:melon_stem",
+      "minecraft:pumpkin_stem"
+    ],
+    "chance": 0.02
+  },
+  "icon": "minecraft:diamond_hoe",
+  "art": "minecraft:farmland",
+  "perk": {
+    "type": "reach",
+    "params": {
+      "kind": "block",
+      "condition": "holding=#minecraft:hoes"
+    },
+    "values": [
+      0.5,
+      0.8,
+      1.1,
+      1.3,
+      1.6,
+      1.9,
+      2.2,
+      2.4,
+      2.7,
+      3.0
+    ]
+  },
+  "perk_text": "Reach +{v} blocks while holding a hoe"
+}

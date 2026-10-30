@@ -1,0 +1,50 @@
+{
+  "rarity": "epic",
+  "category": "nature",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:sniffer_find",
+    "chance": 0.0833
+  },
+  "icon": "minecraft:sniffer_egg",
+  "art": "minecraft:moss_block",
+  "perk": {
+    "mechanic": "habits:sniff",
+    "params": {
+      "sherd": "2,20"
+    },
+    "values": [
+      300,
+      270,
+      240,
+      210,
+      180,
+      150,
+      120,
+      90,
+      60,
+      30
+    ]
+  },
+  "forks": [
+    {
+      "level": 5,
+      "options": [
+        {
+          "id": "quick_nose",
+          "scale": 0.7,
+          "params": {
+            "sherd": "1,10"
+          }
+        },
+        {
+          "id": "keen_nose",
+          "scale": 1.4,
+          "params": {
+            "sherd": "4,40"
+          }
+        }
+      ]
+    }
+  ]
+}

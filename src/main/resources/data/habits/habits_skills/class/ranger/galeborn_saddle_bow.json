@@ -1,0 +1,31 @@
+{
+  "rarity": "rare",
+  "category": "ranger",
+  "class": "habits:class/ranger/galeborn",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:mounted_hit",
+    "chance": 0.003
+  },
+  "icon": "minecraft:saddle",
+  "art": "minecraft:hay_block",
+  "perk": {
+    "mechanic": "habits:horse_archer",
+    "values": [
+      20.0,
+      28.9,
+      37.8,
+      46.7,
+      55.6,
+      64.4,
+      73.3,
+      82.2,
+      91.1,
+      100.0
+    ],
+    "params": {
+      "speed_s": "2..4",
+      "speed_amp": "0,0,1,1,1,1,2,2,2,2"
+    }
+  }
+}

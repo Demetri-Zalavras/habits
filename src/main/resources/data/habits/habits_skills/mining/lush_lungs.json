@@ -1,0 +1,30 @@
+{
+  "rarity": "common",
+  "category": "mining",
+  "trigger": {
+    "type": "enter_biome",
+    "match": "minecraft:lush_caves",
+    "chance": 0.1
+  },
+  "icon": "minecraft:spore_blossom",
+  "art": "minecraft:moss_block",
+  "perk": {
+    "type": "regen",
+    "params": {
+      "condition": "underground"
+    },
+    "values": [
+      1,
+      1.6,
+      2.1,
+      2.7,
+      3.2,
+      3.8,
+      4.3,
+      4.9,
+      5.4,
+      6
+    ]
+  },
+  "perk_text": "Underground you heal {v} health a minute"
+}

@@ -1,0 +1,32 @@
+{
+  "rarity": "uncommon",
+  "category": "nature",
+  "trigger": {
+    "type": "tame",
+    "match": [
+      "minecraft:llama",
+      "minecraft:trader_llama"
+    ],
+    "chance": 0.125
+  },
+  "icon": "minecraft:llama_spawn_egg",
+  "art": "minecraft:hay_block",
+  "perk": {
+    "mechanic": "habits:spit_guard",
+    "params": {
+      "damage": "1,6"
+    },
+    "values": [
+      1,
+      1,
+      2,
+      2,
+      3,
+      3,
+      4,
+      4,
+      5,
+      99
+    ]
+  }
+}

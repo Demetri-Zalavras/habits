@@ -1,0 +1,29 @@
+{
+  "rarity": "common",
+  "category": "ranger",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:crossbow_loaded",
+    "chance": 0.0167
+  },
+  "icon": "minecraft:crossbow",
+  "art": "minecraft:oak_planks",
+  "perk": {
+    "mechanic": "habits:quick_loader",
+    "values": [
+      5,
+      11,
+      17,
+      23,
+      30,
+      36,
+      42,
+      48,
+      54,
+      60
+    ],
+    "params": {
+      "shots": "1,1,1,2,2,2,2,3,3,3"
+    }
+  }
+}

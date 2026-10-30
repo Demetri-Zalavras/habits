@@ -1,0 +1,30 @@
+{
+  "rarity": "rare",
+  "category": "mining",
+  "class": "habits:class/mining/delver",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:mining/long_tunnel",
+    "chance": 0.12
+  },
+  "icon": "minecraft:minecart",
+  "art": "minecraft:polished_deepslate",
+  "perk": {
+    "mechanic": "habits:mining/tunnel_bore",
+    "params": {
+      "per_tick": "4"
+    },
+    "values": [
+      40,
+      47,
+      53,
+      60,
+      67,
+      73,
+      80,
+      87,
+      93,
+      100
+    ]
+  }
+}

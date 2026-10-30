@@ -1,0 +1,74 @@
+{
+  "rarity": "legendary",
+  "category": "ranger",
+  "trigger": {
+    "type": "kill_entity",
+    "match": "minecraft:ender_dragon",
+    "item": [
+      "minecraft:bow",
+      "minecraft:crossbow"
+    ],
+    "chance": 0.33
+  },
+  "icon": "minecraft:dragon_breath",
+  "art": "minecraft:end_stone",
+  "perk": {
+    "mechanic": "habits:ranged/dragonfire",
+    "values": [
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      6.0,
+      7.0,
+      8.0,
+      9.0,
+      10.0,
+      11.0
+    ],
+    "params": {
+      "chance": "10..30",
+      "radius": "3"
+    }
+  },
+  "forks": [
+    {
+      "level": 5,
+      "options": [
+        {
+          "id": "wide_breath",
+          "scale": 0.65,
+          "params": {
+            "radius": "5"
+          }
+        },
+        {
+          "id": "focused_breath",
+          "scale": 1.5,
+          "params": {
+            "radius": "2"
+          }
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "options": [
+        {
+          "id": "frequent_fire",
+          "scale": 0.65,
+          "params": {
+            "chance": "15..45"
+          }
+        },
+        {
+          "id": "rare_inferno",
+          "scale": 1.9,
+          "params": {
+            "chance": "5..15"
+          }
+        }
+      ]
+    }
+  ]
+}

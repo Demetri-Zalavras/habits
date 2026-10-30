@@ -1,0 +1,29 @@
+{
+  "rarity": "uncommon",
+  "category": "movement",
+  "trigger": {
+    "type": "custom_units",
+    "match": "habits:ice_boat",
+    "chance": 2.6e-05
+  },
+  "icon": "minecraft:blue_ice",
+  "art": "minecraft:blue_ice",
+  "perk": {
+    "mechanic": "habits:movement/ice_road",
+    "params": {
+      "cooldown": "3..0.5"
+    },
+    "values": [
+      0.5,
+      0.6,
+      0.7,
+      0.8,
+      0.9,
+      1.1,
+      1.2,
+      1.3,
+      1.4,
+      1.5
+    ]
+  }
+}

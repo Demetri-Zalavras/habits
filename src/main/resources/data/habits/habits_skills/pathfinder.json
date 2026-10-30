@@ -1,0 +1,30 @@
+{
+  "rarity": "common",
+  "category": "exploration",
+  "trigger": {
+    "type": "custom_units",
+    "match": "habits:compass_walk",
+    "chance": 0.000386
+  },
+  "icon": "minecraft:compass",
+  "art": "minecraft:spruce_planks",
+  "perk": {
+    "mechanic": "habits:movement/pathfinder",
+    "params": {
+      "bed_level": "3",
+      "death_level": "5"
+    },
+    "values": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      4,
+      6,
+      8,
+      10
+    ]
+  }
+}

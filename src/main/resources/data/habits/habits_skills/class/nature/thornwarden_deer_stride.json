@@ -1,0 +1,32 @@
+{
+  "rarity": "uncommon",
+  "category": "nature",
+  "class": "habits:class/nature/thornwarden",
+  "trigger": {
+    "type": "custom_units",
+    "match": "habits:forest_walk",
+    "chance": 0.00024
+  },
+  "icon": "minecraft:rabbit_foot",
+  "art": "minecraft:birch_log",
+  "perk": {
+    "type": "attribute",
+    "values": [
+      5.0,
+      7.2,
+      9.4,
+      11.7,
+      13.9,
+      16.1,
+      18.3,
+      20.6,
+      22.8,
+      25.0
+    ],
+    "params": {
+      "attribute": "minecraft:generic.movement_speed",
+      "operation": "add_multiplied_base",
+      "condition": "biome=#minecraft:is_forest"
+    }
+  }
+}

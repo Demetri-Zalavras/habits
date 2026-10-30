@@ -1,0 +1,26 @@
+{
+  "rarity": "uncommon",
+  "category": "exploration",
+  "trigger": {
+    "type": "enter_structure",
+    "match": "minecraft:pillager_outpost",
+    "chance": 1.0
+  },
+  "icon": "minecraft:crossbow",
+  "art": "minecraft:dark_oak_log",
+  "perk": {
+    "mechanic": "habits:movement/outpost_scout",
+    "values": [
+      32,
+      46,
+      60,
+      75,
+      89,
+      103,
+      117,
+      132,
+      146,
+      160
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "rarity": "common",
+  "category": "exploration",
+  "trigger": {
+    "type": "stat_increment",
+    "match": "minecraft:drop",
+    "chance": 0.0167
+  },
+  "icon": "minecraft:slime_ball",
+  "art": "minecraft:slime_block",
+  "perk": {
+    "mechanic": "habits:butterfingers",
+    "params": {
+      "keep_from": "5",
+      "return_from": "10",
+      "return_after": "60"
+    },
+    "values": [
+      2,
+      2.2,
+      2.4,
+      2.6,
+      2.8,
+      3,
+      3.2,
+      3.4,
+      3.7,
+      4
+    ]
+  }
+}

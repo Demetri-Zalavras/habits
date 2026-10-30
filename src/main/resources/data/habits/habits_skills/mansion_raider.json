@@ -1,0 +1,26 @@
+{
+  "rarity": "epic",
+  "category": "exploration",
+  "trigger": {
+    "type": "enter_structure",
+    "match": "minecraft:mansion",
+    "chance": 1.0
+  },
+  "icon": "minecraft:totem_of_undying",
+  "art": "minecraft:dark_oak_planks",
+  "perk": {
+    "mechanic": "habits:movement/mansion_raider",
+    "values": [
+      8,
+      12,
+      17,
+      21,
+      26,
+      30,
+      35,
+      39,
+      44,
+      48
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "rarity": "legendary",
+  "category": "mining",
+  "class": "habits:class/mining/worldbreaker",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:mining/stone_streak",
+    "chance": 0.0083
+  },
+  "icon": "minecraft:piston",
+  "art": "minecraft:stone",
+  "perk": {
+    "type": "mining_speed",
+    "params": {
+      "block": "#minecraft:mineable/pickaxe"
+    },
+    "values": [
+      15,
+      20,
+      25,
+      30,
+      35,
+      40,
+      45,
+      50,
+      55,
+      60
+    ]
+  },
+  "perk_text": "Mine {v}% faster with a pickaxe"
+}

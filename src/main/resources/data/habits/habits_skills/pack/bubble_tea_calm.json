@@ -1,0 +1,1 @@
+{"rarity":"uncommon","category":"guardian","trigger":{"type":"eat","match":"ends_delight:bubble_tea","chance":0.08},"icon":"ends_delight:bubble_tea","art":"minecraft:light_blue_wool","perk":{"type":"xp_bonus","base":5,"per_level":4}}

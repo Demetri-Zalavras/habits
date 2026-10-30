@@ -1,0 +1,26 @@
+{
+  "rarity": "uncommon",
+  "category": "crafting",
+  "trigger": {
+    "type": "stat_increment",
+    "match": "minecraft:open_shulker_box",
+    "chance": 0.0208
+  },
+  "icon": "minecraft:shulker_box",
+  "art": "minecraft:purpur_block",
+  "perk": {
+    "mechanic": "habits:shulker_sense",
+    "values": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      2
+    ]
+  }
+}

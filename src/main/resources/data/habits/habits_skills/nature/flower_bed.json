@@ -1,0 +1,30 @@
+{
+  "rarity": "uncommon",
+  "category": "nature",
+  "trigger": {
+    "type": "plant",
+    "match": "#minecraft:small_flowers",
+    "chance": 0.0104
+  },
+  "icon": "minecraft:cornflower",
+  "art": "minecraft:rooted_dirt",
+  "perk": {
+    "mechanic": "habits:nature/flower_bed",
+    "values": [
+      4,
+      7,
+      10,
+      13,
+      16,
+      18,
+      21,
+      24,
+      27,
+      30
+    ],
+    "params": {
+      "radius": "2,4",
+      "flowers": "4,2"
+    }
+  }
+}

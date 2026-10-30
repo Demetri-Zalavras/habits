@@ -1,0 +1,31 @@
+{
+  "rarity": "legendary",
+  "category": "warrior",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:never",
+    "chance": 0
+  },
+  "icon": "minecraft:dragon_head",
+  "art": "minecraft:end_stone",
+  "perk": {
+    "type": "damage_bonus",
+    "values": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ]
+  },
+  "title": {
+    "stat_type": "minecraft:killed",
+    "stat": "minecraft:ender_dragon",
+    "min": 1
+  }
+}

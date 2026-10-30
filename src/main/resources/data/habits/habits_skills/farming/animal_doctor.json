@@ -1,0 +1,39 @@
+{
+  "rarity": "common",
+  "category": "farming",
+  "trigger": {
+    "type": "interact_entity",
+    "match": [
+      "minecraft:cow",
+      "minecraft:sheep",
+      "minecraft:pig",
+      "minecraft:chicken",
+      "minecraft:goat"
+    ],
+    "item": [
+      "minecraft:wheat",
+      "minecraft:carrot",
+      "minecraft:potato",
+      "minecraft:beetroot",
+      "minecraft:wheat_seeds"
+    ],
+    "chance": 0.0167
+  },
+  "icon": "minecraft:golden_carrot",
+  "art": "minecraft:hay_block",
+  "perk": {
+    "mechanic": "habits:farming/animal_doctor",
+    "values": [
+      1,
+      1,
+      2,
+      2,
+      3,
+      3,
+      4,
+      4,
+      5,
+      5
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "rarity": "uncommon",
+  "category": "warrior",
+  "trigger": {
+    "type": "damage_taken",
+    "match": "minecraft:starve",
+    "chance": 0.00417
+  },
+  "icon": "minecraft:rotten_flesh",
+  "art": "minecraft:coarse_dirt",
+  "perk": {
+    "mechanic": "habits:survival/iron_stomach",
+    "params": {
+      "rage": "3..30"
+    },
+    "values": [
+      2.0,
+      2.9,
+      3.8,
+      4.7,
+      5.6,
+      6.4,
+      7.3,
+      8.2,
+      9.1,
+      10.0
+    ]
+  }
+}

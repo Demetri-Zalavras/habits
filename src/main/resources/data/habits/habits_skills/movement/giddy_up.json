@@ -1,0 +1,30 @@
+{
+  "rarity": "common",
+  "category": "movement",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:mount",
+    "chance": 0.05
+  },
+  "icon": "minecraft:carrot",
+  "art": "minecraft:oak_log",
+  "perk": {
+    "mechanic": "habits:movement/giddy_up",
+    "params": {
+      "amp": "0,0,0,0,0,1,1,1,1,1",
+      "cooldown": "60..10"
+    },
+    "values": [
+      5,
+      8,
+      11,
+      13,
+      16,
+      19,
+      22,
+      24,
+      27,
+      30
+    ]
+  }
+}

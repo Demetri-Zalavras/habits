@@ -1,0 +1,32 @@
+{
+  "rarity": "uncommon",
+  "category": "nature",
+  "trigger": {
+    "type": "tame",
+    "match": [
+      "minecraft:horse",
+      "minecraft:donkey",
+      "minecraft:mule",
+      "minecraft:llama",
+      "minecraft:camel"
+    ],
+    "chance": 0.125
+  },
+  "icon": "minecraft:goat_horn",
+  "art": "minecraft:hay_block",
+  "perk": {
+    "mechanic": "habits:whistle",
+    "values": [
+      32,
+      88,
+      144,
+      200,
+      256,
+      312,
+      368,
+      424,
+      480,
+      512
+    ]
+  }
+}

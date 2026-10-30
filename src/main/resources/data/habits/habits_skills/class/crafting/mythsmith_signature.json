@@ -1,0 +1,27 @@
+{
+  "rarity": "epic",
+  "category": "crafting",
+  "class": "habits:class/crafting/mythsmith",
+  "trigger": {
+    "type": "craft",
+    "match": "#c:armors",
+    "chance": 0.17
+  },
+  "icon": "minecraft:name_tag",
+  "art": "minecraft:gold_block",
+  "perk": {
+    "mechanic": "habits:crafting/signature",
+    "values": [
+      10,
+      16,
+      21,
+      27,
+      32,
+      38,
+      43,
+      49,
+      54,
+      60
+    ]
+  }
+}

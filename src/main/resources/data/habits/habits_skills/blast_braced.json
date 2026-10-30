@@ -1,0 +1,34 @@
+{
+  "rarity": "uncommon",
+  "category": "guardian",
+  "trigger": {
+    "type": "damage_taken",
+    "match": [
+      "minecraft:explosion",
+      "minecraft:player_explosion"
+    ],
+    "chance": 0.0625
+  },
+  "icon": "minecraft:creeper_head",
+  "art": "minecraft:cobblestone",
+  "perk": {
+    "mechanic": "habits:survival/blast_braced",
+    "params": {
+      "knockback_cut": "10..90",
+      "absorb": "0,0,0,0,0,4,4,4,4,4",
+      "absorb_seconds": "10"
+    },
+    "values": [
+      10,
+      17,
+      23,
+      30,
+      37,
+      43,
+      50,
+      57,
+      63,
+      70
+    ]
+  }
+}

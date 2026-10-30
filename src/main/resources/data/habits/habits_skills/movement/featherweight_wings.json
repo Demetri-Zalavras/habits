@@ -1,0 +1,49 @@
+{
+  "rarity": "epic",
+  "category": "movement",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:thermal_glide",
+    "chance": 0.00028
+  },
+  "icon": "minecraft:breeze_rod",
+  "art": "minecraft:white_wool",
+  "perk": {
+    "type": "attribute",
+    "params": {
+      "attribute": "minecraft:generic.gravity",
+      "operation": "add_multiplied_base",
+      "condition": "gliding"
+    },
+    "values": [
+      -5,
+      -9,
+      -13,
+      -17,
+      -21,
+      -24,
+      -28,
+      -32,
+      -36,
+      -40
+    ]
+  },
+  "perk_text": "Gravity {v}% while gliding",
+  "forks": [
+    {
+      "level": 5,
+      "options": [
+        {
+          "id": "all_hours"
+        },
+        {
+          "id": "night_glider",
+          "scale": 1.5,
+          "params": {
+            "condition": "gliding,night"
+          }
+        }
+      ]
+    }
+  ]
+}

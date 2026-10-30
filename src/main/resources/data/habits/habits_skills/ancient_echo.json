@@ -1,0 +1,50 @@
+{
+  "rarity": "legendary",
+  "category": "exploration",
+  "trigger": {
+    "type": "enter_structure",
+    "match": "minecraft:ancient_city",
+    "chance": 0.33
+  },
+  "icon": "minecraft:echo_shard",
+  "art": "minecraft:deepslate_tiles",
+  "perk": {
+    "mechanic": "habits:movement/ancient_echo",
+    "params": {
+      "darkness": "20..100"
+    },
+    "values": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60,
+      70,
+      80,
+      90,
+      100
+    ]
+  },
+  "forks": [
+    {
+      "level": 5,
+      "options": [
+        {
+          "id": "hushed_steps",
+          "scale": 1.2,
+          "params": {
+            "darkness": "10..50"
+          }
+        },
+        {
+          "id": "night_eyes",
+          "scale": 0.8,
+          "params": {
+            "darkness": "40..100"
+          }
+        }
+      ]
+    }
+  ]
+}

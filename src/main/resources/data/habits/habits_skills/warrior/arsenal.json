@@ -1,0 +1,29 @@
+{
+  "rarity": "uncommon",
+  "category": "warrior",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:weapon_swap_hit",
+    "chance": 0.0625
+  },
+  "icon": "minecraft:netherite_axe",
+  "art": "minecraft:spruce_planks",
+  "perk": {
+    "mechanic": "habits:melee/arsenal",
+    "params": {
+      "window": "1,2"
+    },
+    "values": [
+      10.0,
+      13.0,
+      17.0,
+      20.0,
+      23.0,
+      27.0,
+      30.0,
+      33.0,
+      37.0,
+      40.0
+    ]
+  }
+}

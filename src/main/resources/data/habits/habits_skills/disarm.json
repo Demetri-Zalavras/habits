@@ -1,0 +1,26 @@
+{
+  "rarity": "uncommon",
+  "category": "warrior",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:disarm",
+    "chance": 0.0125
+  },
+  "icon": "minecraft:tripwire_hook",
+  "art": "minecraft:stone_bricks",
+  "perk": {
+    "mechanic": "habits:melee/disarm",
+    "values": [
+      3.0,
+      7.0,
+      10.0,
+      14.0,
+      17.0,
+      21.0,
+      24.0,
+      28.0,
+      31.0,
+      35.0
+    ]
+  }
+}

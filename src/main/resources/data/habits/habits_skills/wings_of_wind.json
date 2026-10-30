@@ -1,0 +1,71 @@
+{
+  "rarity": "legendary",
+  "category": "movement",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:wind_burst",
+    "chance": 0.00833
+  },
+  "icon": "minecraft:wind_charge",
+  "art": "minecraft:tuff_bricks",
+  "perk": {
+    "mechanic": "habits:movement/wings_of_wind",
+    "params": {
+      "cooldown": "30..3",
+      "food": "3..1",
+      "hold": "1"
+    },
+    "values": [
+      8,
+      12,
+      15,
+      19,
+      22,
+      26,
+      29,
+      33,
+      36,
+      40
+    ]
+  },
+  "forks": [
+    {
+      "level": 5,
+      "options": [
+        {
+          "id": "sky_launch",
+          "scale": 1.3,
+          "params": {
+            "cooldown": "45..6"
+          }
+        },
+        {
+          "id": "quick_gust",
+          "scale": 0.75,
+          "params": {
+            "cooldown": "15..1.5"
+          }
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "options": [
+        {
+          "id": "light_wings",
+          "params": {
+            "food": "0",
+            "hold": "1.5"
+          }
+        },
+        {
+          "id": "quick_draw",
+          "params": {
+            "hold": "0.4",
+            "food": "2"
+          }
+        }
+      ]
+    }
+  ]
+}

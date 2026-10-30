@@ -1,0 +1,29 @@
+{
+  "rarity": "rare",
+  "category": "farming",
+  "trigger": {
+    "type": "break_block",
+    "match": "minecraft:wither_rose",
+    "chance": 0.0333
+  },
+  "icon": "minecraft:wither_rose",
+  "art": "minecraft:soul_soil",
+  "perk": {
+    "mechanic": "habits:death_bloom",
+    "params": {
+      "amp": "0,2"
+    },
+    "values": [
+      2.0,
+      2.4,
+      2.9,
+      3.3,
+      3.8,
+      4.2,
+      4.7,
+      5.1,
+      5.6,
+      6.0
+    ]
+  }
+}

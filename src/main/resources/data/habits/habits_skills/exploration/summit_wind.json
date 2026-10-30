@@ -1,0 +1,35 @@
+{
+  "rarity": "uncommon",
+  "category": "exploration",
+  "trigger": {
+    "type": "enter_biome",
+    "match": [
+      "minecraft:jagged_peaks",
+      "minecraft:frozen_peaks",
+      "minecraft:stony_peaks"
+    ],
+    "chance": 0.15
+  },
+  "icon": "minecraft:goat_horn",
+  "art": "minecraft:packed_ice",
+  "perk": {
+    "mechanic": "habits:exploration/summit_wind",
+    "params": {
+      "effect": "minecraft:speed",
+      "min_y": "180..120",
+      "linger": "3"
+    },
+    "values": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      2
+    ]
+  }
+}

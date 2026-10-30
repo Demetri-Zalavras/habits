@@ -1,0 +1,30 @@
+{
+  "rarity": "common",
+  "category": "mining",
+  "trigger": {
+    "type": "break_block",
+    "match": "minecraft:mossy_cobblestone",
+    "chance": 0.00667
+  },
+  "icon": "minecraft:experience_bottle",
+  "art": "minecraft:mossy_cobblestone",
+  "perk": {
+    "type": "xp_bonus",
+    "params": {
+      "condition": "underground"
+    },
+    "values": [
+      5,
+      9,
+      13,
+      17,
+      21,
+      24,
+      28,
+      32,
+      36,
+      40
+    ]
+  },
+  "perk_text": "Underground you get +{v}% experience"
+}

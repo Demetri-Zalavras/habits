@@ -1,0 +1,51 @@
+{
+  "rarity": "common",
+  "category": "building",
+  "trigger": {
+    "type": "break_block",
+    "match": [
+      "minecraft:redstone_wire",
+      "minecraft:repeater",
+      "minecraft:comparator",
+      "minecraft:redstone_torch",
+      "minecraft:redstone_wall_torch",
+      "minecraft:observer",
+      "minecraft:piston",
+      "minecraft:sticky_piston",
+      "minecraft:lever",
+      "#minecraft:buttons",
+      "#minecraft:pressure_plates",
+      "minecraft:redstone_lamp",
+      "minecraft:dispenser",
+      "minecraft:dropper",
+      "minecraft:hopper",
+      "minecraft:target",
+      "minecraft:daylight_detector",
+      "minecraft:note_block",
+      "minecraft:tripwire_hook",
+      "minecraft:redstone_block"
+    ],
+    "chance": 0.01
+  },
+  "icon": "minecraft:repeater",
+  "art": "minecraft:smooth_stone",
+  "perk": {
+    "type": "mining_speed",
+    "values": [
+      20.0,
+      40.0,
+      60.0,
+      80.0,
+      100.0,
+      120.0,
+      140.0,
+      160.0,
+      180.0,
+      200.0
+    ],
+    "params": {
+      "block": "minecraft:redstone_wire,minecraft:repeater,minecraft:comparator,minecraft:redstone_torch,minecraft:redstone_wall_torch,minecraft:observer,minecraft:piston,minecraft:sticky_piston,minecraft:lever,#minecraft:buttons,#minecraft:pressure_plates,minecraft:redstone_lamp,minecraft:dispenser,minecraft:dropper,minecraft:hopper,minecraft:target,minecraft:daylight_detector,minecraft:note_block,minecraft:tripwire_hook,minecraft:redstone_block"
+    }
+  },
+  "perk_text": "Breaking redstone parts +{v}%"
+}

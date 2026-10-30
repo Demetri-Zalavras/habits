@@ -1,0 +1,14 @@
+{
+  "rarity": "common",
+  "category": "crafting",
+  "trigger": {
+    "type": "level_up_xp",
+    "chance": 0.5
+  },
+  "icon": "minecraft:experience_bottle",
+  "art": "minecraft:bookshelf",
+  "perk": {
+    "type": "xp_bonus",
+    "values": [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
+  }
+}

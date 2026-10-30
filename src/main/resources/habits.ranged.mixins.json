@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.habits.perk.ranged.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "BreezeMixin",
+    "EnderManMixin",
+    "LivingEntityMixin",
+    "ProjectileMixin"
+  ],
+  "client": [],
+  "injectors": {"defaultRequire": 1}
+}

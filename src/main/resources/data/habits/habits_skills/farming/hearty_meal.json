@@ -1,0 +1,33 @@
+{
+  "rarity": "uncommon",
+  "category": "farming",
+  "trigger": {
+    "type": "eat",
+    "match": [
+      "minecraft:mushroom_stew",
+      "minecraft:beetroot_soup",
+      "minecraft:rabbit_stew"
+    ],
+    "chance": 0.0625
+  },
+  "icon": "minecraft:mushroom_stew",
+  "art": "minecraft:mushroom_stem",
+  "perk": {
+    "mechanic": "habits:farming/hearty_meal",
+    "params": {
+      "seconds": "30,120"
+    },
+    "values": [
+      2,
+      2,
+      2,
+      4,
+      4,
+      4,
+      6,
+      6,
+      6,
+      8
+    ]
+  }
+}

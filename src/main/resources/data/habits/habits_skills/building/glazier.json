@@ -1,0 +1,29 @@
+{
+  "rarity": "rare",
+  "category": "building",
+  "trigger": {
+    "type": "place_block",
+    "match": [
+      "minecraft:glass_pane",
+      "#c:glass_panes"
+    ],
+    "chance": 0.00333
+  },
+  "icon": "minecraft:glass_pane",
+  "art": "minecraft:glass",
+  "perk": {
+    "mechanic": "habits:building/glazier",
+    "values": [
+      4,
+      6,
+      9,
+      12,
+      16,
+      20,
+      25,
+      30,
+      36,
+      42
+    ]
+  }
+}

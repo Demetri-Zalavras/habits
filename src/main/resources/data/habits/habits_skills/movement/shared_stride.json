@@ -1,0 +1,26 @@
+{
+  "rarity": "epic",
+  "category": "movement",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:potion_ride",
+    "chance": 0.083
+  },
+  "icon": "minecraft:potion",
+  "art": "minecraft:hay_block",
+  "perk": {
+    "mechanic": "habits:movement/shared_stride",
+    "values": [
+      1,
+      1,
+      2,
+      2,
+      3,
+      3,
+      4,
+      4,
+      5,
+      6
+    ]
+  }
+}

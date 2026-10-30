@@ -1,0 +1,19 @@
+{
+  "rarity": "common",
+  "category": "crafting",
+  "trigger": {
+    "type": "craft",
+    "match": ["minecraft:bread", "minecraft:cake", "minecraft:cookie", "minecraft:pumpkin_pie"],
+    "chance": 0.1
+  },
+  "icon": "minecraft:bread",
+  "art": "minecraft:hay_block",
+  "perk": {
+    "type": "food_bonus",
+    "values": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50],
+    "params": {
+      "item": "minecraft:bread,minecraft:cake,minecraft:cookie,minecraft:pumpkin_pie"
+    }
+  },
+  "perk_text": "Baked goods fill {v}% more"
+}

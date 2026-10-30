@@ -1,0 +1,30 @@
+{
+  "rarity": "uncommon",
+  "category": "building",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:building/underwater_place",
+    "chance": 0.00625
+  },
+  "icon": "minecraft:turtle_helmet",
+  "art": "minecraft:prismarine",
+  "perk": {
+    "type": "attribute",
+    "values": [
+      0.3,
+      0.6,
+      0.9,
+      1.2,
+      1.5,
+      1.8,
+      2.1,
+      2.4,
+      2.7,
+      3.0
+    ],
+    "params": {
+      "attribute": "minecraft:generic.oxygen_bonus"
+    }
+  },
+  "perk_text": "Breath lasts longer underwater (+{v})"
+}

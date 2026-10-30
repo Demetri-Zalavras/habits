@@ -1,0 +1,15 @@
+{
+  "rarity": "uncommon",
+  "category": "crafting",
+  "trigger": {
+    "type": "smelt",
+    "min": 32,
+    "chance": 0.125
+  },
+  "icon": "minecraft:hopper",
+  "art": "minecraft:furnace",
+  "perk": {
+    "mechanic": "habits:crafting/quick_collect",
+    "values": [1, 2, 3, 3, 4, 5, 5, 6, 7, 8]
+  }
+}

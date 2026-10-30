@@ -1,0 +1,32 @@
+{
+  "rarity": "uncommon",
+  "category": "mining",
+  "class": "habits:class/mining/delver",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:dig_down",
+    "chance": 0.002
+  },
+  "icon": "minecraft:leather_boots",
+  "art": "minecraft:cobbled_deepslate",
+  "perk": {
+    "type": "damage_type_resist",
+    "params": {
+      "damage": "minecraft:fall",
+      "condition": "underground"
+    },
+    "values": [
+      10,
+      16,
+      21,
+      27,
+      32,
+      38,
+      43,
+      49,
+      54,
+      60
+    ]
+  },
+  "perk_text": "Take {v}% less fall damage underground"
+}

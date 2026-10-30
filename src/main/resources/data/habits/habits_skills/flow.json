@@ -1,0 +1,29 @@
+{
+  "rarity": "rare",
+  "category": "ranger",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:flawless_streak",
+    "chance": 0.111
+  },
+  "icon": "minecraft:feather",
+  "art": "minecraft:white_concrete",
+  "perk": {
+    "mechanic": "habits:melee/flow",
+    "params": {
+      "cap": "10,50"
+    },
+    "values": [
+      2.0,
+      2.3,
+      2.7,
+      3.0,
+      3.3,
+      3.7,
+      4.0,
+      4.3,
+      4.7,
+      5.0
+    ]
+  }
+}

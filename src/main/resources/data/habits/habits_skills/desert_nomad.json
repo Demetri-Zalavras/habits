@@ -1,0 +1,30 @@
+{
+  "rarity": "common",
+  "category": "exploration",
+  "trigger": {
+    "type": "enter_biome",
+    "match": "minecraft:desert",
+    "chance": 0.2
+  },
+  "icon": "minecraft:dead_bush",
+  "art": "minecraft:sandstone",
+  "perk": {
+    "mechanic": "habits:movement/desert_nomad",
+    "params": {
+      "husk": "10..70",
+      "storm_level": "10"
+    },
+    "values": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60,
+      70,
+      80,
+      90,
+      100
+    ]
+  }
+}

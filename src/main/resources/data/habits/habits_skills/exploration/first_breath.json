@@ -1,0 +1,29 @@
+{
+  "rarity": "uncommon",
+  "category": "exploration",
+  "trigger": {
+    "type": "custom_units",
+    "match": "habits:sprint_new_biome",
+    "chance": 0.0025
+  },
+  "icon": "minecraft:oxeye_daisy",
+  "art": "minecraft:grass_block",
+  "perk": {
+    "mechanic": "habits:exploration/first_breath",
+    "params": {
+      "minutes": "10"
+    },
+    "values": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  }
+}

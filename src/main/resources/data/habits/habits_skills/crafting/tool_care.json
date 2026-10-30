@@ -1,0 +1,15 @@
+{
+  "rarity": "rare",
+  "category": "crafting",
+  "trigger": {
+    "type": "stat_increment",
+    "match": "minecraft:interact_with_grindstone",
+    "chance": 0.03333
+  },
+  "icon": "minecraft:honeycomb",
+  "art": "minecraft:oak_log",
+  "perk": {
+    "mechanic": "habits:crafting/tool_care",
+    "values": [10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
+  }
+}

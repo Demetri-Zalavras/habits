@@ -1,0 +1,30 @@
+{
+  "rarity": "uncommon",
+  "category": "building",
+  "trigger": {
+    "type": "place_block",
+    "match": [
+      "minecraft:mud",
+      "minecraft:packed_mud",
+      "minecraft:mud_bricks"
+    ],
+    "chance": 0.0104
+  },
+  "icon": "minecraft:mud",
+  "art": "minecraft:mud",
+  "perk": {
+    "mechanic": "habits:building/mud_mixer",
+    "values": [
+      2,
+      3,
+      4,
+      6,
+      8,
+      10,
+      12,
+      14,
+      16,
+      20
+    ]
+  }
+}

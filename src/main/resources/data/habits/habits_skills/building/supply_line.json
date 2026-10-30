@@ -1,0 +1,26 @@
+{
+  "rarity": "legendary",
+  "category": "building",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:stack_used_up",
+    "chance": 0.00833
+  },
+  "icon": "minecraft:compass",
+  "art": "minecraft:barrel",
+  "perk": {
+    "mechanic": "habits:building/supply_line",
+    "values": [
+      16,
+      24,
+      32,
+      48,
+      64,
+      96,
+      128,
+      192,
+      256,
+      512
+    ]
+  }
+}

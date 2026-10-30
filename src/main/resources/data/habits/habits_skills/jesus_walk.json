@@ -1,0 +1,26 @@
+{
+  "rarity": "rare",
+  "category": "movement",
+  "trigger": {
+    "type": "stat_increment",
+    "match": "minecraft:walk_on_water_one_cm",
+    "chance": 2.78e-06
+  },
+  "icon": "minecraft:lily_pad",
+  "art": "minecraft:prismarine",
+  "perk": {
+    "mechanic": "habits:movement/jesus_walk",
+    "values": [
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      3
+    ]
+  }
+}

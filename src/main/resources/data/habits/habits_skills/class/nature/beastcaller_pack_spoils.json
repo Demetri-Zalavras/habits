@@ -1,0 +1,27 @@
+{
+  "rarity": "epic",
+  "category": "nature",
+  "class": "habits:class/nature/beastcaller",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:pet_kill",
+    "chance": 0.0167
+  },
+  "icon": "minecraft:rabbit_hide",
+  "art": "minecraft:mud",
+  "perk": {
+    "mechanic": "habits:nature/pack_hunter",
+    "values": [
+      30.0,
+      37.8,
+      45.6,
+      53.3,
+      61.1,
+      68.9,
+      76.7,
+      84.4,
+      92.2,
+      100.0
+    ]
+  }
+}

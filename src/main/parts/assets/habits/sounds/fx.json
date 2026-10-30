@@ -1,0 +1,27 @@
+{
+  "fx.flip": {
+    "sounds": [
+      {
+        "name": "minecraft:item.book.page_turn",
+        "type": "event"
+      }
+    ]
+  },
+  "fx.reveal": {
+    "subtitle": "subtitles.habits.fx.reveal",
+    "sounds": [
+      {
+        "name": "minecraft:block.amethyst_block.resonate",
+        "type": "event"
+      }
+    ]
+  },
+  "fx.reveal_big": {
+    "sounds": [
+      {
+        "name": "minecraft:ui.toast.challenge_complete",
+        "type": "event"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1 @@
+{"rarity":"rare","category":"exploration","trigger":{"type":"use_item","match":"waystones:attuned_shard","chance":0.2},"icon":"waystones:attuned_shard","art":"minecraft:amethyst_block","perk":{"type":"magnet_pickup","base":1,"per_level":0.5}}

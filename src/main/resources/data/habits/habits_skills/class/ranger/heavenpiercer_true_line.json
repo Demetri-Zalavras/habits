@@ -1,0 +1,27 @@
+{
+  "rarity": "epic",
+  "category": "ranger",
+  "class": "habits:class/ranger/heavenpiercer",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:ranged/long_kill",
+    "chance": 0.1
+  },
+  "icon": "minecraft:ender_eye",
+  "art": "minecraft:end_stone",
+  "perk": {
+    "mechanic": "habits:ranged/deadeye",
+    "values": [
+      20,
+      26,
+      32,
+      38,
+      44,
+      50,
+      56,
+      62,
+      70,
+      80
+    ]
+  }
+}

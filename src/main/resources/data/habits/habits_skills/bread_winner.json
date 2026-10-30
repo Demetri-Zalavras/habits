@@ -1,0 +1,26 @@
+{
+  "rarity": "common",
+  "category": "guardian",
+  "trigger": {
+    "type": "eat",
+    "match": "minecraft:bread",
+    "chance": 0.1
+  },
+  "icon": "minecraft:bread",
+  "art": "minecraft:hay_block",
+  "perk": {
+    "mechanic": "habits:survival/bread_winner",
+    "values": [
+      1.0,
+      1.6,
+      2.1,
+      2.7,
+      3.2,
+      3.8,
+      4.3,
+      4.9,
+      5.4,
+      6.0
+    ]
+  }
+}

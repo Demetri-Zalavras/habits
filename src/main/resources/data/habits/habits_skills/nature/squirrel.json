@@ -1,0 +1,26 @@
+{
+  "rarity": "rare",
+  "category": "nature",
+  "trigger": {
+    "type": "break_block",
+    "match": "#minecraft:leaves",
+    "chance": 0.000556
+  },
+  "icon": "minecraft:cocoa_beans",
+  "art": "minecraft:oak_leaves",
+  "perk": {
+    "mechanic": "habits:nature/squirrel",
+    "values": [
+      1.5,
+      2.0,
+      2.5,
+      3.0,
+      3.5,
+      4.0,
+      4.5,
+      5.0,
+      5.5,
+      6.0
+    ]
+  }
+}

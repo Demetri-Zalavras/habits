@@ -1,0 +1,30 @@
+{
+  "rarity": "rare",
+  "category": "ranger",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:arrow_hit_crowd",
+    "chance": 0.0667
+  },
+  "icon": "minecraft:prismarine_shard",
+  "art": "minecraft:amethyst_block",
+  "perk": {
+    "mechanic": "habits:split_shot",
+    "values": [
+      1,
+      1,
+      2,
+      2,
+      3,
+      3,
+      4,
+      4,
+      5,
+      5
+    ],
+    "params": {
+      "dmg": "30..60",
+      "range": "4..8"
+    }
+  }
+}

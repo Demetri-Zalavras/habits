@@ -1,0 +1,31 @@
+{
+  "rarity": "common",
+  "category": "movement",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:mount",
+    "chance": 0.05
+  },
+  "icon": "minecraft:lead",
+  "art": "minecraft:oak_log",
+  "perk": {
+    "mechanic": "habits:movement/saddle_up",
+    "params": {
+      "value_max": "100",
+      "regen": "0.5..4",
+      "whistle": "0,0,0,0,0,0,0,0,0,64"
+    },
+    "values": [
+      5,
+      10,
+      15,
+      20,
+      25,
+      30,
+      35,
+      40,
+      45,
+      50
+    ]
+  }
+}

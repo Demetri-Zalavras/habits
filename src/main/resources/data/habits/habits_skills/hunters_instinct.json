@@ -1,0 +1,41 @@
+{
+  "rarity": "common",
+  "category": "ranger",
+  "trigger": {
+    "type": "kill_entity",
+    "match": [
+      "minecraft:cow",
+      "minecraft:pig",
+      "minecraft:sheep",
+      "minecraft:chicken",
+      "minecraft:rabbit",
+      "minecraft:goat",
+      "minecraft:hoglin"
+    ],
+    "item": [
+      "minecraft:bow",
+      "minecraft:crossbow"
+    ],
+    "chance": 0.0333
+  },
+  "icon": "minecraft:cooked_beef",
+  "art": "minecraft:smoker",
+  "perk": {
+    "mechanic": "habits:hunters_instinct",
+    "values": [
+      10.0,
+      20.0,
+      30.0,
+      40.0,
+      50.0,
+      60.0,
+      70.0,
+      80.0,
+      90.0,
+      100.0
+    ],
+    "params": {
+      "extra": "0,0,0,1,1,1,1,2,2,2"
+    }
+  }
+}

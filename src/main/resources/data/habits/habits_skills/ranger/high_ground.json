@@ -1,0 +1,29 @@
+{
+  "rarity": "uncommon",
+  "category": "ranger",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:ranged/high_ground_hit",
+    "chance": 0.04
+  },
+  "icon": "minecraft:ladder",
+  "art": "minecraft:stone_bricks",
+  "perk": {
+    "mechanic": "habits:ranged/high_ground",
+    "values": [
+      1.0,
+      1.5,
+      2.0,
+      2.5,
+      3.0,
+      3.5,
+      4.0,
+      4.5,
+      5.0,
+      5.5
+    ],
+    "params": {
+      "cap": "15..60"
+    }
+  }
+}

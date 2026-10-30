@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:melon_seeds",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:pumpkin_seeds",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:beetroot_seeds",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cocoa_beans",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:torchflower_seeds",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

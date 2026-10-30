@@ -1,0 +1,26 @@
+{
+  "rarity": "epic",
+  "category": "mining",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:break_near_spawner",
+    "chance": 0.00167
+  },
+  "icon": "minecraft:chest",
+  "art": "minecraft:mossy_cobblestone",
+  "perk": {
+    "mechanic": "habits:treasure_sense",
+    "values": [
+      6,
+      10,
+      14,
+      17,
+      21,
+      25,
+      29,
+      32,
+      36,
+      40
+    ]
+  }
+}

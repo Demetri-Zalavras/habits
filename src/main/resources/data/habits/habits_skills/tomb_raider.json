@@ -1,0 +1,32 @@
+{
+  "rarity": "uncommon",
+  "category": "exploration",
+  "trigger": {
+    "type": "enter_structure",
+    "match": [
+      "minecraft:desert_pyramid",
+      "minecraft:jungle_pyramid"
+    ],
+    "chance": 1.0
+  },
+  "icon": "minecraft:tripwire_hook",
+  "art": "minecraft:chiseled_sandstone",
+  "perk": {
+    "mechanic": "habits:movement/tomb_raider",
+    "params": {
+      "immune_level": "5"
+    },
+    "values": [
+      4,
+      6,
+      8,
+      11,
+      13,
+      15,
+      17,
+      20,
+      22,
+      24
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "rarity": "epic",
+  "category": "ranger",
+  "trigger": {
+    "type": "custom",
+    "match": [
+      "habits:effect_bad_omen",
+      "habits:effect_raid_omen",
+      "habits:effect_trial_omen"
+    ],
+    "chance": 0.333
+  },
+  "icon": "minecraft:white_banner",
+  "art": "minecraft:dark_oak_planks",
+  "perk": {
+    "mechanic": "habits:survival/omen_reader",
+    "params": {
+      "emeralds": "1..4"
+    },
+    "values": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60,
+      70,
+      80,
+      90,
+      100
+    ]
+  },
+  "forks": [
+    {
+      "level": 5,
+      "options": [
+        {
+          "id": "steady_omens"
+        },
+        {
+          "id": "rich_omens",
+          "scale": 0.6,
+          "params": {
+            "emeralds": "2..7"
+          }
+        }
+      ]
+    }
+  ]
+}

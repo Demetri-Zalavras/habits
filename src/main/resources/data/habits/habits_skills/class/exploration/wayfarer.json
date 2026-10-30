@@ -1,0 +1,30 @@
+{
+  "rarity": "epic",
+  "category": "exploration",
+  "trigger": {
+    "type": "walk_distance",
+    "chance": 6.4e-05
+  },
+  "icon": "minecraft:campfire",
+  "art": "minecraft:dirt_path",
+  "perk": {
+    "mechanic": "habits:exploration/wayfarer",
+    "params": {
+      "heal": "2",
+      "food": "1"
+    },
+    "values": [
+      120,
+      110,
+      100,
+      90,
+      80,
+      70,
+      60,
+      50,
+      40,
+      30
+    ]
+  },
+  "class_passive": true
+}

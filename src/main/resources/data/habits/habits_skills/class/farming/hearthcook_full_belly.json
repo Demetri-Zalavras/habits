@@ -1,0 +1,26 @@
+{
+  "rarity": "epic",
+  "category": "farming",
+  "class": "habits:class/farming/hearthcook",
+  "trigger": {
+    "type": "eat",
+    "chance": 0.0167
+  },
+  "icon": "minecraft:bread",
+  "art": "minecraft:hay_block",
+  "perk": {
+    "type": "hunger_save",
+    "values": [
+      10,
+      14,
+      18,
+      22,
+      26,
+      30,
+      34,
+      38,
+      44,
+      50
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "rarity": "uncommon",
+  "category": "crafting",
+  "trigger": {
+    "type": "anvil",
+    "chance": 0.0625
+  },
+  "icon": "minecraft:nether_brick",
+  "art": "minecraft:netherrack",
+  "perk": {
+    "type": "anvil_discount",
+    "values": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50],
+    "params": {
+      "condition": "dimension=minecraft:the_nether"
+    }
+  },
+  "perk_text": "Anvil {v}% cheaper in the Nether"
+}

@@ -1,0 +1,29 @@
+{
+  "rarity": "rare",
+  "category": "crafting",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:never",
+    "chance": 0
+  },
+  "icon": "minecraft:enchanted_book",
+  "art": "minecraft:dark_oak_planks",
+  "perk": {
+    "type": "magnet_pickup",
+    "values": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "title": {
+    "total_level": 300
+  }
+}

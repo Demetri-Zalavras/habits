@@ -1,0 +1,19 @@
+{
+  "rarity": "common",
+  "category": "crafting",
+  "trigger": {
+    "type": "craft",
+    "match": ["minecraft:torch", "minecraft:soul_torch", "minecraft:lantern", "minecraft:soul_lantern"],
+    "chance": 0.05
+  },
+  "icon": "minecraft:torch",
+  "art": "minecraft:coal_block",
+  "perk": {
+    "mechanic": "habits:crafting/torch_smith",
+    "values": [10, 16, 21, 27, 32, 38, 43, 49, 54, 60],
+    "params": {
+      "items": "minecraft:torch,minecraft:soul_torch,minecraft:lantern,minecraft:soul_lantern",
+      "extra": "1..4"
+    }
+  }
+}

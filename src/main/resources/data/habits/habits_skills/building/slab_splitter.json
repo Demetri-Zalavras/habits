@@ -1,0 +1,26 @@
+{
+  "rarity": "common",
+  "category": "building",
+  "trigger": {
+    "type": "break_block",
+    "match": "#minecraft:slabs",
+    "chance": 0.005
+  },
+  "icon": "minecraft:smooth_stone_slab",
+  "art": "minecraft:smooth_stone",
+  "perk": {
+    "mechanic": "habits:building/slab_splitter",
+    "values": [
+      10.0,
+      20.0,
+      30.0,
+      40.0,
+      50.0,
+      60.0,
+      70.0,
+      80.0,
+      90.0,
+      100.0
+    ]
+  }
+}

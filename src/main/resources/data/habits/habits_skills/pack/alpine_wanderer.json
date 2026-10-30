@@ -1,0 +1,1 @@
+{"rarity":"uncommon","category":"movement","trigger":{"type":"enter_biome","match":["terralith:alpine_highlands","terralith:emerald_peaks","terralith:haze_mountain"],"chance":0.3},"icon":"minecraft:spruce_sapling","art":"minecraft:snow_block","perk":{"type":"climb_speed","base":5,"per_level":5}}

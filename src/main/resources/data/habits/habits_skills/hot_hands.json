@@ -1,0 +1,32 @@
+{
+  "rarity": "rare",
+  "category": "crafting",
+  "trigger": {
+    "type": "damage_taken",
+    "match": [
+      "minecraft:in_fire",
+      "minecraft:lava"
+    ],
+    "chance": 0.000278
+  },
+  "icon": "minecraft:blaze_powder",
+  "art": "minecraft:magma_block",
+  "perk": {
+    "mechanic": "habits:hot_hands",
+    "params": {
+      "count": "1..64"
+    },
+    "values": [
+      10,
+      9,
+      8,
+      7,
+      6,
+      5,
+      4,
+      3,
+      2,
+      1
+    ]
+  }
+}

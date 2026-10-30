@@ -1,0 +1,29 @@
+{
+  "rarity": "uncommon",
+  "category": "building",
+  "trigger": {
+    "type": "place_block",
+    "match": [
+      "minecraft:glass",
+      "#c:glass_blocks"
+    ],
+    "chance": 0.00625
+  },
+  "icon": "minecraft:glass",
+  "art": "minecraft:glass",
+  "perk": {
+    "mechanic": "habits:gentle_hands",
+    "values": [
+      20.0,
+      28.89,
+      37.78,
+      46.67,
+      55.56,
+      64.44,
+      73.33,
+      82.22,
+      91.11,
+      100.0
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "rarity": "common",
+  "category": "ranger",
+  "trigger": {
+    "type": "kill_entity",
+    "match": "#minecraft:skeletons",
+    "item": "minecraft:bow",
+    "chance": 0.03
+  },
+  "icon": "minecraft:rabbit_foot",
+  "art": "minecraft:bone_block",
+  "perk": {
+    "type": "attribute",
+    "values": [
+      2.0,
+      4.0,
+      6.0,
+      8.0,
+      10.0,
+      12.0,
+      14.0,
+      16.0,
+      18.0,
+      20.0
+    ],
+    "params": {
+      "attribute": "minecraft:generic.movement_speed",
+      "operation": "add_multiplied_base",
+      "condition": "holding=#c:tools/ranged_weapon"
+    }
+  },
+  "perk_text": "Move {v}% faster while holding a ranged weapon"
+}

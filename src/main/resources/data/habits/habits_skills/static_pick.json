@@ -1,0 +1,30 @@
+{
+  "rarity": "common",
+  "category": "mining",
+  "trigger": {
+    "type": "break_block",
+    "match": "#minecraft:copper_ores",
+    "chance": 0.02
+  },
+  "icon": "minecraft:copper_ingot",
+  "art": "minecraft:copper_ore",
+  "perk": {
+    "mechanic": "habits:static_pick",
+    "params": {
+      "width": "3..5",
+      "per_tick": "4"
+    },
+    "values": [
+      1,
+      1,
+      2,
+      2,
+      3,
+      3,
+      4,
+      4,
+      5,
+      5
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "rarity": "rare",
+  "category": "crafting",
+  "trigger": {
+    "type": "craft",
+    "match": "minecraft:firework_rocket",
+    "chance": 0.03333
+  },
+  "icon": "minecraft:firework_rocket",
+  "art": "minecraft:red_wool",
+  "perk": {
+    "mechanic": "habits:crafting/pyrotechnician",
+    "values": [1, 1, 1, 1, 2, 2, 2, 2, 3, 3],
+    "params": {
+      "max_flight": "6"
+    }
+  }
+}

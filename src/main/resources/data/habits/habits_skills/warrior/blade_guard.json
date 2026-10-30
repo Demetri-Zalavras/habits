@@ -1,0 +1,35 @@
+{
+  "rarity": "uncommon",
+  "category": "warrior",
+  "trigger": {
+    "type": "damage_taken",
+    "match": "minecraft:mob_attack",
+    "entity": [
+      "minecraft:wither_skeleton",
+      "minecraft:piglin",
+      "minecraft:vindicator",
+      "minecraft:zombified_piglin"
+    ],
+    "chance": 0.0104
+  },
+  "icon": "minecraft:golden_sword",
+  "art": "minecraft:blackstone",
+  "perk": {
+    "mechanic": "habits:melee/blade_guard",
+    "params": {
+      "value_max": "90"
+    },
+    "values": [
+      10.0,
+      15.0,
+      20.0,
+      25.0,
+      30.0,
+      35.0,
+      40.0,
+      45.0,
+      50.0,
+      55.0
+    ]
+  }
+}

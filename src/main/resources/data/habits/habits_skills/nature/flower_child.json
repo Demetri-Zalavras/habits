@@ -1,0 +1,30 @@
+{
+  "rarity": "uncommon",
+  "category": "nature",
+  "trigger": {
+    "type": "break_block",
+    "match": "#minecraft:small_flowers",
+    "chance": 0.00313
+  },
+  "icon": "minecraft:allium",
+  "art": "minecraft:pink_petals",
+  "perk": {
+    "type": "xp_bonus",
+    "values": [
+      5,
+      10,
+      15,
+      20,
+      25,
+      30,
+      35,
+      40,
+      45,
+      50
+    ],
+    "params": {
+      "condition": "biome=#c:is_floral"
+    }
+  },
+  "perk_text": "Experience +{v}% in flower biomes"
+}

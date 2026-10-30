@@ -1,0 +1,39 @@
+{
+  "rarity": "epic",
+  "category": "movement",
+  "trigger": {
+    "type": "ride_distance",
+    "match": [
+      "minecraft:horse",
+      "minecraft:donkey",
+      "minecraft:mule",
+      "minecraft:skeleton_horse",
+      "minecraft:zombie_horse",
+      "minecraft:camel"
+    ],
+    "chance": 3.47e-05
+  },
+  "icon": "minecraft:trident",
+  "art": "minecraft:spruce_planks",
+  "perk": {
+    "type": "reach",
+    "params": {
+      "kind": "entity",
+      "condition": "riding"
+    },
+    "values": [
+      0.5,
+      0.7,
+      0.8,
+      1,
+      1.2,
+      1.3,
+      1.5,
+      1.7,
+      1.8,
+      2
+    ]
+  },
+  "class": "habits:class/movement/outrider",
+  "perk_text": "Reach +{v} blocks while riding"
+}

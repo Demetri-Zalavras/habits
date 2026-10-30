@@ -1,0 +1,29 @@
+{
+  "rarity": "common",
+  "category": "ranger",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:full_leather_5min",
+    "chance": 0.5
+  },
+  "icon": "minecraft:leather_chestplate",
+  "art": "minecraft:brown_wool",
+  "perk": {
+    "mechanic": "habits:survival/leather_lover",
+    "params": {
+      "visibility_cut": "4..40"
+    },
+    "values": [
+      1.0,
+      1.8,
+      2.6,
+      3.3,
+      4.1,
+      4.9,
+      5.7,
+      6.4,
+      7.2,
+      8.0
+    ]
+  }
+}

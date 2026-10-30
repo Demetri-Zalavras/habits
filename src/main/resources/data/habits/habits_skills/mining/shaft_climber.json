@@ -1,0 +1,29 @@
+{
+  "rarity": "common",
+  "category": "mining",
+  "trigger": {
+    "type": "climb_distance",
+    "chance": 0.00071
+  },
+  "icon": "minecraft:ladder",
+  "art": "minecraft:oak_planks",
+  "perk": {
+    "type": "climb_speed",
+    "params": {
+      "condition": "underground"
+    },
+    "values": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60,
+      70,
+      80,
+      90,
+      100
+    ]
+  },
+  "perk_text": "Underground you climb +{v}% faster"
+}

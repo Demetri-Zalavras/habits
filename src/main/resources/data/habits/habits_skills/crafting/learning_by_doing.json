@@ -1,0 +1,18 @@
+{
+  "rarity": "common",
+  "category": "crafting",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:big_craft",
+    "chance": 0.05
+  },
+  "icon": "minecraft:book",
+  "art": "minecraft:oak_planks",
+  "perk": {
+    "mechanic": "habits:crafting/learning_by_doing",
+    "values": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50],
+    "params": {
+      "xp": "1..3"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "rarity": "common",
+  "category": "nature",
+  "trigger": {
+    "type": "fish",
+    "match": [
+      "minecraft:leather_boots",
+      "minecraft:leather",
+      "minecraft:bone",
+      "minecraft:bowl",
+      "minecraft:string",
+      "minecraft:stick",
+      "minecraft:ink_sac",
+      "minecraft:tripwire_hook",
+      "minecraft:rotten_flesh",
+      "minecraft:lily_pad",
+      "minecraft:bamboo",
+      "minecraft:potion"
+    ],
+    "chance": 0.25
+  },
+  "icon": "minecraft:tripwire_hook",
+  "art": "minecraft:prismarine",
+  "perk": {
+    "mechanic": "habits:junk_recycler",
+    "values": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60,
+      70,
+      80,
+      90,
+      100
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "rarity": "uncommon",
+  "category": "guardian",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:gold_armor_5min",
+    "chance": 0.312
+  },
+  "icon": "minecraft:gold_ingot",
+  "art": "minecraft:gilded_blackstone",
+  "perk": {
+    "mechanic": "habits:survival/gold_standard",
+    "params": {
+      "admire_cut": "10..50",
+      "forgive_cut": "10..50"
+    },
+    "values": [
+      10,
+      14,
+      19,
+      23,
+      28,
+      32,
+      37,
+      41,
+      46,
+      50
+    ]
+  }
+}

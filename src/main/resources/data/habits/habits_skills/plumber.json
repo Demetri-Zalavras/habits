@@ -1,0 +1,29 @@
+{
+  "rarity": "uncommon",
+  "category": "building",
+  "trigger": {
+    "type": "bucket_empty",
+    "chance": 0.0156,
+    "match": "minecraft:water_bucket"
+  },
+  "icon": "minecraft:water_bucket",
+  "art": "minecraft:prismarine",
+  "perk": {
+    "mechanic": "habits:plumber",
+    "params": {
+      "scoop_level": "6"
+    },
+    "values": [
+      25,
+      33,
+      42,
+      50,
+      58,
+      67,
+      75,
+      83,
+      92,
+      100
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "rarity": "rare",
+  "category": "mining",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:ore_streak",
+    "chance": 0.0333
+  },
+  "icon": "minecraft:diamond_pickaxe",
+  "art": "minecraft:iron_ore",
+  "perk": {
+    "mechanic": "habits:vein_miner",
+    "params": {
+      "per_tick": "4"
+    },
+    "values": [
+      2,
+      4,
+      6,
+      9,
+      12,
+      15,
+      19,
+      23,
+      27,
+      32
+    ]
+  }
+}

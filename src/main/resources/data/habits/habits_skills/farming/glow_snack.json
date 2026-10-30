@@ -1,0 +1,29 @@
+{
+  "rarity": "uncommon",
+  "category": "farming",
+  "trigger": {
+    "type": "harvest_crop",
+    "match": [
+      "minecraft:cave_vines",
+      "minecraft:cave_vines_plant"
+    ],
+    "chance": 0.003
+  },
+  "icon": "minecraft:glow_berries",
+  "art": "minecraft:moss_block",
+  "perk": {
+    "mechanic": "habits:farming/glow_snack",
+    "values": [
+      10,
+      22,
+      34,
+      47,
+      59,
+      71,
+      83,
+      96,
+      108,
+      120
+    ]
+  }
+}

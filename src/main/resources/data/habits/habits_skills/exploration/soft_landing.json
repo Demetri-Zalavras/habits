@@ -1,0 +1,64 @@
+{
+  "rarity": "epic",
+  "category": "exploration",
+  "trigger": {
+    "type": "enter_dimension",
+    "match": "minecraft:the_end",
+    "chance": 0.3
+  },
+  "icon": "minecraft:end_stone",
+  "art": "minecraft:end_stone_bricks",
+  "perk": {
+    "type": "damage_type_resist",
+    "params": {
+      "damage": "minecraft:fall,minecraft:dragon_breath",
+      "condition": "dimension=minecraft:the_end",
+      "value_max": "100"
+    },
+    "values": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60,
+      70,
+      80,
+      90,
+      100
+    ]
+  },
+  "perk_text": "Fall and dragon breath damage -{v}% in the End",
+  "forks": [
+    {
+      "level": 5,
+      "options": [
+        {
+          "id": "end_cushion"
+        },
+        {
+          "id": "any_world",
+          "scale": 0.5,
+          "params": {
+            "condition": ""
+          }
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "options": [
+        {
+          "id": "fall_and_breath"
+        },
+        {
+          "id": "shell_guard",
+          "scale": 0.75,
+          "params": {
+            "damage": "minecraft:fall,minecraft:dragon_breath,#minecraft:is_projectile"
+          }
+        }
+      ]
+    }
+  ]
+}

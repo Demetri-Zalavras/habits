@@ -1,0 +1,30 @@
+{
+  "rarity": "uncommon",
+  "category": "nature",
+  "trigger": {
+    "type": "interact_entity",
+    "match": "minecraft:armadillo",
+    "item": "minecraft:brush",
+    "chance": 0.0625
+  },
+  "icon": "minecraft:wolf_armor",
+  "art": "minecraft:coarse_dirt",
+  "perk": {
+    "mechanic": "habits:armor_groomer",
+    "params": {
+      "thorns": "0,30"
+    },
+    "values": [
+      1,
+      2,
+      4,
+      8,
+      12,
+      16,
+      24,
+      32,
+      48,
+      64
+    ]
+  }
+}

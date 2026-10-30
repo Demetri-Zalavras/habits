@@ -1,0 +1,26 @@
+{
+  "rarity": "common",
+  "category": "guardian",
+  "trigger": {
+    "type": "custom_units",
+    "match": "habits:hunger_point_lost",
+    "chance": 0.05
+  },
+  "icon": "minecraft:bread",
+  "art": "minecraft:hay_block",
+  "perk": {
+    "mechanic": "habits:survival/slow_burn",
+    "values": [
+      5,
+      11,
+      16,
+      22,
+      27,
+      33,
+      38,
+      44,
+      49,
+      55
+    ]
+  }
+}

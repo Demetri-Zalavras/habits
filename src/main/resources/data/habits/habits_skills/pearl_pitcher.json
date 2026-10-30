@@ -1,0 +1,30 @@
+{
+  "rarity": "common",
+  "category": "ranger",
+  "trigger": {
+    "type": "use_item",
+    "match": "minecraft:ender_pearl",
+    "chance": 0.025
+  },
+  "icon": "minecraft:ender_pearl",
+  "art": "minecraft:end_stone",
+  "perk": {
+    "mechanic": "habits:pearl_pitcher",
+    "values": [
+      10.0,
+      20.0,
+      30.0,
+      40.0,
+      50.0,
+      60.0,
+      70.0,
+      80.0,
+      90.0,
+      100.0
+    ],
+    "params": {
+      "refund": "5..40",
+      "cooldown": "0.95..0.7"
+    }
+  }
+}

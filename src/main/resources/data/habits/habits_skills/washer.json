@@ -1,0 +1,30 @@
+{
+  "rarity": "uncommon",
+  "category": "crafting",
+  "trigger": {
+    "type": "stat_increment",
+    "match": [
+      "minecraft:clean_armor",
+      "minecraft:clean_banner",
+      "minecraft:clean_shulker_box"
+    ],
+    "chance": 0.0208
+  },
+  "icon": "minecraft:water_bucket",
+  "art": "minecraft:prismarine",
+  "perk": {
+    "mechanic": "habits:washer",
+    "values": [
+      10,
+      9,
+      8,
+      7,
+      6,
+      5,
+      4,
+      3,
+      2,
+      1
+    ]
+  }
+}

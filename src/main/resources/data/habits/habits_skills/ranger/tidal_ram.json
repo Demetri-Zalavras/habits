@@ -1,0 +1,26 @@
+{
+  "rarity": "uncommon",
+  "category": "ranger",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:ranged/riptide_launch",
+    "chance": 0.02
+  },
+  "icon": "minecraft:heart_of_the_sea",
+  "art": "minecraft:tube_coral_block",
+  "perk": {
+    "mechanic": "habits:ranged/riptide",
+    "values": [
+      10.0,
+      20.0,
+      30.0,
+      40.0,
+      50.0,
+      60.0,
+      70.0,
+      80.0,
+      90.0,
+      100.0
+    ]
+  }
+}

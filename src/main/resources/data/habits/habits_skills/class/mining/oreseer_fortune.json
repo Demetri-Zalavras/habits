@@ -1,0 +1,27 @@
+{
+  "rarity": "epic",
+  "category": "mining",
+  "class": "habits:class/mining/oreseer",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:fortune_ore",
+    "chance": 0.0056
+  },
+  "icon": "minecraft:emerald",
+  "art": "minecraft:emerald_block",
+  "perk": {
+    "mechanic": "habits:lucky_strike",
+    "values": [
+      0.3,
+      0.5,
+      0.8,
+      1.0,
+      1.2,
+      1.5,
+      1.7,
+      2.0,
+      2.2,
+      2.5
+    ]
+  }
+}

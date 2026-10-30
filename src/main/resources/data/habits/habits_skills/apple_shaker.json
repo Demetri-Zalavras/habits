@@ -1,0 +1,29 @@
+{
+  "rarity": "uncommon",
+  "category": "farming",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:apple_from_leaves",
+    "chance": 0.125
+  },
+  "icon": "minecraft:apple",
+  "art": "minecraft:oak_leaves",
+  "perk": {
+    "mechanic": "habits:apple_shaker",
+    "params": {
+      "golden": "0,1"
+    },
+    "values": [
+      2,
+      4,
+      7,
+      9,
+      12,
+      15,
+      17,
+      20,
+      22,
+      25
+    ]
+  }
+}

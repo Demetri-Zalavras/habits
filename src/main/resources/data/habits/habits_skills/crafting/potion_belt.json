@@ -1,0 +1,14 @@
+{
+  "rarity": "rare",
+  "category": "crafting",
+  "trigger": {
+    "type": "brew",
+    "chance": 0.00556
+  },
+  "icon": "minecraft:rabbit_hide",
+  "art": "minecraft:barrel",
+  "perk": {
+    "mechanic": "habits:crafting/potion_belt",
+    "values": [2, 3, 4, 5, 6, 8, 10, 12, 14, 16]
+  }
+}

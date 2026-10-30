@@ -1,0 +1,31 @@
+{
+  "rarity": "rare",
+  "category": "movement",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:wall_jump",
+    "chance": 0.0033
+  },
+  "icon": "minecraft:cobblestone_wall",
+  "art": "minecraft:bricks",
+  "perk": {
+    "mechanic": "habits:movement/wall_jump",
+    "params": {
+      "kicks": "2,2,3,3,4,4,5,6,8,99",
+      "cooldown": "0.3"
+    },
+    "values": [
+      60,
+      64,
+      69,
+      73,
+      78,
+      82,
+      87,
+      91,
+      96,
+      100
+    ]
+  },
+  "class": "habits:class/movement/freerunner"
+}

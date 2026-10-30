@@ -1,0 +1,29 @@
+{
+  "rarity": "common",
+  "category": "exploration",
+  "trigger": {
+    "type": "custom_units",
+    "match": "habits:scope_seconds",
+    "chance": 0.00167
+  },
+  "icon": "minecraft:spyglass",
+  "art": "minecraft:copper_block",
+  "perk": {
+    "mechanic": "habits:movement/spyglass_scout",
+    "params": {
+      "seconds": "30..600"
+    },
+    "values": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  }
+}

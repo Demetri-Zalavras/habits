@@ -1,0 +1,31 @@
+{
+  "rarity": "uncommon",
+  "category": "farming",
+  "trigger": {
+    "type": "pickup_item",
+    "match": "minecraft:rabbit_foot",
+    "chance": 0.3
+  },
+  "icon": "minecraft:rabbit_foot",
+  "art": "minecraft:sand",
+  "perk": {
+    "type": "attribute",
+    "params": {
+      "attribute": "minecraft:generic.luck",
+      "operation": "add_value"
+    },
+    "values": [
+      0.3,
+      0.6,
+      0.9,
+      1.2,
+      1.5,
+      1.8,
+      2.1,
+      2.4,
+      2.7,
+      3.0
+    ]
+  },
+  "perk_text": "Luck +{v}"
+}

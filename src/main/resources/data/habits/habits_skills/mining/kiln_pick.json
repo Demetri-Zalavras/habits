@@ -1,0 +1,29 @@
+{
+  "rarity": "uncommon",
+  "category": "mining",
+  "trigger": {
+    "type": "break_block",
+    "match": [
+      "minecraft:sandstone",
+      "minecraft:red_sandstone"
+    ],
+    "chance": 0.00208
+  },
+  "icon": "minecraft:furnace",
+  "art": "minecraft:sandstone",
+  "perk": {
+    "mechanic": "habits:mining/kiln_pick",
+    "values": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60,
+      70,
+      80,
+      90,
+      100
+    ]
+  }
+}

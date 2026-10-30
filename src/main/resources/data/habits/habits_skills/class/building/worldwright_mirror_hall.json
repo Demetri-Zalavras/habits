@@ -1,0 +1,27 @@
+{
+  "rarity": "legendary",
+  "category": "building",
+  "class": "habits:class/building/worldwright",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:building/build_streak",
+    "chance": 0.0167
+  },
+  "icon": "minecraft:amethyst_shard",
+  "art": "minecraft:amethyst_block",
+  "perk": {
+    "mechanic": "habits:building/symmetry",
+    "values": [
+      16,
+      20,
+      24,
+      28,
+      32,
+      38,
+      44,
+      50,
+      56,
+      64
+    ]
+  }
+}

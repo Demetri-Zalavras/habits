@@ -1,0 +1,26 @@
+{
+  "rarity": "rare",
+  "category": "farming",
+  "class": "habits:class/farming/hearthcook",
+  "trigger": {
+    "type": "eat",
+    "chance": 0.033
+  },
+  "icon": "minecraft:sugar",
+  "art": "minecraft:barrel",
+  "perk": {
+    "type": "food_bonus",
+    "values": [
+      10,
+      14,
+      18,
+      22,
+      26,
+      30,
+      35,
+      40,
+      45,
+      50
+    ]
+  }
+}

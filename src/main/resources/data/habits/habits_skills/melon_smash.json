@@ -1,0 +1,29 @@
+{
+  "rarity": "common",
+  "category": "farming",
+  "trigger": {
+    "type": "break_block",
+    "match": "minecraft:melon",
+    "chance": 0.005
+  },
+  "icon": "minecraft:glistering_melon_slice",
+  "art": "minecraft:melon",
+  "perk": {
+    "mechanic": "habits:melon_smash",
+    "params": {
+      "pull": "3,10"
+    },
+    "values": [
+      2,
+      4,
+      7,
+      9,
+      12,
+      14,
+      17,
+      19,
+      22,
+      25
+    ]
+  }
+}

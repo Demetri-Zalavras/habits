@@ -1,0 +1,30 @@
+{
+  "rarity": "rare",
+  "category": "farming",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:farming/pest_kill",
+    "chance": 0.033
+  },
+  "icon": "minecraft:iron_hoe",
+  "art": "minecraft:farmland",
+  "perk": {
+    "type": "regen",
+    "params": {
+      "condition": "holding=#minecraft:hoes"
+    },
+    "values": [
+      1.0,
+      1.6,
+      2.1,
+      2.7,
+      3.2,
+      3.8,
+      4.3,
+      4.9,
+      5.4,
+      6.0
+    ]
+  },
+  "perk_text": "Heal {v} health per minute while holding a hoe"
+}

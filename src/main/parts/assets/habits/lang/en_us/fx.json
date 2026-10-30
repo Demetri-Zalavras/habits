@@ -1,0 +1,11 @@
+{
+  "fx.habits.new_skill": "New skill",
+  "fx.habits.progress": "%s Lv%s (%s/%s)",
+  "fx.habits.maxed": "%s Lv%s (maxed)",
+  "subtitles.habits.fx.reveal": "Skill card revealed",
+  "habits.feed.new": "NEW",
+  "habits.feed.level_up": "Lv%s!",
+  "habits.feed.progress": "Lv%s %s/%s",
+  "habits.feed.sigil": "+%s %s %s",
+  "habits.feed.xp": "+%s XP  Lv%s %s%%"
+}

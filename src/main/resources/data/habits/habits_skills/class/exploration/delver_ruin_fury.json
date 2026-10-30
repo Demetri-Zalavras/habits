@@ -1,0 +1,39 @@
+{
+  "rarity": "rare",
+  "category": "exploration",
+  "trigger": {
+    "type": "enter_structure",
+    "match": [
+      "minecraft:stronghold",
+      "minecraft:trial_chambers",
+      "minecraft:ancient_city",
+      "minecraft:mansion",
+      "minecraft:fortress",
+      "minecraft:bastion_remnant"
+    ],
+    "chance": 0.1
+  },
+  "icon": "minecraft:iron_axe",
+  "art": "minecraft:cracked_stone_bricks",
+  "perk": {
+    "mechanic": "habits:exploration/delver_ruin_fury",
+    "params": {
+      "effect": "minecraft:strength",
+      "structure": "minecraft:stronghold,minecraft:trial_chambers,minecraft:ancient_city,minecraft:mansion,minecraft:fortress,minecraft:bastion_remnant",
+      "level": "1"
+    },
+    "values": [
+      3,
+      6,
+      9,
+      12,
+      15,
+      18,
+      21,
+      24,
+      27,
+      30
+    ]
+  },
+  "class": "habits:class/exploration/delver"
+}

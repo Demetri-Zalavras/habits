@@ -1,0 +1,31 @@
+{
+  "rarity": "common",
+  "category": "movement",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:chat",
+    "chance": 0.05
+  },
+  "icon": "minecraft:writable_book",
+  "art": "minecraft:white_wool",
+  "perk": {
+    "mechanic": "habits:chatterbox",
+    "params": {
+      "cooldown": "60..30",
+      "amp": "0..1",
+      "haste_from": "10"
+    },
+    "values": [
+      3,
+      4,
+      5,
+      7,
+      8,
+      9,
+      11,
+      12,
+      13,
+      15
+    ]
+  }
+}

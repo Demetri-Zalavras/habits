@@ -1,0 +1,61 @@
+{
+  "rarity": "epic",
+  "category": "building",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:building/high_place",
+    "chance": 0.00167
+  },
+  "icon": "minecraft:spyglass",
+  "art": "minecraft:white_concrete",
+  "perk": {
+    "type": "reach",
+    "values": [
+      0.5,
+      0.9,
+      1.3,
+      1.7,
+      2.1,
+      2.4,
+      2.8,
+      3.2,
+      3.6,
+      4
+    ],
+    "params": {
+      "kind": "block"
+    }
+  },
+  "forks": [
+    {
+      "level": 5,
+      "options": [
+        {
+          "id": "block_reach"
+        },
+        {
+          "id": "both_reach",
+          "scale": 0.7,
+          "params": {
+            "kind": "both"
+          }
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "options": [
+        {
+          "id": "steady_reach"
+        },
+        {
+          "id": "ledge_reach",
+          "scale": 1.5,
+          "params": {
+            "condition": "sneaking"
+          }
+        }
+      ]
+    }
+  ]
+}

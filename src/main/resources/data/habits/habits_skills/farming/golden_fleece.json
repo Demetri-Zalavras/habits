@@ -1,0 +1,46 @@
+{
+  "rarity": "epic",
+  "category": "farming",
+  "trigger": {
+    "type": "shear",
+    "match": "minecraft:sheep",
+    "chance": 0.0028
+  },
+  "icon": "minecraft:yellow_wool",
+  "art": "minecraft:gold_block",
+  "perk": {
+    "mechanic": "habits:farming/golden_fleece",
+    "params": {
+      "ingot": "0,10"
+    },
+    "values": [
+      2,
+      4,
+      6,
+      8,
+      10,
+      12,
+      14,
+      16,
+      18,
+      20
+    ]
+  },
+  "forks": [
+    {
+      "level": 5,
+      "options": [
+        {
+          "id": "fine_wool"
+        },
+        {
+          "id": "pure_ingot",
+          "scale": 0.6,
+          "params": {
+            "ingot": "0,25"
+          }
+        }
+      ]
+    }
+  ]
+}

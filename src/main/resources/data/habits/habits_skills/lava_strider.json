@@ -1,0 +1,29 @@
+{
+  "rarity": "rare",
+  "category": "movement",
+  "trigger": {
+    "type": "ride_distance",
+    "match": "minecraft:strider",
+    "chance": 0.000167
+  },
+  "icon": "minecraft:warped_fungus_on_a_stick",
+  "art": "minecraft:netherrack",
+  "perk": {
+    "mechanic": "habits:movement/lava_strider",
+    "params": {
+      "fire_level": "6"
+    },
+    "values": [
+      20,
+      34,
+      49,
+      63,
+      78,
+      92,
+      107,
+      121,
+      136,
+      150
+    ]
+  }
+}

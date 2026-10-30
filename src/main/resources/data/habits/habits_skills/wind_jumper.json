@@ -1,0 +1,31 @@
+{
+  "rarity": "common",
+  "category": "ranger",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:wind_self_launch",
+    "chance": 0.0333
+  },
+  "icon": "minecraft:wind_charge",
+  "art": "minecraft:tuff",
+  "perk": {
+    "mechanic": "habits:wind_jumper",
+    "values": [
+      10.0,
+      20.0,
+      30.0,
+      40.0,
+      50.0,
+      60.0,
+      70.0,
+      80.0,
+      90.0,
+      100.0
+    ],
+    "params": {
+      "fall": "20,30,40,50,60,70,80,90,100,100",
+      "fall_s": "4",
+      "near": "2"
+    }
+  }
+}

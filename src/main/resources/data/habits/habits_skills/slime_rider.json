@@ -1,0 +1,29 @@
+{
+  "rarity": "uncommon",
+  "category": "movement",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:slime_bounce",
+    "chance": 0.0104
+  },
+  "icon": "minecraft:slime_ball",
+  "art": "minecraft:slime_block",
+  "perk": {
+    "mechanic": "habits:movement/slime_rider",
+    "params": {
+      "min_fall": "6..3"
+    },
+    "values": [
+      20,
+      26,
+      31,
+      37,
+      42,
+      48,
+      53,
+      59,
+      64,
+      70
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "rarity": "legendary",
+  "category": "exploration",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:world_edge",
+    "chance": 1.0
+  },
+  "icon": "minecraft:chorus_fruit",
+  "art": "minecraft:bedrock",
+  "perk": {
+    "mechanic": "habits:movement/world_edge",
+    "params": {
+      "cross_level": "10"
+    },
+    "values": [
+      120,
+      108,
+      96,
+      83,
+      71,
+      59,
+      47,
+      34,
+      22,
+      10
+    ]
+  },
+  "forks": [
+    {
+      "level": 5,
+      "options": [
+        {
+          "id": "frequent_flyer",
+          "scale": 0.7
+        },
+        {
+          "id": "planar_hop",
+          "scale": 1.4,
+          "params": {
+            "cross_level": "5"
+          }
+        }
+      ]
+    }
+  ]
+}

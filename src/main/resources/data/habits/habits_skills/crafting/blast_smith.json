@@ -1,0 +1,19 @@
+{
+  "rarity": "uncommon",
+  "category": "crafting",
+  "trigger": {
+    "type": "craft",
+    "match": ["minecraft:tnt", "minecraft:firework_rocket"],
+    "chance": 0.0625
+  },
+  "icon": "minecraft:tnt",
+  "art": "minecraft:tnt",
+  "perk": {
+    "type": "damage_type_resist",
+    "values": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50],
+    "params": {
+      "damage": "#minecraft:is_explosion,minecraft:fireworks"
+    }
+  },
+  "perk_text": "Explosion damage -{v}%"
+}

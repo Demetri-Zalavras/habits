@@ -1,0 +1,34 @@
+{
+  "rarity": "uncommon",
+  "category": "farming",
+  "trigger": {
+    "type": "eat",
+    "match": [
+      "minecraft:carrot",
+      "minecraft:beetroot",
+      "minecraft:baked_potato",
+      "minecraft:potato"
+    ],
+    "chance": 0.0625
+  },
+  "icon": "minecraft:beetroot",
+  "art": "minecraft:farmland",
+  "perk": {
+    "mechanic": "habits:survival/root_cellar",
+    "params": {
+      "amp": "0,0,0,0,0,1,1,1,1,1"
+    },
+    "values": [
+      5,
+      9,
+      14,
+      18,
+      23,
+      27,
+      32,
+      36,
+      41,
+      45
+    ]
+  }
+}

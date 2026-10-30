@@ -1,0 +1,30 @@
+{
+  "rarity": "epic",
+  "category": "farming",
+  "class": "habits:class/farming/green_sovereign",
+  "trigger": {
+    "type": "harvest_crop",
+    "match": "#minecraft:crops",
+    "chance": 0.0004
+  },
+  "icon": "minecraft:bone_meal",
+  "art": "minecraft:farmland",
+  "perk": {
+    "type": "crop_growth_aura",
+    "values": [
+      5,
+      8,
+      11,
+      14,
+      17,
+      20,
+      23,
+      26,
+      30,
+      35
+    ],
+    "params": {
+      "radius": "8"
+    }
+  }
+}

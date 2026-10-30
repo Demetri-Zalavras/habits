@@ -1,0 +1,30 @@
+{
+  "rarity": "common",
+  "category": "warrior",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:crit",
+    "chance": 0.00667
+  },
+  "icon": "minecraft:amethyst_shard",
+  "art": "minecraft:copper_block",
+  "perk": {
+    "mechanic": "habits:melee/chain_crit",
+    "params": {
+      "jumps": "1,5",
+      "radius": "3,6"
+    },
+    "values": [
+      20.0,
+      26.0,
+      31.0,
+      37.0,
+      42.0,
+      48.0,
+      53.0,
+      59.0,
+      64.0,
+      70.0
+    ]
+  }
+}

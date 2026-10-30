@@ -1,0 +1,31 @@
+{
+  "rarity": "common",
+  "category": "building",
+  "trigger": {
+    "type": "place_block",
+    "match": [
+      "minecraft:vine",
+      "minecraft:weeping_vines",
+      "minecraft:twisting_vines",
+      "minecraft:cave_vines"
+    ],
+    "chance": 0.025
+  },
+  "icon": "minecraft:vine",
+  "art": "minecraft:mossy_cobblestone",
+  "perk": {
+    "mechanic": "habits:building/vine_drape",
+    "values": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      8,
+      10,
+      12,
+      14,
+      16
+    ]
+  }
+}

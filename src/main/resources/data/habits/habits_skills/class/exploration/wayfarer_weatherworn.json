@@ -1,0 +1,31 @@
+{
+  "rarity": "epic",
+  "category": "exploration",
+  "trigger": {
+    "type": "enter_biome",
+    "chance": 0.01
+  },
+  "icon": "minecraft:leather_chestplate",
+  "art": "minecraft:snow_block",
+  "perk": {
+    "type": "damage_type_resist",
+    "params": {
+      "damage": "minecraft:freeze,minecraft:lightning_bolt,minecraft:hot_floor,minecraft:cactus,minecraft:sweet_berry_bush,minecraft:drown",
+      "value_max": "100"
+    },
+    "values": [
+      10,
+      16,
+      21,
+      27,
+      32,
+      38,
+      43,
+      49,
+      54,
+      60
+    ]
+  },
+  "class": "habits:class/exploration/wayfarer",
+  "perk_text": "Weather and wild hazards hurt {v}% less"
+}

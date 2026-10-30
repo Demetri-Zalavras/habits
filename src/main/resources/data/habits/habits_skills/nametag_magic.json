@@ -1,0 +1,30 @@
+{
+  "rarity": "rare",
+  "category": "warrior",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:easter_egg_name",
+    "chance": 0.333
+  },
+  "icon": "minecraft:name_tag",
+  "art": "minecraft:white_wool",
+  "perk": {
+    "mechanic": "habits:nametag_magic",
+    "params": {
+      "wool": "1..4",
+      "luck_amp": "0..1"
+    },
+    "values": [
+      6,
+      12,
+      18,
+      24,
+      30,
+      36,
+      42,
+      48,
+      54,
+      60
+    ]
+  }
+}

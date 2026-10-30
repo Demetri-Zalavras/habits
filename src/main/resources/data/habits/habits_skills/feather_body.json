@@ -1,0 +1,27 @@
+{
+  "rarity": "uncommon",
+  "category": "movement",
+  "trigger": {
+    "type": "stat_increment",
+    "match": "minecraft:fly_one_cm",
+    "chance": 2.6e-06
+  },
+  "icon": "minecraft:feather",
+  "art": "minecraft:quartz_block",
+  "perk": {
+    "mechanic": "habits:movement/feather_body",
+    "params": {"value_max": "90"},
+    "values": [
+      5,
+      10,
+      15,
+      20,
+      25,
+      30,
+      35,
+      40,
+      45,
+      50
+    ]
+  }
+}

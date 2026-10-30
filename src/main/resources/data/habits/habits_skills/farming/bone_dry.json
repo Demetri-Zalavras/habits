@@ -1,0 +1,31 @@
+{
+  "rarity": "uncommon",
+  "category": "farming",
+  "trigger": {
+    "type": "bonemeal",
+    "match": [
+      "minecraft:sweet_berry_bush",
+      "minecraft:melon_stem",
+      "minecraft:pumpkin_stem",
+      "minecraft:cocoa"
+    ],
+    "chance": 0.006
+  },
+  "icon": "minecraft:bone",
+  "art": "minecraft:bone_block",
+  "perk": {
+    "mechanic": "habits:farming/bone_dry",
+    "values": [
+      10,
+      16,
+      21,
+      27,
+      32,
+      38,
+      43,
+      49,
+      54,
+      60
+    ]
+  }
+}

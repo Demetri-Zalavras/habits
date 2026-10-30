@@ -1,0 +1,32 @@
+{
+  "rarity": "rare",
+  "category": "farming",
+  "trigger": {
+    "type": "ride_distance",
+    "match": [
+      "minecraft:horse",
+      "minecraft:donkey",
+      "minecraft:mule",
+      "minecraft:pig",
+      "minecraft:camel"
+    ],
+    "chance": 0.0002
+  },
+  "icon": "minecraft:saddle",
+  "art": "minecraft:hay_block",
+  "perk": {
+    "mechanic": "habits:farming/combine",
+    "values": [
+      1,
+      1,
+      1,
+      3,
+      3,
+      3,
+      3,
+      5,
+      5,
+      5
+    ]
+  }
+}

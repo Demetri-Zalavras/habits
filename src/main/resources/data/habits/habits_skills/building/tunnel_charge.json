@@ -1,0 +1,29 @@
+{
+  "rarity": "rare",
+  "category": "building",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:tnt_big_blast",
+    "chance": 0.0667
+  },
+  "icon": "minecraft:fire_charge",
+  "art": "minecraft:tnt",
+  "perk": {
+    "mechanic": "habits:shaped_charge",
+    "values": [
+      4,
+      6,
+      8,
+      10,
+      12,
+      14,
+      17,
+      20,
+      22,
+      24
+    ],
+    "params": {
+      "width": "2..3"
+    }
+  }
+}

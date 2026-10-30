@@ -1,0 +1,29 @@
+{
+  "rarity": "common",
+  "category": "ranger",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:trident_caught",
+    "chance": 0.0333
+  },
+  "icon": "minecraft:trident",
+  "art": "minecraft:prismarine",
+  "perk": {
+    "mechanic": "habits:loyal_return",
+    "values": [
+      20.0,
+      40.0,
+      60.0,
+      80.0,
+      100.0,
+      120.0,
+      140.0,
+      160.0,
+      180.0,
+      200.0
+    ],
+    "params": {
+      "dmg": "0..50"
+    }
+  }
+}

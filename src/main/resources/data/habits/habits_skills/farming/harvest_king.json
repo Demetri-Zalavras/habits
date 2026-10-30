@@ -1,0 +1,46 @@
+{
+  "rarity": "legendary",
+  "category": "farming",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:farming/full_field",
+    "chance": 0.0017
+  },
+  "icon": "minecraft:golden_hoe",
+  "art": "minecraft:gold_block",
+  "perk": {
+    "mechanic": "habits:farming/harvest_king",
+    "params": {
+      "radius": "4,12"
+    },
+    "values": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  "forks": [
+    {
+      "level": 5,
+      "options": [
+        {
+          "id": "royal_reach"
+        },
+        {
+          "id": "tight_court",
+          "scale": 2.0,
+          "params": {
+            "radius": "2,6"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "rarity": "rare",
+  "category": "crafting",
+  "class": "habits:class/crafting/runewright",
+  "trigger": {
+    "type": "enchant",
+    "chance": 0.067
+  },
+  "icon": "minecraft:lapis_lazuli",
+  "art": "minecraft:lapis_block",
+  "perk": {
+    "type": "enchant_discount",
+    "values": [
+      10,
+      13,
+      17,
+      20,
+      23,
+      27,
+      30,
+      33,
+      37,
+      40
+    ]
+  }
+}

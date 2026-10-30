@@ -1,0 +1,26 @@
+{
+  "rarity": "common",
+  "category": "mining",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:midair_break",
+    "chance": 0.02
+  },
+  "icon": "minecraft:feather",
+  "art": "minecraft:scaffolding",
+  "perk": {
+    "mechanic": "habits:midair_miner",
+    "values": [
+      20.0,
+      28.89,
+      37.78,
+      46.67,
+      55.56,
+      64.44,
+      73.33,
+      82.22,
+      91.11,
+      100.0
+    ]
+  }
+}

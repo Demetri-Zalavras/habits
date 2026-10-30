@@ -1,0 +1,26 @@
+{
+  "rarity": "common",
+  "category": "nature",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:feed_animal",
+    "chance": 0.01
+  },
+  "icon": "minecraft:wheat",
+  "art": "minecraft:hay_block",
+  "perk": {
+    "type": "tame_chance",
+    "values": [
+      5,
+      10,
+      15,
+      20,
+      25,
+      30,
+      35,
+      40,
+      45,
+      50
+    ]
+  }
+}

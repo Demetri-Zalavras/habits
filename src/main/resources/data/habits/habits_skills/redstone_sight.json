@@ -1,0 +1,31 @@
+{
+  "rarity": "common",
+  "category": "building",
+  "trigger": {
+    "type": "place_block",
+    "chance": 0.00667,
+    "match": [
+      "minecraft:redstone_wire",
+      "minecraft:repeater",
+      "minecraft:comparator",
+      "minecraft:observer"
+    ]
+  },
+  "icon": "minecraft:redstone",
+  "art": "minecraft:smooth_stone",
+  "perk": {
+    "mechanic": "habits:redstone_sight",
+    "values": [
+      4,
+      5,
+      7,
+      8,
+      9,
+      11,
+      12,
+      13,
+      15,
+      16
+    ]
+  }
+}

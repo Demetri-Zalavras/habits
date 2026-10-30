@@ -1,0 +1,30 @@
+{
+  "rarity": "common",
+  "category": "exploration",
+  "trigger": {
+    "type": "use_item",
+    "match": "minecraft:map",
+    "chance": 0.1
+  },
+  "icon": "minecraft:filled_map",
+  "art": "minecraft:cartography_table",
+  "perk": {
+    "mechanic": "habits:cartographer",
+    "params": {
+      "all_mobs_from": "5",
+      "fast_fill_from": "10"
+    },
+    "values": [
+      32,
+      43,
+      53,
+      64,
+      75,
+      85,
+      96,
+      107,
+      117,
+      128
+    ]
+  }
+}

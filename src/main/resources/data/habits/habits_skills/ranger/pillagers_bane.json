@@ -1,0 +1,32 @@
+{
+  "rarity": "uncommon",
+  "category": "ranger",
+  "trigger": {
+    "type": "kill_entity",
+    "match": "#minecraft:raiders",
+    "item": "minecraft:crossbow",
+    "chance": 0.03
+  },
+  "icon": "minecraft:ominous_bottle",
+  "art": "minecraft:dark_oak_planks",
+  "perk": {
+    "type": "damage_bonus",
+    "values": [
+      5.0,
+      10.0,
+      15.0,
+      20.0,
+      25.0,
+      30.0,
+      35.0,
+      40.0,
+      45.0,
+      50.0
+    ],
+    "params": {
+      "item": "minecraft:crossbow",
+      "entity": "#minecraft:raiders"
+    }
+  },
+  "perk_text": "Crossbow damage vs raiders +{v}%"
+}

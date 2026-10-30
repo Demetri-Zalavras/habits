@@ -1,0 +1,27 @@
+{
+  "rarity": "rare",
+  "category": "exploration",
+  "trigger": {
+    "type": "walk_distance",
+    "chance": 0.00013
+  },
+  "icon": "minecraft:bundle",
+  "art": "minecraft:hay_block",
+  "perk": {
+    "type": "hunger_save",
+    "values": [
+      5,
+      8,
+      12,
+      15,
+      18,
+      22,
+      25,
+      28,
+      32,
+      35
+    ]
+  },
+  "class": "habits:class/exploration/wayfarer",
+  "perk_text": "Hunger -{v}%"
+}

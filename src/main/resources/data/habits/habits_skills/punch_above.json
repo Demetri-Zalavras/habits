@@ -1,0 +1,29 @@
+{
+  "rarity": "common",
+  "category": "mining",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:low_tier_break",
+    "chance": 0.0025
+  },
+  "icon": "minecraft:stone_pickaxe",
+  "art": "minecraft:cobblestone",
+  "perk": {
+    "mechanic": "habits:punch_above",
+    "params": {
+      "all_level": "10"
+    },
+    "values": [
+      5,
+      7,
+      8,
+      10,
+      12,
+      13,
+      15,
+      17,
+      18,
+      20
+    ]
+  }
+}

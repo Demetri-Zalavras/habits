@@ -1,0 +1,29 @@
+{
+  "rarity": "rare",
+  "category": "farming",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:farming/defend_herd",
+    "chance": 0.033
+  },
+  "icon": "minecraft:shield",
+  "art": "minecraft:white_wool",
+  "perk": {
+    "mechanic": "habits:farming/flock_guard",
+    "params": {
+      "radius": "16"
+    },
+    "values": [
+      10,
+      18,
+      26,
+      33,
+      41,
+      49,
+      57,
+      64,
+      72,
+      80
+    ]
+  }
+}

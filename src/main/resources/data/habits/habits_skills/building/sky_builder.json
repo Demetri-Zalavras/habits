@@ -1,0 +1,26 @@
+{
+  "rarity": "legendary",
+  "category": "building",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:building/high_place",
+    "chance": 0.000833
+  },
+  "icon": "minecraft:elytra",
+  "art": "minecraft:white_concrete",
+  "perk": {
+    "mechanic": "habits:building/sky_builder",
+    "values": [
+      3,
+      5,
+      7,
+      9,
+      12,
+      15,
+      18,
+      22,
+      26,
+      30
+    ]
+  }
+}

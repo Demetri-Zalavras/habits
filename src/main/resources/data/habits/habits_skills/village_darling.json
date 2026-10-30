@@ -1,0 +1,31 @@
+{
+  "rarity": "rare",
+  "category": "guardian",
+  "trigger": {
+    "type": "custom",
+    "match": [
+      "habits:effect_hero_of_the_village"
+    ],
+    "chance": 0.667
+  },
+  "icon": "minecraft:emerald",
+  "art": "minecraft:emerald_block",
+  "perk": {
+    "mechanic": "habits:survival/village_darling",
+    "params": {
+      "amp": "0,0,0,0,0,0,0,0,0,1"
+    },
+    "values": [
+      10,
+      31,
+      52,
+      73,
+      94,
+      116,
+      137,
+      158,
+      179,
+      200
+    ]
+  }
+}

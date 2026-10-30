@@ -1,0 +1,31 @@
+{
+  "rarity": "rare",
+  "category": "exploration",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:never",
+    "chance": 0
+  },
+  "icon": "minecraft:emerald",
+  "art": "minecraft:bookshelf",
+  "perk": {
+    "type": "trade_discount",
+    "values": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ]
+  },
+  "title": {
+    "stat_type": "minecraft:custom",
+    "stat": "minecraft:traded_with_villager",
+    "min": 500
+  }
+}

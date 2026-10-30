@@ -1,0 +1,35 @@
+{
+  "rarity": "common",
+  "category": "guardian",
+  "trigger": {
+    "type": "eat",
+    "match": [
+      "minecraft:cod",
+      "minecraft:salmon",
+      "minecraft:cooked_cod",
+      "minecraft:cooked_salmon",
+      "minecraft:tropical_fish"
+    ],
+    "chance": 0.1
+  },
+  "icon": "minecraft:cooked_cod",
+  "art": "minecraft:prismarine",
+  "perk": {
+    "mechanic": "habits:survival/fishermans_diet",
+    "params": {
+      "dolphin_seconds": "0..30"
+    },
+    "values": [
+      10,
+      29,
+      48,
+      67,
+      86,
+      104,
+      123,
+      142,
+      161,
+      180
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "rarity": "common",
+  "category": "warrior",
+  "trigger": {
+    "type": "damage_taken",
+    "match": "minecraft:on_fire",
+    "chance": 0.00167
+  },
+  "icon": "minecraft:magma_cream",
+  "art": "minecraft:netherrack",
+  "perk": {
+    "mechanic": "habits:survival/ember_skin",
+    "params": {
+      "value_max": "99",
+      "ignite": "0.4..4"
+    },
+    "values": [
+      15,
+      23,
+      31,
+      38,
+      46,
+      54,
+      62,
+      69,
+      77,
+      85
+    ]
+  }
+}

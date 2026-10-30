@@ -1,0 +1,32 @@
+{
+  "rarity": "rare",
+  "category": "movement",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:deep_dive",
+    "chance": 0.1
+  },
+  "icon": "minecraft:turtle_helmet",
+  "art": "minecraft:prismarine_bricks",
+  "perk": {
+    "type": "attribute",
+    "params": {
+      "attribute": "minecraft:generic.armor",
+      "operation": "add_value",
+      "condition": "swimming"
+    },
+    "values": [
+      1,
+      2,
+      2,
+      3,
+      4,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  "perk_text": "Armor +{v} while swimming"
+}

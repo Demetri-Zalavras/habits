@@ -1,0 +1,29 @@
+{
+  "rarity": "rare",
+  "category": "ranger",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:arrow_streak_5",
+    "chance": 0.0667
+  },
+  "icon": "minecraft:blaze_powder",
+  "art": "minecraft:magma_block",
+  "perk": {
+    "mechanic": "habits:hot_streak",
+    "values": [
+      3.0,
+      3.8,
+      4.6,
+      5.3,
+      6.1,
+      6.9,
+      7.7,
+      8.4,
+      9.2,
+      10.0
+    ],
+    "params": {
+      "cap": "5..15"
+    }
+  }
+}

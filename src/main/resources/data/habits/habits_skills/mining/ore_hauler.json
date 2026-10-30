@@ -1,0 +1,30 @@
+{
+  "rarity": "common",
+  "category": "mining",
+  "trigger": {
+    "type": "pickup_item",
+    "match": "minecraft:raw_iron",
+    "chance": 0.01667
+  },
+  "icon": "minecraft:raw_iron",
+  "art": "minecraft:iron_ore",
+  "perk": {
+    "type": "magnet_pickup",
+    "params": {
+      "condition": "underground"
+    },
+    "values": [
+      1,
+      1.6,
+      2.1,
+      2.7,
+      3.2,
+      3.8,
+      4.3,
+      4.9,
+      5.4,
+      6
+    ]
+  },
+  "perk_text": "Underground you pull items in from {v} blocks"
+}

@@ -1,0 +1,26 @@
+{
+  "rarity": "uncommon",
+  "category": "crafting",
+  "trigger": {
+    "type": "stat_increment",
+    "match": "minecraft:open_enderchest",
+    "chance": 0.0208
+  },
+  "icon": "minecraft:ender_chest",
+  "art": "minecraft:obsidian",
+  "perk": {
+    "mechanic": "habits:ender_link",
+    "values": [
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2,
+      2,
+      3
+    ]
+  }
+}

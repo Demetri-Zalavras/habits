@@ -1,0 +1,32 @@
+{
+  "rarity": "rare",
+  "category": "building",
+  "trigger": {
+    "type": "place_block",
+    "match": [
+      "minecraft:iron_door",
+      "minecraft:iron_trapdoor"
+    ],
+    "chance": 0.0167
+  },
+  "icon": "minecraft:iron_door",
+  "art": "minecraft:iron_block",
+  "perk": {
+    "mechanic": "habits:building/iron_hands",
+    "values": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "params": {
+      "trapdoor_level": "5"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "rarity": "uncommon",
+  "category": "nature",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:feed_animal",
+    "chance": 0.00625
+  },
+  "icon": "minecraft:carrot_on_a_stick",
+  "art": "minecraft:hay_block",
+  "perk": {
+    "mechanic": "habits:pied_piper",
+    "values": [
+      4,
+      6,
+      8,
+      11,
+      13,
+      15,
+      17,
+      20,
+      22,
+      24
+    ]
+  }
+}

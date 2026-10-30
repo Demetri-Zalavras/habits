@@ -1,0 +1,31 @@
+{
+  "rarity": "epic",
+  "category": "mining",
+  "class_passive": true,
+  "trigger": {
+    "type": "break_block",
+    "match": "#c:ores",
+    "chance": 0.005
+  },
+  "icon": "minecraft:diamond",
+  "art": "minecraft:deepslate_diamond_ore",
+  "perk": {
+    "type": "drop_bonus",
+    "params": {
+      "block": "#c:ores"
+    },
+    "values": [
+      10,
+      13,
+      17,
+      20,
+      23,
+      27,
+      30,
+      33,
+      37,
+      40
+    ]
+  },
+  "perk_text": "{v}% chance an ore drops twice"
+}

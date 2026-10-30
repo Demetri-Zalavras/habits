@@ -1,0 +1,46 @@
+{
+  "rarity": "epic",
+  "category": "farming",
+  "trigger": {
+    "type": "pickup_item",
+    "match": "minecraft:wheat_seeds",
+    "chance": 0.00056
+  },
+  "icon": "minecraft:wheat_seeds",
+  "art": "minecraft:farmland",
+  "perk": {
+    "mechanic": "habits:farming/seed_storm",
+    "params": {
+      "range": "16,48"
+    },
+    "values": [
+      8,
+      14,
+      20,
+      27,
+      33,
+      39,
+      45,
+      52,
+      58,
+      64
+    ]
+  },
+  "forks": [
+    {
+      "level": 5,
+      "options": [
+        {
+          "id": "long_throw"
+        },
+        {
+          "id": "close_sow",
+          "scale": 1.25,
+          "params": {
+            "range": "8,24"
+          }
+        }
+      ]
+    }
+  ]
+}

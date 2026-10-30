@@ -1,0 +1,29 @@
+{
+  "rarity": "uncommon",
+  "category": "farming",
+  "trigger": {
+    "type": "harvest_crop",
+    "match": "minecraft:nether_wart",
+    "chance": 0.00156
+  },
+  "icon": "minecraft:nether_wart",
+  "art": "minecraft:soul_sand",
+  "perk": {
+    "mechanic": "habits:wart_warden",
+    "params": {
+      "tear": "1,5"
+    },
+    "values": [
+      2,
+      4,
+      6,
+      8,
+      10,
+      12,
+      14,
+      16,
+      18,
+      20
+    ]
+  }
+}

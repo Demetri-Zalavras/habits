@@ -1,0 +1,30 @@
+{
+  "rarity": "common",
+  "category": "warrior",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:revenge_kill",
+    "chance": 0.05
+  },
+  "icon": "minecraft:redstone",
+  "art": "minecraft:red_nether_bricks",
+  "perk": {
+    "mechanic": "habits:melee/vengeance",
+    "params": {
+      "cap": "4,20",
+      "seconds": "5"
+    },
+    "values": [
+      20.0,
+      29.0,
+      38.0,
+      47.0,
+      56.0,
+      64.0,
+      73.0,
+      82.0,
+      91.0,
+      100.0
+    ]
+  }
+}

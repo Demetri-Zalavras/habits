@@ -1,0 +1,26 @@
+{
+  "rarity": "uncommon",
+  "category": "mining",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:mining/ore_combo",
+    "chance": 0.01562
+  },
+  "icon": "minecraft:glistering_melon_slice",
+  "art": "minecraft:redstone_ore",
+  "perk": {
+    "mechanic": "habits:mining/ore_blood",
+    "values": [
+      0.5,
+      0.8,
+      1.1,
+      1.3,
+      1.6,
+      1.9,
+      2.2,
+      2.4,
+      2.7,
+      3
+    ]
+  }
+}

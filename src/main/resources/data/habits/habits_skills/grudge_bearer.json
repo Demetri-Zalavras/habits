@@ -1,0 +1,26 @@
+{
+  "rarity": "uncommon",
+  "category": "guardian",
+  "trigger": {
+    "type": "damage_taken",
+    "match": "minecraft:player_attack",
+    "chance": 0.0104
+  },
+  "icon": "minecraft:iron_sword",
+  "art": "minecraft:polished_andesite",
+  "perk": {
+    "mechanic": "habits:survival/grudge_bearer",
+    "values": [
+      5,
+      9,
+      13,
+      17,
+      21,
+      24,
+      28,
+      32,
+      36,
+      40
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "rarity": "common",
+  "category": "guardian",
+  "trigger": {
+    "type": "eat",
+    "match": "minecraft:dried_kelp",
+    "chance": 0.0333
+  },
+  "icon": "minecraft:dried_kelp",
+  "art": "minecraft:dried_kelp_block",
+  "perk": {
+    "mechanic": "habits:survival/sea_snack",
+    "params": {
+      "bubbles": "2..10"
+    },
+    "values": [
+      20,
+      27,
+      33,
+      40,
+      47,
+      53,
+      60,
+      67,
+      73,
+      80
+    ]
+  }
+}

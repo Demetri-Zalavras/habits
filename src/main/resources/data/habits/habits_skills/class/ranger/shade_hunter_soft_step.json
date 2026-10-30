@@ -1,0 +1,31 @@
+{
+  "rarity": "uncommon",
+  "category": "ranger",
+  "class": "habits:class/ranger/shade_hunter",
+  "trigger": {
+    "type": "sneak_distance",
+    "chance": 0.0015
+  },
+  "icon": "minecraft:leather_boots",
+  "art": "minecraft:moss_block",
+  "perk": {
+    "type": "attribute",
+    "values": [
+      10.0,
+      15.0,
+      20.0,
+      25.0,
+      30.0,
+      35.0,
+      40.0,
+      45.0,
+      50.0,
+      55.0
+    ],
+    "params": {
+      "attribute": "minecraft:player.sneaking_speed",
+      "operation": "add_multiplied_base"
+    }
+  },
+  "perk_text": "Sneaking speed +{v}%"
+}

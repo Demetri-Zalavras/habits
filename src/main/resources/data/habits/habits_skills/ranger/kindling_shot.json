@@ -1,0 +1,29 @@
+{
+  "rarity": "common",
+  "category": "ranger",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:ranged/flame_arrow_hit",
+    "chance": 0.02
+  },
+  "icon": "minecraft:blaze_powder",
+  "art": "minecraft:campfire",
+  "perk": {
+    "mechanic": "habits:ranged/kindling",
+    "values": [
+      1,
+      1.5,
+      1.5,
+      2,
+      2,
+      2.5,
+      3,
+      3,
+      3.5,
+      4
+    ],
+    "params": {
+      "secs": "2..6"
+    }
+  }
+}

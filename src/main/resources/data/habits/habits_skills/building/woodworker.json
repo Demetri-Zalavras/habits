@@ -1,0 +1,30 @@
+{
+  "rarity": "common",
+  "category": "building",
+  "trigger": {
+    "type": "place_block",
+    "match": "#minecraft:planks",
+    "chance": 0.00667
+  },
+  "icon": "minecraft:oak_planks",
+  "art": "minecraft:oak_planks",
+  "perk": {
+    "type": "mining_speed",
+    "values": [
+      10.0,
+      20.0,
+      30.0,
+      40.0,
+      50.0,
+      60.0,
+      70.0,
+      80.0,
+      90.0,
+      100.0
+    ],
+    "params": {
+      "block": "#minecraft:planks,#minecraft:wooden_stairs,#minecraft:wooden_slabs,#minecraft:wooden_fences,#minecraft:fence_gates,#minecraft:wooden_doors,#minecraft:wooden_trapdoors"
+    }
+  },
+  "perk_text": "Breaking wooden build pieces +{v}%"
+}

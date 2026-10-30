@@ -1,0 +1,26 @@
+{
+  "rarity": "uncommon",
+  "category": "crafting",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:shift_craft",
+    "chance": 0.0156
+  },
+  "icon": "minecraft:crafter",
+  "art": "minecraft:oak_planks",
+  "perk": {
+    "mechanic": "habits:mass_production",
+    "values": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      5,
+      6,
+      7,
+      7,
+      8
+    ]
+  }
+}

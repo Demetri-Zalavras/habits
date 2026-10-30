@@ -1,0 +1,26 @@
+{
+  "rarity": "epic",
+  "category": "farming",
+  "class": "habits:class/farming/green_sovereign",
+  "trigger": {
+    "type": "till",
+    "chance": 0.0004
+  },
+  "icon": "minecraft:rooted_dirt",
+  "art": "minecraft:rooted_dirt",
+  "perk": {
+    "mechanic": "habits:farming/wonder_soil",
+    "values": [
+      5,
+      7,
+      9,
+      11,
+      13,
+      15,
+      17,
+      19,
+      22,
+      25
+    ]
+  }
+}

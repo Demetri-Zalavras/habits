@@ -1,0 +1,35 @@
+{
+  "rarity": "uncommon",
+  "category": "farming",
+  "trigger": {
+    "type": "eat",
+    "match": [
+      "minecraft:cooked_beef",
+      "minecraft:cooked_porkchop",
+      "minecraft:cooked_mutton",
+      "minecraft:cooked_chicken",
+      "minecraft:cooked_rabbit"
+    ],
+    "chance": 0.0625
+  },
+  "icon": "minecraft:cooked_chicken",
+  "art": "minecraft:smoker",
+  "perk": {
+    "mechanic": "habits:survival/butchers_belly",
+    "params": {
+      "strong_chance": "0..25"
+    },
+    "values": [
+      5,
+      11,
+      17,
+      23,
+      29,
+      36,
+      42,
+      48,
+      54,
+      60
+    ]
+  }
+}

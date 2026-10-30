@@ -1,0 +1,29 @@
+{
+  "rarity": "common",
+  "category": "movement",
+  "trigger": {
+    "type": "swim_distance",
+    "chance": 0.000556
+  },
+  "icon": "minecraft:turtle_scute",
+  "art": "minecraft:prismarine",
+  "perk": {
+    "type": "hunger_save",
+    "params": {
+      "condition": "swimming"
+    },
+    "values": [
+      8,
+      16,
+      24,
+      32,
+      40,
+      48,
+      56,
+      64,
+      72,
+      80
+    ]
+  },
+  "perk_text": "Hunger -{v}% while swimming"
+}

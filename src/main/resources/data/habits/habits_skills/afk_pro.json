@@ -1,0 +1,29 @@
+{
+  "rarity": "uncommon",
+  "category": "guardian",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:afk_5min",
+    "chance": 0.312
+  },
+  "icon": "minecraft:clock",
+  "art": "minecraft:white_wool",
+  "perk": {
+    "mechanic": "habits:afk_pro",
+    "params": {
+      "idle_seconds": "60"
+    },
+    "values": [
+      1,
+      2,
+      4,
+      5,
+      7,
+      8,
+      10,
+      11,
+      13,
+      15
+    ]
+  }
+}

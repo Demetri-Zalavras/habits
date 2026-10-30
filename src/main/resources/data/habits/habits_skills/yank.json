@@ -1,0 +1,30 @@
+{
+  "rarity": "common",
+  "category": "ranger",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:reel_mob",
+    "chance": 0.0333
+  },
+  "icon": "minecraft:fishing_rod",
+  "art": "minecraft:spruce_planks",
+  "perk": {
+    "mechanic": "habits:yank",
+    "values": [
+      1.2,
+      1.4,
+      1.6,
+      1.8,
+      2.0,
+      2.2,
+      2.4,
+      2.6,
+      2.8,
+      3.0
+    ],
+    "params": {
+      "dmg": "0..4",
+      "slow": "0..1.5"
+    }
+  }
+}

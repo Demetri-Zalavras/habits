@@ -1,0 +1,33 @@
+{
+  "rarity": "uncommon",
+  "category": "ranger",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:melee_kill",
+    "chance": 0.0312,
+    "entity": [
+      "minecraft:squid",
+      "minecraft:glow_squid"
+    ]
+  },
+  "icon": "minecraft:ink_sac",
+  "art": "minecraft:black_concrete",
+  "perk": {
+    "mechanic": "habits:melee/ink_blade",
+    "params": {
+      "seconds": "1,5"
+    },
+    "values": [
+      10.0,
+      14.0,
+      19.0,
+      23.0,
+      28.0,
+      32.0,
+      37.0,
+      41.0,
+      46.0,
+      50.0
+    ]
+  }
+}

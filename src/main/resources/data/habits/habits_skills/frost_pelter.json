@@ -1,0 +1,31 @@
+{
+  "rarity": "uncommon",
+  "category": "ranger",
+  "trigger": {
+    "type": "damage_dealt",
+    "match": "minecraft:thrown",
+    "entity": "minecraft:blaze",
+    "chance": 0.00625
+  },
+  "icon": "minecraft:snowball",
+  "art": "minecraft:snow_block",
+  "perk": {
+    "mechanic": "habits:frost_pelter",
+    "values": [
+      1.0,
+      1.4,
+      1.9,
+      2.3,
+      2.8,
+      3.2,
+      3.7,
+      4.1,
+      4.6,
+      5.0
+    ],
+    "params": {
+      "slow": "1..3",
+      "freeze": "0..40"
+    }
+  }
+}

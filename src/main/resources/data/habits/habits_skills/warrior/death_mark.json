@@ -1,0 +1,72 @@
+{
+  "rarity": "legendary",
+  "category": "warrior",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:melee_kill",
+    "entity": "#c:bosses",
+    "chance": 0.33
+  },
+  "icon": "minecraft:skeleton_skull",
+  "art": "minecraft:soul_soil",
+  "perk": {
+    "mechanic": "habits:melee/death_mark",
+    "params": {
+      "seconds": "4",
+      "radius": "8",
+      "boss": "50"
+    },
+    "values": [
+      30.0,
+      38.0,
+      46.0,
+      53.0,
+      61.0,
+      69.0,
+      77.0,
+      84.0,
+      92.0,
+      100.0
+    ]
+  },
+  "forks": [
+    {
+      "level": 5,
+      "options": [
+        {
+          "id": "swift_mark",
+          "scale": 1.25,
+          "params": {
+            "seconds": "3"
+          }
+        },
+        {
+          "id": "slow_doom",
+          "scale": 0.6,
+          "params": {
+            "seconds": "8"
+          }
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "options": [
+        {
+          "id": "chain_reaper",
+          "params": {
+            "radius": "16",
+            "boss": "25"
+          }
+        },
+        {
+          "id": "giant_killer",
+          "params": {
+            "radius": "4",
+            "boss": "100"
+          }
+        }
+      ]
+    }
+  ]
+}

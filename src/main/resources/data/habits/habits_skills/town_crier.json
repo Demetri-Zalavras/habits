@@ -1,0 +1,31 @@
+{
+  "rarity": "rare",
+  "category": "crafting",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:bell_in_raid",
+    "chance": 0.333
+  },
+  "icon": "minecraft:bell",
+  "art": "minecraft:iron_block",
+  "perk": {
+    "mechanic": "habits:town_crier",
+    "params": {
+      "strength": "0..2",
+      "seconds": "30..60",
+      "regen_from": "10"
+    },
+    "values": [
+      16,
+      21,
+      27,
+      32,
+      37,
+      43,
+      48,
+      53,
+      59,
+      64
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "rarity": "legendary",
+  "category": "guardian",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:never",
+    "chance": 0
+  },
+  "icon": "minecraft:heart_of_the_sea",
+  "art": "minecraft:dark_prismarine",
+  "perk": {
+    "type": "attribute",
+    "params": {
+      "attribute": "minecraft:generic.max_health",
+      "operation": "add_value"
+    },
+    "values": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ]
+  },
+  "title": {
+    "stat_type": "minecraft:killed",
+    "stat": "cataclysm:the_leviathan",
+    "min": 1
+  },
+  "perk_text": "Max health +{v}"
+}

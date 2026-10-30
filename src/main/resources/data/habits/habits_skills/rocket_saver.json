@@ -1,0 +1,29 @@
+{
+  "rarity": "uncommon",
+  "category": "movement",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:glide_rocket",
+    "chance": 0.0104
+  },
+  "icon": "minecraft:firework_rocket",
+  "art": "minecraft:purpur_block",
+  "perk": {
+    "mechanic": "habits:movement/rocket_saver",
+    "params": {
+      "duration": "10..80"
+    },
+    "values": [
+      10,
+      16,
+      21,
+      27,
+      32,
+      38,
+      43,
+      49,
+      54,
+      60
+    ]
+  }
+}

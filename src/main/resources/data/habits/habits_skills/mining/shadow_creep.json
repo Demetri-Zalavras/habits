@@ -1,0 +1,31 @@
+{
+  "rarity": "uncommon",
+  "category": "mining",
+  "trigger": {
+    "type": "enter_biome",
+    "match": "minecraft:deep_dark",
+    "chance": 0.15
+  },
+  "icon": "minecraft:sculk_sensor",
+  "art": "minecraft:sculk",
+  "perk": {
+    "type": "attribute",
+    "params": {
+      "attribute": "minecraft:player.sneaking_speed",
+      "operation": "add_multiplied_base"
+    },
+    "values": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60,
+      70,
+      80,
+      90,
+      100
+    ]
+  },
+  "perk_text": "Sneak speed +{v}%"
+}

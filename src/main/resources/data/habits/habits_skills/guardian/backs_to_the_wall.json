@@ -1,0 +1,33 @@
+{
+  "rarity": "uncommon",
+  "category": "guardian",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:kill_while_low",
+    "chance": 0.1,
+    "min": 70
+  },
+  "icon": "minecraft:netherite_chestplate",
+  "art": "minecraft:blackstone",
+  "perk": {
+    "type": "attribute",
+    "values": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "params": {
+      "attribute": "minecraft:generic.armor",
+      "operation": "add_value",
+      "condition": "low_health"
+    }
+  },
+  "perk_text": "+{v} armor while badly hurt"
+}

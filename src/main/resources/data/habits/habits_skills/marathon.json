@@ -1,0 +1,50 @@
+{
+  "rarity": "epic",
+  "category": "movement",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:marathon",
+    "chance": 0.556
+  },
+  "icon": "minecraft:diamond_boots",
+  "art": "minecraft:sandstone",
+  "perk": {
+    "mechanic": "habits:movement/marathon",
+    "params": {
+      "rate": "1..5"
+    },
+    "values": [
+      10,
+      16,
+      21,
+      27,
+      32,
+      38,
+      43,
+      49,
+      54,
+      60
+    ]
+  },
+  "forks": [
+    {
+      "level": 5,
+      "options": [
+        {
+          "id": "sprinter",
+          "scale": 0.75,
+          "params": {
+            "rate": "2..8"
+          }
+        },
+        {
+          "id": "long_runner",
+          "scale": 1.3,
+          "params": {
+            "rate": "0.5..3"
+          }
+        }
+      ]
+    }
+  ]
+}

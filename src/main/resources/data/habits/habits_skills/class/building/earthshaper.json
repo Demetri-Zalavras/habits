@@ -1,0 +1,31 @@
+{
+  "rarity": "epic",
+  "category": "building",
+  "class_passive": true,
+  "trigger": {
+    "type": "break_block",
+    "match": "#minecraft:mineable/shovel",
+    "chance": 0.00028
+  },
+  "icon": "minecraft:diamond_shovel",
+  "art": "minecraft:coarse_dirt",
+  "perk": {
+    "mechanic": "habits:building/grader",
+    "values": [
+      2,
+      2,
+      3,
+      3,
+      4,
+      4,
+      5,
+      5,
+      6,
+      6
+    ],
+    "params": {
+      "height": "4..8",
+      "per_tick": "16"
+    }
+  }
+}

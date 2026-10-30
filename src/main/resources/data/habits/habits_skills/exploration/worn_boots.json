@@ -1,0 +1,30 @@
+{
+  "rarity": "common",
+  "category": "exploration",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:new_chunk",
+    "chance": 0.01
+  },
+  "icon": "minecraft:chainmail_boots",
+  "art": "minecraft:coarse_dirt",
+  "perk": {
+    "type": "durability_save",
+    "params": {
+      "item": "#minecraft:foot_armor"
+    },
+    "values": [
+      5,
+      10,
+      15,
+      20,
+      25,
+      30,
+      35,
+      40,
+      45,
+      50
+    ]
+  },
+  "perk_text": "{v}% chance boots take no wear"
+}

@@ -1,0 +1,30 @@
+{
+  "rarity": "uncommon",
+  "category": "farming",
+  "trigger": {
+    "type": "damage_taken",
+    "match": "minecraft:sting",
+    "chance": 0.03
+  },
+  "icon": "minecraft:beehive",
+  "art": "minecraft:honeycomb_block",
+  "perk": {
+    "mechanic": "habits:survival/beekeepers_hide",
+    "params": {
+      "value_max": "100",
+      "poison_cut": "25..100"
+    },
+    "values": [
+      25,
+      33,
+      42,
+      50,
+      58,
+      67,
+      75,
+      83,
+      92,
+      100
+    ]
+  }
+}

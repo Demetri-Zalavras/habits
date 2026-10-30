@@ -1,0 +1,30 @@
+{
+  "rarity": "common",
+  "category": "ranger",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:stood_still_minute",
+    "chance": 0.1
+  },
+  "icon": "minecraft:armor_stand",
+  "art": "minecraft:smooth_stone",
+  "perk": {
+    "mechanic": "habits:statue",
+    "params": {
+      "lose": "20..100",
+      "regen_amp": "0..1"
+    },
+    "values": [
+      10,
+      9,
+      8,
+      7,
+      6,
+      5,
+      4,
+      3,
+      3,
+      2
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "rarity": "common",
+  "category": "building",
+  "trigger": {
+    "type": "place_block",
+    "chance": 0.0167,
+    "match": [
+      "minecraft:torch",
+      "minecraft:wall_torch",
+      "minecraft:soul_torch",
+      "minecraft:soul_wall_torch",
+      "minecraft:lantern"
+    ]
+  },
+  "icon": "minecraft:torch",
+  "art": "minecraft:stone",
+  "perk": {
+    "mechanic": "habits:torch_toss",
+    "values": [
+      6,
+      9,
+      12,
+      15,
+      18,
+      21,
+      24,
+      27,
+      30,
+      32
+    ]
+  }
+}

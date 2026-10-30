@@ -1,0 +1,28 @@
+{
+  "rarity": "legendary",
+  "category": "warrior",
+  "class": "habits:class/warrior/warlord",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:armored_kill",
+    "chance": 0.0167
+  },
+  "icon": "minecraft:gold_ingot",
+  "art": "minecraft:raw_gold_block",
+  "perk": {
+    "type": "looting_bonus",
+    "values": [
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2,
+      3,
+      3
+    ]
+  },
+  "perk_text": "Kills get +{v} Looting"
+}

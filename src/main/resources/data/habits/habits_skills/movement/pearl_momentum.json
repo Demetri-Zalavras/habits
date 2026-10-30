@@ -1,0 +1,29 @@
+{
+  "rarity": "uncommon",
+  "category": "movement",
+  "trigger": {
+    "type": "use_item",
+    "match": "minecraft:ender_pearl",
+    "chance": 0.0104
+  },
+  "icon": "minecraft:ender_pearl",
+  "art": "minecraft:obsidian",
+  "perk": {
+    "mechanic": "habits:movement/pearl_momentum",
+    "params": {
+      "safe": "20..100"
+    },
+    "values": [
+      30,
+      38,
+      46,
+      53,
+      61,
+      69,
+      77,
+      84,
+      92,
+      100
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "rarity": "rare",
+  "category": "crafting",
+  "class": "habits:class/crafting/tinker",
+  "trigger": {
+    "type": "smelt",
+    "match": "#c:ingots",
+    "chance": 0.033
+  },
+  "icon": "minecraft:blast_furnace",
+  "art": "minecraft:copper_block",
+  "perk": {
+    "type": "smelt_bonus",
+    "values": [
+      5,
+      8,
+      11,
+      13,
+      16,
+      19,
+      22,
+      24,
+      27,
+      30
+    ],
+    "params": {
+      "item": "#c:ingots"
+    }
+  },
+  "perk_text": "{v}% chance smelted ingots come out doubled"
+}

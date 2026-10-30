@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.habits.perk.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "AnvilMenuMixin",
+    "EnchantmentHelperMixin",
+    "ItemStackMixin",
+    "PlayerMixin",
+    "VillagerMixin"
+  ],
+  "client": [],
+  "injectors": {"defaultRequire": 1}
+}

@@ -1,0 +1,31 @@
+{
+  "rarity": "rare",
+  "category": "exploration",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:loot_chest_first",
+    "chance": 0.1
+  },
+  "icon": "minecraft:gold_block",
+  "art": "minecraft:mossy_stone_bricks",
+  "perk": {
+    "mechanic": "habits:exploration/treasure_luck",
+    "params": {
+      "effect": "minecraft:luck",
+      "structure": "any",
+      "linger": "3..15"
+    },
+    "values": [
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      3,
+      3,
+      3,
+      4
+    ]
+  }
+}

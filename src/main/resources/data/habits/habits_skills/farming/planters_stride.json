@@ -1,0 +1,26 @@
+{
+  "rarity": "uncommon",
+  "category": "farming",
+  "trigger": {
+    "type": "plant",
+    "match": "minecraft:beetroots",
+    "chance": 0.0016
+  },
+  "icon": "minecraft:beetroot_seeds",
+  "art": "minecraft:farmland",
+  "perk": {
+    "mechanic": "habits:farming/planters_stride",
+    "values": [
+      1,
+      1,
+      1,
+      3,
+      3,
+      3,
+      3,
+      5,
+      5,
+      5
+    ]
+  }
+}

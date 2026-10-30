@@ -1,0 +1,30 @@
+{
+  "rarity": "uncommon",
+  "category": "guardian",
+  "class": "habits:class/guardian/bulwark",
+  "trigger": {
+    "type": "shield_block",
+    "chance": 0.0125
+  },
+  "icon": "minecraft:shield",
+  "art": "minecraft:oak_planks",
+  "perk": {
+    "type": "durability_save",
+    "values": [
+      15,
+      20,
+      25,
+      30,
+      35,
+      40,
+      45,
+      50,
+      55,
+      60
+    ],
+    "params": {
+      "item": "minecraft:shield"
+    }
+  },
+  "perk_text": "Shields: {v}% chance to save durability"
+}

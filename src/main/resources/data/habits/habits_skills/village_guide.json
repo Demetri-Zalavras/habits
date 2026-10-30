@@ -1,0 +1,33 @@
+{
+  "rarity": "common",
+  "category": "exploration",
+  "trigger": {
+    "type": "enter_structure",
+    "match": [
+      "minecraft:village_plains",
+      "minecraft:village_desert",
+      "minecraft:village_savanna",
+      "minecraft:village_snowy",
+      "minecraft:village_taiga"
+    ],
+    "chance": 1.0
+  },
+  "icon": "minecraft:emerald",
+  "art": "minecraft:cobblestone",
+  "perk": {
+    "mechanic": "habits:movement/village_guide",
+    "params": {"value_max": "5"},
+    "values": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      2
+    ]
+  }
+}

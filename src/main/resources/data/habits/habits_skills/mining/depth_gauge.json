@@ -1,0 +1,30 @@
+{
+  "rarity": "common",
+  "category": "mining",
+  "trigger": {
+    "type": "enter_biome",
+    "match": "minecraft:dripstone_caves",
+    "chance": 0.1
+  },
+  "icon": "minecraft:clock",
+  "art": "minecraft:dripstone_block",
+  "perk": {
+    "type": "show_coords",
+    "params": {
+      "condition": "underground"
+    },
+    "values": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "perk_text": "Underground your coordinates show on screen"
+}

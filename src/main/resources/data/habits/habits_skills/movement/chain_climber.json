@@ -1,0 +1,26 @@
+{
+  "rarity": "uncommon",
+  "category": "movement",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:wall_jump",
+    "chance": 0.0125
+  },
+  "icon": "minecraft:chain",
+  "art": "minecraft:iron_block",
+  "perk": {
+    "mechanic": "habits:movement/chain_climber",
+    "values": [
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2,
+      3,
+      3,
+      3
+    ]
+  }
+}

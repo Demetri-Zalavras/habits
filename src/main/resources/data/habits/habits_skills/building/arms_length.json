@@ -1,0 +1,29 @@
+{
+  "rarity": "common",
+  "category": "building",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:long_reach",
+    "chance": 0.01
+  },
+  "icon": "minecraft:stick",
+  "art": "minecraft:oak_planks",
+  "perk": {
+    "type": "reach",
+    "values": [
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      1.0,
+      1.2,
+      1.4,
+      1.6,
+      1.8,
+      2.0
+    ],
+    "params": {
+      "kind": "block"
+    }
+  }
+}

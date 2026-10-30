@@ -1,0 +1,30 @@
+{
+  "rarity": "common",
+  "category": "guardian",
+  "trigger": {
+    "type": "damage_taken",
+    "match": "minecraft:in_fire",
+    "chance": 0.000833
+  },
+  "icon": "minecraft:blaze_powder",
+  "art": "minecraft:netherrack",
+  "perk": {
+    "mechanic": "habits:survival/flame_dancer",
+    "params": {
+      "trail": "0,0,0,0,0,0,1,1,1,1",
+      "trail_seconds": "1"
+    },
+    "values": [
+      15,
+      24,
+      34,
+      43,
+      53,
+      62,
+      72,
+      81,
+      91,
+      100
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "rarity": "common",
+  "category": "crafting",
+  "trigger": {
+    "type": "place_block",
+    "match": [
+      "minecraft:bookshelf",
+      "minecraft:chiseled_bookshelf"
+    ],
+    "chance": 0.02
+  },
+  "icon": "minecraft:bookshelf",
+  "art": "minecraft:bookshelf",
+  "perk": {
+    "mechanic": "habits:librarians_nose",
+    "params": {
+      "double_from": "10"
+    },
+    "values": [
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2,
+      3,
+      3,
+      3
+    ]
+  }
+}

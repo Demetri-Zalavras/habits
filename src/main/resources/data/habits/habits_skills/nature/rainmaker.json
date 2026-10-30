@@ -1,0 +1,46 @@
+{
+  "rarity": "epic",
+  "category": "nature",
+  "trigger": {
+    "type": "drink_potion",
+    "match": "minecraft:water",
+    "chance": 0.0167
+  },
+  "icon": "minecraft:potion",
+  "art": "minecraft:blue_wool",
+  "perk": {
+    "mechanic": "habits:nature/rainmaker",
+    "values": [
+      60,
+      54,
+      48,
+      42,
+      36,
+      30,
+      24,
+      18,
+      12,
+      5
+    ],
+    "params": {
+      "minutes": "5,15"
+    }
+  },
+  "forks": [
+    {
+      "level": 5,
+      "options": [
+        {
+          "id": "seasons"
+        },
+        {
+          "id": "brief_shower",
+          "scale": 0.5,
+          "params": {
+            "minutes": "2,6"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "rarity": "uncommon",
+  "category": "nature",
+  "trigger": {
+    "type": "damage_taken",
+    "entity": [
+      "minecraft:polar_bear",
+      "minecraft:wolf",
+      "minecraft:bee",
+      "minecraft:panda",
+      "minecraft:llama",
+      "minecraft:goat",
+      "minecraft:dolphin",
+      "minecraft:trader_llama"
+    ],
+    "chance": 0.0312
+  },
+  "icon": "minecraft:honey_bottle",
+  "art": "minecraft:honeycomb_block",
+  "perk": {
+    "mechanic": "habits:nature/calm_aura",
+    "values": [
+      15,
+      23,
+      32,
+      40,
+      48,
+      57,
+      65,
+      73,
+      82,
+      90
+    ]
+  }
+}

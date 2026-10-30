@@ -1,0 +1,26 @@
+{
+  "rarity": "common",
+  "category": "movement",
+  "trigger": {
+    "type": "custom_units",
+    "match": "habits:walk_and_use",
+    "chance": 0.0033
+  },
+  "icon": "minecraft:bread",
+  "art": "minecraft:hay_block",
+  "perk": {
+    "mechanic": "habits:movement/steady_stride",
+    "values": [
+      30,
+      36,
+      42,
+      48,
+      54,
+      61,
+      67,
+      73,
+      79,
+      85
+    ]
+  }
+}

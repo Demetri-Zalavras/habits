@@ -1,0 +1,29 @@
+{
+  "rarity": "common",
+  "category": "guardian",
+  "trigger": {
+    "type": "damage_taken",
+    "match": "minecraft:spit",
+    "chance": 0.05
+  },
+  "icon": "minecraft:lead",
+  "art": "minecraft:hay_block",
+  "perk": {
+    "mechanic": "habits:survival/spit_shine",
+    "params": {
+      "tame": "5..50"
+    },
+    "values": [
+      50,
+      56,
+      61,
+      67,
+      72,
+      78,
+      83,
+      89,
+      94,
+      100
+    ]
+  }
+}

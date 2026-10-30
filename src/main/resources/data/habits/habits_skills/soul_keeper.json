@@ -1,0 +1,25 @@
+{
+  "rarity": "rare",
+  "category": "guardian",
+  "trigger": {
+    "type": "die",
+    "chance": 0.333
+  },
+  "icon": "minecraft:experience_bottle",
+  "art": "minecraft:soul_sand",
+  "perk": {
+    "mechanic": "habits:survival/soul_keeper",
+    "values": [
+      10,
+      18,
+      26,
+      33,
+      41,
+      49,
+      57,
+      64,
+      72,
+      80
+    ]
+  }
+}

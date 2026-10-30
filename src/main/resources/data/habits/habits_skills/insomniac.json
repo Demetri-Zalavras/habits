@@ -1,0 +1,29 @@
+{
+  "rarity": "rare",
+  "category": "guardian",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:three_sleepless_days",
+    "chance": 1.0
+  },
+  "icon": "minecraft:phantom_membrane",
+  "art": "minecraft:black_wool",
+  "perk": {
+    "mechanic": "habits:insomniac",
+    "params": {
+      "night_vision_from": "10"
+    },
+    "values": [
+      50,
+      55,
+      61,
+      66,
+      72,
+      77,
+      83,
+      88,
+      94,
+      100
+    ]
+  }
+}

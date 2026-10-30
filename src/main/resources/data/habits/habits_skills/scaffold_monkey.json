@@ -1,0 +1,26 @@
+{
+  "rarity": "uncommon",
+  "category": "movement",
+  "trigger": {
+    "type": "custom_units",
+    "match": "habits:scaffold_climb",
+    "chance": 0.000521
+  },
+  "icon": "minecraft:scaffolding",
+  "art": "minecraft:bamboo_block",
+  "perk": {
+    "mechanic": "habits:movement/scaffold_monkey",
+    "values": [
+      1.5,
+      1.8,
+      2.1,
+      2.3,
+      2.6,
+      2.9,
+      3.2,
+      3.4,
+      3.7,
+      4.0
+    ]
+  }
+}

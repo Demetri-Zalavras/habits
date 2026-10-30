@@ -1,0 +1,27 @@
+{
+  "rarity": "uncommon",
+  "category": "guardian",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:shield_disabled",
+    "chance": 0.125
+  },
+  "icon": "minecraft:iron_axe",
+  "art": "minecraft:stripped_oak_log",
+  "perk": {
+    "mechanic": "habits:survival/axe_catcher",
+    "params": {"value_max": "100"},
+    "values": [
+      10,
+      19,
+      28,
+      37,
+      46,
+      54,
+      63,
+      72,
+      81,
+      90
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "rarity": "uncommon",
+  "category": "nature",
+  "trigger": {
+    "type": "interact_entity",
+    "item": "minecraft:lead",
+    "chance": 0.0208
+  },
+  "icon": "minecraft:lead",
+  "art": "minecraft:oak_fence",
+  "perk": {
+    "mechanic": "habits:leash_master",
+    "params": {
+      "villager_level": "5,5",
+      "hostile_level": "10,10"
+    },
+    "values": [
+      15,
+      18,
+      21,
+      24,
+      27,
+      29,
+      32,
+      35,
+      37,
+      40
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "rarity": "uncommon",
+  "category": "warrior",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:melee_kill",
+    "chance": 0.0312,
+    "entity": [
+      "minecraft:hoglin",
+      "minecraft:zoglin"
+    ]
+  },
+  "icon": "minecraft:cooked_porkchop",
+  "art": "minecraft:warped_wart_block",
+  "perk": {
+    "mechanic": "habits:melee/charge_breaker",
+    "params": {
+      "value_max": "100",
+      "stun": "0.5,3"
+    },
+    "values": [
+      15.0,
+      21.0,
+      27.0,
+      33.0,
+      39.0,
+      46.0,
+      52.0,
+      58.0,
+      64.0,
+      70.0
+    ]
+  }
+}

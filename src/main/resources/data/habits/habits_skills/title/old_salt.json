@@ -1,0 +1,31 @@
+{
+  "rarity": "uncommon",
+  "category": "exploration",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:never",
+    "chance": 0
+  },
+  "icon": "minecraft:oak_boat",
+  "art": "minecraft:oak_planks",
+  "perk": {
+    "type": "fishing_speed",
+    "values": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "title": {
+    "stat_type": "minecraft:custom",
+    "stat": "minecraft:boat_one_cm",
+    "min": 2000000
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "rarity": "rare",
+  "category": "crafting",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:trade_wandering",
+    "chance": 0.03333
+  },
+  "icon": "minecraft:rabbit_foot",
+  "art": "minecraft:emerald_block",
+  "perk": {
+    "type": "attribute",
+    "values": [0.5, 1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5],
+    "params": {
+      "attribute": "minecraft:generic.luck"
+    }
+  },
+  "perk_text": "Luck +{v}"
+}

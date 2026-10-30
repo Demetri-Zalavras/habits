@@ -1,0 +1,33 @@
+{
+  "rarity": "legendary",
+  "category": "movement",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:long_sprint",
+    "chance": 0.0083
+  },
+  "icon": "minecraft:glowstone_dust",
+  "art": "minecraft:smooth_stone",
+  "perk": {
+    "mechanic": "habits:movement/dash",
+    "params": {
+      "cooldown": "3..0.5",
+      "iframes": "0.4..0.8",
+      "push": "4.6,5.3,6.1,6.9,7.7,8.4,9.2,10.0,10.0,10.0",
+      "boost": "0,0,0,0,0,0,2.41,2.67,2.67,2.67"
+    },
+    "values": [
+      5.7,
+      6.7,
+      7.8,
+      8.9,
+      10.0,
+      11.0,
+      12.0,
+      13.0,
+      13.0,
+      13.0
+    ]
+  },
+  "class": "habits:class/movement/stormstrider"
+}

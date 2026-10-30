@@ -1,0 +1,25 @@
+{
+  "rarity": "epic",
+  "category": "crafting",
+  "trigger": {
+    "type": "smelt",
+    "chance": 0.00417
+  },
+  "icon": "minecraft:furnace",
+  "art": "minecraft:blast_furnace",
+  "perk": {
+    "mechanic": "habits:pocket_furnace",
+    "values": [
+      20,
+      16,
+      12,
+      9,
+      7,
+      5,
+      4,
+      3,
+      2,
+      1
+    ]
+  }
+}

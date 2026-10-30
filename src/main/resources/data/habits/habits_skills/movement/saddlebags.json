@@ -1,0 +1,30 @@
+{
+  "rarity": "rare",
+  "category": "movement",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:long_ride",
+    "chance": 0.1
+  },
+  "icon": "minecraft:bundle",
+  "art": "minecraft:barrel",
+  "perk": {
+    "type": "magnet_pickup",
+    "params": {
+      "condition": "riding"
+    },
+    "values": [
+      1,
+      2,
+      2,
+      3,
+      4,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  "perk_text": "Pull items from {v} blocks while riding"
+}

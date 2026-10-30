@@ -1,0 +1,49 @@
+{
+  "rarity": "legendary",
+  "category": "nature",
+  "trigger": {
+    "type": "breed",
+    "match": [
+      "minecraft:wolf",
+      "minecraft:cat"
+    ],
+    "chance": 0.00417
+  },
+  "icon": "minecraft:bone_block",
+  "art": "minecraft:podzol",
+  "perk": {
+    "mechanic": "habits:nature/beastmaster",
+    "values": [
+      10,
+      14,
+      19,
+      23,
+      28,
+      32,
+      37,
+      41,
+      46,
+      50
+    ],
+    "params": {
+      "radius": "12,24"
+    }
+  },
+  "forks": [
+    {
+      "level": 5,
+      "options": [
+        {
+          "id": "loyal_pack"
+        },
+        {
+          "id": "close_guard",
+          "scale": 1.4,
+          "params": {
+            "radius": "6,12"
+          }
+        }
+      ]
+    }
+  ]
+}

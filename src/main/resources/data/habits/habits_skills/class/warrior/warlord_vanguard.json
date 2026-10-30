@@ -1,0 +1,31 @@
+{
+  "rarity": "epic",
+  "category": "warrior",
+  "class": "habits:class/warrior/warlord",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:crowd_kill",
+    "chance": 0.033
+  },
+  "icon": "minecraft:golden_apple",
+  "art": "minecraft:gold_block",
+  "perk": {
+    "type": "attribute",
+    "params": {
+      "attribute": "minecraft:generic.max_health"
+    },
+    "values": [
+      2,
+      2,
+      4,
+      4,
+      6,
+      6,
+      8,
+      8,
+      10,
+      10
+    ]
+  },
+  "perk_text": "+{v} max health (2 is one heart)"
+}

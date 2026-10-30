@@ -1,0 +1,25 @@
+{
+  "rarity": "common",
+  "category": "exploration",
+  "trigger": {
+    "type": "pickup_item",
+    "chance": 0.00333
+  },
+  "icon": "minecraft:hopper",
+  "art": "minecraft:black_wool",
+  "perk": {
+    "mechanic": "habits:magpie",
+    "values": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  }
+}

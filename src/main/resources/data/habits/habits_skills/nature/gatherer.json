@@ -1,0 +1,35 @@
+{
+  "rarity": "uncommon",
+  "category": "nature",
+  "trigger": {
+    "type": "pickup_item",
+    "match": [
+      "minecraft:sweet_berries",
+      "minecraft:apple",
+      "#minecraft:saplings",
+      "minecraft:glow_berries"
+    ],
+    "chance": 0.0208
+  },
+  "icon": "minecraft:bundle",
+  "art": "minecraft:oak_leaves",
+  "perk": {
+    "type": "magnet_pickup",
+    "values": [
+      1.5,
+      2.0,
+      2.5,
+      3.0,
+      3.5,
+      4.0,
+      4.5,
+      5.0,
+      5.5,
+      6.0
+    ],
+    "params": {
+      "condition": "biome=#minecraft:is_forest"
+    }
+  },
+  "perk_text": "Pull items from {v} blocks in forests"
+}

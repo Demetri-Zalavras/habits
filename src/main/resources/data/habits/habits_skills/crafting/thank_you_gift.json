@@ -1,0 +1,14 @@
+{
+  "rarity": "rare",
+  "category": "crafting",
+  "trigger": {
+    "type": "trade",
+    "chance": 0.00556
+  },
+  "icon": "minecraft:cookie",
+  "art": "minecraft:emerald_block",
+  "perk": {
+    "mechanic": "habits:crafting/thank_you_gift",
+    "values": [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
+  }
+}

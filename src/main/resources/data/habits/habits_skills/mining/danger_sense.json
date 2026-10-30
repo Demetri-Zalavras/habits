@@ -1,0 +1,26 @@
+{
+  "rarity": "rare",
+  "category": "mining",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:mining/ambushed",
+    "chance": 0.01667
+  },
+  "icon": "minecraft:spyglass",
+  "art": "minecraft:cobblestone",
+  "perk": {
+    "mechanic": "habits:mining/danger_sense",
+    "values": [
+      3,
+      4,
+      6,
+      7,
+      8,
+      10,
+      11,
+      12,
+      14,
+      15
+    ]
+  }
+}

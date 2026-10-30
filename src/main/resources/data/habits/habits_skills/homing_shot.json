@@ -1,0 +1,30 @@
+{
+  "rarity": "common",
+  "category": "ranger",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:arrow_hit_hostile",
+    "chance": 0.0167
+  },
+  "icon": "minecraft:bow",
+  "art": "minecraft:target",
+  "perk": {
+    "mechanic": "habits:homing_arrows",
+    "values": [
+      1,
+      1.5,
+      2,
+      2.5,
+      3,
+      3.5,
+      4,
+      4.5,
+      5,
+      6
+    ],
+    "params": {
+      "turn": "6..30",
+      "lock": "8..24"
+    }
+  }
+}

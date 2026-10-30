@@ -1,0 +1,34 @@
+{
+  "rarity": "uncommon",
+  "category": "warrior",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:armored_hit",
+    "chance": 0.00208,
+    "item": [
+      "#minecraft:axes",
+      "minecraft:mace"
+    ]
+  },
+  "icon": "minecraft:chainmail_chestplate",
+  "art": "minecraft:chiseled_stone_bricks",
+  "perk": {
+    "mechanic": "habits:melee/sunder",
+    "params": {
+      "stacks": "2,8",
+      "seconds": "4,10"
+    },
+    "values": [
+      1.0,
+      1.0,
+      1.0,
+      2.0,
+      2.0,
+      2.0,
+      2.0,
+      3.0,
+      3.0,
+      3.0
+    ]
+  }
+}

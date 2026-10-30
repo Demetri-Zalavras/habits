@@ -1,0 +1,31 @@
+{
+  "rarity": "uncommon",
+  "category": "nature",
+  "trigger": {
+    "type": "till",
+    "match": "#minecraft:logs",
+    "chance": 0.00313
+  },
+  "icon": "minecraft:spruce_log",
+  "art": "minecraft:stripped_spruce_log",
+  "perk": {
+    "type": "attribute",
+    "values": [
+      1,
+      2,
+      2,
+      3,
+      3,
+      4,
+      4,
+      5,
+      5,
+      6
+    ],
+    "params": {
+      "attribute": "minecraft:generic.armor",
+      "condition": "biome=#minecraft:is_forest"
+    }
+  },
+  "perk_text": "+{v} armor in forests"
+}

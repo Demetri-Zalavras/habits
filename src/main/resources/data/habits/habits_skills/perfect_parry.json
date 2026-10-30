@@ -1,0 +1,29 @@
+{
+  "rarity": "rare",
+  "category": "guardian",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:perfect_block",
+    "chance": 0.0167
+  },
+  "icon": "minecraft:shield",
+  "art": "minecraft:polished_diorite",
+  "perk": {
+    "mechanic": "habits:melee/perfect_parry",
+    "params": {
+      "window": "3,10"
+    },
+    "values": [
+      50.0,
+      78.0,
+      106.0,
+      133.0,
+      161.0,
+      189.0,
+      217.0,
+      244.0,
+      272.0,
+      300.0
+    ]
+  }
+}

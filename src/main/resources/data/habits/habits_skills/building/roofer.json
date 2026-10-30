@@ -1,0 +1,30 @@
+{
+  "rarity": "uncommon",
+  "category": "building",
+  "trigger": {
+    "type": "place_block",
+    "match": "#minecraft:stairs",
+    "chance": 0.00625
+  },
+  "icon": "minecraft:brick_stairs",
+  "art": "minecraft:bricks",
+  "perk": {
+    "type": "damage_type_resist",
+    "params": {
+      "damage": "minecraft:fall"
+    },
+    "values": [
+      5,
+      10,
+      15,
+      20,
+      25,
+      30,
+      35,
+      40,
+      45,
+      50
+    ]
+  },
+  "perk_text": "Falls hurt {v}% less"
+}

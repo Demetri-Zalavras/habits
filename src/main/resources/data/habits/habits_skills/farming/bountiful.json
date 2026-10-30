@@ -1,0 +1,62 @@
+{
+  "rarity": "epic",
+  "category": "farming",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:farming/big_streak",
+    "chance": 0.055
+  },
+  "icon": "minecraft:wheat",
+  "art": "minecraft:hay_block",
+  "perk": {
+    "type": "drop_bonus",
+    "params": {
+      "block": "#minecraft:crops"
+    },
+    "values": [
+      10,
+      14,
+      19,
+      23,
+      28,
+      32,
+      37,
+      41,
+      46,
+      50
+    ]
+  },
+  "perk_text": "{v}% chance crops drop twice",
+  "forks": [
+    {
+      "level": 5,
+      "options": [
+        {
+          "id": "any_hour"
+        },
+        {
+          "id": "night_shift",
+          "scale": 1.6,
+          "params": {
+            "condition": "night"
+          }
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "options": [
+        {
+          "id": "all_crops"
+        },
+        {
+          "id": "staples",
+          "scale": 1.3,
+          "params": {
+            "block": "minecraft:wheat,minecraft:carrots,minecraft:potatoes,minecraft:beetroots"
+          }
+        }
+      ]
+    }
+  ]
+}

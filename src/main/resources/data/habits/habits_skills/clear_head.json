@@ -1,0 +1,28 @@
+{
+  "rarity": "common",
+  "category": "guardian",
+  "trigger": {
+    "type": "custom",
+    "match": [
+      "habits:effect_nausea"
+    ],
+    "chance": 0.2
+  },
+  "icon": "minecraft:pufferfish",
+  "art": "minecraft:white_concrete",
+  "perk": {
+    "mechanic": "habits:survival/clear_head",
+    "values": [
+      20,
+      29,
+      38,
+      47,
+      56,
+      64,
+      73,
+      82,
+      91,
+      100
+    ]
+  }
+}

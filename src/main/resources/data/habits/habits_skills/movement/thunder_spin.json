@@ -1,0 +1,26 @@
+{
+  "rarity": "legendary",
+  "category": "movement",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:riptide",
+    "chance": 0.0014
+  },
+  "icon": "minecraft:lightning_rod",
+  "art": "minecraft:cut_copper",
+  "perk": {
+    "mechanic": "habits:movement/thunder_spin",
+    "values": [
+      20,
+      18,
+      16,
+      14,
+      12,
+      10,
+      8,
+      6,
+      4.5,
+      3
+    ]
+  }
+}

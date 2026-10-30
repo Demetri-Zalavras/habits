@@ -1,0 +1,18 @@
+{
+  "rarity": "rare",
+  "category": "mining",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:brush_done",
+    "chance": 0.0167
+  },
+  "icon": "minecraft:brush",
+  "art": "minecraft:suspicious_sand",
+  "perk": {
+    "mechanic": "habits:archaeologist",
+    "params": {
+      "double": "5..50"
+    },
+    "values": [1.25, 1.43, 1.67, 2, 2.5, 2.5, 3.34, 5, 5, 10]
+  }
+}

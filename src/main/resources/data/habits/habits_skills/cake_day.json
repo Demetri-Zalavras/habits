@@ -1,0 +1,29 @@
+{
+  "rarity": "common",
+  "category": "farming",
+  "trigger": {
+    "type": "stat_increment",
+    "match": "minecraft:eat_cake_slice",
+    "chance": 0.1
+  },
+  "icon": "minecraft:cake",
+  "art": "minecraft:pink_wool",
+  "perk": {
+    "mechanic": "habits:cake_day",
+    "params": {
+      "big_from": "10"
+    },
+    "values": [
+      30,
+      45,
+      60,
+      75,
+      90,
+      105,
+      120,
+      140,
+      160,
+      180
+    ]
+  }
+}

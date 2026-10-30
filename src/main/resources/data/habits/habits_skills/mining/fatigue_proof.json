@@ -1,0 +1,26 @@
+{
+  "rarity": "rare",
+  "category": "mining",
+  "trigger": {
+    "type": "enter_structure",
+    "match": "minecraft:monument",
+    "chance": 0.33
+  },
+  "icon": "minecraft:prismarine_shard",
+  "art": "minecraft:dark_prismarine",
+  "perk": {
+    "mechanic": "habits:mining/fatigue_proof",
+    "values": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60,
+      70,
+      80,
+      90,
+      100
+    ]
+  }
+}

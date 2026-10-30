@@ -1,0 +1,47 @@
+{
+  "rarity": "legendary",
+  "category": "nature",
+  "trigger": {
+    "type": "tame",
+    "chance": 0.00833
+  },
+  "icon": "minecraft:totem_of_undying",
+  "art": "minecraft:moss_block",
+  "perk": {
+    "mechanic": "habits:nature/spirit_animal",
+    "values": [
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2,
+      2,
+      3
+    ],
+    "params": {
+      "spirits": "minecraft:wolf=minecraft:strength,minecraft:cat=minecraft:night_vision,minecraft:ocelot=minecraft:night_vision,minecraft:parrot=minecraft:slow_falling,minecraft:horse=minecraft:speed,minecraft:donkey=minecraft:resistance,minecraft:mule=minecraft:resistance,minecraft:camel=minecraft:resistance,minecraft:llama=minecraft:resistance,minecraft:trader_llama=minecraft:resistance,minecraft:skeleton_horse=minecraft:water_breathing",
+      "other": "minecraft:luck"
+    }
+  },
+  "forks": [
+    {
+      "level": 5,
+      "options": [
+        {
+          "id": "true_spirits"
+        },
+        {
+          "id": "war_spirits",
+          "scale": 0.67,
+          "params": {
+            "spirits": "minecraft:wolf=minecraft:strength,minecraft:cat=minecraft:speed,minecraft:ocelot=minecraft:speed,minecraft:parrot=minecraft:speed,minecraft:horse=minecraft:speed,minecraft:donkey=minecraft:strength,minecraft:mule=minecraft:strength,minecraft:camel=minecraft:strength,minecraft:llama=minecraft:strength,minecraft:trader_llama=minecraft:strength,minecraft:skeleton_horse=minecraft:speed",
+            "other": "minecraft:strength"
+          }
+        }
+      ]
+    }
+  ]
+}

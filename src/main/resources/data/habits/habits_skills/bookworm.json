@@ -1,0 +1,29 @@
+{
+  "rarity": "common",
+  "category": "crafting",
+  "trigger": {
+    "type": "enchant",
+    "chance": 0.2
+  },
+  "icon": "minecraft:book",
+  "art": "minecraft:bookshelf",
+  "perk": {
+    "mechanic": "habits:bookworm",
+    "values": [
+      60,
+      50,
+      40,
+      30,
+      24,
+      18,
+      12,
+      8,
+      4,
+      0
+    ],
+    "params": {
+      "hints": "2",
+      "all_hints_from": "3"
+    }
+  }
+}

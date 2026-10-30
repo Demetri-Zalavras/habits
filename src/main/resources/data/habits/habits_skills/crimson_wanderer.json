@@ -1,0 +1,29 @@
+{
+  "rarity": "uncommon",
+  "category": "exploration",
+  "trigger": {
+    "type": "enter_biome",
+    "match": [
+      "minecraft:crimson_forest",
+      "minecraft:warped_forest"
+    ],
+    "chance": 0.125
+  },
+  "icon": "minecraft:crimson_fungus",
+  "art": "minecraft:crimson_stem",
+  "perk": {
+    "mechanic": "habits:movement/crimson_wanderer",
+    "values": [
+      10,
+      18,
+      26,
+      33,
+      41,
+      49,
+      57,
+      64,
+      72,
+      80
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "rarity": "common",
+  "category": "nature",
+  "trigger": {
+    "type": "break_block",
+    "match": [
+      "minecraft:snow",
+      "minecraft:snow_block",
+      "minecraft:powder_snow"
+    ],
+    "chance": 0.0025
+  },
+  "icon": "minecraft:leather_boots",
+  "art": "minecraft:snow_block",
+  "perk": {
+    "type": "attribute",
+    "values": [
+      0.1,
+      0.2,
+      0.3,
+      0.4,
+      0.5,
+      0.6,
+      0.7,
+      0.8,
+      0.9,
+      1.0
+    ],
+    "params": {
+      "attribute": "minecraft:generic.movement_efficiency",
+      "condition": "biome=#c:is_snowy"
+    }
+  },
+  "perk_text": "Snow and slow ground slow you {v} less in snowy biomes"
+}

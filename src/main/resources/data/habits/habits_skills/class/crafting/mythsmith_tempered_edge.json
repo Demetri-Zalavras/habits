@@ -1,0 +1,26 @@
+{
+  "rarity": "epic",
+  "category": "crafting",
+  "class": "habits:class/crafting/mythsmith",
+  "trigger": {
+    "type": "anvil",
+    "chance": 0.055
+  },
+  "icon": "minecraft:netherite_sword",
+  "art": "minecraft:smithing_table",
+  "perk": {
+    "type": "crit_damage",
+    "values": [
+      10,
+      13,
+      17,
+      20,
+      23,
+      27,
+      30,
+      33,
+      37,
+      40
+    ]
+  }
+}

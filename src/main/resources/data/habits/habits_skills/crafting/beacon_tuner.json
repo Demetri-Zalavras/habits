@@ -1,0 +1,15 @@
+{
+  "rarity": "rare",
+  "category": "crafting",
+  "trigger": {
+    "type": "stat_increment",
+    "match": "minecraft:interact_with_beacon",
+    "chance": 0.06667
+  },
+  "icon": "minecraft:beacon",
+  "art": "minecraft:diamond_block",
+  "perk": {
+    "mechanic": "habits:crafting/beacon_tuner",
+    "values": [10, 22, 34, 47, 59, 71, 83, 96, 108, 120]
+  }
+}

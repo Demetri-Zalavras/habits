@@ -1,0 +1,37 @@
+{
+  "rarity": "rare",
+  "category": "movement",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:never",
+    "chance": 0
+  },
+  "icon": "minecraft:sugar",
+  "art": "minecraft:smooth_stone",
+  "perk": {
+    "type": "attribute",
+    "params": {
+      "attribute": "minecraft:generic.movement_speed",
+      "operation": "add_multiplied_base",
+      "condition": "sprinting"
+    },
+    "values": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ]
+  },
+  "title": {
+    "stat_type": "minecraft:custom",
+    "stat": "minecraft:sprint_one_cm",
+    "min": 5000000
+  },
+  "perk_text": "Speed +{v}% while sprinting"
+}

@@ -1,0 +1,26 @@
+{
+  "rarity": "common",
+  "category": "nature",
+  "trigger": {
+    "type": "plant",
+    "match": "#minecraft:saplings",
+    "chance": 0.01
+  },
+  "icon": "minecraft:oak_sapling",
+  "art": "minecraft:moss_block",
+  "perk": {
+    "mechanic": "habits:nature/sapling_stash",
+    "values": [
+      5,
+      10,
+      15,
+      20,
+      25,
+      30,
+      35,
+      40,
+      45,
+      50
+    ]
+  }
+}

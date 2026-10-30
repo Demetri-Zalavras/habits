@@ -1,0 +1,34 @@
+{
+  "rarity": "epic",
+  "category": "guardian",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:never",
+    "chance": 0
+  },
+  "icon": "minecraft:nether_star",
+  "art": "minecraft:soul_sand",
+  "perk": {
+    "type": "damage_type_resist",
+    "params": {
+      "damage": "minecraft:wither"
+    },
+    "values": [
+      15,
+      15,
+      15,
+      15,
+      15,
+      15,
+      15,
+      15,
+      15,
+      15
+    ]
+  },
+  "title": {
+    "stat_type": "minecraft:killed",
+    "stat": "minecraft:wither",
+    "min": 1
+  }
+}

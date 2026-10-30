@@ -1,0 +1,31 @@
+{
+  "rarity": "common",
+  "category": "ranger",
+  "trigger": {
+    "type": "use_item",
+    "match": "minecraft:spyglass",
+    "chance": 0.03
+  },
+  "icon": "minecraft:spyglass",
+  "art": "minecraft:copper_block",
+  "perk": {
+    "mechanic": "habits:ranged/spotter",
+    "values": [
+      3.0,
+      4.0,
+      5.0,
+      6.0,
+      7.0,
+      8.0,
+      9.0,
+      10.0,
+      11.0,
+      12.0
+    ],
+    "params": {
+      "dmg": "5..25",
+      "max": "3,3,3,4,4,4,5,5,5,6",
+      "range": "48"
+    }
+  }
+}

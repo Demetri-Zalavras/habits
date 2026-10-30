@@ -1,0 +1,26 @@
+{
+  "rarity": "epic",
+  "category": "mining",
+  "trigger": {
+    "type": "break_block",
+    "match": "minecraft:spawner",
+    "chance": 0.167
+  },
+  "icon": "minecraft:spawner",
+  "art": "minecraft:mossy_cobblestone",
+  "perk": {
+    "mechanic": "habits:spawner_breaker",
+    "values": [
+      5,
+      11,
+      17,
+      23,
+      29,
+      35,
+      41,
+      48,
+      54,
+      60
+    ]
+  }
+}

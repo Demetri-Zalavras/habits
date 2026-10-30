@@ -1,0 +1,29 @@
+{
+  "rarity": "rare",
+  "category": "ranger",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:crystal_shot",
+    "chance": 0.167
+  },
+  "icon": "minecraft:end_crystal",
+  "art": "minecraft:obsidian",
+  "perk": {
+    "mechanic": "habits:crystal_popper",
+    "values": [
+      10.0,
+      20.0,
+      30.0,
+      40.0,
+      50.0,
+      60.0,
+      70.0,
+      80.0,
+      90.0,
+      100.0
+    ],
+    "params": {
+      "blast": "0..50"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "rarity": "common",
+  "category": "warrior",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:melee_kill",
+    "entity": "minecraft:husk",
+    "chance": 0.025
+  },
+  "icon": "minecraft:rotten_flesh",
+  "art": "minecraft:sandstone",
+  "perk": {
+    "mechanic": "habits:melee/ravenous",
+    "params": {
+      "saturation": "0.1,0.6",
+      "value_max": "6"
+    },
+    "values": [
+      1.0,
+      1.0,
+      1.0,
+      2.0,
+      2.0,
+      2.0,
+      3.0,
+      3.0,
+      3.0,
+      4.0
+    ]
+  }
+}

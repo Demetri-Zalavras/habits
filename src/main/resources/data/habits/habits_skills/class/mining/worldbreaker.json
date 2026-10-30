@@ -1,0 +1,30 @@
+{
+  "rarity": "legendary",
+  "category": "mining",
+  "class_passive": true,
+  "trigger": {
+    "type": "break_block",
+    "match": "#minecraft:mineable/pickaxe",
+    "chance": 0.00017
+  },
+  "icon": "minecraft:netherite_pickaxe",
+  "art": "minecraft:bedrock",
+  "perk": {
+    "mechanic": "habits:mining/worldbreaker",
+    "params": {
+      "per_tick": "6..12"
+    },
+    "values": [
+      9,
+      10,
+      12,
+      14,
+      16,
+      18,
+      20,
+      22,
+      24,
+      27
+    ]
+  }
+}

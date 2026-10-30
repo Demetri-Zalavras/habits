@@ -1,0 +1,15 @@
+{
+  "rarity": "mythical",
+  "category": "warrior",
+  "trigger": {"type": "custom", "match": "habits:boss_quartet", "chance": 1.0},
+  "icon": "minecraft:netherite_sword",
+  "art": "minecraft:gilded_blackstone",
+  "perk": {
+    "mechanic": "habits:melee/kingsbane",
+    "params": {
+      "cap": "40",
+      "bosses": "#c:bosses,minecraft:warden,minecraft:elder_guardian,iceandfire:fire_dragon,iceandfire:ice_dragon,iceandfire:lightning_dragon"
+    },
+    "values": [0.5, 0.7, 0.8, 1, 1.2, 1.3, 1.5, 1.7, 1.8, 2]
+  }
+}

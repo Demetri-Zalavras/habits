@@ -1,0 +1,32 @@
+{
+  "rarity": "rare",
+  "category": "warrior",
+  "class": "habits:class/warrior/bloodreaver",
+  "trigger": {
+    "type": "damage_taken",
+    "match": "minecraft:mob_attack",
+    "min": 6,
+    "chance": 0.01
+  },
+  "icon": "minecraft:rabbit_hide",
+  "art": "minecraft:brown_terracotta",
+  "perk": {
+    "type": "regen",
+    "params": {
+      "condition": "low_health"
+    },
+    "values": [
+      6,
+      9,
+      11,
+      14,
+      17,
+      19,
+      22,
+      25,
+      27,
+      30
+    ]
+  },
+  "perk_text": "Below 30% health, regain {v} health a minute"
+}

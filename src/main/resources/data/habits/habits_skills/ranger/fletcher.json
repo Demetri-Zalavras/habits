@@ -1,0 +1,29 @@
+{
+  "rarity": "common",
+  "category": "ranger",
+  "trigger": {
+    "type": "craft",
+    "match": "#minecraft:arrows",
+    "chance": 0.05
+  },
+  "icon": "minecraft:arrow",
+  "art": "minecraft:fletching_table",
+  "perk": {
+    "mechanic": "habits:ranged/fletcher",
+    "values": [
+      10.0,
+      15.0,
+      20.0,
+      25.0,
+      30.0,
+      35.0,
+      40.0,
+      45.0,
+      50.0,
+      55.0
+    ],
+    "params": {
+      "extra": "1,1,2,2,2,3,3,3,4,4"
+    }
+  }
+}

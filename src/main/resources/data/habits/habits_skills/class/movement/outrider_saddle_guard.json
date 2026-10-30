@@ -1,0 +1,31 @@
+{
+  "rarity": "rare",
+  "category": "movement",
+  "trigger": {
+    "type": "ride_distance",
+    "chance": 7e-05
+  },
+  "icon": "minecraft:iron_horse_armor",
+  "art": "minecraft:iron_block",
+  "perk": {
+    "type": "attribute",
+    "params": {
+      "attribute": "minecraft:generic.armor",
+      "condition": "riding"
+    },
+    "values": [
+      1,
+      1.6,
+      2.1,
+      2.7,
+      3.2,
+      3.8,
+      4.3,
+      4.9,
+      5.4,
+      6
+    ]
+  },
+  "class": "habits:class/movement/outrider",
+  "perk_text": "Armor +{v} while riding"
+}

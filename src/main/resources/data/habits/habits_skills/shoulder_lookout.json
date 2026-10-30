@@ -1,0 +1,29 @@
+{
+  "rarity": "rare",
+  "category": "nature",
+  "trigger": {
+    "type": "tame",
+    "match": "minecraft:parrot",
+    "chance": 0.0667
+  },
+  "icon": "minecraft:feather",
+  "art": "minecraft:jungle_leaves",
+  "perk": {
+    "mechanic": "habits:shoulder_lookout",
+    "params": {
+      "outline_level": "10,10"
+    },
+    "values": [
+      8,
+      11,
+      13,
+      16,
+      19,
+      21,
+      24,
+      27,
+      29,
+      32
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "rarity": "uncommon",
+  "category": "building",
+  "trigger": {
+    "type": "place_block",
+    "match": "#minecraft:wool_carpets",
+    "chance": 0.00625
+  },
+  "icon": "minecraft:red_carpet",
+  "art": "minecraft:red_wool",
+  "perk": {
+    "mechanic": "habits:building/carpet_roll",
+    "values": [
+      4,
+      8,
+      12,
+      16,
+      24,
+      32,
+      40,
+      48,
+      56,
+      64
+    ]
+  }
+}

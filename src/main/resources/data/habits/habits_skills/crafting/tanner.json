@@ -1,0 +1,36 @@
+{
+  "rarity": "common",
+  "category": "crafting",
+  "trigger": {
+    "type": "craft",
+    "match": [
+      "minecraft:leather_helmet",
+      "minecraft:leather_chestplate",
+      "minecraft:leather_leggings",
+      "minecraft:leather_boots",
+      "minecraft:leather_horse_armor"
+    ],
+    "chance": 0.25
+  },
+  "icon": "minecraft:leather_chestplate",
+  "art": "minecraft:leather",
+  "perk": {
+    "type": "durability_save",
+    "params": {
+      "item": "minecraft:leather_helmet,minecraft:leather_chestplate,minecraft:leather_leggings,minecraft:leather_boots"
+    },
+    "values": [
+      5,
+      10,
+      15,
+      20,
+      25,
+      30,
+      35,
+      40,
+      45,
+      50
+    ]
+  },
+  "perk_text": "Leather armor: {v}% chance to save durability"
+}

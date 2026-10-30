@@ -1,0 +1,31 @@
+{
+  "rarity": "rare",
+  "category": "mining",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:mining/sneak_dig",
+    "chance": 0.00556
+  },
+  "icon": "minecraft:tuff",
+  "art": "minecraft:tuff",
+  "perk": {
+    "type": "mob_effect_conditional",
+    "params": {
+      "effect": "minecraft:invisibility",
+      "condition": "underground,sneaking"
+    },
+    "values": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "perk_text": "Underground you turn invisible while sneaking"
+}

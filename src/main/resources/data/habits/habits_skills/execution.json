@@ -1,0 +1,33 @@
+{
+  "rarity": "uncommon",
+  "category": "warrior",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:melee_kill",
+    "chance": 0.0156,
+    "item": [
+      "minecraft:diamond_sword",
+      "minecraft:diamond_axe"
+    ]
+  },
+  "icon": "minecraft:diamond_axe",
+  "art": "minecraft:polished_blackstone",
+  "perk": {
+    "mechanic": "habits:melee/execution",
+    "params": {
+      "below": "15,35"
+    },
+    "values": [
+      50.0,
+      67.0,
+      83.0,
+      100.0,
+      117.0,
+      133.0,
+      150.0,
+      167.0,
+      183.0,
+      200.0
+    ]
+  }
+}

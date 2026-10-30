@@ -1,0 +1,29 @@
+{
+  "rarity": "uncommon",
+  "category": "nature",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:hive_harvest",
+    "chance": 0.0625
+  },
+  "icon": "minecraft:honeycomb",
+  "art": "minecraft:beehive",
+  "perk": {
+    "mechanic": "habits:nature/bee_dance",
+    "values": [
+      10,
+      19,
+      28,
+      37,
+      46,
+      54,
+      63,
+      72,
+      81,
+      90
+    ],
+    "params": {
+      "amp": "0,1"
+    }
+  }
+}

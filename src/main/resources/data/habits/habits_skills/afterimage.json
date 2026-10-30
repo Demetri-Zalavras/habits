@@ -1,0 +1,30 @@
+{
+  "rarity": "uncommon",
+  "category": "ranger",
+  "trigger": {
+    "type": "drink_potion",
+    "match": [
+      "minecraft:swiftness",
+      "minecraft:long_swiftness",
+      "minecraft:strong_swiftness"
+    ],
+    "chance": 0.0625
+  },
+  "icon": "minecraft:sugar",
+  "art": "minecraft:light_blue_concrete",
+  "perk": {
+    "mechanic": "habits:survival/afterimage",
+    "values": [
+      5,
+      8,
+      11,
+      13,
+      16,
+      19,
+      22,
+      24,
+      27,
+      30
+    ]
+  }
+}

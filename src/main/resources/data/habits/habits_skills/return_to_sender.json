@@ -1,0 +1,53 @@
+{
+  "rarity": "epic",
+  "category": "guardian",
+  "trigger": {
+    "type": "damage_taken",
+    "match": [
+      "minecraft:fireball",
+      "minecraft:unattributed_fireball"
+    ],
+    "chance": 0.00556
+  },
+  "icon": "minecraft:fire_charge",
+  "art": "minecraft:netherrack",
+  "perk": {
+    "mechanic": "habits:survival/return_to_sender",
+    "params": {
+      "damage_mult": "2"
+    },
+    "values": [
+      5,
+      10,
+      15,
+      20,
+      25,
+      30,
+      35,
+      40,
+      45,
+      50
+    ]
+  },
+  "forks": [
+    {
+      "level": 5,
+      "options": [
+        {
+          "id": "deflector",
+          "scale": 1.3,
+          "params": {
+            "damage_mult": "1"
+          }
+        },
+        {
+          "id": "payback",
+          "scale": 0.7,
+          "params": {
+            "damage_mult": "3.5"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "rarity": "common",
+  "category": "movement",
+  "trigger": {
+    "type": "boat_distance",
+    "chance": 0.000208
+  },
+  "icon": "minecraft:oak_boat",
+  "art": "minecraft:stripped_oak_log",
+  "perk": {
+    "mechanic": "habits:movement/oarsman",
+    "params": {
+      "shore_level": "4"
+    },
+    "values": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60,
+      70,
+      80,
+      90,
+      100
+    ]
+  }
+}

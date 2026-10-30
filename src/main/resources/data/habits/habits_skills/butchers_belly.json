@@ -1,0 +1,29 @@
+{
+  "rarity": "common",
+  "category": "warrior",
+  "trigger": {
+    "type": "eat",
+    "match": "#c:foods/cooked_meat",
+    "chance": 0.1
+  },
+  "icon": "minecraft:cooked_porkchop",
+  "art": "minecraft:smoker",
+  "perk": {
+    "mechanic": "habits:survival/butchers_belly",
+    "params": {
+      "strong_chance": "0..25"
+    },
+    "values": [
+      5,
+      11,
+      17,
+      23,
+      29,
+      36,
+      42,
+      48,
+      54,
+      60
+    ]
+  }
+}

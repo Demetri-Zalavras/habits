@@ -1,0 +1,31 @@
+{
+  "rarity": "common",
+  "category": "guardian",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:eat_near_ally",
+    "chance": 0.08,
+    "min": 1
+  },
+  "icon": "minecraft:pumpkin_pie",
+  "art": "minecraft:hay_block",
+  "perk": {
+    "mechanic": "habits:survival/potluck",
+    "values": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "params": {
+      "share": "25..100",
+      "notice": "8"
+    }
+  }
+}

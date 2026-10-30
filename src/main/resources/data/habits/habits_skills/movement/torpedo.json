@@ -1,0 +1,28 @@
+{
+  "rarity": "uncommon",
+  "category": "movement",
+  "trigger": {
+    "type": "swim_distance",
+    "chance": 0.000347
+  },
+  "icon": "minecraft:prismarine_shard",
+  "art": "minecraft:prismarine",
+  "perk": {
+    "mechanic": "habits:movement/torpedo",
+    "params": {
+      "cooldown": "1.5..0.5"
+    },
+    "values": [
+      2,
+      3,
+      3,
+      4,
+      5,
+      5,
+      6,
+      7,
+      7,
+      8
+    ]
+  }
+}

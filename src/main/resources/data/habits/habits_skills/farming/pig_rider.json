@@ -1,0 +1,26 @@
+{
+  "rarity": "common",
+  "category": "farming",
+  "trigger": {
+    "type": "ride_distance",
+    "match": "minecraft:pig",
+    "chance": 0.00056
+  },
+  "icon": "minecraft:carrot_on_a_stick",
+  "art": "minecraft:mud",
+  "perk": {
+    "mechanic": "habits:farming/pig_rider",
+    "values": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60,
+      70,
+      80,
+      90,
+      100
+    ]
+  }
+}

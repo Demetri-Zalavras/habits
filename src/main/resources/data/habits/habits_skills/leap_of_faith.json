@@ -1,0 +1,26 @@
+{
+  "rarity": "epic",
+  "category": "movement",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:high_dive",
+    "chance": 0.0556
+  },
+  "icon": "minecraft:water_bucket",
+  "art": "minecraft:hay_block",
+  "perk": {
+    "mechanic": "habits:movement/leap_of_faith",
+    "values": [
+      120,
+      108,
+      96,
+      83,
+      71,
+      59,
+      47,
+      34,
+      22,
+      10
+    ]
+  }
+}

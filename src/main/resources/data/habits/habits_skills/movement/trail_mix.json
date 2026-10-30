@@ -1,0 +1,38 @@
+{
+  "rarity": "common",
+  "category": "movement",
+  "trigger": {
+    "type": "eat",
+    "match": [
+      "minecraft:dried_kelp",
+      "minecraft:sweet_berries",
+      "minecraft:glow_berries",
+      "minecraft:apple",
+      "minecraft:cookie",
+      "minecraft:carrot",
+      "minecraft:bread"
+    ],
+    "chance": 0.1
+  },
+  "icon": "minecraft:sweet_berries",
+  "art": "minecraft:oak_planks",
+  "perk": {
+    "type": "food_bonus",
+    "params": {
+      "item": "minecraft:dried_kelp,minecraft:sweet_berries,minecraft:glow_berries,minecraft:apple,minecraft:cookie,minecraft:carrot,minecraft:bread"
+    },
+    "values": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60,
+      70,
+      80,
+      90,
+      100
+    ]
+  },
+  "perk_text": "Trail snacks fill {v}% more"
+}

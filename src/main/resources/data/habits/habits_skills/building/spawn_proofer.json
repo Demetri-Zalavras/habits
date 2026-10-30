@@ -1,0 +1,26 @@
+{
+  "rarity": "rare",
+  "category": "building",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:building/light_place",
+    "chance": 0.0167
+  },
+  "icon": "minecraft:soul_torch",
+  "art": "minecraft:cobblestone",
+  "perk": {
+    "mechanic": "habits:building/spawn_proofer",
+    "values": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  }
+}

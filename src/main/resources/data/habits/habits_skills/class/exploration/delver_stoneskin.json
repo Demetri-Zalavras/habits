@@ -1,0 +1,41 @@
+{
+  "rarity": "uncommon",
+  "category": "exploration",
+  "trigger": {
+    "type": "kill_entity",
+    "match": [
+      "minecraft:silverfish",
+      "minecraft:cave_spider",
+      "minecraft:vindicator",
+      "minecraft:evoker",
+      "minecraft:bogged",
+      "minecraft:breeze",
+      "minecraft:blaze",
+      "minecraft:piglin_brute"
+    ],
+    "chance": 0.03
+  },
+  "icon": "minecraft:iron_chestplate",
+  "art": "minecraft:stone_bricks",
+  "perk": {
+    "mechanic": "habits:exploration/delver_stoneskin",
+    "params": {
+      "effect": "minecraft:resistance",
+      "structure": "any",
+      "level": "1"
+    },
+    "values": [
+      2,
+      4,
+      6,
+      8,
+      10,
+      12,
+      14,
+      16,
+      18,
+      20
+    ]
+  },
+  "class": "habits:class/exploration/delver"
+}

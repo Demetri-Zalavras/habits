@@ -1,0 +1,26 @@
+{
+  "rarity": "uncommon",
+  "category": "nature",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:cold_catch",
+    "chance": 0.0312
+  },
+  "icon": "minecraft:packed_ice",
+  "art": "minecraft:ice",
+  "perk": {
+    "mechanic": "habits:ice_hole",
+    "values": [
+      10,
+      16,
+      21,
+      27,
+      32,
+      38,
+      43,
+      49,
+      54,
+      60
+    ]
+  }
+}

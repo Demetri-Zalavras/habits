@@ -1,0 +1,46 @@
+{
+  "rarity": "epic",
+  "category": "mining",
+  "trigger": {
+    "type": "pickup_item",
+    "match": "minecraft:diamond",
+    "chance": 0.01667
+  },
+  "icon": "minecraft:emerald",
+  "art": "minecraft:stone",
+  "perk": {
+    "mechanic": "habits:mining/lucky_find",
+    "params": {
+      "items": "minecraft:emerald,minecraft:diamond,minecraft:gold_ingot,minecraft:iron_ingot,minecraft:lapis_lazuli,minecraft:amethyst_shard"
+    },
+    "values": [
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      1,
+      1.2,
+      1.4,
+      1.6,
+      1.8,
+      2
+    ]
+  },
+  "forks": [
+    {
+      "level": 5,
+      "options": [
+        {
+          "id": "mixed_bag"
+        },
+        {
+          "id": "gem_pocket",
+          "scale": 0.5,
+          "params": {
+            "items": "minecraft:emerald,minecraft:diamond"
+          }
+        }
+      ]
+    }
+  ]
+}

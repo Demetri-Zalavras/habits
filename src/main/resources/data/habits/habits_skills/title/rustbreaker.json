@@ -1,0 +1,31 @@
+{
+  "rarity": "rare",
+  "category": "crafting",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:never",
+    "chance": 0
+  },
+  "icon": "minecraft:iron_axe",
+  "art": "minecraft:iron_block",
+  "perk": {
+    "type": "durability_save",
+    "values": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ]
+  },
+  "title": {
+    "stat_type": "minecraft:killed",
+    "stat": "mowziesmobs:ferrous_wroughtnaut",
+    "min": 1
+  }
+}

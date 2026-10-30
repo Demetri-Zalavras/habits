@@ -1,0 +1,31 @@
+{
+  "rarity": "common",
+  "category": "building",
+  "trigger": {
+    "type": "break_block",
+    "match": "#minecraft:planks",
+    "item": "#minecraft:axes",
+    "chance": 0.005
+  },
+  "icon": "minecraft:iron_axe",
+  "art": "minecraft:oak_planks",
+  "perk": {
+    "type": "durability_save",
+    "values": [
+      5.0,
+      10.0,
+      15.0,
+      20.0,
+      25.0,
+      30.0,
+      35.0,
+      40.0,
+      45.0,
+      50.0
+    ],
+    "params": {
+      "item": "#minecraft:axes"
+    }
+  },
+  "perk_text": "{v}% chance an axe takes no wear"
+}

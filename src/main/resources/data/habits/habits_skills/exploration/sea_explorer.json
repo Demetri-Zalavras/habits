@@ -1,0 +1,30 @@
+{
+  "rarity": "common",
+  "category": "exploration",
+  "trigger": {
+    "type": "enter_biome",
+    "match": "#minecraft:is_ocean",
+    "chance": 0.15
+  },
+  "icon": "minecraft:turtle_helmet",
+  "art": "minecraft:prismarine",
+  "perk": {
+    "type": "attribute",
+    "params": {
+      "attribute": "minecraft:generic.oxygen_bonus"
+    },
+    "values": [
+      0.5,
+      0.89,
+      1.28,
+      1.67,
+      2.06,
+      2.44,
+      2.83,
+      3.22,
+      3.61,
+      4
+    ]
+  },
+  "perk_text": "Breath lasts longer (+{v})"
+}

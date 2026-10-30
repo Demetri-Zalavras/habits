@@ -1,0 +1,27 @@
+{
+  "rarity": "rare",
+  "category": "nature",
+  "class": "habits:class/nature/thornwarden",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:sneak_kill",
+    "chance": 0.0333
+  },
+  "icon": "minecraft:azalea_leaves",
+  "art": "minecraft:flowering_azalea_leaves",
+  "perk": {
+    "mechanic": "habits:nature/dryad",
+    "values": [
+      20.0,
+      27.8,
+      35.6,
+      43.3,
+      51.1,
+      58.9,
+      66.7,
+      74.4,
+      82.2,
+      90.0
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "rarity": "common",
+  "category": "building",
+  "trigger": {
+    "type": "place_block",
+    "match": [
+      "minecraft:torch",
+      "minecraft:wall_torch"
+    ],
+    "chance": 0.0167
+  },
+  "icon": "minecraft:torch",
+  "art": "minecraft:oak_planks",
+  "perk": {
+    "mechanic": "habits:torchlight",
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      4,
+      5,
+      6,
+      6,
+      7
+    ],
+    "params": {
+      "value_max": "14",
+      "cooldown_s": "10..1"
+    }
+  }
+}

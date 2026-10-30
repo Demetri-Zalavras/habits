@@ -1,0 +1,33 @@
+{
+  "rarity": "common",
+  "category": "farming",
+  "trigger": {
+    "type": "plant",
+    "match": [
+      "minecraft:sugar_cane",
+      "minecraft:cactus",
+      "minecraft:bamboo_sapling"
+    ],
+    "chance": 0.01
+  },
+  "icon": "minecraft:bamboo",
+  "art": "minecraft:bamboo_block",
+  "perk": {
+    "mechanic": "habits:farming/quick_stalk",
+    "params": {
+      "bamboo": "6,12"
+    },
+    "values": [
+      20,
+      29,
+      38,
+      47,
+      56,
+      64,
+      73,
+      82,
+      91,
+      100
+    ]
+  }
+}

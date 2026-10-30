@@ -1,0 +1,26 @@
+{
+  "rarity": "legendary",
+  "category": "guardian",
+  "class_passive": true,
+  "trigger": {
+    "type": "damage_taken",
+    "chance": 0.0014
+  },
+  "icon": "minecraft:netherite_chestplate",
+  "art": "minecraft:obsidian",
+  "perk": {
+    "mechanic": "habits:survival/unbroken",
+    "values": [
+      40,
+      37,
+      34,
+      31,
+      28,
+      26,
+      23,
+      20,
+      18,
+      15
+    ]
+  }
+}

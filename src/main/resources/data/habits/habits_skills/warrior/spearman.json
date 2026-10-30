@@ -1,0 +1,31 @@
+{
+  "rarity": "common",
+  "category": "warrior",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:enchanted_kill/impaling",
+    "chance": 0.1
+  },
+  "icon": "minecraft:trident",
+  "art": "minecraft:prismarine",
+  "perk": {
+    "type": "damage_bonus",
+    "params": {
+      "damage": "minecraft:player_attack",
+      "item": "minecraft:trident"
+    },
+    "values": [
+      5.0,
+      9.0,
+      13.0,
+      17.0,
+      21.0,
+      25.0,
+      29.0,
+      33.0,
+      37.0,
+      41.0
+    ]
+  },
+  "perk_text": "Trident melee damage +{v}%"
+}

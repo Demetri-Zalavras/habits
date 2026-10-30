@@ -1,0 +1,26 @@
+{
+  "rarity": "epic",
+  "category": "guardian",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:survive_1hp",
+    "chance": 0.167
+  },
+  "icon": "minecraft:totem_of_undying",
+  "art": "minecraft:red_nether_bricks",
+  "perk": {
+    "mechanic": "habits:survival/last_stand",
+    "values": [
+      30,
+      27,
+      24,
+      21,
+      18,
+      15,
+      12,
+      9,
+      6,
+      3
+    ]
+  }
+}

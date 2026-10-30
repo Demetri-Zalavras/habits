@@ -1,0 +1,11 @@
+{
+  "progression.sigil_drop": {
+    "subtitle": "subtitles.habits.sigil_drop",
+    "sounds": [
+      {
+        "name": "minecraft:block.note_block.chime",
+        "type": "event"
+      }
+    ]
+  }
+}

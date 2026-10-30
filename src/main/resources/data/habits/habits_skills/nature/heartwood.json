@@ -1,0 +1,30 @@
+{
+  "rarity": "uncommon",
+  "category": "nature",
+  "trigger": {
+    "type": "break_block",
+    "match": "#minecraft:logs",
+    "chance": 0.00313
+  },
+  "icon": "minecraft:dark_oak_log",
+  "art": "minecraft:stripped_dark_oak_log",
+  "perk": {
+    "mechanic": "habits:nature/heartwood",
+    "values": [
+      3,
+      5,
+      7,
+      9,
+      11,
+      12,
+      14,
+      16,
+      18,
+      20
+    ],
+    "params": {
+      "seconds": "10,30",
+      "amp": "0,1"
+    }
+  }
+}

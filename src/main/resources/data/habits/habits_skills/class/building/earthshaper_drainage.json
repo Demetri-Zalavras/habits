@@ -1,0 +1,27 @@
+{
+  "rarity": "rare",
+  "category": "building",
+  "class": "habits:class/building/earthshaper",
+  "trigger": {
+    "type": "bucket_fill",
+    "match": "minecraft:water_bucket",
+    "chance": 0.0167
+  },
+  "icon": "minecraft:bucket",
+  "art": "minecraft:mud_bricks",
+  "perk": {
+    "mechanic": "habits:building/dry_up",
+    "values": [
+      32,
+      48,
+      64,
+      80,
+      100,
+      128,
+      160,
+      192,
+      224,
+      256
+    ]
+  }
+}

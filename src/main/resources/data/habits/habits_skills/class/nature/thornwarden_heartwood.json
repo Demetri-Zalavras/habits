@@ -1,0 +1,31 @@
+{
+  "rarity": "uncommon",
+  "category": "nature",
+  "class": "habits:class/nature/thornwarden",
+  "trigger": {
+    "type": "break_block",
+    "match": "#minecraft:logs",
+    "chance": 0.003
+  },
+  "icon": "minecraft:oak_log",
+  "art": "minecraft:stripped_oak_log",
+  "perk": {
+    "mechanic": "habits:nature/heartwood",
+    "values": [
+      6.0,
+      8.7,
+      11.3,
+      14.0,
+      16.7,
+      19.3,
+      22.0,
+      24.7,
+      27.3,
+      30.0
+    ],
+    "params": {
+      "seconds": "15,40",
+      "amp": "0,1"
+    }
+  }
+}

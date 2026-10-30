@@ -1,0 +1,70 @@
+{
+  "rarity": "epic",
+  "category": "building",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:make_path",
+    "chance": 0.000833
+  },
+  "icon": "minecraft:diamond_shovel",
+  "art": "minecraft:rooted_dirt",
+  "perk": {
+    "mechanic": "habits:building/grader",
+    "values": [
+      1,
+      1,
+      2,
+      2,
+      2,
+      3,
+      3,
+      4,
+      4,
+      5
+    ],
+    "params": {
+      "height": "3..6",
+      "per_tick": "12"
+    }
+  },
+  "forks": [
+    {
+      "level": 5,
+      "options": [
+        {
+          "id": "wide_cut",
+          "scale": 1.4,
+          "params": {
+            "height": "2..4"
+          }
+        },
+        {
+          "id": "deep_cut",
+          "scale": 0.7,
+          "params": {
+            "height": "5..9"
+          }
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "options": [
+        {
+          "id": "big_crew",
+          "scale": 1.2,
+          "params": {
+            "per_tick": "6"
+          }
+        },
+        {
+          "id": "fast_crew",
+          "scale": 0.8,
+          "params": {
+            "per_tick": "36"
+          }
+        }
+      ]
+    }
+  ]
+}

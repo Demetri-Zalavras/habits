@@ -1,0 +1,30 @@
+{
+  "rarity": "rare",
+  "category": "building",
+  "class": "habits:class/building/earthshaper",
+  "trigger": {
+    "type": "break_block",
+    "match": "#minecraft:mineable/shovel",
+    "chance": 0.00056
+  },
+  "icon": "minecraft:iron_shovel",
+  "art": "minecraft:dirt",
+  "perk": {
+    "type": "mining_speed",
+    "values": [
+      20.0,
+      28.9,
+      37.8,
+      46.7,
+      55.6,
+      64.4,
+      73.3,
+      82.2,
+      91.1,
+      100.0
+    ],
+    "params": {
+      "block": "#minecraft:mineable/shovel"
+    }
+  }
+}

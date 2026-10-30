@@ -1,0 +1,30 @@
+{
+  "rarity": "uncommon",
+  "category": "ranger",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:airborne_hit",
+    "chance": 0.0625
+  },
+  "icon": "minecraft:phantom_membrane",
+  "art": "minecraft:white_wool",
+  "perk": {
+    "mechanic": "habits:skeet_shooter",
+    "values": [
+      20.0,
+      28.89,
+      37.78,
+      46.67,
+      55.56,
+      64.44,
+      73.33,
+      82.22,
+      91.11,
+      100.0
+    ],
+    "params": {
+      "dmg": "10..100",
+      "drop": "0..2"
+    }
+  }
+}

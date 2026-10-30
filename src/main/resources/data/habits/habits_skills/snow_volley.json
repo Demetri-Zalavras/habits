@@ -1,0 +1,29 @@
+{
+  "rarity": "common",
+  "category": "ranger",
+  "trigger": {
+    "type": "shoot_projectile",
+    "match": "minecraft:snowball",
+    "chance": 0.01
+  },
+  "icon": "minecraft:snowball",
+  "art": "minecraft:snow_block",
+  "perk": {
+    "mechanic": "habits:snow_volley",
+    "values": [
+      2,
+      2,
+      3,
+      3,
+      4,
+      4,
+      5,
+      5,
+      6,
+      6
+    ],
+    "params": {
+      "spread": "6"
+    }
+  }
+}

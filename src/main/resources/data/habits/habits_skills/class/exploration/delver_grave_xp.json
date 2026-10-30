@@ -1,0 +1,31 @@
+{
+  "rarity": "uncommon",
+  "category": "exploration",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:loot_chest_first",
+    "chance": 0.16
+  },
+  "icon": "minecraft:experience_bottle",
+  "art": "minecraft:mossy_cobblestone",
+  "perk": {
+    "type": "xp_bonus",
+    "params": {
+      "condition": "underground"
+    },
+    "values": [
+      5,
+      8,
+      11,
+      13,
+      16,
+      19,
+      22,
+      24,
+      27,
+      30
+    ]
+  },
+  "class": "habits:class/exploration/delver",
+  "perk_text": "XP +{v}% underground"
+}

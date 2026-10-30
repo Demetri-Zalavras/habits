@@ -1,0 +1,29 @@
+{
+  "rarity": "common",
+  "category": "nature",
+  "trigger": {
+    "type": "boat_distance",
+    "chance": 0.000208
+  },
+  "icon": "minecraft:oak_boat",
+  "art": "minecraft:oak_planks",
+  "perk": {
+    "type": "fishing_luck",
+    "values": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2,
+      3
+    ],
+    "params": {
+      "condition": "riding"
+    }
+  },
+  "perk_text": "Luck of the Sea +{v} while in a boat"
+}

@@ -1,0 +1,33 @@
+{
+  "rarity": "common",
+  "category": "farming",
+  "trigger": {
+    "type": "harvest_crop",
+    "match": "#minecraft:crops",
+    "item": "#minecraft:hoes",
+    "chance": 0.0025
+  },
+  "icon": "minecraft:stone_hoe",
+  "art": "minecraft:farmland",
+  "perk": {
+    "type": "attribute",
+    "params": {
+      "attribute": "minecraft:generic.movement_speed",
+      "operation": "add_multiplied_base",
+      "condition": "holding=#minecraft:hoes"
+    },
+    "values": [
+      2,
+      4,
+      6,
+      8,
+      10,
+      12,
+      14,
+      16,
+      18,
+      20
+    ]
+  },
+  "perk_text": "Move {v}% faster while holding a hoe"
+}

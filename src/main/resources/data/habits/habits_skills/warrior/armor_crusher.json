@@ -1,0 +1,29 @@
+{
+  "rarity": "uncommon",
+  "category": "warrior",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:enchanted_kill/breach",
+    "chance": 0.0208
+  },
+  "icon": "minecraft:mace",
+  "art": "minecraft:anvil",
+  "perk": {
+    "mechanic": "habits:melee/armor_crusher",
+    "params": {
+      "value_max": "60"
+    },
+    "values": [
+      4.0,
+      6.0,
+      9.0,
+      11.0,
+      13.0,
+      16.0,
+      18.0,
+      20.0,
+      23.0,
+      25.0
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "rarity": "mythical",
+  "category": "guardian",
+  "trigger": {
+    "type": "kill_entity",
+    "match": ["twilightforest:ur_ghast", "twilightforest:snow_queen"],
+    "chance": 0.33
+  },
+  "icon": "twilightforest:lich_trophy",
+  "art": "minecraft:mossy_stone_bricks",
+  "perk": {
+    "mechanic": "habits:survival/phylactery",
+    "params": {
+      "regen": "40..15"
+    },
+    "values": [1, 1, 2, 2, 2, 3, 3, 3, 4, 4]
+  }
+}

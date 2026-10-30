@@ -1,0 +1,28 @@
+{
+  "rarity": "common",
+  "category": "exploration",
+  "trigger": {
+    "type": "walk_distance",
+    "chance": 0.0005
+  },
+  "icon": "minecraft:bread",
+  "art": "minecraft:dirt_path",
+  "perk": {
+    "mechanic": "habits:exploration/trail_rations",
+    "params": {
+      "amount": "1"
+    },
+    "values": [
+      300,
+      273,
+      247,
+      220,
+      193,
+      167,
+      140,
+      113,
+      87,
+      60
+    ]
+  }
+}

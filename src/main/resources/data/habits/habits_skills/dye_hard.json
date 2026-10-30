@@ -1,0 +1,32 @@
+{
+  "rarity": "common",
+  "category": "crafting",
+  "trigger": {
+    "type": "interact_entity",
+    "match": "minecraft:sheep",
+    "item": "#c:dyes",
+    "chance": 0.0333
+  },
+  "icon": "minecraft:red_dye",
+  "art": "minecraft:red_wool",
+  "perk": {
+    "mechanic": "habits:dye_hard",
+    "params": {
+      "value_max": "3",
+      "pieces": "4..2",
+      "colors": "white=slow_falling,orange=fire_resistance,magenta=regeneration,light_blue=jump_boost,yellow=speed,lime=haste,pink=health_boost,gray=resistance,light_gray=water_breathing,cyan=dolphins_grace,purple=night_vision,blue=water_breathing,brown=resistance,green=luck,red=strength,black=night_vision"
+    },
+    "values": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      2
+    ]
+  }
+}

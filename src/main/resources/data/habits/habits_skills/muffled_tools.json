@@ -1,0 +1,36 @@
+{
+  "rarity": "rare",
+  "category": "mining",
+  "trigger": {
+    "type": "break_block",
+    "match": [
+      "minecraft:sculk",
+      "minecraft:sculk_vein",
+      "minecraft:sculk_catalyst",
+      "minecraft:sculk_sensor",
+      "minecraft:calibrated_sculk_sensor",
+      "minecraft:sculk_shrieker"
+    ],
+    "chance": 0.00167
+  },
+  "icon": "minecraft:sculk_sensor",
+  "art": "minecraft:sculk",
+  "perk": {
+    "mechanic": "habits:muffled_tools",
+    "params": {
+      "silent_level": "10"
+    },
+    "values": [
+      4,
+      6,
+      8,
+      11,
+      13,
+      15,
+      17,
+      20,
+      22,
+      24
+    ]
+  }
+}

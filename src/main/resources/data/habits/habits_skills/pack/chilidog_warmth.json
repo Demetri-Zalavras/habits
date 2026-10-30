@@ -1,0 +1,1 @@
+{"rarity":"rare","category":"guardian","trigger":{"type":"eat","match":"mynethersdelight:chilidog","chance":0.1},"icon":"mynethersdelight:chilidog","art":"minecraft:crimson_planks","perk":{"type":"damage_type_resist","params":{"damage":"#minecraft:is_fire"},"base":5,"per_level":5}}

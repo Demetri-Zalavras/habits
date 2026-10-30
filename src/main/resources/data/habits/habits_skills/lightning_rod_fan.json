@@ -1,0 +1,51 @@
+{
+  "rarity": "epic",
+  "category": "crafting",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:lightning_rod_strike",
+    "chance": 0.833
+  },
+  "icon": "minecraft:lightning_rod",
+  "art": "minecraft:copper_block",
+  "perk": {
+    "mechanic": "habits:lightning_rod_fan",
+    "params": {
+      "strikes": "1..3",
+      "items": "minecraft:copper_ingot,minecraft:lightning_rod,minecraft:raw_copper,minecraft:copper_block"
+    },
+    "values": [
+      60,
+      54,
+      48,
+      42,
+      36,
+      30,
+      24,
+      18,
+      12,
+      8
+    ]
+  },
+  "forks": [
+    {
+      "level": 5,
+      "options": [
+        {
+          "id": "quick_rod",
+          "scale": 0.6,
+          "params": {
+            "strikes": "1"
+          }
+        },
+        {
+          "id": "storm_rod",
+          "scale": 1.5,
+          "params": {
+            "strikes": "2..5"
+          }
+        }
+      ]
+    }
+  ]
+}

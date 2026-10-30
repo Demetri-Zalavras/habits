@@ -1,0 +1,31 @@
+{
+  "rarity": "legendary",
+  "category": "nature",
+  "class_passive": true,
+  "trigger": {
+    "type": "custom_units",
+    "match": "habits:nature_rain_walk",
+    "chance": 3.22e-05
+  },
+  "icon": "minecraft:lightning_rod",
+  "art": "minecraft:oxidized_cut_copper",
+  "perk": {
+    "mechanic": "habits:nature/stormcall",
+    "values": [
+      10.0,
+      13.3,
+      16.7,
+      20.0,
+      23.3,
+      26.7,
+      30.0,
+      33.3,
+      36.7,
+      40.0
+    ],
+    "params": {
+      "cooldown": "3,1",
+      "damage": "6,14"
+    }
+  }
+}

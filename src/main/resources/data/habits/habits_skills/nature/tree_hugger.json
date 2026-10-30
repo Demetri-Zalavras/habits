@@ -1,0 +1,26 @@
+{
+  "rarity": "uncommon",
+  "category": "nature",
+  "trigger": {
+    "type": "till",
+    "match": "#minecraft:logs",
+    "chance": 0.00313
+  },
+  "icon": "minecraft:stripped_birch_log",
+  "art": "minecraft:birch_log",
+  "perk": {
+    "mechanic": "habits:nature/tree_hugger",
+    "values": [
+      4,
+      8,
+      12,
+      16,
+      20,
+      24,
+      28,
+      32,
+      36,
+      40
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "rarity": "rare",
+  "category": "guardian",
+  "trigger": {
+    "type": "drink_potion",
+    "match": "minecraft:weaving",
+    "chance": 0.0333
+  },
+  "icon": "minecraft:cobweb",
+  "art": "minecraft:cobweb",
+  "perk": {
+    "mechanic": "habits:survival/web_spinner",
+    "params": {
+      "web_chance": "2..20"
+    },
+    "values": [
+      20,
+      29,
+      38,
+      47,
+      56,
+      64,
+      73,
+      82,
+      91,
+      100
+    ]
+  }
+}

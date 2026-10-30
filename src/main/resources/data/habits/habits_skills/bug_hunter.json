@@ -1,0 +1,37 @@
+{
+  "rarity": "uncommon",
+  "category": "mining",
+  "trigger": {
+    "type": "break_block",
+    "match": [
+      "minecraft:infested_stone",
+      "minecraft:infested_cobblestone",
+      "minecraft:infested_stone_bricks",
+      "minecraft:infested_mossy_stone_bricks",
+      "minecraft:infested_cracked_stone_bricks",
+      "minecraft:infested_chiseled_stone_bricks",
+      "minecraft:infested_deepslate"
+    ],
+    "chance": 0.0312
+  },
+  "icon": "minecraft:spider_eye",
+  "art": "minecraft:stone_bricks",
+  "perk": {
+    "mechanic": "habits:bug_hunter",
+    "params": {
+      "hp_cut": "20..100"
+    },
+    "values": [
+      4,
+      5,
+      7,
+      8,
+      9,
+      11,
+      12,
+      13,
+      15,
+      16
+    ]
+  }
+}

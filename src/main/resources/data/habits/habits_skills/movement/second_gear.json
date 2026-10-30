@@ -1,0 +1,31 @@
+{
+  "rarity": "uncommon",
+  "category": "movement",
+  "trigger": {
+    "type": "sprint_distance",
+    "chance": 0.000185
+  },
+  "icon": "minecraft:redstone",
+  "art": "minecraft:smooth_sandstone",
+  "perk": {
+    "type": "attribute",
+    "params": {
+      "attribute": "minecraft:generic.movement_speed",
+      "operation": "add_multiplied_base",
+      "condition": "sprinting"
+    },
+    "values": [
+      2,
+      3,
+      5,
+      6,
+      8,
+      9,
+      11,
+      12,
+      14,
+      15
+    ]
+  },
+  "perk_text": "Sprint speed +{v}%"
+}

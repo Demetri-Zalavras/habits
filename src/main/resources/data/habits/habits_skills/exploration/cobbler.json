@@ -1,0 +1,29 @@
+{
+  "rarity": "uncommon",
+  "category": "exploration",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:new_chunk",
+    "chance": 0.006
+  },
+  "icon": "minecraft:leather_boots",
+  "art": "minecraft:coarse_dirt",
+  "perk": {
+    "mechanic": "habits:exploration/cobbler",
+    "params": {
+      "amount": "1"
+    },
+    "values": [
+      40,
+      36,
+      32,
+      28,
+      24,
+      20,
+      16,
+      12,
+      8,
+      4
+    ]
+  }
+}

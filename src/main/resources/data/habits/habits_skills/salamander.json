@@ -1,0 +1,33 @@
+{
+  "rarity": "rare",
+  "category": "guardian",
+  "trigger": {
+    "type": "drink_potion",
+    "match": [
+      "minecraft:fire_resistance",
+      "minecraft:long_fire_resistance",
+      "minecraft:strong_fire_resistance"
+    ],
+    "chance": 0.0333
+  },
+  "icon": "minecraft:magma_cream",
+  "art": "minecraft:magma_block",
+  "perk": {
+    "mechanic": "habits:survival/salamander",
+    "params": {
+      "swim": "10..100"
+    },
+    "values": [
+      20,
+      29,
+      38,
+      47,
+      56,
+      64,
+      73,
+      82,
+      91,
+      100
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "rarity": "legendary",
+  "category": "ranger",
+  "trigger": {
+    "type": "kill_entity",
+    "match": "minecraft:elder_guardian",
+    "item": "minecraft:trident",
+    "chance": 0.33
+  },
+  "icon": "minecraft:conduit",
+  "art": "minecraft:dark_prismarine",
+  "perk": {
+    "mechanic": "habits:ranged/twin_tide",
+    "values": [
+      10.0,
+      15.0,
+      20.0,
+      25.0,
+      30.0,
+      35.0,
+      40.0,
+      45.0,
+      50.0,
+      55.0
+    ]
+  }
+}

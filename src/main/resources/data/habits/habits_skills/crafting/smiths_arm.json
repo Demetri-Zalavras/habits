@@ -1,0 +1,18 @@
+{
+  "rarity": "uncommon",
+  "category": "crafting",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:smithing_take",
+    "chance": 0.0625
+  },
+  "icon": "minecraft:iron_axe",
+  "art": "minecraft:smithing_table",
+  "perk": {
+    "mechanic": "habits:crafting/smiths_arm",
+    "values": [10, 16, 21, 27, 32, 38, 43, 49, 54, 60],
+    "params": {
+      "amp": "0..1"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "rarity": "common",
+  "category": "nature",
+  "trigger": {
+    "type": "custom_units",
+    "match": "habits:nature_rain_walk",
+    "chance": 0.000386
+  },
+  "icon": "minecraft:water_bucket",
+  "art": "minecraft:light_gray_wool",
+  "perk": {
+    "type": "hunger_save",
+    "values": [
+      5,
+      10,
+      15,
+      20,
+      25,
+      30,
+      35,
+      40,
+      45,
+      50
+    ],
+    "params": {
+      "condition": "in_rain"
+    }
+  },
+  "perk_text": "Hunger -{v}% in the rain"
+}

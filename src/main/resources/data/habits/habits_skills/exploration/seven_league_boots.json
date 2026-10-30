@@ -1,0 +1,48 @@
+{
+  "rarity": "epic",
+  "category": "exploration",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:new_chunk",
+    "chance": 0.002
+  },
+  "icon": "minecraft:diamond_boots",
+  "art": "minecraft:dirt_path",
+  "perk": {
+    "type": "attribute",
+    "params": {
+      "attribute": "minecraft:generic.movement_speed",
+      "operation": "add_multiplied_base"
+    },
+    "values": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  "perk_text": "Speed +{v}%",
+  "forks": [
+    {
+      "level": 5,
+      "options": [
+        {
+          "id": "steady_stride"
+        },
+        {
+          "id": "sprint_stride",
+          "scale": 1.8,
+          "params": {
+            "condition": "sprinting"
+          }
+        }
+      ]
+    }
+  ]
+}

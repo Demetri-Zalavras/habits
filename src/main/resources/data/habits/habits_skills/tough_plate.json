@@ -1,0 +1,27 @@
+{
+  "rarity": "common",
+  "category": "guardian",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:hit_in_heavy_armor",
+    "chance": 0.0167
+  },
+  "icon": "minecraft:iron_chestplate",
+  "art": "minecraft:iron_block",
+  "perk": {
+    "mechanic": "habits:survival/tough_plate",
+    "params": {"value_max": "100"},
+    "values": [
+      10,
+      18,
+      26,
+      33,
+      41,
+      49,
+      57,
+      64,
+      72,
+      80
+    ]
+  }
+}

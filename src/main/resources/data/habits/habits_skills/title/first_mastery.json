@@ -1,0 +1,29 @@
+{
+  "rarity": "uncommon",
+  "category": "crafting",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:never",
+    "chance": 0
+  },
+  "icon": "minecraft:experience_bottle",
+  "art": "minecraft:lapis_block",
+  "perk": {
+    "type": "xp_bonus",
+    "values": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ]
+  },
+  "title": {
+    "maxed": 1
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "rarity": "legendary",
+  "category": "exploration",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:new_structure",
+    "chance": 0.03
+  },
+  "icon": "minecraft:ender_eye",
+  "art": "minecraft:cartography_table",
+  "perk": {
+    "mechanic": "habits:exploration/worldseer",
+    "params": {
+      "structure": "#minecraft:on_treasure_maps,#minecraft:on_ocean_explorer_maps,#minecraft:on_woodland_explorer_maps,#minecraft:on_trial_chambers_maps",
+      "radius": "100",
+      "value_max": "100"
+    },
+    "values": [
+      30,
+      38,
+      46,
+      53,
+      61,
+      69,
+      77,
+      84,
+      92,
+      100
+    ]
+  },
+  "class_passive": true
+}

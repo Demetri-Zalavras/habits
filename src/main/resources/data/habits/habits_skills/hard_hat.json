@@ -1,0 +1,32 @@
+{
+  "rarity": "uncommon",
+  "category": "guardian",
+  "trigger": {
+    "type": "damage_taken",
+    "match": [
+      "minecraft:falling_anvil",
+      "minecraft:falling_block"
+    ],
+    "chance": 0.312
+  },
+  "icon": "minecraft:anvil",
+  "art": "minecraft:iron_block",
+  "perk": {
+    "mechanic": "habits:survival/hard_hat",
+    "params": {
+      "no_chip": "0,0,0,0,0,0,0,0,0,1"
+    },
+    "values": [
+      20,
+      29,
+      38,
+      47,
+      56,
+      64,
+      73,
+      82,
+      91,
+      100
+    ]
+  }
+}

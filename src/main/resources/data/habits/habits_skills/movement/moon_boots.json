@@ -1,0 +1,49 @@
+{
+  "rarity": "epic",
+  "category": "movement",
+  "trigger": {
+    "type": "enter_dimension",
+    "match": "minecraft:the_end",
+    "chance": 0.083
+  },
+  "icon": "minecraft:chorus_fruit",
+  "art": "minecraft:end_stone",
+  "perk": {
+    "type": "attribute",
+    "params": {
+      "attribute": "minecraft:generic.gravity",
+      "operation": "add_multiplied_base",
+      "condition": "dimension=minecraft:the_end"
+    },
+    "values": [
+      -10,
+      -14,
+      -19,
+      -23,
+      -28,
+      -32,
+      -37,
+      -41,
+      -46,
+      -50
+    ]
+  },
+  "perk_text": "Gravity {v}% in the End",
+  "forks": [
+    {
+      "level": 5,
+      "options": [
+        {
+          "id": "end_boots"
+        },
+        {
+          "id": "nether_boots",
+          "scale": 0.6,
+          "params": {
+            "condition": "dimension=minecraft:the_nether"
+          }
+        }
+      ]
+    }
+  ]
+}

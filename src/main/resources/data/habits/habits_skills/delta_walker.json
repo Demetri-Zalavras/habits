@@ -1,0 +1,29 @@
+{
+  "rarity": "uncommon",
+  "category": "exploration",
+  "trigger": {
+    "type": "enter_biome",
+    "match": [
+      "minecraft:basalt_deltas",
+      "minecraft:soul_sand_valley"
+    ],
+    "chance": 0.125
+  },
+  "icon": "minecraft:magma_cream",
+  "art": "minecraft:blackstone",
+  "perk": {
+    "mechanic": "habits:movement/delta_walker",
+    "values": [
+      20,
+      29,
+      38,
+      47,
+      56,
+      64,
+      73,
+      82,
+      91,
+      100
+    ]
+  }
+}

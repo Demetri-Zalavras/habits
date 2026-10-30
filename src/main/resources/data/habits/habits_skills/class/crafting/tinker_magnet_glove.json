@@ -1,0 +1,27 @@
+{
+  "rarity": "uncommon",
+  "category": "crafting",
+  "class": "habits:class/crafting/tinker",
+  "trigger": {
+    "type": "craft",
+    "match": "#c:tools",
+    "chance": 0.3
+  },
+  "icon": "minecraft:lodestone",
+  "art": "minecraft:exposed_copper",
+  "perk": {
+    "type": "magnet_pickup",
+    "values": [
+      1,
+      1.4,
+      1.9,
+      2.3,
+      2.8,
+      3.2,
+      3.7,
+      4.1,
+      4.6,
+      5
+    ]
+  }
+}

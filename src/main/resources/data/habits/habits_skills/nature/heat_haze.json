@@ -1,0 +1,30 @@
+{
+  "rarity": "common",
+  "category": "nature",
+  "trigger": {
+    "type": "custom_units",
+    "match": "habits:sand_walk",
+    "chance": 0.000386
+  },
+  "icon": "minecraft:cactus",
+  "art": "minecraft:sandstone",
+  "perk": {
+    "type": "hunger_save",
+    "values": [
+      5,
+      10,
+      15,
+      20,
+      25,
+      30,
+      35,
+      40,
+      45,
+      50
+    ],
+    "params": {
+      "condition": "biome=#c:is_hot"
+    }
+  },
+  "perk_text": "Hunger -{v}% in hot biomes"
+}

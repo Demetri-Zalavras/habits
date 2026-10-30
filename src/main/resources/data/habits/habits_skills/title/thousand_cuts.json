@@ -1,0 +1,31 @@
+{
+  "rarity": "rare",
+  "category": "warrior",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:never",
+    "chance": 0
+  },
+  "icon": "minecraft:iron_sword",
+  "art": "minecraft:stone_bricks",
+  "perk": {
+    "type": "damage_bonus",
+    "values": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ]
+  },
+  "title": {
+    "stat_type": "minecraft:custom",
+    "stat": "minecraft:mob_kills",
+    "min": 1000
+  }
+}

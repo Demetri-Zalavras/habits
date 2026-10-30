@@ -1,0 +1,29 @@
+{
+  "rarity": "common",
+  "category": "ranger",
+  "trigger": {
+    "type": "stat_increment",
+    "match": "minecraft:target_hit",
+    "chance": 0.01
+  },
+  "icon": "minecraft:target",
+  "art": "minecraft:target",
+  "perk": {
+    "mechanic": "habits:target_practice",
+    "values": [
+      10.0,
+      20.0,
+      30.0,
+      40.0,
+      50.0,
+      60.0,
+      70.0,
+      80.0,
+      90.0,
+      100.0
+    ],
+    "params": {
+      "center": "0.3"
+    }
+  }
+}

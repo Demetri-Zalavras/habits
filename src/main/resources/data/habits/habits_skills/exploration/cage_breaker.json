@@ -1,0 +1,30 @@
+{
+  "rarity": "uncommon",
+  "category": "exploration",
+  "trigger": {
+    "type": "break_block",
+    "match": "minecraft:spawner",
+    "chance": 0.3
+  },
+  "icon": "minecraft:spawner",
+  "art": "minecraft:mossy_cobblestone",
+  "perk": {
+    "type": "looting_bonus",
+    "params": {
+      "condition": "underground"
+    },
+    "values": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2,
+      3
+    ]
+  },
+  "perk_text": "Looting +{v} underground"
+}

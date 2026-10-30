@@ -1,0 +1,30 @@
+{
+  "rarity": "rare",
+  "category": "guardian",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:big_hit",
+    "chance": 0.04,
+    "min": 10
+  },
+  "icon": "minecraft:hay_block",
+  "art": "minecraft:slime_block",
+  "perk": {
+    "mechanic": "habits:survival/shock_absorber",
+    "values": [
+      50,
+      47,
+      44,
+      42,
+      39,
+      36,
+      33,
+      31,
+      28,
+      25
+    ],
+    "params": {
+      "cut": "30..75"
+    }
+  }
+}

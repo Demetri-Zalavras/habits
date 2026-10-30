@@ -1,0 +1,33 @@
+{
+  "rarity": "common",
+  "category": "farming",
+  "trigger": {
+    "type": "breed",
+    "match": [
+      "minecraft:pig",
+      "minecraft:rabbit"
+    ],
+    "chance": 0.025
+  },
+  "icon": "minecraft:carrot",
+  "art": "minecraft:mud",
+  "perk": {
+    "type": "breed_twins",
+    "params": {
+      "entity": "minecraft:pig,minecraft:rabbit"
+    },
+    "values": [
+      5,
+      9,
+      13,
+      17,
+      21,
+      24,
+      28,
+      32,
+      36,
+      40
+    ]
+  },
+  "perk_text": "{v}% chance pigs and rabbits have twins"
+}

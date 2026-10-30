@@ -1,0 +1,33 @@
+{
+  "rarity": "common",
+  "category": "nature",
+  "trigger": {
+    "type": "break_block",
+    "match": [
+      "minecraft:dead_bush",
+      "minecraft:cactus"
+    ],
+    "chance": 0.01
+  },
+  "icon": "minecraft:dead_bush",
+  "art": "minecraft:sand",
+  "perk": {
+    "mechanic": "habits:nature/desert_forager",
+    "values": [
+      4,
+      7,
+      10,
+      13,
+      16,
+      18,
+      21,
+      24,
+      27,
+      30
+    ],
+    "params": {
+      "blocks": "minecraft:dead_bush,minecraft:cactus",
+      "items": "minecraft:stick*6,minecraft:string*4,minecraft:bone*4,minecraft:gold_nugget*3,minecraft:rabbit_hide*2,minecraft:cactus*2,minecraft:emerald*1"
+    }
+  }
+}

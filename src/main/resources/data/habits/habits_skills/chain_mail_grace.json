@@ -1,0 +1,26 @@
+{
+  "rarity": "uncommon",
+  "category": "guardian",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:chainmail_5min",
+    "chance": 0.312
+  },
+  "icon": "minecraft:chainmail_chestplate",
+  "art": "minecraft:iron_bars",
+  "perk": {
+    "mechanic": "habits:survival/chain_mail_grace",
+    "values": [
+      2.0,
+      2.9,
+      3.8,
+      4.7,
+      5.6,
+      6.4,
+      7.3,
+      8.2,
+      9.1,
+      10.0
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "rarity": "rare",
+  "category": "nature",
+  "class": "habits:class/nature/thornwarden",
+  "trigger": {
+    "type": "break_block",
+    "match": "#minecraft:logs",
+    "chance": 0.00167
+  },
+  "icon": "minecraft:hanging_roots",
+  "art": "minecraft:rooted_dirt",
+  "perk": {
+    "mechanic": "habits:nature/rootbind",
+    "values": [
+      40,
+      36,
+      32,
+      28,
+      24,
+      20,
+      17,
+      14,
+      11,
+      8
+    ],
+    "params": {
+      "seconds": "3,6",
+      "amp": "2,4"
+    }
+  }
+}

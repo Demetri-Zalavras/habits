@@ -1,0 +1,30 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.habits.perk.mining.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "BeaconBlockEntityMixin",
+    "BeaconInvoker",
+    "BlockStateRemoveMixin",
+    "BrushableBlockEntityMixin",
+    "DoorBlockMixin",
+    "DoorInteractGoalMixin",
+    "ExperienceOrbInvoker",
+    "ExperienceOrbMixin",
+    "ConduitBlockEntityMixin",
+    "HopperBlockEntityMixin",
+    "IceBlockMixin",
+    "ItemStackWearMixin",
+    "PiglinAiMixin",
+    "PistonStructureResolverMixin",
+    "PointedDripstoneBlockMixin",
+    "PowderSnowBlockMixin",
+    "SculkShriekerBlockEntityMixin",
+    "SpongeBlockMixin",
+    "VibrationListenerMixin",
+    "WebBlockMixin"
+  ],
+  "client": [],
+  "injectors": {"defaultRequire": 1}
+}

@@ -1,0 +1,31 @@
+{
+  "rarity": "common",
+  "category": "warrior",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:full_charge_kill",
+    "item": "#minecraft:axes",
+    "chance": 0.0333
+  },
+  "icon": "minecraft:iron_axe",
+  "art": "minecraft:oak_log",
+  "perk": {
+    "type": "crit_damage",
+    "params": {
+      "condition": "holding=#minecraft:axes"
+    },
+    "values": [
+      5.0,
+      8.0,
+      11.0,
+      14.0,
+      17.0,
+      20.0,
+      23.0,
+      26.0,
+      29.0,
+      32.0
+    ]
+  },
+  "perk_text": "Crit damage +{v}% with an axe"
+}

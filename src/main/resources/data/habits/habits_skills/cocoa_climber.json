@@ -1,0 +1,26 @@
+{
+  "rarity": "uncommon",
+  "category": "farming",
+  "trigger": {
+    "type": "harvest_crop",
+    "match": "minecraft:cocoa",
+    "chance": 0.00313
+  },
+  "icon": "minecraft:cocoa_beans",
+  "art": "minecraft:jungle_log",
+  "perk": {
+    "mechanic": "habits:cocoa_climber",
+    "values": [
+      2,
+      2.5,
+      3,
+      3.5,
+      4,
+      4.5,
+      5,
+      5.5,
+      6,
+      7
+    ]
+  }
+}

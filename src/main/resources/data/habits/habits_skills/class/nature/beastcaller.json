@@ -1,0 +1,31 @@
+{
+  "rarity": "epic",
+  "category": "nature",
+  "class_passive": true,
+  "trigger": {
+    "type": "custom",
+    "match": "habits:pet_kill",
+    "chance": 0.0167
+  },
+  "icon": "minecraft:bone",
+  "art": "minecraft:moss_block",
+  "perk": {
+    "mechanic": "habits:nature/pack_bond",
+    "values": [
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2,
+      3,
+      3,
+      3
+    ],
+    "params": {
+      "radius": "16,32",
+      "resist": "0,1"
+    }
+  }
+}

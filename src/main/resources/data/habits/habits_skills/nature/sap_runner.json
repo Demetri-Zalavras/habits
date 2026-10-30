@@ -1,0 +1,31 @@
+{
+  "rarity": "common",
+  "category": "nature",
+  "trigger": {
+    "type": "custom_units",
+    "match": "habits:forest_walk",
+    "chance": 0.000386
+  },
+  "icon": "minecraft:golden_axe",
+  "art": "minecraft:birch_log",
+  "perk": {
+    "type": "mob_effect_conditional",
+    "values": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      2
+    ],
+    "params": {
+      "effect": "minecraft:haste",
+      "condition": "biome=#minecraft:is_forest,holding=#minecraft:axes"
+    }
+  },
+  "perk_text": "Haste {v} in forests with an axe in hand"
+}

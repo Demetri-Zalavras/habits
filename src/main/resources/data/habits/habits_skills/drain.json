@@ -1,0 +1,33 @@
+{
+  "rarity": "uncommon",
+  "category": "building",
+  "trigger": {
+    "type": "place_block",
+    "chance": 0.0312,
+    "match": [
+      "minecraft:sponge",
+      "minecraft:wet_sponge"
+    ]
+  },
+  "icon": "minecraft:sponge",
+  "art": "minecraft:sponge",
+  "perk": {
+    "mechanic": "habits:drain",
+    "params": {
+      "limit": "80..500",
+      "dry_level": "10"
+    },
+    "values": [
+      8,
+      9,
+      9,
+      10,
+      11,
+      11,
+      12,
+      13,
+      13,
+      14
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "rarity": "legendary",
+  "category": "nature",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:buried_treasure",
+    "chance": 0.167
+  },
+  "icon": "minecraft:heart_of_the_sea",
+  "art": "minecraft:sea_lantern",
+  "perk": {
+    "mechanic": "habits:nature/sea_heart",
+    "values": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2,
+      3
+    ],
+    "params": {
+      "calm_level": "10"
+    }
+  },
+  "forks": [
+    {
+      "level": 5,
+      "options": [
+        {
+          "id": "tide_heart"
+        },
+        {
+          "id": "calm_tide",
+          "scale": 0.5,
+          "params": {
+            "calm_level": "5"
+          }
+        }
+      ]
+    }
+  ]
+}

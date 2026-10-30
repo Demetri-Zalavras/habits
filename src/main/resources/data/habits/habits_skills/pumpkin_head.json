@@ -1,0 +1,29 @@
+{
+  "rarity": "uncommon",
+  "category": "ranger",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:pumpkin_enderman_minute",
+    "chance": 0.0625
+  },
+  "icon": "minecraft:carved_pumpkin",
+  "art": "minecraft:pumpkin",
+  "perk": {
+    "mechanic": "habits:survival/pumpkin_head",
+    "params": {
+      "calm": "0,0,0,0,0,0,0,0,0,1"
+    },
+    "values": [
+      20,
+      29,
+      38,
+      47,
+      56,
+      64,
+      73,
+      82,
+      91,
+      100
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "rarity": "epic",
+  "category": "building",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:fall_place",
+    "chance": 0.0167
+  },
+  "icon": "minecraft:hay_block",
+  "art": "minecraft:hay_block",
+  "perk": {
+    "mechanic": "habits:building/safety_net",
+    "values": [
+      60,
+      50,
+      42,
+      35,
+      28,
+      22,
+      17,
+      12,
+      8,
+      5
+    ],
+    "params": {
+      "fall": "4"
+    }
+  },
+  "forks": [
+    {
+      "level": 5,
+      "options": [
+        {
+          "id": "hair_trigger",
+          "scale": 1.5,
+          "params": {
+            "fall": "2"
+          }
+        },
+        {
+          "id": "last_second",
+          "scale": 0.6,
+          "params": {
+            "fall": "10"
+          }
+        }
+      ]
+    }
+  ]
+}

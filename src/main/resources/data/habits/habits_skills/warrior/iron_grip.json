@@ -1,0 +1,40 @@
+{
+  "rarity": "common",
+  "category": "warrior",
+  "trigger": {
+    "type": "damage_taken",
+    "match": "minecraft:mob_attack",
+    "entity": [
+      "minecraft:ravager",
+      "minecraft:iron_golem",
+      "minecraft:hoglin",
+      "minecraft:zoglin",
+      "minecraft:piglin_brute",
+      "minecraft:warden"
+    ],
+    "chance": 0.0167
+  },
+  "icon": "minecraft:iron_ingot",
+  "art": "minecraft:iron_block",
+  "perk": {
+    "type": "attribute",
+    "params": {
+      "attribute": "minecraft:knockback_resistance",
+      "operation": "add_value",
+      "value_max": "1"
+    },
+    "values": [
+      0.1,
+      0.2,
+      0.3,
+      0.4,
+      0.5,
+      0.6,
+      0.7,
+      0.8,
+      0.9,
+      1.0
+    ]
+  },
+  "perk_text": "Knockback resistance +{v} (1 means you never budge)"
+}

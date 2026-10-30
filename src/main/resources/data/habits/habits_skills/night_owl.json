@@ -1,0 +1,30 @@
+{
+  "rarity": "common",
+  "category": "exploration",
+  "trigger": {
+    "type": "custom_units",
+    "match": "habits:night_walk",
+    "chance": 0.000386
+  },
+  "icon": "minecraft:glow_ink_sac",
+  "art": "minecraft:black_concrete",
+  "perk": {
+    "mechanic": "habits:movement/night_owl",
+    "params": {
+      "glow_level": "5",
+      "glow": "8..32"
+    },
+    "values": [
+      10,
+      18,
+      26,
+      33,
+      41,
+      49,
+      57,
+      64,
+      72,
+      80
+    ]
+  }
+}

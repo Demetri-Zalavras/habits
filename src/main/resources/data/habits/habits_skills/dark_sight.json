@@ -1,0 +1,30 @@
+{
+  "rarity": "common",
+  "category": "mining",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:dark_break",
+    "chance": 0.005
+  },
+  "icon": "minecraft:ender_eye",
+  "art": "minecraft:deepslate",
+  "perk": {
+    "mechanic": "habits:dark_sight",
+    "params": {
+      "max_y": "0..320",
+      "fade_delay": "5..0"
+    },
+    "values": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  }
+}

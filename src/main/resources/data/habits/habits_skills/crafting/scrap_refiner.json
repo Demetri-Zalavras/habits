@@ -1,0 +1,62 @@
+{
+  "rarity": "epic",
+  "category": "crafting",
+  "trigger": {
+    "type": "smelt",
+    "match": "minecraft:netherite_scrap",
+    "chance": 0.03333
+  },
+  "icon": "minecraft:netherite_scrap",
+  "art": "minecraft:ancient_debris",
+  "perk": {
+    "type": "smelt_bonus",
+    "values": [
+      3,
+      6,
+      9,
+      12,
+      15,
+      18,
+      21,
+      24,
+      27,
+      30
+    ],
+    "params": {
+      "item": "minecraft:netherite_scrap"
+    }
+  },
+  "perk_text": "{v}% chance of double netherite scrap",
+  "forks": [
+    {
+      "level": 5,
+      "options": [
+        {
+          "id": "scrap_only"
+        },
+        {
+          "id": "gold_too",
+          "scale": 0.6,
+          "params": {
+            "item": "minecraft:netherite_scrap,minecraft:gold_ingot"
+          }
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "options": [
+        {
+          "id": "any_hour"
+        },
+        {
+          "id": "night_shift",
+          "scale": 1.6,
+          "params": {
+            "condition": "night"
+          }
+        }
+      ]
+    }
+  ]
+}

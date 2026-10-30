@@ -1,0 +1,26 @@
+{
+  "rarity": "epic",
+  "category": "movement",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:late_deploy",
+    "chance": 0.0167
+  },
+  "icon": "minecraft:elytra",
+  "art": "minecraft:end_stone_bricks",
+  "perk": {
+    "mechanic": "habits:movement/quick_wings",
+    "values": [
+      10,
+      9,
+      8,
+      7,
+      6,
+      5,
+      4.5,
+      4,
+      3.5,
+      3
+    ]
+  }
+}

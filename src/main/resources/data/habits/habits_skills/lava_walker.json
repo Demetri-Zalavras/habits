@@ -1,0 +1,71 @@
+{
+  "rarity": "epic",
+  "category": "guardian",
+  "trigger": {
+    "type": "damage_taken",
+    "match": "minecraft:lava",
+    "chance": 0.000139
+  },
+  "icon": "minecraft:lava_bucket",
+  "art": "minecraft:magma_block",
+  "perk": {
+    "mechanic": "habits:survival/lava_walker",
+    "params": {
+      "radius": "0,0,0,0,1,1,2,2,3,3",
+      "melt_seconds": "6",
+      "max_blocks_per_tick": "12"
+    },
+    "values": [
+      10,
+      17,
+      24,
+      32,
+      39,
+      46,
+      53,
+      61,
+      68,
+      75
+    ]
+  },
+  "forks": [
+    {
+      "level": 5,
+      "options": [
+        {
+          "id": "lava_skin",
+          "scale": 1.25,
+          "params": {
+            "radius": "0"
+          }
+        },
+        {
+          "id": "crust_walker",
+          "scale": 0.8,
+          "params": {
+            "radius": "0,0,0,0,2,2,3,3,4,4"
+          }
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "options": [
+        {
+          "id": "lasting_crust",
+          "scale": 0.9,
+          "params": {
+            "melt_seconds": "15"
+          }
+        },
+        {
+          "id": "hot_crust",
+          "scale": 1.1,
+          "params": {
+            "melt_seconds": "3"
+          }
+        }
+      ]
+    }
+  ]
+}

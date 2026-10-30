@@ -1,0 +1,63 @@
+{
+  "rarity": "legendary",
+  "category": "mining",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:mining/debris_pair",
+    "chance": 0.25
+  },
+  "icon": "minecraft:netherite_scrap",
+  "art": "minecraft:ancient_debris",
+  "perk": {
+    "mechanic": "habits:mining/netherite_nose",
+    "params": {
+      "block": "minecraft:ancient_debris",
+      "item": "minecraft:netherite_scrap",
+      "count": "1"
+    },
+    "values": [
+      3,
+      5.4,
+      7.9,
+      10.3,
+      12.8,
+      15.2,
+      17.7,
+      20.1,
+      22.6,
+      25
+    ]
+  },
+  "forks": [
+    {
+      "level": 5,
+      "options": [
+        {
+          "id": "debris_hound"
+        },
+        {
+          "id": "ore_sniffer",
+          "scale": 0.04,
+          "params": {
+            "block": "minecraft:ancient_debris,minecraft:nether_gold_ore,minecraft:nether_quartz_ore"
+          }
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "options": [
+        {
+          "id": "steady_scrap"
+        },
+        {
+          "id": "scrap_pile",
+          "scale": 0.55,
+          "params": {
+            "count": "2"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "rarity": "common",
+  "category": "guardian",
+  "trigger": {
+    "type": "item_break",
+    "match": "minecraft:shield",
+    "chance": 0.3
+  },
+  "icon": "minecraft:shield",
+  "art": "minecraft:oak_log",
+  "perk": {
+    "type": "durability_save",
+    "values": [
+      10,
+      16,
+      21,
+      27,
+      32,
+      38,
+      43,
+      49,
+      54,
+      60
+    ],
+    "params": {
+      "item": "minecraft:shield"
+    }
+  },
+  "perk_text": "Shields: {v}% chance to save durability"
+}

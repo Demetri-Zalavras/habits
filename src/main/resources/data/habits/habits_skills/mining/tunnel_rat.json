@@ -1,0 +1,32 @@
+{
+  "rarity": "common",
+  "category": "mining",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:mining/tunnel_dig",
+    "chance": 0.0025
+  },
+  "icon": "minecraft:leather_boots",
+  "art": "minecraft:stone",
+  "perk": {
+    "type": "attribute",
+    "params": {
+      "attribute": "minecraft:generic.movement_speed",
+      "operation": "add_multiplied_total",
+      "condition": "underground"
+    },
+    "values": [
+      2,
+      4,
+      6,
+      8,
+      10,
+      12,
+      14,
+      16,
+      18,
+      20
+    ]
+  },
+  "perk_text": "Underground you move +{v}% faster"
+}

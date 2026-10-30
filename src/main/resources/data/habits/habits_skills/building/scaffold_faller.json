@@ -1,0 +1,30 @@
+{
+  "rarity": "common",
+  "category": "building",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:fall_place",
+    "chance": 0.1
+  },
+  "icon": "minecraft:white_carpet",
+  "art": "minecraft:white_wool",
+  "perk": {
+    "type": "attribute",
+    "values": [
+      0.5,
+      1.0,
+      1.5,
+      2.0,
+      2.5,
+      3.0,
+      3.5,
+      4.0,
+      4.5,
+      5.0
+    ],
+    "params": {
+      "attribute": "minecraft:generic.safe_fall_distance"
+    }
+  },
+  "perk_text": "Fall damage starts {v} blocks later"
+}

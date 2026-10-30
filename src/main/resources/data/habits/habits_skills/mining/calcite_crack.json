@@ -1,0 +1,31 @@
+{
+  "rarity": "common",
+  "category": "mining",
+  "trigger": {
+    "type": "break_block",
+    "match": "minecraft:calcite",
+    "chance": 0.01
+  },
+  "icon": "minecraft:amethyst_shard",
+  "art": "minecraft:calcite",
+  "perk": {
+    "mechanic": "habits:mining/calcite_crack",
+    "params": {
+      "block": "minecraft:calcite,minecraft:smooth_basalt",
+      "item": "minecraft:amethyst_shard",
+      "count": "1..2"
+    },
+    "values": [
+      5,
+      7.8,
+      10.6,
+      13.3,
+      16.1,
+      18.9,
+      21.7,
+      24.4,
+      27.2,
+      30
+    ]
+  }
+}

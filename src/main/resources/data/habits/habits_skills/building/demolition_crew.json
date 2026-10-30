@@ -1,0 +1,29 @@
+{
+  "rarity": "uncommon",
+  "category": "building",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:tnt_lit",
+    "chance": 0.0208
+  },
+  "icon": "minecraft:tnt_minecart",
+  "art": "minecraft:tnt",
+  "perk": {
+    "mechanic": "habits:demolitionist",
+    "values": [
+      4,
+      4.3,
+      4.7,
+      5,
+      5.3,
+      5.7,
+      6,
+      6.3,
+      6.7,
+      7
+    ],
+    "params": {
+      "self_cut": "20..100"
+    }
+  }
+}

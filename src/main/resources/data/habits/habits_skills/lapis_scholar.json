@@ -1,0 +1,29 @@
+{
+  "rarity": "uncommon",
+  "category": "mining",
+  "trigger": {
+    "type": "break_block",
+    "match": "#minecraft:lapis_ores",
+    "chance": 0.0312
+  },
+  "icon": "minecraft:lapis_lazuli",
+  "art": "minecraft:lapis_ore",
+  "perk": {
+    "mechanic": "habits:lapis_scholar",
+    "params": {
+      "repair": "10..100"
+    },
+    "values": [
+      1.2,
+      1.5,
+      1.8,
+      2.1,
+      2.4,
+      2.8,
+      3.1,
+      3.4,
+      3.7,
+      4
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "rarity": "uncommon",
+  "category": "crafting",
+  "trigger": {
+    "type": "enchant",
+    "chance": 0.125
+  },
+  "icon": "minecraft:candle",
+  "art": "minecraft:bookshelf",
+  "perk": {
+    "type": "enchant_discount",
+    "values": [5, 9, 14, 18, 23, 27, 32, 36, 41, 45],
+    "params": {
+      "condition": "night"
+    }
+  },
+  "perk_text": "Enchanting {v}% cheaper at night"
+}

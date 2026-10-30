@@ -1,0 +1,26 @@
+{
+  "rarity": "epic",
+  "category": "building",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:jump_pillar",
+    "chance": 0.000833
+  },
+  "icon": "minecraft:feather",
+  "art": "minecraft:white_wool",
+  "perk": {
+    "mechanic": "habits:building/hover",
+    "values": [
+      0.5,
+      1,
+      1.5,
+      2,
+      2.5,
+      3,
+      3.5,
+      4,
+      4.5,
+      5
+    ]
+  }
+}

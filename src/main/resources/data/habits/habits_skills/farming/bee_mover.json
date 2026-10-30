@@ -1,0 +1,29 @@
+{
+  "rarity": "uncommon",
+  "category": "farming",
+  "trigger": {
+    "type": "break_block",
+    "match": [
+      "minecraft:bee_nest",
+      "minecraft:beehive"
+    ],
+    "chance": 0.2
+  },
+  "icon": "minecraft:bee_nest",
+  "art": "minecraft:bee_nest",
+  "perk": {
+    "mechanic": "habits:farming/bee_mover",
+    "values": [
+      20,
+      29,
+      38,
+      47,
+      56,
+      64,
+      73,
+      82,
+      91,
+      100
+    ]
+  }
+}

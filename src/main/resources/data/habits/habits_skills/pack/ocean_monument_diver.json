@@ -1,0 +1,1 @@
+{"rarity":"rare","category":"exploration","trigger":{"type":"enter_structure","match":"betteroceanmonuments:ocean_monument","chance":0.5},"icon":"minecraft:prismarine_shard","art":"minecraft:prismarine_bricks","perk":{"type":"attribute","params":{"attribute":"minecraft:submerged_mining_speed","operation":"add_multiplied_total"},"base":10,"per_level":9}}

@@ -1,0 +1,72 @@
+{
+  "rarity": "legendary",
+  "category": "warrior",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:melee_kill",
+    "chance": 0.33,
+    "entity": "minecraft:warden"
+  },
+  "icon": "minecraft:echo_shard",
+  "art": "minecraft:sculk",
+  "perk": {
+    "mechanic": "habits:melee/sonic_blade",
+    "params": {
+      "damage": "5,20",
+      "range": "10,20",
+      "cooldown": "3"
+    },
+    "values": [
+      10.0,
+      9.0,
+      8.0,
+      7.0,
+      6.0,
+      5.0,
+      5.0,
+      4.0,
+      4.0,
+      3.0
+    ]
+  },
+  "forks": [
+    {
+      "level": 5,
+      "options": [
+        {
+          "id": "rapid_boom",
+          "scale": 0.75,
+          "params": {
+            "damage": "4,14"
+          }
+        },
+        {
+          "id": "heavy_boom",
+          "scale": 1.35,
+          "params": {
+            "damage": "7,28"
+          }
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "options": [
+        {
+          "id": "long_wave",
+          "params": {
+            "range": "14,30",
+            "cooldown": "4"
+          }
+        },
+        {
+          "id": "quick_wave",
+          "params": {
+            "range": "7,14",
+            "cooldown": "1.5"
+          }
+        }
+      ]
+    }
+  ]
+}

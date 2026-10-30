@@ -1,0 +1,29 @@
+{
+  "rarity": "common",
+  "category": "guardian",
+  "trigger": {
+    "type": "sleep",
+    "chance": 1.0
+  },
+  "icon": "minecraft:red_bed",
+  "art": "minecraft:red_wool",
+  "perk": {
+    "mechanic": "habits:survival/deep_sleeper",
+    "params": {
+      "amp": "0,0,0,0,0,1,1,1,1,1",
+      "food": "0..6"
+    },
+    "values": [
+      5,
+      8,
+      11,
+      13,
+      16,
+      19,
+      22,
+      24,
+      27,
+      30
+    ]
+  }
+}

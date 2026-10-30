@@ -1,0 +1,30 @@
+{
+  "rarity": "uncommon",
+  "category": "nature",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:puffer_poisoned",
+    "chance": 0.125
+  },
+  "icon": "minecraft:pufferfish",
+  "art": "minecraft:prismarine",
+  "perk": {
+    "mechanic": "habits:puffer_up",
+    "params": {
+      "amp": "0,1",
+      "seconds": "3,6"
+    },
+    "values": [
+      10,
+      14,
+      19,
+      23,
+      28,
+      32,
+      37,
+      41,
+      46,
+      50
+    ]
+  }
+}

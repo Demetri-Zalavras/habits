@@ -1,0 +1,31 @@
+{
+  "rarity": "common",
+  "category": "movement",
+  "trigger": {
+    "type": "fall",
+    "min": 8,
+    "chance": 0.1
+  },
+  "icon": "minecraft:glowstone_dust",
+  "art": "minecraft:stone",
+  "perk": {
+    "mechanic": "habits:movement/adrenaline",
+    "params": {
+      "min_fall": "8",
+      "amp": "0,0,0,0,0,1,1,1,1,1",
+      "jump_amp": "0,0,0,0,0,0,0,0,1,1"
+    },
+    "values": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  }
+}

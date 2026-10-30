@@ -1,0 +1,26 @@
+{
+  "rarity": "epic",
+  "category": "farming",
+  "trigger": {
+    "type": "breed",
+    "match": "minecraft:bee",
+    "chance": 0.0042
+  },
+  "icon": "minecraft:honeycomb",
+  "art": "minecraft:honey_block",
+  "perk": {
+    "mechanic": "habits:farming/honey_flow",
+    "values": [
+      120,
+      110,
+      100,
+      90,
+      80,
+      70,
+      60,
+      45,
+      30,
+      20
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "rarity": "legendary",
+  "category": "nature",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:mega_tree",
+    "chance": 0.0833
+  },
+  "icon": "minecraft:big_dripleaf",
+  "art": "minecraft:moss_block",
+  "perk": {
+    "mechanic": "habits:nature/forest_heart",
+    "values": [
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2,
+      2,
+      3
+    ],
+    "params": {
+      "resist": "0,1"
+    }
+  },
+  "forks": [
+    {
+      "level": 5,
+      "options": [
+        {
+          "id": "heartwood"
+        },
+        {
+          "id": "deep_roots",
+          "scale": 1.5,
+          "params": {
+            "resist": "0,0"
+          }
+        }
+      ]
+    }
+  ]
+}

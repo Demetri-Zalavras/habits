@@ -1,0 +1,15 @@
+{
+  "rarity": "common",
+  "category": "crafting",
+  "trigger": {
+    "type": "trade",
+    "match": "minecraft:emerald",
+    "chance": 0.03333
+  },
+  "icon": "minecraft:emerald",
+  "art": "minecraft:hay_block",
+  "perk": {
+    "type": "trade_discount",
+    "values": [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "rarity": "common",
+  "category": "building",
+  "trigger": {
+    "type": "climb_distance",
+    "chance": 0.000709
+  },
+  "icon": "minecraft:ladder",
+  "art": "minecraft:spruce_planks",
+  "perk": {
+    "type": "climb_speed",
+    "values": [
+      10.0,
+      20.0,
+      30.0,
+      40.0,
+      50.0,
+      60.0,
+      70.0,
+      80.0,
+      90.0,
+      100.0
+    ]
+  }
+}

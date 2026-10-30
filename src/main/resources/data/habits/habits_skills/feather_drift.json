@@ -1,0 +1,30 @@
+{
+  "rarity": "uncommon",
+  "category": "ranger",
+  "trigger": {
+    "type": "drink_potion",
+    "match": [
+      "minecraft:slow_falling",
+      "minecraft:long_slow_falling",
+      "minecraft:strong_slow_falling"
+    ],
+    "chance": 0.0625
+  },
+  "icon": "minecraft:phantom_membrane",
+  "art": "minecraft:white_wool",
+  "perk": {
+    "mechanic": "habits:survival/feather_drift",
+    "values": [
+      0.1,
+      0.16,
+      0.21,
+      0.27,
+      0.32,
+      0.38,
+      0.43,
+      0.49,
+      0.54,
+      0.6
+    ]
+  }
+}

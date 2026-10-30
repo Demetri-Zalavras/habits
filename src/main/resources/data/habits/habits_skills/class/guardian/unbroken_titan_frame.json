@@ -1,0 +1,33 @@
+{
+  "rarity": "epic",
+  "category": "guardian",
+  "class": "habits:class/guardian/unbroken",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:big_hit",
+    "min": 10,
+    "chance": 0.055
+  },
+  "icon": "minecraft:enchanted_golden_apple",
+  "art": "minecraft:netherite_block",
+  "perk": {
+    "type": "attribute",
+    "values": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "params": {
+      "attribute": "minecraft:generic.max_health",
+      "operation": "add_value"
+    }
+  },
+  "perk_text": "+{v} max health"
+}

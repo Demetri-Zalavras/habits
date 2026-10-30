@@ -1,0 +1,46 @@
+{
+  "rarity": "epic",
+  "category": "nature",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:effect_conduit_power",
+    "chance": 0.0333
+  },
+  "icon": "minecraft:nautilus_shell",
+  "art": "minecraft:sea_lantern",
+  "perk": {
+    "mechanic": "habits:nature/siren",
+    "values": [
+      6,
+      8,
+      9,
+      11,
+      12,
+      14,
+      15,
+      17,
+      18,
+      20
+    ],
+    "params": {
+      "amp": "0,2"
+    }
+  },
+  "forks": [
+    {
+      "level": 5,
+      "options": [
+        {
+          "id": "wide_song"
+        },
+        {
+          "id": "close_song",
+          "scale": 0.5,
+          "params": {
+            "amp": "1,4"
+          }
+        }
+      ]
+    }
+  ]
+}

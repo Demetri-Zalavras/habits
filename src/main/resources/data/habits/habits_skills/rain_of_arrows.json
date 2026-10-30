@@ -1,0 +1,31 @@
+{
+  "rarity": "rare",
+  "category": "ranger",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:steep_arrow_hit",
+    "chance": 0.0333
+  },
+  "icon": "minecraft:arrow",
+  "art": "minecraft:blue_ice",
+  "perk": {
+    "mechanic": "habits:rain_of_arrows",
+    "values": [
+      3,
+      4,
+      5,
+      7,
+      8,
+      9,
+      11,
+      12,
+      13,
+      15
+    ],
+    "params": {
+      "radius": "1.5..4",
+      "cooldown": "8..3",
+      "steep": "60"
+    }
+  }
+}

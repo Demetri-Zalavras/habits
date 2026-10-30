@@ -1,0 +1,33 @@
+{
+  "rarity": "common",
+  "category": "exploration",
+  "trigger": {
+    "type": "break_block",
+    "match": [
+      "#minecraft:sand",
+      "minecraft:gravel"
+    ],
+    "chance": 0.004
+  },
+  "icon": "minecraft:gold_nugget",
+  "art": "minecraft:sand",
+  "perk": {
+    "mechanic": "habits:exploration/sand_sifter",
+    "params": {
+      "block": "#minecraft:sand,minecraft:gravel,minecraft:suspicious_sand,minecraft:suspicious_gravel",
+      "items": "minecraft:gold_nugget,minecraft:iron_nugget,minecraft:flint,minecraft:clay_ball,minecraft:bone_meal"
+    },
+    "values": [
+      2,
+      3,
+      5,
+      6,
+      8,
+      9,
+      11,
+      12,
+      14,
+      15
+    ]
+  }
+}

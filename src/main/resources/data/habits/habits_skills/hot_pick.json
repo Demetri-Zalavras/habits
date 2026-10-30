@@ -1,0 +1,29 @@
+{
+  "rarity": "uncommon",
+  "category": "mining",
+  "trigger": {
+    "type": "break_block",
+    "match": "#minecraft:iron_ores",
+    "chance": 0.0156
+  },
+  "icon": "minecraft:iron_ingot",
+  "art": "minecraft:iron_ore",
+  "perk": {
+    "mechanic": "habits:hot_pick",
+    "params": {
+      "bonus": "0..30"
+    },
+    "values": [
+      10.0,
+      20.0,
+      30.0,
+      40.0,
+      50.0,
+      60.0,
+      70.0,
+      80.0,
+      90.0,
+      100.0
+    ]
+  }
+}

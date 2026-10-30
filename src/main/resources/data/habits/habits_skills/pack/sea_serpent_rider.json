@@ -1,0 +1,1 @@
+{"rarity":"rare","category":"movement","trigger":{"type":"kill_entity","match":"iceandfire:sea_serpent","chance":0.5},"icon":"iceandfire:sea_serpent_fang","art":"iceandfire:sea_serpent_scales_blue","perk":{"type":"attribute","params":{"attribute":"minecraft:submerged_mining_speed","operation":"add_multiplied_total"},"base":10,"per_level":10}}

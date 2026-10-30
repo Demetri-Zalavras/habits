@@ -1,0 +1,18 @@
+{
+  "danger.habits.rises": "Danger rises: %s",
+  "danger.habits.safer": "Safer ground: %s",
+  "danger.habits.tier.0": "Safe Lands",
+  "danger.habits.tier.1": "Frontier I",
+  "danger.habits.tier.2": "Frontier II",
+  "danger.habits.tier.3": "Frontier III",
+  "danger.habits.dim.minecraft.the_nether": "The Nether",
+  "danger.habits.dim.minecraft.the_end": "The End",
+  "danger.habits.elite_name": "%s %s",
+  "danger.habits.affix.fiery": "Fiery",
+  "danger.habits.affix.frozen": "Frozen",
+  "danger.habits.affix.shocking": "Shocking",
+  "danger.habits.affix.shielded": "Shielded",
+  "danger.habits.affix.thorny": "Thorny",
+  "subtitles.habits.danger_rises": "Danger rises",
+  "subtitles.habits.danger_shield": "Elite blocks"
+}

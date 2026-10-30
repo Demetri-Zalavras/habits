@@ -1,0 +1,31 @@
+{
+  "rarity": "uncommon",
+  "category": "ranger",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:multishot_double",
+    "chance": 0.0625
+  },
+  "icon": "minecraft:crossbow",
+  "art": "minecraft:dark_oak_planks",
+  "perk": {
+    "mechanic": "habits:fan_of_bolts",
+    "values": [
+      1,
+      1,
+      2,
+      2,
+      3,
+      3,
+      4,
+      5,
+      5,
+      6
+    ],
+    "params": {
+      "converge": "0..100",
+      "range": "30",
+      "angle": "8"
+    }
+  }
+}

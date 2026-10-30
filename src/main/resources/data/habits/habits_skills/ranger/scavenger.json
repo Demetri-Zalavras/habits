@@ -1,0 +1,29 @@
+{
+  "rarity": "common",
+  "category": "ranger",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:ranged/arrow_kill",
+    "chance": 0.03
+  },
+  "icon": "minecraft:bone",
+  "art": "minecraft:coarse_dirt",
+  "perk": {
+    "mechanic": "habits:ranged/scavenger",
+    "values": [
+      5.0,
+      8.0,
+      11.0,
+      14.0,
+      17.0,
+      20.0,
+      23.0,
+      26.0,
+      29.0,
+      32.0
+    ],
+    "params": {
+      "count": "1,1,1,2,2,2,2,3,3,3"
+    }
+  }
+}

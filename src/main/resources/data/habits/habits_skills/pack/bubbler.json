@@ -1,0 +1,1 @@
+{"rarity":"common","category":"guardian","trigger":{"type":"use_item","match":"supplementaries:bubble_blower","chance":0.05},"icon":"supplementaries:bubble_blower","art":"minecraft:light_blue_wool","perk":{"type":"regen","base":1,"per_level":1}}

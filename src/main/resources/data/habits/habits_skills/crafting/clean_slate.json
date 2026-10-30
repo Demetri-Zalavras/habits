@@ -1,0 +1,15 @@
+{
+  "rarity": "rare",
+  "category": "crafting",
+  "trigger": {
+    "type": "anvil",
+    "min": 15,
+    "chance": 0.11111
+  },
+  "icon": "minecraft:feather",
+  "art": "minecraft:white_concrete",
+  "perk": {
+    "mechanic": "habits:crafting/clean_slate",
+    "values": [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+  }
+}

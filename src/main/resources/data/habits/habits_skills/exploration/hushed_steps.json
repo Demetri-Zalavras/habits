@@ -1,0 +1,31 @@
+{
+  "rarity": "rare",
+  "category": "exploration",
+  "trigger": {
+    "type": "enter_structure",
+    "match": "minecraft:ancient_city",
+    "chance": 0.15
+  },
+  "icon": "minecraft:sculk_sensor",
+  "art": "minecraft:deepslate_bricks",
+  "perk": {
+    "type": "damage_type_resist",
+    "params": {
+      "damage": "minecraft:sonic_boom",
+      "value_max": "100"
+    },
+    "values": [
+      10,
+      16,
+      21,
+      27,
+      32,
+      38,
+      43,
+      49,
+      54,
+      60
+    ]
+  },
+  "perk_text": "Sonic boom damage -{v}%"
+}

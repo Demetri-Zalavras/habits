@@ -1,0 +1,30 @@
+{
+  "rarity": "common",
+  "category": "guardian",
+  "trigger": {
+    "type": "damage_taken",
+    "match": "minecraft:sting",
+    "chance": 0.0333
+  },
+  "icon": "minecraft:honeycomb",
+  "art": "minecraft:bee_nest",
+  "perk": {
+    "mechanic": "habits:survival/beekeepers_hide",
+    "params": {
+      "value_max": "100",
+      "poison_cut": "25..100"
+    },
+    "values": [
+      25,
+      33,
+      42,
+      50,
+      58,
+      67,
+      75,
+      83,
+      92,
+      100
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "rarity": "epic",
+  "category": "nature",
+  "trigger": {
+    "type": "till",
+    "match": "#minecraft:logs",
+    "chance": 0.000833
+  },
+  "icon": "minecraft:mangrove_roots",
+  "art": "minecraft:mangrove_roots",
+  "perk": {
+    "mechanic": "habits:nature/rootbind",
+    "values": [
+      60,
+      54,
+      48,
+      42,
+      36,
+      30,
+      25,
+      20,
+      15,
+      10
+    ],
+    "params": {
+      "seconds": "2,5",
+      "amp": "2,4"
+    }
+  },
+  "forks": [
+    {
+      "level": 5,
+      "options": [
+        {
+          "id": "firm_roots"
+        },
+        {
+          "id": "snare",
+          "scale": 0.6,
+          "params": {
+            "seconds": "1,3"
+          }
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "options": [
+        {
+          "id": "steady_roots"
+        },
+        {
+          "id": "crushing_roots",
+          "scale": 1.3,
+          "params": {
+            "amp": "3,6"
+          }
+        }
+      ]
+    }
+  ]
+}

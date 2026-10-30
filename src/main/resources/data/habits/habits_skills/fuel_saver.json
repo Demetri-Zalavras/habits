@@ -1,0 +1,30 @@
+{
+  "rarity": "common",
+  "category": "crafting",
+  "trigger": {
+    "type": "interact_block",
+    "match": [
+      "minecraft:furnace",
+      "minecraft:blast_furnace",
+      "minecraft:smoker"
+    ],
+    "chance": 0.025
+  },
+  "icon": "minecraft:charcoal",
+  "art": "minecraft:furnace",
+  "perk": {
+    "mechanic": "habits:fuel_saver",
+    "values": [
+      10,
+      25,
+      40,
+      55,
+      70,
+      85,
+      100,
+      115,
+      130,
+      150
+    ]
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "rarity": "legendary",
+  "category": "mining",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:mining/bedrock_near",
+    "chance": 0.00208
+  },
+  "icon": "minecraft:bedrock",
+  "art": "minecraft:deepslate",
+  "perk": {
+    "mechanic": "habits:mining/deep_core",
+    "params": {
+      "resist": "5..30",
+      "max_y": "0"
+    },
+    "values": [
+      20,
+      34,
+      49,
+      63,
+      78,
+      92,
+      107,
+      121,
+      136,
+      150
+    ]
+  },
+  "forks": [
+    {
+      "level": 5,
+      "options": [
+        {
+          "id": "deep_drill",
+          "scale": 1.3,
+          "params": {
+            "resist": "0..15"
+          }
+        },
+        {
+          "id": "bedrock_skin",
+          "scale": 0.7,
+          "params": {
+            "resist": "15..50"
+          }
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "options": [
+        {
+          "id": "shallow_core",
+          "scale": 0.75,
+          "params": {
+            "max_y": "32"
+          }
+        },
+        {
+          "id": "true_depths",
+          "scale": 1.3,
+          "params": {
+            "max_y": "-32"
+          }
+        }
+      ]
+    }
+  ]
+}

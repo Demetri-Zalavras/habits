@@ -1,0 +1,30 @@
+{
+  "rarity": "uncommon",
+  "category": "movement",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:sprint_hit",
+    "chance": 0.0104
+  },
+  "icon": "minecraft:shield",
+  "art": "minecraft:oak_planks",
+  "perk": {
+    "mechanic": "habits:movement/shoulder_check",
+    "params": {
+      "dmg": "0..3",
+      "cooldown": "3..1"
+    },
+    "values": [
+      0.8,
+      1,
+      1.2,
+      1.4,
+      1.6,
+      1.7,
+      1.9,
+      2.1,
+      2.3,
+      2.5
+    ]
+  }
+}

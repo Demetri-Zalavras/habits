@@ -1,0 +1,29 @@
+{
+  "rarity": "rare",
+  "category": "mining",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:tnt_big_blast",
+    "chance": 0.0667
+  },
+  "icon": "minecraft:tnt",
+  "art": "minecraft:tnt",
+  "perk": {
+    "mechanic": "habits:shaped_charge",
+    "params": {
+      "width": "2..3"
+    },
+    "values": [
+      4,
+      6,
+      8,
+      10,
+      12,
+      14,
+      17,
+      20,
+      22,
+      24
+    ]
+  }
+}

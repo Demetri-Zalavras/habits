@@ -1,0 +1,1 @@
+{"rarity":"uncommon","category":"exploration","trigger":{"type":"enter_structure","match":"betterjungletemples:jungle_temple","chance":0.5},"icon":"minecraft:mossy_cobblestone","art":"minecraft:jungle_log","perk":{"type":"climb_speed","base":10,"per_level":9}}

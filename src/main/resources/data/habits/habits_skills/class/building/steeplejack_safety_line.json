@@ -1,0 +1,30 @@
+{
+  "rarity": "rare",
+  "category": "building",
+  "class": "habits:class/building/steeplejack",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:building/high_place",
+    "chance": 0.0033
+  },
+  "icon": "minecraft:string",
+  "art": "minecraft:white_wool",
+  "perk": {
+    "mechanic": "habits:building/safety_net",
+    "values": [
+      40,
+      34,
+      28,
+      23,
+      18,
+      14,
+      11,
+      8,
+      6,
+      4
+    ],
+    "params": {
+      "fall": "4"
+    }
+  }
+}

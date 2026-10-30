@@ -1,0 +1,14 @@
+{
+  "rarity": "common",
+  "category": "crafting",
+  "trigger": {
+    "type": "enchant",
+    "chance": 0.2
+  },
+  "icon": "minecraft:enchanting_table",
+  "art": "minecraft:obsidian",
+  "perk": {
+    "type": "enchant_discount",
+    "values": [3, 6, 9, 12, 15, 18, 21, 24, 27, 30]
+  }
+}

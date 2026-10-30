@@ -1,0 +1,31 @@
+{
+  "rarity": "uncommon",
+  "category": "movement",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:long_jump",
+    "chance": 0.021
+  },
+  "icon": "minecraft:rabbit_hide",
+  "art": "minecraft:sand",
+  "perk": {
+    "type": "mob_effect_conditional",
+    "params": {
+      "effect": "minecraft:jump_boost",
+      "condition": "sprinting"
+    },
+    "values": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2,
+      2
+    ]
+  },
+  "perk_text": "Jump Boost {v} while sprinting"
+}

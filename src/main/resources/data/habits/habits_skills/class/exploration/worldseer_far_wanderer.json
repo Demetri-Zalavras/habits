@@ -1,0 +1,31 @@
+{
+  "rarity": "epic",
+  "category": "exploration",
+  "trigger": {
+    "type": "enter_biome",
+    "chance": 0.01
+  },
+  "icon": "minecraft:lodestone",
+  "art": "minecraft:podzol",
+  "perk": {
+    "mechanic": "habits:exploration/worldseer_far_wanderer",
+    "params": {
+      "effect": "minecraft:regeneration",
+      "from_spawn": "3000..1000",
+      "level": "1"
+    },
+    "values": [
+      3,
+      4,
+      6,
+      7,
+      8,
+      10,
+      11,
+      12,
+      14,
+      15
+    ]
+  },
+  "class": "habits:class/exploration/worldseer"
+}

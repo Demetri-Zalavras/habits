@@ -1,0 +1,29 @@
+{
+  "rarity": "common",
+  "category": "crafting",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:grindstone_take",
+    "chance": 0.05
+  },
+  "icon": "minecraft:grindstone",
+  "art": "minecraft:cobblestone",
+  "perk": {
+    "mechanic": "habits:unbinder",
+    "params": {
+      "book": "2..30"
+    },
+    "values": [
+      20,
+      50,
+      80,
+      110,
+      140,
+      170,
+      200,
+      230,
+      265,
+      300
+    ]
+  }
+}

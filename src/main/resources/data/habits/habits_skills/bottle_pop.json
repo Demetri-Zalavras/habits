@@ -1,0 +1,29 @@
+{
+  "rarity": "common",
+  "category": "ranger",
+  "trigger": {
+    "type": "use_item",
+    "match": "minecraft:experience_bottle",
+    "chance": 0.00333
+  },
+  "icon": "minecraft:experience_bottle",
+  "art": "minecraft:emerald_block",
+  "perk": {
+    "mechanic": "habits:bottle_pop",
+    "values": [
+      10,
+      25,
+      40,
+      55,
+      70,
+      85,
+      100,
+      115,
+      130,
+      150
+    ],
+    "params": {
+      "bounce": "0..25"
+    }
+  }
+}

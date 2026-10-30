@@ -1,0 +1,30 @@
+{
+  "rarity": "uncommon",
+  "category": "guardian",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:ally_hurt_nearby",
+    "chance": 0.02
+  },
+  "icon": "minecraft:lead",
+  "art": "minecraft:iron_block",
+  "perk": {
+    "mechanic": "habits:survival/bodyguard",
+    "values": [
+      10,
+      14,
+      19,
+      23,
+      28,
+      32,
+      37,
+      41,
+      46,
+      50
+    ],
+    "params": {
+      "radius": "4..10",
+      "notice": "8"
+    }
+  }
+}

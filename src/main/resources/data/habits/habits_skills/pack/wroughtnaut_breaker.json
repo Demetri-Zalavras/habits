@@ -1,0 +1,1 @@
+{"rarity":"epic","category":"guardian","trigger":{"type":"kill_entity","match":"mowziesmobs:ferrous_wroughtnaut","chance":0.9},"icon":"mowziesmobs:wrought_axe","art":"mowziesmobs:wrought_helmet","perk":{"type":"thorns","base":5,"per_level":5},"forks":[{"level":5,"options":[{"id":"steady_spikes"},{"id":"spiked_guard","scale":1.8,"params":{"condition":"sneaking"}}]}]}

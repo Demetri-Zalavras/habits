@@ -1,0 +1,47 @@
+{
+  "rarity": "epic",
+  "category": "movement",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:thermal_glide",
+    "chance": 0.00556
+  },
+  "icon": "minecraft:campfire",
+  "art": "minecraft:magma_block",
+  "perk": {
+    "mechanic": "habits:movement/thermal_rider",
+    "params": {
+      "anywhere_level": "10"
+    },
+    "values": [
+      0.4,
+      0.7,
+      1.0,
+      1.3,
+      1.6,
+      1.8,
+      2.1,
+      2.4,
+      2.7,
+      3.0
+    ]
+  },
+  "forks": [
+    {
+      "level": 5,
+      "options": [
+        {
+          "id": "updraft",
+          "scale": 1.2
+        },
+        {
+          "id": "dusk_rider",
+          "scale": 0.75,
+          "params": {
+            "anywhere_level": "5"
+          }
+        }
+      ]
+    }
+  ]
+}

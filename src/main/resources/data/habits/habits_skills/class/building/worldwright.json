@@ -1,0 +1,26 @@
+{
+  "rarity": "legendary",
+  "category": "building",
+  "class_passive": true,
+  "trigger": {
+    "type": "place_block",
+    "chance": 0.000278
+  },
+  "icon": "minecraft:nether_star",
+  "art": "minecraft:quartz_block",
+  "perk": {
+    "mechanic": "habits:building/endless_supply",
+    "values": [
+      20.0,
+      23.3,
+      26.7,
+      30.0,
+      33.3,
+      36.7,
+      40.0,
+      43.3,
+      46.7,
+      50.0
+    ]
+  }
+}

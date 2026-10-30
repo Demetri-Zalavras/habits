@@ -1,0 +1,30 @@
+{
+  "rarity": "epic",
+  "category": "crafting",
+  "class": "habits:class/crafting/runewright",
+  "trigger": {
+    "type": "damage_dealt",
+    "match": "minecraft:player_attack",
+    "chance": 0.0017
+  },
+  "icon": "minecraft:diamond_sword",
+  "art": "minecraft:amethyst_block",
+  "perk": {
+    "mechanic": "habits:crafting/runic_surge",
+    "values": [
+      1,
+      1.2,
+      1.4,
+      1.7,
+      1.9,
+      2.1,
+      2.3,
+      2.6,
+      2.8,
+      3
+    ],
+    "params": {
+      "cap": "15..40"
+    }
+  }
+}

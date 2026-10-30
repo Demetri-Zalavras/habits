@@ -1,0 +1,32 @@
+{
+  "rarity": "common",
+  "category": "crafting",
+  "trigger": {
+    "type": "interact_block",
+    "match": [
+      "minecraft:campfire",
+      "minecraft:soul_campfire"
+    ],
+    "chance": 0.0333
+  },
+  "icon": "minecraft:campfire",
+  "art": "minecraft:campfire",
+  "perk": {
+    "mechanic": "habits:campfire_chef",
+    "params": {
+      "regen_amp": "0..1"
+    },
+    "values": [
+      10.0,
+      20.0,
+      30.0,
+      40.0,
+      50.0,
+      60.0,
+      70.0,
+      80.0,
+      90.0,
+      100.0
+    ]
+  }
+}

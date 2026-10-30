@@ -1,0 +1,31 @@
+{
+  "rarity": "common",
+  "category": "building",
+  "trigger": {
+    "type": "sneak_distance",
+    "chance": 0.00128
+  },
+  "icon": "minecraft:leather_boots",
+  "art": "minecraft:smooth_stone",
+  "perk": {
+    "type": "attribute",
+    "values": [
+      5.0,
+      10.0,
+      15.0,
+      20.0,
+      25.0,
+      30.0,
+      35.0,
+      40.0,
+      45.0,
+      50.0
+    ],
+    "params": {
+      "attribute": "minecraft:generic.movement_speed",
+      "operation": "add_multiplied_base",
+      "condition": "sneaking"
+    }
+  },
+  "perk_text": "Sneak {v}% faster"
+}

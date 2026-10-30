@@ -1,0 +1,29 @@
+{
+  "rarity": "common",
+  "category": "guardian",
+  "trigger": {
+    "type": "damage_taken",
+    "match": "minecraft:drown",
+    "chance": 0.00167
+  },
+  "icon": "minecraft:pufferfish",
+  "art": "minecraft:prismarine",
+  "perk": {
+    "mechanic": "habits:survival/gills",
+    "params": {
+      "drown_mult": "1,1,1,1,0.9,0.8,0.7,0.6,0.55,0.5"
+    },
+    "values": [
+      1.15,
+      1.47,
+      1.78,
+      2.1,
+      2.42,
+      2.73,
+      3.05,
+      3.37,
+      3.68,
+      4.0
+    ]
+  }
+}

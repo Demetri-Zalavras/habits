@@ -1,0 +1,30 @@
+{
+  "rarity": "uncommon",
+  "category": "movement",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:long_dive",
+    "chance": 0.125
+  },
+  "icon": "minecraft:pufferfish",
+  "art": "minecraft:dark_prismarine",
+  "perk": {
+    "type": "damage_type_resist",
+    "params": {
+      "damage": "minecraft:drown"
+    },
+    "values": [
+      8,
+      16,
+      24,
+      32,
+      40,
+      48,
+      56,
+      64,
+      72,
+      80
+    ]
+  },
+  "perk_text": "Drowning damage -{v}%"
+}

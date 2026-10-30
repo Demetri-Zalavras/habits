@@ -1,0 +1,29 @@
+{
+  "rarity": "rare",
+  "category": "exploration",
+  "trigger": {
+    "type": "use_item",
+    "match": "minecraft:ender_eye",
+    "chance": 0.08
+  },
+  "icon": "minecraft:ender_eye",
+  "art": "minecraft:end_portal_frame",
+  "perk": {
+    "mechanic": "habits:exploration/eye_keeper",
+    "params": {
+      "value_max": "100"
+    },
+    "values": [
+      20,
+      29,
+      38,
+      47,
+      56,
+      64,
+      73,
+      82,
+      91,
+      100
+    ]
+  }
+}

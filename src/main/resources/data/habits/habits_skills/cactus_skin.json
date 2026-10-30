@@ -1,0 +1,29 @@
+{
+  "rarity": "common",
+  "category": "warrior",
+  "trigger": {
+    "type": "damage_taken",
+    "match": "minecraft:cactus",
+    "chance": 0.000833
+  },
+  "icon": "minecraft:cactus",
+  "art": "minecraft:sand",
+  "perk": {
+    "mechanic": "habits:survival/cactus_skin",
+    "params": {
+      "prick": "0.2..2"
+    },
+    "values": [
+      20,
+      29,
+      38,
+      47,
+      56,
+      64,
+      73,
+      82,
+      91,
+      100
+    ]
+  }
+}

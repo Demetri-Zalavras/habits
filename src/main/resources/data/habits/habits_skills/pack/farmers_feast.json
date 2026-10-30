@@ -1,0 +1,1 @@
+{"rarity":"common","category":"guardian","trigger":{"type":"eat","match":"farmersdelight:beef_stew","chance":0.08},"icon":"farmersdelight:beef_stew","art":"farmersdelight:cooking_pot","perk":{"type":"hunger_save","base":5,"per_level":3}}

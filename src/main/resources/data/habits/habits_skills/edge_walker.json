@@ -1,0 +1,29 @@
+{
+  "rarity": "uncommon",
+  "category": "guardian",
+  "trigger": {
+    "type": "damage_taken",
+    "match": "minecraft:outside_border",
+    "chance": 0.000521
+  },
+  "icon": "minecraft:compass",
+  "art": "minecraft:bedrock",
+  "perk": {
+    "mechanic": "habits:survival/edge_walker",
+    "params": {
+      "home": "0,0,0,0,0,0,0,0,0,1"
+    },
+    "values": [
+      30,
+      38,
+      46,
+      53,
+      61,
+      69,
+      77,
+      84,
+      92,
+      100
+    ]
+  }
+}

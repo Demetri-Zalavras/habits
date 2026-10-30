@@ -1,0 +1,30 @@
+{
+  "rarity": "common",
+  "category": "nature",
+  "trigger": {
+    "type": "break_block",
+    "match": [
+      "#minecraft:coral_blocks",
+      "#minecraft:corals",
+      "#minecraft:wall_corals"
+    ],
+    "chance": 0.005
+  },
+  "icon": "minecraft:brain_coral",
+  "art": "minecraft:brain_coral_block",
+  "perk": {
+    "mechanic": "habits:nature/coral_collector",
+    "values": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60,
+      70,
+      80,
+      90,
+      100
+    ]
+  }
+}

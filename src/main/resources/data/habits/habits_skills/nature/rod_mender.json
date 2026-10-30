@@ -1,0 +1,30 @@
+{
+  "rarity": "common",
+  "category": "nature",
+  "trigger": {
+    "type": "use_item",
+    "match": "minecraft:fishing_rod",
+    "chance": 0.0125
+  },
+  "icon": "minecraft:fishing_rod",
+  "art": "minecraft:spruce_planks",
+  "perk": {
+    "type": "durability_save",
+    "values": [
+      10,
+      19,
+      28,
+      37,
+      46,
+      54,
+      63,
+      72,
+      81,
+      90
+    ],
+    "params": {
+      "item": "minecraft:fishing_rod"
+    }
+  },
+  "perk_text": "{v}% chance a fishing rod use costs no durability"
+}

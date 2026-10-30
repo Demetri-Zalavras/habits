@@ -1,0 +1,30 @@
+{
+  "rarity": "rare",
+  "category": "mining",
+  "class": "habits:class/mining/delver",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:mining/ambushed",
+    "chance": 0.0167
+  },
+  "icon": "minecraft:stone",
+  "art": "minecraft:smooth_stone",
+  "perk": {
+    "mechanic": "habits:mining/stone_skin",
+    "params": {
+      "window_s": "3..5"
+    },
+    "values": [
+      12,
+      16,
+      20,
+      24,
+      28,
+      32,
+      36,
+      40,
+      44,
+      48
+    ]
+  }
+}

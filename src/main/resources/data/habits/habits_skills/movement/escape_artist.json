@@ -1,0 +1,29 @@
+{
+  "rarity": "rare",
+  "category": "movement",
+  "trigger": {
+    "type": "custom_units",
+    "match": "habits:chased_sprint",
+    "chance": 9.9e-05
+  },
+  "icon": "minecraft:zombie_head",
+  "art": "minecraft:mossy_cobblestone",
+  "perk": {
+    "mechanic": "habits:movement/escape_artist",
+    "params": {
+      "range": "24"
+    },
+    "values": [
+      5,
+      8,
+      12,
+      15,
+      18,
+      22,
+      25,
+      28,
+      32,
+      35
+    ]
+  }
+}

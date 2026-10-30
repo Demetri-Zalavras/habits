@@ -1,0 +1,32 @@
+{
+  "rarity": "epic",
+  "category": "exploration",
+  "trigger": {
+    "type": "damage_taken",
+    "match": "minecraft:fall",
+    "chance": 0.0028
+  },
+  "icon": "minecraft:diamond_boots",
+  "art": "minecraft:calcite",
+  "perk": {
+    "type": "damage_type_resist",
+    "params": {
+      "damage": "minecraft:fall,minecraft:drown,minecraft:in_wall,minecraft:fly_into_wall,minecraft:freeze",
+      "value_max": "100"
+    },
+    "values": [
+      8,
+      13,
+      17,
+      22,
+      27,
+      31,
+      36,
+      41,
+      45,
+      50
+    ]
+  },
+  "class": "habits:class/exploration/worldseer",
+  "perk_text": "Falls, drowning and squeezes hurt {v}% less"
+}

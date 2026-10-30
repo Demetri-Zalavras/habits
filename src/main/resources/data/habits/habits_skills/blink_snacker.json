@@ -1,0 +1,29 @@
+{
+  "rarity": "rare",
+  "category": "ranger",
+  "trigger": {
+    "type": "eat",
+    "match": "minecraft:chorus_fruit",
+    "chance": 0.0111
+  },
+  "icon": "minecraft:chorus_fruit",
+  "art": "minecraft:purpur_block",
+  "perk": {
+    "mechanic": "habits:survival/blink_snacker",
+    "params": {
+      "range": "8..32"
+    },
+    "values": [
+      25,
+      33,
+      42,
+      50,
+      58,
+      67,
+      75,
+      83,
+      92,
+      100
+    ]
+  }
+}

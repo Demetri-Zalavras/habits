@@ -1,0 +1,26 @@
+{
+  "rarity": "legendary",
+  "category": "farming",
+  "trigger": {
+    "type": "stat_increment",
+    "match": "minecraft:eat_cake_slice",
+    "chance": 0.0083
+  },
+  "icon": "minecraft:cake",
+  "art": "minecraft:hay_block",
+  "perk": {
+    "mechanic": "habits:farming/cornucopia",
+    "values": [
+      60,
+      55,
+      50,
+      45,
+      40,
+      35,
+      30,
+      25,
+      20,
+      10
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "rarity": "common",
+  "category": "building",
+  "trigger": {
+    "type": "place_block",
+    "match": [
+      "#minecraft:terracotta",
+      "#c:concretes",
+      "#c:glazed_terracottas"
+    ],
+    "chance": 0.01
+  },
+  "icon": "minecraft:cyan_glazed_terracotta",
+  "art": "minecraft:white_terracotta",
+  "perk": {
+    "type": "mining_speed",
+    "values": [
+      10.0,
+      20.0,
+      30.0,
+      40.0,
+      50.0,
+      60.0,
+      70.0,
+      80.0,
+      90.0,
+      100.0
+    ],
+    "params": {
+      "block": "#minecraft:terracotta,#c:concretes,#c:glazed_terracottas"
+    }
+  },
+  "perk_text": "Breaking terracotta and concrete +{v}%"
+}

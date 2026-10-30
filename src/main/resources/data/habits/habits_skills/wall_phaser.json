@@ -1,0 +1,29 @@
+{
+  "rarity": "uncommon",
+  "category": "guardian",
+  "trigger": {
+    "type": "damage_taken",
+    "match": "minecraft:in_wall",
+    "chance": 0.000521
+  },
+  "icon": "minecraft:gravel",
+  "art": "minecraft:gravel",
+  "perk": {
+    "mechanic": "habits:survival/wall_phaser",
+    "params": {
+      "search": "1..6"
+    },
+    "values": [
+      20,
+      29,
+      38,
+      47,
+      56,
+      64,
+      73,
+      82,
+      91,
+      100
+    ]
+  }
+}

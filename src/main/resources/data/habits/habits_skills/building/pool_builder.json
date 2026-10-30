@@ -1,0 +1,26 @@
+{
+  "rarity": "rare",
+  "category": "building",
+  "trigger": {
+    "type": "bucket_empty",
+    "match": "minecraft:water_bucket",
+    "chance": 0.00833
+  },
+  "icon": "minecraft:bucket",
+  "art": "minecraft:prismarine_bricks",
+  "perk": {
+    "mechanic": "habits:building/pool_builder",
+    "values": [
+      4,
+      8,
+      12,
+      16,
+      24,
+      32,
+      40,
+      48,
+      56,
+      64
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "rarity": "common",
+  "category": "crafting",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:never",
+    "chance": 0
+  },
+  "icon": "minecraft:book",
+  "art": "minecraft:oak_planks",
+  "perk": {
+    "type": "xp_bonus",
+    "values": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "title": {
+    "total_level": 50
+  }
+}

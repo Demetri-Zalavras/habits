@@ -1,0 +1,26 @@
+{
+  "rarity": "common",
+  "category": "ranger",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:ranged/sneak_near_hostile",
+    "chance": 0.04
+  },
+  "icon": "minecraft:fern",
+  "art": "minecraft:moss_block",
+  "perk": {
+    "mechanic": "habits:ranged/low_profile",
+    "values": [
+      10.0,
+      15.0,
+      20.0,
+      25.0,
+      30.0,
+      35.0,
+      40.0,
+      45.0,
+      50.0,
+      55.0
+    ]
+  }
+}

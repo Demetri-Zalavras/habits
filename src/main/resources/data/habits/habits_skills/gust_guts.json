@@ -1,0 +1,29 @@
+{
+  "rarity": "rare",
+  "category": "ranger",
+  "trigger": {
+    "type": "drink_potion",
+    "match": "minecraft:wind_charged",
+    "chance": 0.0333
+  },
+  "icon": "minecraft:wind_charge",
+  "art": "minecraft:tuff_bricks",
+  "perk": {
+    "mechanic": "habits:survival/gust_guts",
+    "params": {
+      "cooldown": "10"
+    },
+    "values": [
+      1.0,
+      1.8,
+      2.6,
+      3.3,
+      4.1,
+      4.9,
+      5.7,
+      6.4,
+      7.2,
+      8.0
+    ]
+  }
+}

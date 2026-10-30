@@ -1,0 +1,29 @@
+{
+  "rarity": "rare",
+  "category": "movement",
+  "trigger": {
+    "type": "custom_units",
+    "match": "habits:drafting",
+    "chance": 9.9e-05
+  },
+  "icon": "minecraft:wind_charge",
+  "art": "minecraft:white_concrete",
+  "perk": {
+    "mechanic": "habits:movement/slipstream",
+    "params": {
+      "range": "3"
+    },
+    "values": [
+      5,
+      9,
+      13,
+      17,
+      21,
+      24,
+      28,
+      32,
+      36,
+      40
+    ]
+  }
+}

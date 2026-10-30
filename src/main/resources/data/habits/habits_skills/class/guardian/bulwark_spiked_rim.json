@@ -1,0 +1,27 @@
+{
+  "rarity": "rare",
+  "category": "guardian",
+  "class": "habits:class/guardian/bulwark",
+  "trigger": {
+    "type": "damage_taken",
+    "match": "minecraft:mob_attack",
+    "chance": 0.0067
+  },
+  "icon": "minecraft:pointed_dripstone",
+  "art": "minecraft:dripstone_block",
+  "perk": {
+    "type": "thorns",
+    "values": [
+      5,
+      8,
+      11,
+      13,
+      16,
+      19,
+      22,
+      24,
+      27,
+      30
+    ]
+  }
+}

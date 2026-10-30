@@ -1,0 +1,29 @@
+{
+  "rarity": "uncommon",
+  "category": "nature",
+  "trigger": {
+    "type": "sleep",
+    "chance": 1.0
+  },
+  "icon": "minecraft:string",
+  "art": "minecraft:red_wool",
+  "perk": {
+    "mechanic": "habits:nature/cat_nap",
+    "values": [
+      10,
+      16,
+      21,
+      27,
+      32,
+      38,
+      43,
+      49,
+      54,
+      60
+    ],
+    "params": {
+      "amp": "0,1",
+      "radius": "16,16"
+    }
+  }
+}

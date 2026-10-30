@@ -1,0 +1,29 @@
+{
+  "rarity": "uncommon",
+  "category": "building",
+  "trigger": {
+    "type": "place_block",
+    "chance": 0.0208,
+    "match": "#minecraft:all_signs"
+  },
+  "icon": "minecraft:oak_sign",
+  "art": "minecraft:oak_planks",
+  "perk": {
+    "mechanic": "habits:scribe",
+    "params": {
+      "range": "32..2000"
+    },
+    "values": [
+      1,
+      3,
+      5,
+      7,
+      9,
+      11,
+      13,
+      15,
+      18,
+      20
+    ]
+  }
+}

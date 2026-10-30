@@ -1,0 +1,33 @@
+{
+  "rarity": "common",
+  "category": "exploration",
+  "trigger": {
+    "type": "open_container",
+    "match": [
+      "minecraft:chest",
+      "minecraft:barrel",
+      "minecraft:trapped_chest"
+    ],
+    "chance": 0.02
+  },
+  "icon": "minecraft:sugar",
+  "art": "minecraft:barrel",
+  "perk": {
+    "mechanic": "habits:exploration/treasure_rush",
+    "params": {
+      "level": "1..2"
+    },
+    "values": [
+      5,
+      8,
+      11,
+      13,
+      16,
+      19,
+      22,
+      24,
+      27,
+      30
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "rarity": "epic",
+  "category": "exploration",
+  "trigger": {
+    "type": "enter_structure",
+    "match": "minecraft:monument",
+    "chance": 0.833
+  },
+  "icon": "minecraft:prismarine_crystals",
+  "art": "minecraft:prismarine_bricks",
+  "perk": {
+    "mechanic": "habits:movement/monument_diver",
+    "params": {
+      "charge": "20..150"
+    },
+    "values": [
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2,
+      2,
+      3
+    ]
+  },
+  "forks": [
+    {
+      "level": 5,
+      "options": [
+        {
+          "id": "clear_head",
+          "scale": 1.5,
+          "params": {
+            "charge": "10..60"
+          }
+        },
+        {
+          "id": "slow_beams",
+          "scale": 0.67,
+          "params": {
+            "charge": "40..250"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "rarity": "common",
+  "category": "movement",
+  "trigger": {
+    "type": "damage_taken",
+    "match": "minecraft:on_fire",
+    "chance": 0.0167
+  },
+  "icon": "minecraft:blaze_powder",
+  "art": "minecraft:netherrack",
+  "perk": {
+    "type": "attribute",
+    "params": {
+      "attribute": "minecraft:generic.movement_speed",
+      "operation": "add_multiplied_base",
+      "condition": "on_fire"
+    },
+    "values": [
+      5,
+      10,
+      15,
+      20,
+      25,
+      30,
+      35,
+      40,
+      45,
+      50
+    ]
+  },
+  "perk_text": "Move speed +{v}% while burning"
+}

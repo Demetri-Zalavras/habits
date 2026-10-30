@@ -1,0 +1,29 @@
+{
+  "rarity": "rare",
+  "category": "mining",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:mining/hit_while_mining",
+    "chance": 0.01111
+  },
+  "icon": "minecraft:polished_andesite",
+  "art": "minecraft:polished_andesite",
+  "perk": {
+    "mechanic": "habits:mining/stone_skin",
+    "params": {
+      "window_s": "2..4"
+    },
+    "values": [
+      5,
+      9,
+      13,
+      17,
+      21,
+      24,
+      28,
+      32,
+      36,
+      40
+    ]
+  }
+}

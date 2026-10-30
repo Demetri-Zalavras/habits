@@ -1,0 +1,29 @@
+{
+  "rarity": "uncommon",
+  "category": "exploration",
+  "trigger": {
+    "type": "ride_distance",
+    "chance": 0.0003
+  },
+  "icon": "minecraft:saddle",
+  "art": "minecraft:hay_block",
+  "perk": {
+    "mechanic": "habits:exploration/caravan_master",
+    "params": {
+      "amount": "1",
+      "on": "ride"
+    },
+    "values": [
+      60,
+      54,
+      49,
+      43,
+      38,
+      32,
+      27,
+      21,
+      16,
+      10
+    ]
+  }
+}

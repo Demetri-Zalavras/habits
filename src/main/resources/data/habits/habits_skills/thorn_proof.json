@@ -1,0 +1,29 @@
+{
+  "rarity": "uncommon",
+  "category": "warrior",
+  "trigger": {
+    "type": "damage_taken",
+    "match": "minecraft:thorns",
+    "chance": 0.0104
+  },
+  "icon": "minecraft:rose_bush",
+  "art": "minecraft:prismarine_bricks",
+  "perk": {
+    "mechanic": "habits:survival/thorn_proof",
+    "params": {
+      "push": "0.1..1"
+    },
+    "values": [
+      20,
+      29,
+      38,
+      47,
+      56,
+      64,
+      73,
+      82,
+      91,
+      100
+    ]
+  }
+}

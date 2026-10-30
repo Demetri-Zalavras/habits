@@ -1,0 +1,31 @@
+{
+  "rarity": "rare",
+  "category": "guardian",
+  "class": "habits:class/guardian/oathsworn",
+  "trigger": {
+    "type": "shield_block",
+    "match": "#minecraft:is_projectile",
+    "chance": 0.033
+  },
+  "icon": "minecraft:arrow",
+  "art": "minecraft:spruce_planks",
+  "perk": {
+    "type": "damage_type_resist",
+    "values": [
+      10,
+      13,
+      17,
+      20,
+      23,
+      27,
+      30,
+      33,
+      37,
+      40
+    ],
+    "params": {
+      "damage": "#minecraft:is_projectile"
+    }
+  },
+  "perk_text": "{v}% less damage from arrows and other shots"
+}

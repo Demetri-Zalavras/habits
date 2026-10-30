@@ -1,0 +1,18 @@
+{
+  "rarity": "rare",
+  "category": "guardian",
+  "trigger": {
+    "type": "eat",
+    "match": "minecraft:golden_apple",
+    "chance": 0.0667
+  },
+  "icon": "minecraft:golden_apple",
+  "art": "minecraft:gold_block",
+  "perk": {
+    "mechanic": "habits:survival/golden_glutton",
+    "params": {
+      "resist_seconds": "2..20"
+    },
+    "values": [2, 2, 2, 2, 2, 4, 4, 4, 4, 4]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "rarity": "common",
+  "category": "mining",
+  "trigger": {
+    "type": "enter_biome",
+    "match": "minecraft:basalt_deltas",
+    "chance": 0.1
+  },
+  "icon": "minecraft:basalt",
+  "art": "minecraft:basalt",
+  "perk": {
+    "type": "mining_speed",
+    "params": {
+      "block": "minecraft:basalt,minecraft:polished_basalt,minecraft:smooth_basalt,minecraft:blackstone,minecraft:magma_block"
+    },
+    "values": [
+      5,
+      10,
+      15,
+      20,
+      25,
+      30,
+      35,
+      40,
+      45,
+      50
+    ]
+  },
+  "perk_text": "Basalt, blackstone and magma mine +{v}% faster"
+}

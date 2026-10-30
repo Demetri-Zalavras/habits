@@ -1,0 +1,30 @@
+{
+  "rarity": "uncommon",
+  "category": "crafting",
+  "trigger": {
+    "type": "use_item",
+    "match": "minecraft:experience_bottle",
+    "chance": 0.00208
+  },
+  "icon": "minecraft:experience_bottle",
+  "art": "minecraft:glass",
+  "perk": {
+    "mechanic": "habits:bottled_wisdom",
+    "params": {
+      "value_max": "100",
+      "points": "10"
+    },
+    "values": [
+      50,
+      56,
+      61,
+      67,
+      72,
+      78,
+      83,
+      89,
+      94,
+      100
+    ]
+  }
+}

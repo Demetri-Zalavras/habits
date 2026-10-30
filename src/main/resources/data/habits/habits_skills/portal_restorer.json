@@ -1,0 +1,29 @@
+{
+  "rarity": "common",
+  "category": "exploration",
+  "trigger": {
+    "type": "enter_structure",
+    "match": "#minecraft:ruined_portal",
+    "chance": 0.5
+  },
+  "icon": "minecraft:crying_obsidian",
+  "art": "minecraft:crying_obsidian",
+  "perk": {
+    "mechanic": "habits:movement/portal_restorer",
+    "params": {
+      "cooldown": "10"
+    },
+    "values": [
+      1,
+      2,
+      2,
+      3,
+      3,
+      4,
+      4,
+      5,
+      5,
+      6
+    ]
+  }
+}

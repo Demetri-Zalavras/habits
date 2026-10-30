@@ -1,0 +1,33 @@
+{
+  "rarity": "legendary",
+  "category": "nature",
+  "class": "habits:class/nature/beastcaller",
+  "trigger": {
+    "type": "breed",
+    "match": [
+      "minecraft:wolf",
+      "minecraft:cat"
+    ],
+    "chance": 0.00417
+  },
+  "icon": "minecraft:wolf_armor",
+  "art": "minecraft:coarse_dirt",
+  "perk": {
+    "mechanic": "habits:nature/beastmaster",
+    "values": [
+      20.0,
+      24.4,
+      28.9,
+      33.3,
+      37.8,
+      42.2,
+      46.7,
+      51.1,
+      55.6,
+      60.0
+    ],
+    "params": {
+      "radius": "16,32"
+    }
+  }
+}

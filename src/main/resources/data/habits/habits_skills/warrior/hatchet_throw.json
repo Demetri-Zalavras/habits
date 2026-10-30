@@ -1,0 +1,32 @@
+{
+  "rarity": "rare",
+  "category": "warrior",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:melee_kill",
+    "item": "#minecraft:axes",
+    "entity": "minecraft:vindicator",
+    "chance": 0.0111
+  },
+  "icon": "minecraft:iron_axe",
+  "art": "minecraft:dark_oak_log",
+  "perk": {
+    "mechanic": "habits:melee/hatchet_throw",
+    "params": {
+      "range": "8,20",
+      "cooldown": "6,2"
+    },
+    "values": [
+      4.0,
+      5.0,
+      6.0,
+      7.0,
+      8.0,
+      8.0,
+      9.0,
+      10.0,
+      11.0,
+      12.0
+    ]
+  }
+}

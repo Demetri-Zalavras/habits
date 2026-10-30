@@ -1,0 +1,29 @@
+{
+  "rarity": "uncommon",
+  "category": "ranger",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:harming_kill",
+    "chance": 0.0625
+  },
+  "icon": "minecraft:splash_potion",
+  "art": "minecraft:crying_obsidian",
+  "perk": {
+    "mechanic": "habits:harming_echo",
+    "values": [
+      10.0,
+      15.56,
+      21.11,
+      26.67,
+      32.22,
+      37.78,
+      43.33,
+      48.89,
+      54.44,
+      60.0
+    ],
+    "params": {
+      "chain": "1,1,1,1,1,2,2,2,2,2"
+    }
+  }
+}

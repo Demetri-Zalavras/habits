@@ -1,0 +1,62 @@
+{
+  "rarity": "epic",
+  "category": "nature",
+  "trigger": {
+    "type": "bonemeal",
+    "match": "#minecraft:flowers",
+    "chance": 0.00278
+  },
+  "icon": "minecraft:pink_petals",
+  "art": "minecraft:pink_wool",
+  "perk": {
+    "mechanic": "habits:nature/bloom_burst",
+    "values": [
+      180,
+      160,
+      140,
+      120,
+      100,
+      85,
+      70,
+      55,
+      40,
+      30
+    ],
+    "params": {
+      "heal": "4,12",
+      "radius": "3,6"
+    }
+  },
+  "forks": [
+    {
+      "level": 5,
+      "options": [
+        {
+          "id": "full_bloom"
+        },
+        {
+          "id": "quick_bloom",
+          "scale": 0.6,
+          "params": {
+            "heal": "2,6"
+          }
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "options": [
+        {
+          "id": "near_flowers"
+        },
+        {
+          "id": "wide_bloom",
+          "scale": 1.3,
+          "params": {
+            "radius": "6,12"
+          }
+        }
+      ]
+    }
+  ]
+}

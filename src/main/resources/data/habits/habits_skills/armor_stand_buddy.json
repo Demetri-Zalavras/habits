@@ -1,0 +1,29 @@
+{
+  "rarity": "uncommon",
+  "category": "guardian",
+  "trigger": {
+    "type": "interact_entity",
+    "match": "minecraft:armor_stand",
+    "chance": 0.0208
+  },
+  "icon": "minecraft:armor_stand",
+  "art": "minecraft:oak_planks",
+  "perk": {
+    "mechanic": "habits:armor_stand_buddy",
+    "params": {
+      "share": "0..25"
+    },
+    "values": [
+      10,
+      15,
+      21,
+      26,
+      32,
+      37,
+      43,
+      48,
+      54,
+      60
+    ]
+  }
+}

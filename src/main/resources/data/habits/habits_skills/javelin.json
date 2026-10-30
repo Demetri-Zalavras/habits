@@ -1,0 +1,29 @@
+{
+  "rarity": "uncommon",
+  "category": "ranger",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:trident_long_hit",
+    "chance": 0.0625
+  },
+  "icon": "minecraft:trident",
+  "art": "minecraft:prismarine_bricks",
+  "perk": {
+    "mechanic": "habits:javelin",
+    "values": [
+      1,
+      1,
+      2,
+      2,
+      3,
+      3,
+      4,
+      5,
+      5,
+      6
+    ],
+    "params": {
+      "gravity": "10..70"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "rarity": "uncommon",
+  "category": "mining",
+  "trigger": {
+    "type": "interact_block",
+    "match": "minecraft:grindstone",
+    "chance": 0.01042
+  },
+  "icon": "minecraft:grindstone",
+  "art": "minecraft:stone",
+  "perk": {
+    "mechanic": "habits:mining/whetstone",
+    "values": [
+      2,
+      4,
+      6,
+      8,
+      10,
+      12,
+      14,
+      16,
+      18,
+      20
+    ]
+  }
+}

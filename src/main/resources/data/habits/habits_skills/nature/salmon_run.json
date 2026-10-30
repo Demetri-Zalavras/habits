@@ -1,0 +1,30 @@
+{
+  "rarity": "common",
+  "category": "nature",
+  "trigger": {
+    "type": "fish",
+    "match": "minecraft:salmon",
+    "chance": 0.1
+  },
+  "icon": "minecraft:salmon",
+  "art": "minecraft:gravel",
+  "perk": {
+    "type": "fishing_speed",
+    "values": [
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2,
+      3,
+      3
+    ],
+    "params": {
+      "condition": "biome=#minecraft:is_river"
+    }
+  },
+  "perk_text": "Lure +{v} in rivers"
+}

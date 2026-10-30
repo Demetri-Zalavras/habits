@@ -1,0 +1,30 @@
+{
+  "rarity": "common",
+  "category": "nature",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:nature_night_catch",
+    "chance": 0.025
+  },
+  "icon": "minecraft:cod",
+  "art": "minecraft:blue_wool",
+  "perk": {
+    "type": "fishing_luck",
+    "values": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2,
+      3
+    ],
+    "params": {
+      "condition": "night"
+    }
+  },
+  "perk_text": "Luck of the Sea +{v} at night"
+}

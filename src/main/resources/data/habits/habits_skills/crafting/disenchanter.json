@@ -1,0 +1,15 @@
+{
+  "rarity": "epic",
+  "category": "crafting",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:grindstone_take",
+    "chance": 0.01667
+  },
+  "icon": "minecraft:enchanted_book",
+  "art": "minecraft:grindstone",
+  "perk": {
+    "mechanic": "habits:crafting/disenchanter",
+    "values": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
+  }
+}

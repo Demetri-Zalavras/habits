@@ -1,0 +1,31 @@
+{
+  "rarity": "uncommon",
+  "category": "nature",
+  "trigger": {
+    "type": "kill_entity",
+    "match": "minecraft:rabbit",
+    "chance": 0.0625
+  },
+  "icon": "minecraft:rabbit_foot",
+  "art": "minecraft:grass_block",
+  "perk": {
+    "type": "mob_effect_conditional",
+    "values": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "params": {
+      "effect": "minecraft:jump_boost",
+      "condition": "sprinting"
+    }
+  },
+  "perk_text": "Jump Boost {v} while sprinting"
+}

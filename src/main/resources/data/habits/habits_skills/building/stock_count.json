@@ -1,0 +1,26 @@
+{
+  "rarity": "uncommon",
+  "category": "building",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:stack_used_up",
+    "chance": 0.0625
+  },
+  "icon": "minecraft:bundle",
+  "art": "minecraft:barrel",
+  "perk": {
+    "mechanic": "habits:building/stock_count",
+    "values": [
+      0,
+      0,
+      2,
+      4,
+      6,
+      8,
+      10,
+      12,
+      14,
+      16
+    ]
+  }
+}

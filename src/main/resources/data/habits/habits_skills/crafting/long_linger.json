@@ -1,0 +1,15 @@
+{
+  "rarity": "uncommon",
+  "category": "crafting",
+  "trigger": {
+    "type": "use_item",
+    "match": "minecraft:lingering_potion",
+    "chance": 0.0625
+  },
+  "icon": "minecraft:lingering_potion",
+  "art": "minecraft:purple_concrete",
+  "perk": {
+    "mechanic": "habits:crafting/long_linger",
+    "values": [20, 40, 60, 80, 100, 120, 140, 160, 180, 200]
+  }
+}

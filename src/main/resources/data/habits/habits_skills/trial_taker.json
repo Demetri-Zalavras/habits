@@ -1,0 +1,29 @@
+{
+  "rarity": "rare",
+  "category": "exploration",
+  "trigger": {
+    "type": "enter_structure",
+    "match": "minecraft:trial_chambers",
+    "chance": 1.0
+  },
+  "icon": "minecraft:trial_key",
+  "art": "minecraft:chiseled_tuff",
+  "perk": {
+    "mechanic": "habits:movement/trial_taker",
+    "params": {
+      "vault_level": "5"
+    },
+    "values": [
+      20,
+      34,
+      49,
+      63,
+      78,
+      92,
+      107,
+      121,
+      136,
+      150
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "rarity": "uncommon",
+  "category": "guardian",
+  "trigger": {
+    "type": "die",
+    "chance": 0.625
+  },
+  "icon": "minecraft:blaze_powder",
+  "art": "minecraft:magma_block",
+  "perk": {
+    "mechanic": "habits:survival/phoenix",
+    "params": {
+      "regen_amp": "0,0,0,0,0,1,1,1,1,1",
+      "resist_amp": "-1,-1,-1,0,0,0,0,1,1,1",
+      "speed_amp": "-1,-1,-1,-1,-1,-1,0,0,0,0"
+    },
+    "values": [
+      10,
+      16,
+      21,
+      27,
+      32,
+      38,
+      43,
+      49,
+      54,
+      60
+    ]
+  }
+}

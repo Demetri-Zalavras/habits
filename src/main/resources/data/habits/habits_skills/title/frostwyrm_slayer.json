@@ -1,0 +1,34 @@
+{
+  "rarity": "legendary",
+  "category": "warrior",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:never",
+    "chance": 0
+  },
+  "icon": "minecraft:blue_ice",
+  "art": "minecraft:packed_ice",
+  "perk": {
+    "type": "damage_type_resist",
+    "params": {
+      "damage": "minecraft:freeze"
+    },
+    "values": [
+      25,
+      25,
+      25,
+      25,
+      25,
+      25,
+      25,
+      25,
+      25,
+      25
+    ]
+  },
+  "title": {
+    "stat_type": "minecraft:killed",
+    "stat": "iceandfire:ice_dragon",
+    "min": 1
+  }
+}

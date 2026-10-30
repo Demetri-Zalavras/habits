@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "habits:item/progression/sigil_potent",
+    "layer1": "habits:item/progression/sigil_potent_glyph"
+  }
+}

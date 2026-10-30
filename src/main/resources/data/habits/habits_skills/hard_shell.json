@@ -1,0 +1,31 @@
+{
+  "rarity": "rare",
+  "category": "nature",
+  "trigger": {
+    "type": "breed",
+    "match": "minecraft:turtle",
+    "chance": 0.0667
+  },
+  "icon": "minecraft:turtle_helmet",
+  "art": "minecraft:sand",
+  "perk": {
+    "type": "mob_effect_conditional",
+    "params": {
+      "value_max": "3",
+      "effect": "minecraft:resistance",
+      "condition": "sneaking"
+    },
+    "values": [
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2,
+      3,
+      3
+    ]
+  }
+}

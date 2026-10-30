@@ -1,0 +1,35 @@
+{
+  "rarity": "common",
+  "category": "mining",
+  "trigger": {
+    "type": "break_block",
+    "match": [
+      "minecraft:deepslate_tiles",
+      "minecraft:deepslate_bricks",
+      "minecraft:polished_deepslate",
+      "minecraft:chiseled_deepslate"
+    ],
+    "chance": 0.00333
+  },
+  "icon": "minecraft:deepslate_tiles",
+  "art": "minecraft:deepslate_tiles",
+  "perk": {
+    "type": "mining_speed",
+    "params": {
+      "block": "minecraft:deepslate,minecraft:cobbled_deepslate,minecraft:deepslate_tiles,minecraft:deepslate_bricks,minecraft:polished_deepslate,minecraft:chiseled_deepslate,minecraft:cracked_deepslate_tiles,minecraft:cracked_deepslate_bricks,minecraft:reinforced_deepslate"
+    },
+    "values": [
+      5,
+      9,
+      13,
+      17,
+      21,
+      24,
+      28,
+      32,
+      36,
+      40
+    ]
+  },
+  "perk_text": "Deepslate of every kind mines +{v}% faster"
+}

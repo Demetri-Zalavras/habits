@@ -1,0 +1,25 @@
+{
+  "rarity": "rare",
+  "category": "guardian",
+  "trigger": {
+    "type": "drink_potion",
+    "chance": 0.0333
+  },
+  "icon": "minecraft:glass_bottle",
+  "art": "minecraft:glass",
+  "perk": {
+    "mechanic": "habits:survival/bottomless_flask",
+    "values": [
+      3,
+      6,
+      9,
+      12,
+      15,
+      18,
+      21,
+      24,
+      27,
+      30
+    ]
+  }
+}

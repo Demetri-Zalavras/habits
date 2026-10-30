@@ -1,0 +1,1 @@
+{"rarity":"rare","category":"exploration","trigger":{"type":"enter_structure","match":"betterfortresses:fortress","chance":0.5},"icon":"minecraft:nether_bricks","art":"minecraft:soul_sand","perk":{"type":"damage_type_resist","params":{"damage":"#minecraft:is_fire"},"base":5,"per_level":5}}

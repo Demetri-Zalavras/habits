@@ -1,0 +1,29 @@
+{
+  "rarity": "epic",
+  "category": "building",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:never",
+    "chance": 0
+  },
+  "icon": "minecraft:beacon",
+  "art": "minecraft:iron_block",
+  "perk": {
+    "type": "mining_speed",
+    "values": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ]
+  },
+  "title": {
+    "advancement": "minecraft:nether/create_full_beacon"
+  }
+}

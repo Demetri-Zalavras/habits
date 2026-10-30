@@ -1,0 +1,34 @@
+{
+  "rarity": "rare",
+  "category": "crafting",
+  "class": "habits:class/crafting/runewright",
+  "trigger": {
+    "type": "damage_taken",
+    "match": [
+      "minecraft:magic",
+      "minecraft:indirect_magic"
+    ],
+    "chance": 0.17
+  },
+  "icon": "minecraft:leather_chestplate",
+  "art": "minecraft:purpur_block",
+  "perk": {
+    "type": "damage_type_resist",
+    "values": [
+      10,
+      14,
+      19,
+      23,
+      28,
+      32,
+      37,
+      41,
+      46,
+      50
+    ],
+    "params": {
+      "damage": "minecraft:magic,minecraft:indirect_magic"
+    }
+  },
+  "perk_text": "{v}% less magic damage"
+}

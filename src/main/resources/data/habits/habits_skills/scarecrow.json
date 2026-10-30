@@ -1,0 +1,26 @@
+{
+  "rarity": "uncommon",
+  "category": "farming",
+  "trigger": {
+    "type": "harvest_crop",
+    "match": "minecraft:pumpkin",
+    "chance": 0.00313
+  },
+  "icon": "minecraft:jack_o_lantern",
+  "art": "minecraft:pumpkin",
+  "perk": {
+    "mechanic": "habits:scarecrow",
+    "values": [
+      4,
+      6,
+      8,
+      11,
+      13,
+      15,
+      17,
+      20,
+      22,
+      24
+    ]
+  }
+}

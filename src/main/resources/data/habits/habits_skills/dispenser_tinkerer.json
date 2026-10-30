@@ -1,0 +1,29 @@
+{
+  "rarity": "rare",
+  "category": "building",
+  "trigger": {
+    "type": "place_block",
+    "chance": 0.0167,
+    "match": [
+      "minecraft:dispenser",
+      "minecraft:dropper"
+    ]
+  },
+  "icon": "minecraft:dispenser",
+  "art": "minecraft:cobblestone",
+  "perk": {
+    "mechanic": "habits:dispenser_tinkerer",
+    "values": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  }
+}

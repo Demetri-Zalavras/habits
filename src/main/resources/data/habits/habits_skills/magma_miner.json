@@ -1,0 +1,29 @@
+{
+  "rarity": "uncommon",
+  "category": "mining",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:lava_side_break",
+    "chance": 0.0312
+  },
+  "icon": "minecraft:magma_block",
+  "art": "minecraft:magma_block",
+  "perk": {
+    "mechanic": "habits:magma_miner",
+    "params": {
+      "sources_level": "6"
+    },
+    "values": [
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      3,
+      3,
+      4,
+      4
+    ]
+  }
+}

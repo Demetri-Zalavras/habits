@@ -1,0 +1,30 @@
+{
+  "rarity": "common",
+  "category": "farming",
+  "trigger": {
+    "type": "bonemeal",
+    "match": "#minecraft:crops",
+    "chance": 0.0067
+  },
+  "icon": "minecraft:bone_meal",
+  "art": "minecraft:farmland",
+  "perk": {
+    "type": "crop_growth_aura",
+    "params": {
+      "radius": "4"
+    },
+    "values": [
+      2,
+      4,
+      6,
+      8,
+      10,
+      12,
+      14,
+      16,
+      18,
+      20
+    ]
+  },
+  "perk_text": "Crops within 4 blocks get a {v}% growth chance every second"
+}

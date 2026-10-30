@@ -1,0 +1,30 @@
+{
+  "rarity": "uncommon",
+  "category": "ranger",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:tipped_arrow_hit",
+    "chance": 0.0208
+  },
+  "icon": "minecraft:tipped_arrow",
+  "art": "minecraft:slime_block",
+  "perk": {
+    "mechanic": "habits:venom_fletcher",
+    "values": [
+      20.0,
+      40.0,
+      60.0,
+      80.0,
+      100.0,
+      120.0,
+      140.0,
+      160.0,
+      180.0,
+      200.0
+    ],
+    "params": {
+      "cloud": "0,0,0,0,1,1,1.5,1.5,2,2",
+      "cloud_s": "0,0,0,0,1,1.5,2,2,2.5,3"
+    }
+  }
+}

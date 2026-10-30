@@ -1,0 +1,30 @@
+{
+  "rarity": "uncommon",
+  "category": "warrior",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:frost_kill",
+    "chance": 0.0625
+  },
+  "icon": "minecraft:powder_snow_bucket",
+  "art": "minecraft:blue_ice",
+  "perk": {
+    "mechanic": "habits:melee/frostbite",
+    "params": {
+      "shatter": "10,30",
+      "radius": "0,3"
+    },
+    "values": [
+      40.0,
+      51.0,
+      62.0,
+      73.0,
+      84.0,
+      96.0,
+      107.0,
+      118.0,
+      129.0,
+      140.0
+    ]
+  }
+}

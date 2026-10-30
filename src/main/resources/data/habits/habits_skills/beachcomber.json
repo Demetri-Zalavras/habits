@@ -1,0 +1,32 @@
+{
+  "rarity": "common",
+  "category": "exploration",
+  "trigger": {
+    "type": "enter_biome",
+    "match": [
+      "#minecraft:is_beach",
+      "minecraft:stony_shore"
+    ],
+    "chance": 0.2
+  },
+  "icon": "minecraft:prismarine_shard",
+  "art": "minecraft:sand",
+  "perk": {
+    "mechanic": "habits:movement/beachcomber",
+    "params": {
+      "items": "minecraft:nautilus_shell,minecraft:prismarine_shard,minecraft:prismarine_crystals,minecraft:kelp,minecraft:sea_pickle,minecraft:ink_sac"
+    },
+    "values": [
+      1.7,
+      2.6,
+      3.5,
+      4.5,
+      5.4,
+      6.3,
+      7.2,
+      8.2,
+      9.1,
+      10.0
+    ]
+  }
+}

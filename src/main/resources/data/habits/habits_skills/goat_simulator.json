@@ -1,0 +1,31 @@
+{
+  "rarity": "rare",
+  "category": "nature",
+  "trigger": {
+    "type": "damage_taken",
+    "entity": "minecraft:goat",
+    "chance": 0.0667
+  },
+  "icon": "minecraft:goat_horn",
+  "art": "minecraft:packed_ice",
+  "perk": {
+    "mechanic": "habits:goat_simulator",
+    "params": {
+      "horns": "ponder_goat_horn=night_vision,sing_goat_horn=regeneration,seek_goat_horn=glowing,feel_goat_horn=speed,admire_goat_horn=luck,call_goat_horn=strength,yearn_goat_horn=absorption,dream_goat_horn=slow_falling",
+      "seconds": "30..120",
+      "amp": "0..1"
+    },
+    "values": [
+      8,
+      11,
+      13,
+      16,
+      19,
+      21,
+      24,
+      27,
+      29,
+      32
+    ]
+  }
+}

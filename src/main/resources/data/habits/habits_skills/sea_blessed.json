@@ -1,0 +1,29 @@
+{
+  "rarity": "uncommon",
+  "category": "guardian",
+  "trigger": {
+    "type": "custom",
+    "match": [
+      "habits:effect_conduit_power",
+      "habits:effect_dolphins_grace"
+    ],
+    "chance": 0.125
+  },
+  "icon": "minecraft:conduit",
+  "art": "minecraft:prismarine",
+  "perk": {
+    "mechanic": "habits:survival/sea_blessed",
+    "values": [
+      5,
+      14,
+      24,
+      33,
+      43,
+      52,
+      62,
+      71,
+      81,
+      90
+    ]
+  }
+}

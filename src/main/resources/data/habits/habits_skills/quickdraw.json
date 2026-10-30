@@ -1,0 +1,29 @@
+{
+  "rarity": "uncommon",
+  "category": "ranger",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:quick_followup",
+    "chance": 0.0208
+  },
+  "icon": "minecraft:bow",
+  "art": "minecraft:birch_planks",
+  "perk": {
+    "mechanic": "habits:quickdraw",
+    "values": [
+      10.0,
+      20.0,
+      30.0,
+      40.0,
+      50.0,
+      60.0,
+      70.0,
+      80.0,
+      90.0,
+      100.0
+    ],
+    "params": {
+      "chain": "1,1,1,2,2,2,2,3,3,3"
+    }
+  }
+}

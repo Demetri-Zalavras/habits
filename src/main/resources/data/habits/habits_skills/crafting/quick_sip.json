@@ -1,0 +1,14 @@
+{
+  "rarity": "common",
+  "category": "crafting",
+  "trigger": {
+    "type": "drink_potion",
+    "chance": 0.1
+  },
+  "icon": "minecraft:potion",
+  "art": "minecraft:glass",
+  "perk": {
+    "mechanic": "habits:crafting/quick_sip",
+    "values": [10, 16, 21, 27, 32, 38, 43, 49, 54, 60]
+  }
+}

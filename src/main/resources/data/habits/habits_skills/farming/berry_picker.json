@@ -1,0 +1,26 @@
+{
+  "rarity": "common",
+  "category": "farming",
+  "trigger": {
+    "type": "harvest_crop",
+    "match": "minecraft:sweet_berry_bush",
+    "chance": 0.005
+  },
+  "icon": "minecraft:sweet_berries",
+  "art": "minecraft:spruce_leaves",
+  "perk": {
+    "mechanic": "habits:farming/berry_picker",
+    "values": [
+      1,
+      1,
+      2,
+      2,
+      3,
+      3,
+      4,
+      4,
+      5,
+      5
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "rarity": "uncommon",
+  "category": "ranger",
+  "trigger": {
+    "type": "drink_potion",
+    "match": [
+      "minecraft:night_vision",
+      "minecraft:long_night_vision",
+      "minecraft:strong_night_vision"
+    ],
+    "chance": 0.0625
+  },
+  "icon": "minecraft:golden_carrot",
+  "art": "minecraft:deepslate",
+  "perk": {
+    "mechanic": "habits:survival/owl_eyes",
+    "values": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  }
+}

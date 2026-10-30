@@ -1,0 +1,35 @@
+{
+  "rarity": "uncommon",
+  "category": "building",
+  "trigger": {
+    "type": "break_block",
+    "match": [
+      "minecraft:short_grass",
+      "minecraft:tall_grass",
+      "minecraft:fern",
+      "minecraft:large_fern",
+      "minecraft:dead_bush"
+    ],
+    "chance": 0.00104
+  },
+  "icon": "minecraft:short_grass",
+  "art": "minecraft:grass_block",
+  "perk": {
+    "mechanic": "habits:building/brush_clearer",
+    "values": [
+      1,
+      1,
+      2,
+      2,
+      2,
+      3,
+      3,
+      3,
+      4,
+      4
+    ],
+    "params": {
+      "per_tick": "16"
+    }
+  }
+}

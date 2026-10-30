@@ -1,0 +1,30 @@
+{
+  "rarity": "rare",
+  "category": "building",
+  "trigger": {
+    "type": "sneak_distance",
+    "chance": 0.000427
+  },
+  "icon": "minecraft:golden_pickaxe",
+  "art": "minecraft:gold_block",
+  "perk": {
+    "type": "mob_effect_conditional",
+    "values": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2
+    ],
+    "params": {
+      "effect": "minecraft:haste",
+      "condition": "sneaking"
+    }
+  },
+  "perk_text": "Haste {v} while sneaking"
+}

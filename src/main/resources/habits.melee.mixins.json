@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.habits.perk.combat.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "FishingHookMixin",
+    "MeleeItemStackMixin",
+    "MobMixin"
+  ],
+  "client": [],
+  "injectors": {"defaultRequire": 1}
+}

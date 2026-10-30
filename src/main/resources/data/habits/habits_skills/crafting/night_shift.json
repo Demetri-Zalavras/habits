@@ -1,0 +1,19 @@
+{
+  "rarity": "uncommon",
+  "category": "crafting",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:mass_craft",
+    "chance": 0.3125
+  },
+  "icon": "minecraft:clock",
+  "art": "minecraft:black_concrete",
+  "perk": {
+    "type": "xp_bonus",
+    "values": [3, 6, 9, 12, 15, 18, 21, 24, 27, 30],
+    "params": {
+      "condition": "night"
+    }
+  },
+  "perk_text": "Experience +{v}% at night"
+}

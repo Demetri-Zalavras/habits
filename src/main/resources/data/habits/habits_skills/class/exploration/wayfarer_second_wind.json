@@ -1,0 +1,31 @@
+{
+  "rarity": "rare",
+  "category": "exploration",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:long_sprint",
+    "chance": 0.033
+  },
+  "icon": "minecraft:honey_bottle",
+  "art": "minecraft:moss_block",
+  "perk": {
+    "type": "regen",
+    "params": {
+      "condition": "sprinting"
+    },
+    "values": [
+      2,
+      3.1,
+      4.2,
+      5.3,
+      6.4,
+      7.6,
+      8.7,
+      9.8,
+      10.9,
+      12
+    ]
+  },
+  "class": "habits:class/exploration/wayfarer",
+  "perk_text": "Heal {v} health a minute while sprinting"
+}

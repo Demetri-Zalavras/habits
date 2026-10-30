@@ -1,0 +1,31 @@
+{
+  "rarity": "epic",
+  "category": "nature",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:never",
+    "chance": 0
+  },
+  "icon": "minecraft:snowball",
+  "art": "minecraft:snow_block",
+  "perk": {
+    "type": "hunger_save",
+    "values": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ]
+  },
+  "title": {
+    "stat_type": "minecraft:killed",
+    "stat": "mowziesmobs:frostmaw",
+    "min": 1
+  }
+}

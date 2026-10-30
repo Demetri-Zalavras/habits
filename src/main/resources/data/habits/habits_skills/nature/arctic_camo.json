@@ -1,0 +1,31 @@
+{
+  "rarity": "rare",
+  "category": "nature",
+  "trigger": {
+    "type": "interact_entity",
+    "match": "minecraft:fox",
+    "chance": 0.0333
+  },
+  "icon": "minecraft:snowball",
+  "art": "minecraft:snow_block",
+  "perk": {
+    "type": "mob_effect_conditional",
+    "values": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "params": {
+      "effect": "minecraft:invisibility",
+      "condition": "sneaking,biome=#c:is_snowy"
+    }
+  },
+  "perk_text": "Invisible while sneaking in snowy biomes"
+}

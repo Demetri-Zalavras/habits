@@ -1,0 +1,33 @@
+{
+  "rarity": "rare",
+  "category": "nature",
+  "trigger": {
+    "type": "breed",
+    "match": [
+      "minecraft:horse",
+      "minecraft:donkey",
+      "minecraft:mule"
+    ],
+    "chance": 0.0333
+  },
+  "icon": "minecraft:saddle",
+  "art": "minecraft:hay_block",
+  "perk": {
+    "mechanic": "habits:stud_book",
+    "params": {
+      "bias": "20,100"
+    },
+    "values": [
+      2,
+      4,
+      6,
+      8,
+      10,
+      12,
+      14,
+      16,
+      18,
+      20
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "rarity": "common",
+  "category": "ranger",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:ranged/arrow_miss",
+    "chance": 0.008
+  },
+  "icon": "minecraft:feather",
+  "art": "minecraft:white_wool",
+  "perk": {
+    "mechanic": "habits:ranged/swift_fletch",
+    "values": [
+      3.0,
+      6.0,
+      9.0,
+      12.0,
+      15.0,
+      18.0,
+      21.0,
+      24.0,
+      27.0,
+      30.0
+    ]
+  }
+}

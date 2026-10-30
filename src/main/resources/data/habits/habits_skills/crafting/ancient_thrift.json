@@ -1,0 +1,15 @@
+{
+  "rarity": "epic",
+  "category": "crafting",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:smithing_take",
+    "chance": 0.01667
+  },
+  "icon": "minecraft:netherite_ingot",
+  "art": "minecraft:ancient_debris",
+  "perk": {
+    "mechanic": "habits:crafting/ancient_thrift",
+    "values": [3, 6, 9, 12, 15, 18, 21, 24, 27, 30]
+  }
+}

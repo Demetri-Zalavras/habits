@@ -1,0 +1,26 @@
+{
+  "rarity": "rare",
+  "category": "movement",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:long_walk",
+    "chance": 0.133
+  },
+  "icon": "minecraft:iron_boots",
+  "art": "minecraft:coarse_dirt",
+  "perk": {
+    "mechanic": "habits:movement/long_legs",
+    "values": [
+      1.0,
+      1.2,
+      1.3,
+      1.5,
+      1.7,
+      1.8,
+      2.0,
+      2.2,
+      2.3,
+      2.5
+    ]
+  }
+}

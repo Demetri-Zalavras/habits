@@ -1,0 +1,29 @@
+{
+  "rarity": "epic",
+  "category": "building",
+  "trigger": {
+    "type": "open_container",
+    "match": [
+      "minecraft:chest",
+      "minecraft:barrel"
+    ],
+    "chance": 0.00417
+  },
+  "icon": "minecraft:chest_minecart",
+  "art": "minecraft:barrel",
+  "perk": {
+    "mechanic": "habits:building/moving_day",
+    "values": [
+      2,
+      4,
+      6,
+      9,
+      12,
+      15,
+      18,
+      21,
+      24,
+      27
+    ]
+  }
+}

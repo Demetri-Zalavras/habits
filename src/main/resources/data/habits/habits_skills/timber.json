@@ -1,0 +1,29 @@
+{
+  "rarity": "common",
+  "category": "farming",
+  "trigger": {
+    "type": "break_block",
+    "match": "#minecraft:logs",
+    "chance": 0.005
+  },
+  "icon": "minecraft:iron_axe",
+  "art": "minecraft:oak_log",
+  "perk": {
+    "mechanic": "habits:timber",
+    "params": {
+      "per_tick": "2,8"
+    },
+    "values": [
+      8,
+      16,
+      24,
+      32,
+      48,
+      64,
+      96,
+      128,
+      192,
+      256
+    ]
+  }
+}

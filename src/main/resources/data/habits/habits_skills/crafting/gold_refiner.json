@@ -1,0 +1,30 @@
+{
+  "rarity": "uncommon",
+  "category": "crafting",
+  "trigger": {
+    "type": "smelt",
+    "match": "minecraft:gold_ingot",
+    "chance": 0.04
+  },
+  "icon": "minecraft:gold_ingot",
+  "art": "minecraft:raw_gold_block",
+  "perk": {
+    "type": "smelt_bonus",
+    "params": {
+      "item": "minecraft:gold_ingot"
+    },
+    "values": [
+      3,
+      6,
+      9,
+      12,
+      15,
+      18,
+      21,
+      24,
+      27,
+      30
+    ]
+  },
+  "perk_text": "{v}% chance of double gold ingots"
+}

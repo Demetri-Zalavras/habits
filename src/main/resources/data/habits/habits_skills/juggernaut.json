@@ -1,0 +1,71 @@
+{
+  "rarity": "epic",
+  "category": "warrior",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:melee_kill",
+    "chance": 0.0333,
+    "entity": "minecraft:ravager"
+  },
+  "icon": "minecraft:netherite_chestplate",
+  "art": "minecraft:obsidian",
+  "perk": {
+    "mechanic": "habits:melee/juggernaut",
+    "params": {
+      "roar_cooldown": "0,0,0,20,18,16,14,12,11,10",
+      "roar_radius": "5"
+    },
+    "values": [
+      2.0,
+      2.7,
+      3.3,
+      4.0,
+      4.7,
+      5.3,
+      6.0,
+      6.7,
+      7.3,
+      8.0
+    ]
+  },
+  "forks": [
+    {
+      "level": 5,
+      "options": [
+        {
+          "id": "big_roar",
+          "scale": 0.8,
+          "params": {
+            "roar_radius": "9"
+          }
+        },
+        {
+          "id": "trampler",
+          "scale": 1.25,
+          "params": {
+            "roar_radius": "3"
+          }
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "options": [
+        {
+          "id": "rally_roar",
+          "scale": 0.85,
+          "params": {
+            "roar_cooldown": "0,0,0,20,18,16,14,12,11,5"
+          }
+        },
+        {
+          "id": "silent_charge",
+          "scale": 1.4,
+          "params": {
+            "roar_cooldown": "0"
+          }
+        }
+      ]
+    }
+  ]
+}

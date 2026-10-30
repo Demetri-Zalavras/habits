@@ -1,0 +1,29 @@
+{
+  "rarity": "common",
+  "category": "nature",
+  "trigger": {
+    "type": "break_block",
+    "match": [
+      "minecraft:seagrass",
+      "minecraft:tall_seagrass"
+    ],
+    "chance": 0.00333
+  },
+  "icon": "minecraft:seagrass",
+  "art": "minecraft:dried_kelp_block",
+  "perk": {
+    "mechanic": "habits:nature/kelp_cover",
+    "values": [
+      10,
+      18,
+      26,
+      33,
+      41,
+      49,
+      57,
+      64,
+      72,
+      80
+    ]
+  }
+}

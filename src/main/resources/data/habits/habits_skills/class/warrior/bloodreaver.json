@@ -1,0 +1,27 @@
+{
+  "rarity": "epic",
+  "category": "warrior",
+  "class_passive": true,
+  "trigger": {
+    "type": "damage_taken",
+    "match": "minecraft:mob_attack",
+    "chance": 0.0017
+  },
+  "icon": "minecraft:redstone",
+  "art": "minecraft:red_nether_bricks",
+  "perk": {
+    "mechanic": "habits:melee/blood_frenzy",
+    "values": [
+      3,
+      3.5,
+      4,
+      4.5,
+      5,
+      5.5,
+      6,
+      6.5,
+      7,
+      8
+    ]
+  }
+}

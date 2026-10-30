@@ -1,0 +1,27 @@
+{
+  "rarity": "epic",
+  "category": "building",
+  "class": "habits:class/building/worldwright",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:stack_used_up",
+    "chance": 0.0167
+  },
+  "icon": "minecraft:chest_minecart",
+  "art": "minecraft:barrel",
+  "perk": {
+    "mechanic": "habits:building/supply_line",
+    "values": [
+      64,
+      96,
+      128,
+      192,
+      256,
+      384,
+      512,
+      768,
+      1024,
+      2048
+    ]
+  }
+}

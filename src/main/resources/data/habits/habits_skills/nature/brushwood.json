@@ -1,0 +1,31 @@
+{
+  "rarity": "common",
+  "category": "nature",
+  "trigger": {
+    "type": "break_block",
+    "match": "#minecraft:leaves",
+    "item": "minecraft:shears",
+    "chance": 0.00167
+  },
+  "icon": "minecraft:shears",
+  "art": "minecraft:spruce_leaves",
+  "perk": {
+    "type": "mining_speed",
+    "values": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60,
+      70,
+      80,
+      90,
+      100
+    ],
+    "params": {
+      "block": "#minecraft:leaves,minecraft:vine,minecraft:glow_lichen"
+    }
+  },
+  "perk_text": "Leaf and vine cutting speed +{v}%"
+}

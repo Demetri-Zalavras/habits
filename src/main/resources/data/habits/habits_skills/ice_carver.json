@@ -1,0 +1,27 @@
+{
+  "rarity": "common",
+  "category": "mining",
+  "trigger": {
+    "type": "break_block",
+    "match": "#minecraft:ice",
+    "item": "#minecraft:pickaxes",
+    "chance": 0.0025
+  },
+  "icon": "minecraft:packed_ice",
+  "art": "minecraft:packed_ice",
+  "perk": {
+    "mechanic": "habits:ice_carver",
+    "values": [
+      25,
+      33,
+      42,
+      50,
+      58,
+      67,
+      75,
+      83,
+      92,
+      100
+    ]
+  }
+}

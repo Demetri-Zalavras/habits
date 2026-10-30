@@ -1,0 +1,31 @@
+{
+  "rarity": "uncommon",
+  "category": "nature",
+  "trigger": {
+    "type": "ride_distance",
+    "match": [
+      "minecraft:horse",
+      "minecraft:donkey",
+      "minecraft:mule",
+      "minecraft:camel"
+    ],
+    "chance": 0.00013
+  },
+  "icon": "minecraft:golden_apple",
+  "art": "minecraft:hay_block",
+  "perk": {
+    "mechanic": "habits:nature/mount_mend",
+    "values": [
+      4,
+      8,
+      12,
+      16,
+      20,
+      24,
+      28,
+      32,
+      36,
+      40
+    ]
+  }
+}

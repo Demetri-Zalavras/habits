@@ -1,0 +1,38 @@
+# Build output
+build/
+out/
+bin/
+repo/
+*.class
+*.jar
+!gradle/wrapper/gradle-wrapper.jar
+
+# Gradle / run
+.gradle/
+run/
+runs/
+src/generated/**/.cache
+logs/
+*.log
+crash-reports/
+screenshots/
+
+# Secrets
+.env
+.env.*
+*.env
+*.pem
+*.key
+*.p12
+secrets/
+local.properties
+
+# IDE / OS / tooling
+.idea/
+*.iml
+.vscode/
+.claude/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db

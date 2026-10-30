@@ -1,0 +1,31 @@
+{
+  "rarity": "epic",
+  "category": "mining",
+  "class": "habits:class/mining/worldbreaker",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:mining/worn_tool_break",
+    "chance": 0.0017
+  },
+  "icon": "minecraft:diamond_pickaxe",
+  "art": "minecraft:obsidian",
+  "perk": {
+    "type": "durability_save",
+    "params": {
+      "item": "#minecraft:pickaxes"
+    },
+    "values": [
+      10,
+      15,
+      20,
+      25,
+      30,
+      35,
+      40,
+      45,
+      50,
+      55
+    ]
+  },
+  "perk_text": "{v}% chance a pickaxe use costs no durability"
+}

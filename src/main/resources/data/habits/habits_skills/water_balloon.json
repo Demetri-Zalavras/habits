@@ -1,0 +1,31 @@
+{
+  "rarity": "uncommon",
+  "category": "ranger",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:water_splash_hurt",
+    "chance": 0.0625
+  },
+  "icon": "minecraft:potion",
+  "art": "minecraft:water",
+  "perk": {
+    "mechanic": "habits:water_balloon",
+    "values": [
+      2.0,
+      2.9,
+      3.8,
+      4.7,
+      5.6,
+      6.4,
+      7.3,
+      8.2,
+      9.1,
+      10.0
+    ],
+    "params": {
+      "radius": "2..4",
+      "fire_blocks": "0,0,0,0,0,0,0,0,1,1",
+      "wet": "5"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "rarity": "rare",
+  "category": "farming",
+  "trigger": {
+    "type": "stat_increment",
+    "match": "minecraft:fill_cauldron",
+    "chance": 0.067
+  },
+  "icon": "minecraft:cauldron",
+  "art": "minecraft:farmland",
+  "perk": {
+    "mechanic": "habits:farming/sprinkler",
+    "values": [
+      5,
+      6,
+      6,
+      7,
+      8,
+      9,
+      9,
+      10,
+      11,
+      12
+    ]
+  }
+}

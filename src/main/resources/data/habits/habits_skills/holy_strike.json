@@ -1,0 +1,30 @@
+{
+  "rarity": "common",
+  "category": "warrior",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:melee_kill",
+    "chance": 0.025,
+    "entity": "#minecraft:undead"
+  },
+  "icon": "minecraft:glowstone_dust",
+  "art": "minecraft:glowstone",
+  "perk": {
+    "mechanic": "habits:melee/holy_strike",
+    "params": {
+      "heal": "0.5,3"
+    },
+    "values": [
+      2.0,
+      2.7,
+      3.3,
+      4.0,
+      4.7,
+      5.3,
+      6.0,
+      6.7,
+      7.3,
+      8.0
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "rarity": "epic",
+  "category": "exploration",
+  "trigger": {
+    "type": "enter_biome",
+    "chance": 0.01
+  },
+  "icon": "minecraft:compass",
+  "art": "minecraft:cartography_table",
+  "perk": {
+    "type": "hunger_save",
+    "values": [
+      5,
+      9,
+      13,
+      17,
+      21,
+      24,
+      28,
+      32,
+      36,
+      40
+    ]
+  },
+  "forks": [
+    {
+      "level": 5,
+      "options": [
+        {
+          "id": "easy_pace"
+        },
+        {
+          "id": "trailblazer",
+          "scale": 1.6,
+          "params": {
+            "condition": "sprinting"
+          }
+        }
+      ]
+    }
+  ]
+}

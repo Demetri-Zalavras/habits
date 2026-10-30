@@ -1,0 +1,30 @@
+{
+  "rarity": "rare",
+  "category": "movement",
+  "trigger": {
+    "type": "ride_distance",
+    "match": "minecraft:camel",
+    "chance": 0.0001
+  },
+  "icon": "minecraft:cactus",
+  "art": "minecraft:sandstone",
+  "perk": {
+    "type": "reach",
+    "params": {
+      "condition": "riding"
+    },
+    "values": [
+      0.25,
+      0.5,
+      0.75,
+      1,
+      1.25,
+      1.5,
+      1.75,
+      2,
+      2.25,
+      2.5
+    ]
+  },
+  "perk_text": "Reach +{v} blocks while riding"
+}

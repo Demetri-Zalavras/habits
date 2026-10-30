@@ -1,0 +1,26 @@
+{
+  "rarity": "rare",
+  "category": "guardian",
+  "trigger": {
+    "type": "custom_units",
+    "match": "habits:diamond_armor_damage",
+    "chance": 0.00333
+  },
+  "icon": "minecraft:diamond_chestplate",
+  "art": "minecraft:diamond_block",
+  "perk": {
+    "mechanic": "habits:survival/diamond_spine",
+    "values": [
+      5,
+      11,
+      17,
+      23,
+      29,
+      36,
+      42,
+      48,
+      54,
+      60
+    ]
+  }
+}

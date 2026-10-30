@@ -1,0 +1,31 @@
+{
+  "rarity": "uncommon",
+  "category": "warrior",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:stomp",
+    "chance": 0.125,
+    "min": 3
+  },
+  "icon": "minecraft:iron_boots",
+  "art": "minecraft:red_mushroom_block",
+  "perk": {
+    "mechanic": "habits:melee/goomba_stomp",
+    "params": {
+      "cap": "6,30",
+      "bounce": "2,6"
+    },
+    "values": [
+      1.0,
+      1.2,
+      1.4,
+      1.7,
+      1.9,
+      2.1,
+      2.3,
+      2.6,
+      2.8,
+      3.0
+    ]
+  }
+}

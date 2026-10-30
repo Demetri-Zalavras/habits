@@ -1,0 +1,30 @@
+{
+  "rarity": "rare",
+  "category": "ranger",
+  "trigger": {
+    "type": "kill_entity",
+    "match": "minecraft:drowned",
+    "item": "minecraft:trident",
+    "chance": 0.0167
+  },
+  "icon": "minecraft:nautilus_shell",
+  "art": "minecraft:prismarine",
+  "perk": {
+    "mechanic": "habits:trident_thief",
+    "values": [
+      2.0,
+      4.56,
+      7.11,
+      9.67,
+      12.22,
+      14.78,
+      17.33,
+      19.89,
+      22.44,
+      25.0
+    ],
+    "params": {
+      "shell": "2..15"
+    }
+  }
+}

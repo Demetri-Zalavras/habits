@@ -1,0 +1,32 @@
+{
+  "rarity": "common",
+  "category": "movement",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:edge_peek",
+    "chance": 0.1
+  },
+  "icon": "minecraft:scaffolding",
+  "art": "minecraft:stone_bricks",
+  "perk": {
+    "type": "attribute",
+    "params": {
+      "attribute": "minecraft:generic.safe_fall_distance",
+      "operation": "add_value",
+      "condition": "sneaking"
+    },
+    "values": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  "perk_text": "Safe fall +{v} blocks while sneaking"
+}

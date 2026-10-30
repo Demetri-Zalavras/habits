@@ -1,0 +1,31 @@
+{
+  "rarity": "epic",
+  "category": "guardian",
+  "class": "habits:class/guardian/oathsworn",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:ally_hurt_nearby",
+    "chance": 0.0083
+  },
+  "icon": "minecraft:beacon",
+  "art": "minecraft:quartz_bricks",
+  "perk": {
+    "mechanic": "habits:survival/sanctuary",
+    "values": [
+      1,
+      1.3,
+      1.7,
+      2,
+      2.3,
+      2.7,
+      3,
+      3.3,
+      3.7,
+      4
+    ],
+    "params": {
+      "interval": "5",
+      "radius": "6..10"
+    }
+  }
+}

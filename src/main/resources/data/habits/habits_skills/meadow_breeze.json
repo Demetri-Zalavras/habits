@@ -1,0 +1,34 @@
+{
+  "rarity": "common",
+  "category": "exploration",
+  "trigger": {
+    "type": "enter_biome",
+    "match": [
+      "minecraft:meadow",
+      "minecraft:flower_forest",
+      "minecraft:sunflower_plains",
+      "minecraft:cherry_grove"
+    ],
+    "chance": 0.2
+  },
+  "icon": "minecraft:honeycomb",
+  "art": "minecraft:honeycomb_block",
+  "perk": {
+    "mechanic": "habits:movement/meadow_breeze",
+    "params": {
+      "amp": "0,0,0,0,0,1,1,1,1,1"
+    },
+    "values": [
+      1.0,
+      1.2,
+      1.4,
+      1.7,
+      1.9,
+      2.1,
+      2.3,
+      2.6,
+      2.8,
+      3.0
+    ]
+  }
+}

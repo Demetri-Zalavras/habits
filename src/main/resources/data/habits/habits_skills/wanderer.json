@@ -1,0 +1,28 @@
+{
+  "rarity": "common",
+  "category": "movement",
+  "trigger": {
+    "type": "walk_distance",
+    "chance": 0.000386
+  },
+  "icon": "minecraft:leather_boots",
+  "art": "minecraft:gravel",
+  "perk": {
+    "mechanic": "habits:movement/wanderer",
+    "params": {
+      "step": "0,0,0,0,0.5,0.5,0.5,0.5,0.5,0.5"
+    },
+    "values": [
+      5,
+      10,
+      15,
+      20,
+      25,
+      30,
+      35,
+      40,
+      45,
+      50
+    ]
+  }
+}

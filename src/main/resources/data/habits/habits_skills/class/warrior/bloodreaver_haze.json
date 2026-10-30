@@ -1,0 +1,32 @@
+{
+  "rarity": "uncommon",
+  "category": "warrior",
+  "class": "habits:class/warrior/bloodreaver",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:crit",
+    "item": "#minecraft:axes",
+    "chance": 0.004
+  },
+  "icon": "minecraft:fermented_spider_eye",
+  "art": "minecraft:red_terracotta",
+  "perk": {
+    "type": "crit_damage",
+    "params": {
+      "condition": "low_health"
+    },
+    "values": [
+      10,
+      14,
+      19,
+      23,
+      28,
+      32,
+      37,
+      41,
+      46,
+      50
+    ]
+  },
+  "perk_text": "Below 30% health, crits deal {v}% more damage"
+}

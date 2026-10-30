@@ -1,0 +1,29 @@
+{
+  "rarity": "common",
+  "category": "mining",
+  "trigger": {
+    "type": "break_block",
+    "match": [
+      "minecraft:soul_sand",
+      "minecraft:soul_soil"
+    ],
+    "chance": 0.00167
+  },
+  "icon": "minecraft:soul_sand",
+  "art": "minecraft:soul_soil",
+  "perk": {
+    "mechanic": "habits:soul_digger",
+    "values": [
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2,
+      3,
+      3,
+      3
+    ]
+  }
+}

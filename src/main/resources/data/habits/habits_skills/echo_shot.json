@@ -1,0 +1,71 @@
+{
+  "rarity": "legendary",
+  "category": "ranger",
+  "trigger": {
+    "type": "damage_dealt",
+    "match": "minecraft:arrow",
+    "entity": "minecraft:warden",
+    "chance": 0.0133
+  },
+  "icon": "minecraft:echo_shard",
+  "art": "minecraft:sculk",
+  "perk": {
+    "mechanic": "habits:echo_shot",
+    "values": [
+      4,
+      6,
+      8,
+      11,
+      13,
+      15,
+      17,
+      20,
+      22,
+      24
+    ],
+    "params": {
+      "secs": "2..10",
+      "max": "24"
+    }
+  },
+  "forks": [
+    {
+      "level": 5,
+      "options": [
+        {
+          "id": "wide_echo",
+          "scale": 1.3,
+          "params": {
+            "secs": "1..5"
+          }
+        },
+        {
+          "id": "lingering_echo",
+          "scale": 0.75,
+          "params": {
+            "secs": "4..20"
+          }
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "options": [
+        {
+          "id": "many_marks",
+          "scale": 0.8,
+          "params": {
+            "max": "48"
+          }
+        },
+        {
+          "id": "few_marks",
+          "scale": 1.3,
+          "params": {
+            "max": "10"
+          }
+        }
+      ]
+    }
+  ]
+}

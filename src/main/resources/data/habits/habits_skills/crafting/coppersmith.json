@@ -1,0 +1,30 @@
+{
+  "rarity": "common",
+  "category": "crafting",
+  "trigger": {
+    "type": "smelt",
+    "match": "minecraft:copper_ingot",
+    "chance": 0.05
+  },
+  "icon": "minecraft:copper_ingot",
+  "art": "minecraft:raw_copper_block",
+  "perk": {
+    "type": "smelt_bonus",
+    "params": {
+      "item": "minecraft:copper_ingot"
+    },
+    "values": [
+      4,
+      8,
+      12,
+      16,
+      20,
+      24,
+      28,
+      32,
+      36,
+      40
+    ]
+  },
+  "perk_text": "{v}% chance of double copper ingots"
+}

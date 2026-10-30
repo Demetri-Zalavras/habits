@@ -1,0 +1,31 @@
+{
+  "rarity": "legendary",
+  "category": "ranger",
+  "class": "habits:class/ranger/heavenpiercer",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:arrow_hit_30",
+    "chance": 0.004
+  },
+  "icon": "minecraft:echo_shard",
+  "art": "minecraft:sculk",
+  "perk": {
+    "mechanic": "habits:ranged/sonic_shot",
+    "values": [
+      8.0,
+      9.3,
+      10.7,
+      12.0,
+      13.3,
+      14.7,
+      16.0,
+      17.3,
+      18.7,
+      20.0
+    ],
+    "params": {
+      "every": "6,6,5,5,5,4,4,4,3,3",
+      "range": "20..32"
+    }
+  }
+}

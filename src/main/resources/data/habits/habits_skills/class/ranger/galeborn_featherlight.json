@@ -1,0 +1,31 @@
+{
+  "rarity": "epic",
+  "category": "ranger",
+  "class": "habits:class/ranger/galeborn",
+  "trigger": {
+    "type": "damage_taken",
+    "match": "minecraft:fall",
+    "chance": 0.02
+  },
+  "icon": "minecraft:feather",
+  "art": "minecraft:white_concrete",
+  "perk": {
+    "type": "damage_type_resist",
+    "values": [
+      20.0,
+      26.7,
+      33.3,
+      40.0,
+      46.7,
+      53.3,
+      60.0,
+      66.7,
+      73.3,
+      80.0
+    ],
+    "params": {
+      "damage": "minecraft:fall"
+    }
+  },
+  "perk_text": "Fall damage -{v}%"
+}

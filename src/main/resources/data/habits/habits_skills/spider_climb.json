@@ -1,0 +1,30 @@
+{
+  "rarity": "common",
+  "category": "movement",
+  "trigger": {
+    "type": "stat_increment",
+    "match": "minecraft:climb_one_cm",
+    "chance": 7.09e-06
+  },
+  "icon": "minecraft:ladder",
+  "art": "minecraft:jungle_planks",
+  "perk": {
+    "mechanic": "habits:movement/spider_climb",
+    "params": {
+      "wall_level": "5",
+      "stamina": "0,0,0,0,3,4,6,8,12,999"
+    },
+    "values": [
+      20,
+      40,
+      60,
+      80,
+      100,
+      120,
+      140,
+      160,
+      180,
+      200
+    ]
+  }
+}

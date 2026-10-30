@@ -1,0 +1,31 @@
+{
+  "rarity": "common",
+  "category": "nature",
+  "trigger": {
+    "type": "break_block",
+    "match": "#minecraft:leaves",
+    "item": "#minecraft:hoes",
+    "chance": 0.00167
+  },
+  "icon": "minecraft:oak_leaves",
+  "art": "minecraft:oak_leaves",
+  "perk": {
+    "type": "drop_bonus",
+    "values": [
+      5,
+      10,
+      15,
+      20,
+      25,
+      30,
+      35,
+      40,
+      45,
+      50
+    ],
+    "params": {
+      "block": "#minecraft:leaves"
+    }
+  },
+  "perk_text": "{v}% chance leaves drop twice"
+}

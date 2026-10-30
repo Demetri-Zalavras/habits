@@ -1,0 +1,34 @@
+{
+  "rarity": "rare",
+  "category": "warrior",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:melee_kill",
+    "chance": 0.00833,
+    "item": [
+      "minecraft:netherite_sword",
+      "minecraft:netherite_axe"
+    ]
+  },
+  "icon": "minecraft:netherite_sword",
+  "art": "minecraft:magma_block",
+  "perk": {
+    "mechanic": "habits:melee/molten_core",
+    "params": {
+      "radius": "2,5",
+      "damage": "4,14"
+    },
+    "values": [
+      10.0,
+      9.0,
+      8.0,
+      8.0,
+      7.0,
+      6.0,
+      6.0,
+      5.0,
+      5.0,
+      4.0
+    ]
+  }
+}

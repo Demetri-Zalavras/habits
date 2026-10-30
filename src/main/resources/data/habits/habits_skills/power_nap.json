@@ -1,0 +1,31 @@
+{
+  "rarity": "common",
+  "category": "guardian",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:day_nap",
+    "chance": 0.05
+  },
+  "icon": "minecraft:yellow_bed",
+  "art": "minecraft:yellow_wool",
+  "perk": {
+    "mechanic": "habits:survival/power_nap",
+    "params": {
+      "haste_amp": "0,0,0,0,0,1,1,1,1,1",
+      "speed_amp": "-1,-1,-1,-1,-1,-1,-1,-1,-1,0",
+      "cooldown": "600"
+    },
+    "values": [
+      30,
+      47,
+      63,
+      80,
+      97,
+      113,
+      130,
+      147,
+      163,
+      180
+    ]
+  }
+}

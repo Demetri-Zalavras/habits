@@ -1,0 +1,31 @@
+{
+  "rarity": "rare",
+  "category": "mining",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:mining/deep_ore",
+    "chance": 0.01111
+  },
+  "icon": "minecraft:diamond_chestplate",
+  "art": "minecraft:deepslate_diamond_ore",
+  "perk": {
+    "mechanic": "habits:mining/diamond_skin",
+    "params": {
+      "block": "#minecraft:diamond_ores",
+      "effect": "minecraft:absorption",
+      "amplifier": "1..3"
+    },
+    "values": [
+      10,
+      16,
+      21,
+      27,
+      32,
+      38,
+      43,
+      49,
+      54,
+      60
+    ]
+  }
+}

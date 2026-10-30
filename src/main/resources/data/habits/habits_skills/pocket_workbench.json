@@ -1,0 +1,28 @@
+{
+  "rarity": "rare",
+  "category": "crafting",
+  "trigger": {
+    "type": "craft",
+    "chance": 0.00556
+  },
+  "icon": "minecraft:crafting_table",
+  "art": "minecraft:crafting_table",
+  "perk": {
+    "mechanic": "habits:pocket_workbench",
+    "params": {
+      "refill_level": "10"
+    },
+    "values": [
+      2,
+      1.75,
+      1.5,
+      1.25,
+      1,
+      0.75,
+      0.5,
+      0.25,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "rarity": "common",
+  "category": "farming",
+  "trigger": {
+    "type": "eat",
+    "match": "minecraft:pumpkin_pie",
+    "chance": 0.1
+  },
+  "icon": "minecraft:pumpkin_pie",
+  "art": "minecraft:pumpkin",
+  "perk": {
+    "mechanic": "habits:survival/big_eater",
+    "params": {
+      "reserve": "0..10"
+    },
+    "values": [
+      10,
+      16,
+      21,
+      27,
+      32,
+      38,
+      43,
+      49,
+      54,
+      60
+    ]
+  }
+}

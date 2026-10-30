@@ -1,0 +1,66 @@
+{
+  "rarity": "legendary",
+  "category": "exploration",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:new_structure",
+    "chance": 0.01
+  },
+  "icon": "minecraft:iron_chestplate",
+  "art": "minecraft:mossy_cobblestone",
+  "perk": {
+    "mechanic": "habits:exploration/frontiersman",
+    "params": {
+      "effect": "minecraft:resistance",
+      "from_spawn": "8000..2000",
+      "linger": "3"
+    },
+    "values": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      2
+    ]
+  },
+  "forks": [
+    {
+      "level": 5,
+      "options": [
+        {
+          "id": "iron_hide"
+        },
+        {
+          "id": "wild_strength",
+          "params": {
+            "effect": "minecraft:strength"
+          }
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "options": [
+        {
+          "id": "lingering_grit",
+          "params": {
+            "from_spawn": "9000..3000",
+            "linger": "30"
+          }
+        },
+        {
+          "id": "near_frontier",
+          "params": {
+            "from_spawn": "6000..1000",
+            "linger": "1"
+          }
+        }
+      ]
+    }
+  ]
+}

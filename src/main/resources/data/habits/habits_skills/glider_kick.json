@@ -1,0 +1,30 @@
+{
+  "rarity": "uncommon",
+  "category": "movement",
+  "trigger": {
+    "type": "fall",
+    "min": 20,
+    "chance": 0.125
+  },
+  "icon": "minecraft:phantom_membrane",
+  "art": "minecraft:white_wool",
+  "perk": {
+    "mechanic": "habits:movement/glider_kick",
+    "params": {
+      "value_max": "95",
+      "drift": "0.1..0.5"
+    },
+    "values": [
+      30,
+      36,
+      42,
+      48,
+      54,
+      61,
+      67,
+      73,
+      79,
+      85
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "rarity": "common",
+  "category": "mining",
+  "trigger": {
+    "type": "break_block",
+    "match": "minecraft:andesite",
+    "chance": 0.002
+  },
+  "icon": "minecraft:iron_pickaxe",
+  "art": "minecraft:andesite",
+  "perk": {
+    "mechanic": "habits:mining/tunnel_bore",
+    "params": {
+      "per_tick": "4"
+    },
+    "values": [
+      15,
+      24,
+      34,
+      43,
+      53,
+      62,
+      72,
+      81,
+      91,
+      100
+    ]
+  }
+}

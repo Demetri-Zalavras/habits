@@ -1,0 +1,65 @@
+{
+  "rarity": "epic",
+  "category": "crafting",
+  "trigger": {
+    "type": "craft",
+    "match": [
+      "#minecraft:trim_templates",
+      "minecraft:netherite_upgrade_smithing_template"
+    ],
+    "chance": 0.08333
+  },
+  "icon": "minecraft:coast_armor_trim_smithing_template",
+  "art": "minecraft:smithing_table",
+  "perk": {
+    "mechanic": "habits:crafting/pattern_maker",
+    "values": [
+      5,
+      10,
+      15,
+      20,
+      25,
+      30,
+      35,
+      40,
+      45,
+      50
+    ],
+    "params": {
+      "items": "#minecraft:trim_templates,minecraft:netherite_upgrade_smithing_template",
+      "extra": "1"
+    }
+  },
+  "forks": [
+    {
+      "level": 5,
+      "options": [
+        {
+          "id": "all_patterns"
+        },
+        {
+          "id": "trim_focus",
+          "scale": 1.6,
+          "params": {
+            "items": "#minecraft:trim_templates"
+          }
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "options": [
+        {
+          "id": "steady_copies"
+        },
+        {
+          "id": "double_copies",
+          "scale": 0.5,
+          "params": {
+            "extra": "2"
+          }
+        }
+      ]
+    }
+  ]
+}

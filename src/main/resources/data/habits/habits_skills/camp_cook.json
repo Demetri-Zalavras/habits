@@ -1,0 +1,31 @@
+{
+  "rarity": "common",
+  "category": "guardian",
+  "trigger": {
+    "type": "damage_taken",
+    "match": "minecraft:campfire",
+    "chance": 0.000833
+  },
+  "icon": "minecraft:campfire",
+  "art": "minecraft:spruce_log",
+  "perk": {
+    "mechanic": "habits:survival/camp_cook",
+    "params": {
+      "heal": "0.1..1",
+      "heal_seconds": "3",
+      "cook_interval": "30..10"
+    },
+    "values": [
+      25,
+      33,
+      42,
+      50,
+      58,
+      67,
+      75,
+      83,
+      92,
+      100
+    ]
+  }
+}

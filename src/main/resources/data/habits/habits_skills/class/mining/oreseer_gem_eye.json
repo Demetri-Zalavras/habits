@@ -1,0 +1,32 @@
+{
+  "rarity": "rare",
+  "category": "mining",
+  "class": "habits:class/mining/oreseer",
+  "trigger": {
+    "type": "break_block",
+    "match": "#minecraft:diamond_ores",
+    "chance": 0.0333
+  },
+  "icon": "minecraft:ender_eye",
+  "art": "minecraft:diamond_block",
+  "perk": {
+    "mechanic": "habits:mining/oreseer_gem_eye",
+    "params": {
+      "block": "#minecraft:diamond_ores",
+      "item": "minecraft:diamond",
+      "count": "1..2"
+    },
+    "values": [
+      5,
+      8,
+      11,
+      13,
+      16,
+      19,
+      22,
+      24,
+      27,
+      30
+    ]
+  }
+}

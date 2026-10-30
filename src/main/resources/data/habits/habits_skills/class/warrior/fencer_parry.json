@@ -1,0 +1,31 @@
+{
+  "rarity": "rare",
+  "category": "warrior",
+  "class": "habits:class/warrior/fencer",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:riposte",
+    "item": "#minecraft:swords",
+    "chance": 0.0167
+  },
+  "icon": "minecraft:shield",
+  "art": "minecraft:iron_block",
+  "perk": {
+    "mechanic": "habits:melee/riposte",
+    "params": {
+      "window": "1,2.5"
+    },
+    "values": [
+      40,
+      58,
+      76,
+      93,
+      111,
+      129,
+      147,
+      164,
+      182,
+      200
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "rarity": "epic",
+  "category": "warrior",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:backstab",
+    "entity": "minecraft:enderman",
+    "chance": 0.0056
+  },
+  "icon": "minecraft:ender_eye",
+  "art": "minecraft:end_stone",
+  "perk": {
+    "mechanic": "habits:melee/shadow_step",
+    "params": {
+      "cooldown": "10,3"
+    },
+    "values": [
+      6.0,
+      7.0,
+      8.0,
+      9.0,
+      10.0,
+      12.0,
+      13.0,
+      14.0,
+      15.0,
+      16.0
+    ]
+  },
+  "forks": [
+    {
+      "level": 5,
+      "options": [
+        {
+          "id": "far_step",
+          "scale": 1.5,
+          "params": {
+            "cooldown": "15,5"
+          }
+        },
+        {
+          "id": "quick_step",
+          "scale": 0.65,
+          "params": {
+            "cooldown": "5,1.5"
+          }
+        }
+      ]
+    }
+  ]
+}

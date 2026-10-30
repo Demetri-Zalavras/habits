@@ -1,0 +1,31 @@
+{
+  "rarity": "rare",
+  "category": "crafting",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:never",
+    "chance": 0
+  },
+  "icon": "minecraft:golden_sword",
+  "art": "minecraft:gold_block",
+  "perk": {
+    "type": "anvil_discount",
+    "values": [
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5
+    ]
+  },
+  "title": {
+    "stat_type": "minecraft:killed",
+    "stat": "twilightforest:lich",
+    "min": 1
+  }
+}

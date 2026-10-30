@@ -1,0 +1,29 @@
+{
+  "rarity": "common",
+  "category": "farming",
+  "trigger": {
+    "type": "break_block",
+    "match": "#minecraft:leaves",
+    "chance": 0.00167
+  },
+  "icon": "minecraft:oak_leaves",
+  "art": "minecraft:oak_leaves",
+  "perk": {
+    "mechanic": "habits:leaf_blower",
+    "params": {
+      "bonus": "0,50"
+    },
+    "values": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      8,
+      9,
+      10
+    ]
+  }
+}

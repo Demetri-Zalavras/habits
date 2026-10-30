@@ -1,0 +1,26 @@
+{
+  "rarity": "common",
+  "category": "building",
+  "trigger": {
+    "type": "place_block",
+    "chance": 0.00333,
+    "match": "minecraft:ladder"
+  },
+  "icon": "minecraft:ladder",
+  "art": "minecraft:oak_planks",
+  "perk": {
+    "mechanic": "habits:ladder_layer",
+    "values": [
+      4,
+      8,
+      12,
+      16,
+      24,
+      32,
+      40,
+      48,
+      56,
+      64
+    ]
+  }
+}

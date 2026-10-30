@@ -1,0 +1,26 @@
+{
+  "rarity": "common",
+  "category": "exploration",
+  "trigger": {
+    "type": "enter_biome",
+    "match": "#minecraft:is_river",
+    "chance": 0.2
+  },
+  "icon": "minecraft:cod_bucket",
+  "art": "minecraft:gravel",
+  "perk": {
+    "mechanic": "habits:movement/river_runner",
+    "values": [
+      5,
+      9,
+      13,
+      17,
+      21,
+      24,
+      28,
+      32,
+      36,
+      40
+    ]
+  }
+}

@@ -1,0 +1,1 @@
+{"rarity":"uncommon","category":"crafting","trigger":{"type":"interact_block","match":"farmersdelight:stove","chance":0.02},"icon":"farmersdelight:skillet","art":"farmersdelight:stove","perk":{"type":"smelt_bonus","base":4,"per_level":4}}

@@ -1,0 +1,26 @@
+{
+  "rarity": "rare",
+  "category": "nature",
+  "class": "habits:class/nature/beastcaller",
+  "trigger": {
+    "type": "tame",
+    "chance": 0.0333
+  },
+  "icon": "minecraft:cod",
+  "art": "minecraft:hay_block",
+  "perk": {
+    "type": "tame_chance",
+    "values": [
+      10.0,
+      14.4,
+      18.9,
+      23.3,
+      27.8,
+      32.2,
+      36.7,
+      41.1,
+      45.6,
+      50.0
+    ]
+  }
+}

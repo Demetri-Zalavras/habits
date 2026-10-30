@@ -1,0 +1,50 @@
+{
+  "rarity": "legendary",
+  "category": "guardian",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:void_fall",
+    "chance": 0.833
+  },
+  "icon": "minecraft:ender_eye",
+  "art": "minecraft:end_stone",
+  "perk": {
+    "mechanic": "habits:survival/void_bounce",
+    "params": {
+      "xp_cost": "30..5"
+    },
+    "values": [
+      60,
+      54,
+      48,
+      42,
+      36,
+      30,
+      24,
+      18,
+      11,
+      5
+    ]
+  },
+  "forks": [
+    {
+      "level": 5,
+      "options": [
+        {
+          "id": "quick_rescue",
+          "scale": 0.6,
+          "params": {
+            "xp_cost": "45..12"
+          }
+        },
+        {
+          "id": "cheap_rescue",
+          "scale": 1.5,
+          "params": {
+            "xp_cost": "10..0"
+          }
+        }
+      ]
+    }
+  ]
+}

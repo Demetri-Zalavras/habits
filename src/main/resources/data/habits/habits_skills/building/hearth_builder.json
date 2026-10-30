@@ -1,0 +1,34 @@
+{
+  "rarity": "common",
+  "category": "building",
+  "trigger": {
+    "type": "place_block",
+    "match": [
+      "minecraft:campfire",
+      "minecraft:soul_campfire",
+      "minecraft:magma_block"
+    ],
+    "chance": 0.05
+  },
+  "icon": "minecraft:campfire",
+  "art": "minecraft:magma_block",
+  "perk": {
+    "type": "damage_type_resist",
+    "values": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60,
+      70,
+      80,
+      90,
+      95
+    ],
+    "params": {
+      "damage": "minecraft:hot_floor,minecraft:campfire,minecraft:in_fire"
+    }
+  },
+  "perk_text": "Campfires, flames and magma hurt {v}% less"
+}

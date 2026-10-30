@@ -1,0 +1,52 @@
+{
+  "rarity": "epic",
+  "category": "warrior",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:burst_damage",
+    "chance": 0.0333
+  },
+  "icon": "minecraft:blaze_powder",
+  "art": "minecraft:nether_wart_block",
+  "perk": {
+    "mechanic": "habits:survival/pain_fuel",
+    "params": {
+      "cap": "4..30",
+      "burst": "50",
+      "window_seconds": "10"
+    },
+    "values": [
+      10,
+      16,
+      21,
+      27,
+      32,
+      38,
+      43,
+      49,
+      54,
+      60
+    ]
+  },
+  "forks": [
+    {
+      "level": 5,
+      "options": [
+        {
+          "id": "short_fuse",
+          "scale": 1.4,
+          "params": {
+            "cap": "3..20"
+          }
+        },
+        {
+          "id": "slow_burn",
+          "scale": 0.7,
+          "params": {
+            "cap": "6..45"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "rarity": "common",
+  "category": "mining",
+  "trigger": {
+    "type": "break_block",
+    "match": [
+      "minecraft:end_stone_bricks",
+      "minecraft:purpur_stairs",
+      "minecraft:purpur_slab"
+    ],
+    "chance": 0.00333
+  },
+  "icon": "minecraft:end_stone_bricks",
+  "art": "minecraft:end_stone_bricks",
+  "perk": {
+    "type": "mining_speed",
+    "params": {
+      "block": "minecraft:end_stone,minecraft:end_stone_bricks,minecraft:purpur_block,minecraft:purpur_pillar,minecraft:purpur_stairs,minecraft:purpur_slab",
+      "condition": "dimension=minecraft:the_end"
+    },
+    "values": [
+      5,
+      10,
+      15,
+      20,
+      25,
+      30,
+      35,
+      40,
+      45,
+      50
+    ]
+  },
+  "perk_text": "In the End, end stone and purpur mine +{v}% faster"
+}

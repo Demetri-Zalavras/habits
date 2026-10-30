@@ -1,0 +1,20 @@
+{
+  "rarity": "rare",
+  "category": "guardian",
+  "trigger": {
+    "type": "custom",
+    "match": [
+      "habits:effect_mining_fatigue"
+    ],
+    "chance": 0.167
+  },
+  "icon": "minecraft:prismarine_shard",
+  "art": "minecraft:prismarine_bricks",
+  "perk": {
+    "mechanic": "habits:survival/iron_will",
+    "params": {
+      "cut": "5..50"
+    },
+    "values": [2, 2, 2, 2, 1, 1, 1, 1, 1, 0]
+  }
+}

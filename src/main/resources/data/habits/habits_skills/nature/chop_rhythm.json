@@ -1,0 +1,30 @@
+{
+  "rarity": "rare",
+  "category": "nature",
+  "trigger": {
+    "type": "break_block",
+    "match": "#minecraft:logs",
+    "item": "#minecraft:axes",
+    "chance": 0.00167
+  },
+  "icon": "minecraft:diamond_axe",
+  "art": "minecraft:stripped_jungle_log",
+  "perk": {
+    "mechanic": "habits:nature/chop_rhythm",
+    "values": [
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2,
+      3,
+      3,
+      3
+    ],
+    "params": {
+      "window": "2,4"
+    }
+  }
+}

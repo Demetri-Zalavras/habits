@@ -1,0 +1,30 @@
+{
+  "rarity": "common",
+  "category": "mining",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:mining/underground_meal",
+    "chance": 0.1
+  },
+  "icon": "minecraft:bread",
+  "art": "minecraft:stone",
+  "perk": {
+    "type": "food_bonus",
+    "params": {
+      "condition": "underground"
+    },
+    "values": [
+      5,
+      10,
+      15,
+      20,
+      25,
+      30,
+      35,
+      40,
+      45,
+      50
+    ]
+  },
+  "perk_text": "Underground food fills you {v}% more"
+}

@@ -1,0 +1,32 @@
+{
+  "rarity": "epic",
+  "category": "building",
+  "trigger": {
+    "type": "break_block",
+    "match": [
+      "#minecraft:stairs",
+      "#minecraft:slabs",
+      "#minecraft:walls",
+      "minecraft:bricks",
+      "#minecraft:stone_bricks"
+    ],
+    "chance": 0.000833
+  },
+  "icon": "minecraft:mace",
+  "art": "minecraft:cracked_stone_bricks",
+  "perk": {
+    "mechanic": "habits:building/demolition_hammer",
+    "values": [
+      2,
+      4,
+      6,
+      8,
+      10,
+      12,
+      15,
+      18,
+      21,
+      24
+    ]
+  }
+}

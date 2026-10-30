@@ -1,0 +1,30 @@
+{
+  "rarity": "uncommon",
+  "category": "ranger",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:far_pearl",
+    "chance": 0.0625
+  },
+  "icon": "minecraft:ender_eye",
+  "art": "minecraft:end_stone",
+  "perk": {
+    "mechanic": "habits:far_pearl",
+    "values": [
+      10.0,
+      20.0,
+      30.0,
+      40.0,
+      50.0,
+      60.0,
+      70.0,
+      80.0,
+      90.0,
+      100.0
+    ],
+    "params": {
+      "gravity": "10..50",
+      "far": "40"
+    }
+  }
+}

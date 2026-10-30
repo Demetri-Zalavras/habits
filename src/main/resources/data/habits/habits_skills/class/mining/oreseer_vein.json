@@ -1,0 +1,30 @@
+{
+  "rarity": "epic",
+  "category": "mining",
+  "class": "habits:class/mining/oreseer",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:ore_streak",
+    "chance": 0.0167
+  },
+  "icon": "minecraft:raw_iron",
+  "art": "minecraft:raw_iron_block",
+  "perk": {
+    "mechanic": "habits:vein_miner",
+    "params": {
+      "per_tick": "6"
+    },
+    "values": [
+      6,
+      9,
+      13,
+      17,
+      21,
+      26,
+      31,
+      36,
+      42,
+      48
+    ]
+  }
+}

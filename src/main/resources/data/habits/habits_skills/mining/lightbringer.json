@@ -1,0 +1,26 @@
+{
+  "rarity": "uncommon",
+  "category": "mining",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:mining/darkness_break",
+    "chance": 0.00313
+  },
+  "icon": "minecraft:lantern",
+  "art": "minecraft:sculk",
+  "perk": {
+    "mechanic": "habits:mining/lightbringer",
+    "values": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60,
+      70,
+      80,
+      90,
+      100
+    ]
+  }
+}

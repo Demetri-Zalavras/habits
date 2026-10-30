@@ -1,0 +1,31 @@
+{
+  "rarity": "uncommon",
+  "category": "farming",
+  "trigger": {
+    "type": "harvest_crop",
+    "match": "minecraft:beetroots",
+    "item": "#minecraft:hoes",
+    "chance": 0.0016
+  },
+  "icon": "minecraft:experience_bottle",
+  "art": "minecraft:farmland",
+  "perk": {
+    "type": "xp_bonus",
+    "params": {
+      "condition": "holding=#minecraft:hoes"
+    },
+    "values": [
+      5,
+      10,
+      15,
+      20,
+      25,
+      30,
+      35,
+      40,
+      45,
+      50
+    ]
+  },
+  "perk_text": "Experience +{v}% while holding a hoe"
+}

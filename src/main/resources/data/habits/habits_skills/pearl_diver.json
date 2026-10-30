@@ -1,0 +1,26 @@
+{
+  "rarity": "rare",
+  "category": "movement",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:deep_dive",
+    "chance": 0.0667
+  },
+  "icon": "minecraft:nautilus_shell",
+  "art": "minecraft:dark_prismarine",
+  "perk": {
+    "mechanic": "habits:movement/pearl_diver",
+    "values": [
+      8,
+      14,
+      20,
+      27,
+      33,
+      39,
+      45,
+      52,
+      58,
+      64
+    ]
+  }
+}

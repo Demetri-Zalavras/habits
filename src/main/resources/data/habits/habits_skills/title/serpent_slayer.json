@@ -1,0 +1,36 @@
+{
+  "rarity": "uncommon",
+  "category": "movement",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:never",
+    "chance": 0
+  },
+  "icon": "minecraft:emerald",
+  "art": "minecraft:mossy_stone_bricks",
+  "perk": {
+    "type": "attribute",
+    "params": {
+      "attribute": "minecraft:generic.movement_speed",
+      "operation": "add_multiplied_base"
+    },
+    "values": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ]
+  },
+  "title": {
+    "stat_type": "minecraft:killed",
+    "stat": "twilightforest:naga",
+    "min": 1
+  },
+  "perk_text": "Speed +{v}%"
+}

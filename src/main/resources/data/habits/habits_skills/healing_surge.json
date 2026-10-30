@@ -1,0 +1,33 @@
+{
+  "rarity": "uncommon",
+  "category": "guardian",
+  "trigger": {
+    "type": "drink_potion",
+    "match": [
+      "minecraft:healing",
+      "minecraft:long_healing",
+      "minecraft:strong_healing"
+    ],
+    "chance": 0.0625
+  },
+  "icon": "minecraft:glistering_melon_slice",
+  "art": "minecraft:pink_concrete",
+  "perk": {
+    "mechanic": "habits:survival/healing_surge",
+    "params": {
+      "bonus": "10..50"
+    },
+    "values": [
+      1,
+      2,
+      2,
+      3,
+      3,
+      4,
+      4,
+      5,
+      5,
+      6
+    ]
+  }
+}

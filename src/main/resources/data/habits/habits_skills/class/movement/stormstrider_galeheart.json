@@ -1,0 +1,31 @@
+{
+  "rarity": "epic",
+  "category": "movement",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:long_sprint",
+    "chance": 0.0104
+  },
+  "icon": "minecraft:heart_of_the_sea",
+  "art": "minecraft:prismarine",
+  "perk": {
+    "type": "regen",
+    "params": {
+      "condition": "sprinting"
+    },
+    "values": [
+      4,
+      7,
+      10,
+      13,
+      16,
+      18,
+      21,
+      24,
+      27,
+      30
+    ]
+  },
+  "class": "habits:class/movement/stormstrider",
+  "perk_text": "Heal {v} health a minute while sprinting"
+}

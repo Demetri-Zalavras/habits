@@ -1,0 +1,29 @@
+{
+  "rarity": "common",
+  "category": "nature",
+  "trigger": {
+    "type": "swim_distance",
+    "chance": 0.000556
+  },
+  "icon": "minecraft:turtle_scute",
+  "art": "minecraft:sand",
+  "perk": {
+    "type": "attribute",
+    "values": [
+      0.3,
+      0.6,
+      0.9,
+      1.2,
+      1.5,
+      1.8,
+      2.1,
+      2.4,
+      2.7,
+      3.0
+    ],
+    "params": {
+      "attribute": "minecraft:generic.oxygen_bonus"
+    }
+  },
+  "perk_text": "Breath +{v} levels"
+}

@@ -1,0 +1,29 @@
+{
+  "rarity": "uncommon",
+  "category": "movement",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:long_dive",
+    "chance": 0.125
+  },
+  "icon": "minecraft:pufferfish",
+  "art": "minecraft:tube_coral_block",
+  "perk": {
+    "mechanic": "habits:movement/deep_breath",
+    "params": {
+      "bubble_level": "5"
+    },
+    "values": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "rarity": "uncommon",
+  "category": "building",
+  "trigger": {
+    "type": "place_block",
+    "match": [
+      "minecraft:snow_block",
+      "minecraft:ice",
+      "minecraft:packed_ice",
+      "minecraft:blue_ice"
+    ],
+    "chance": 0.00625
+  },
+  "icon": "minecraft:snowball",
+  "art": "minecraft:packed_ice",
+  "perk": {
+    "type": "damage_type_resist",
+    "values": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60,
+      70,
+      80,
+      90,
+      95
+    ],
+    "params": {
+      "damage": "minecraft:freeze"
+    }
+  },
+  "perk_text": "Freezing hurts {v}% less"
+}

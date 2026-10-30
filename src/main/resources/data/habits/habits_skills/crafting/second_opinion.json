@@ -1,0 +1,16 @@
+{
+  "rarity": "legendary",
+  "category": "crafting",
+  "trigger": {
+    "type": "interact_entity",
+    "match": "minecraft:villager",
+    "item": "minecraft:emerald",
+    "chance": 0.00417
+  },
+  "icon": "minecraft:lectern",
+  "art": "minecraft:bookshelf",
+  "perk": {
+    "mechanic": "habits:crafting/second_opinion",
+    "values": [120, 100, 80, 60, 45, 30, 20, 15, 10, 5]
+  }
+}

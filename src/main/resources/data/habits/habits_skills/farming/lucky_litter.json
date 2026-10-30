@@ -1,0 +1,26 @@
+{
+  "rarity": "rare",
+  "category": "farming",
+  "trigger": {
+    "type": "breed",
+    "match": "minecraft:rabbit",
+    "chance": 0.0083
+  },
+  "icon": "minecraft:rabbit_foot",
+  "art": "minecraft:sand",
+  "perk": {
+    "mechanic": "habits:farming/lucky_litter",
+    "values": [
+      5,
+      10,
+      15,
+      20,
+      25,
+      30,
+      35,
+      40,
+      45,
+      50
+    ]
+  }
+}

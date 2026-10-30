@@ -1,0 +1,31 @@
+{
+  "rarity": "rare",
+  "category": "mining",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:mining/shrieker_near",
+    "chance": 0.1
+  },
+  "icon": "minecraft:sculk_shrieker",
+  "art": "minecraft:sculk",
+  "perk": {
+    "mechanic": "habits:mining/shrieker_sense",
+    "params": {
+      "block": "minecraft:sculk_shrieker",
+      "color": "1FA0A0",
+      "glow_s": "6..15"
+    },
+    "values": [
+      8,
+      11,
+      13,
+      16,
+      19,
+      21,
+      24,
+      27,
+      29,
+      32
+    ]
+  }
+}

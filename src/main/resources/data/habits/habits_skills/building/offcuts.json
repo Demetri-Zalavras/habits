@@ -1,0 +1,30 @@
+{
+  "rarity": "rare",
+  "category": "building",
+  "trigger": {
+    "type": "craft",
+    "match": [
+      "#minecraft:stairs",
+      "#minecraft:slabs",
+      "#minecraft:walls"
+    ],
+    "chance": 0.0111
+  },
+  "icon": "minecraft:stone_brick_stairs",
+  "art": "minecraft:stone_bricks",
+  "perk": {
+    "mechanic": "habits:building/offcuts",
+    "values": [
+      10,
+      15,
+      20,
+      25,
+      30,
+      35,
+      40,
+      45,
+      50,
+      60
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "rarity": "uncommon",
+  "category": "building",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:quick_undo",
+    "chance": 0.0312
+  },
+  "icon": "minecraft:wooden_axe",
+  "art": "minecraft:oak_planks",
+  "perk": {
+    "mechanic": "habits:building/dismantle",
+    "values": [
+      16,
+      32,
+      48,
+      64,
+      96,
+      128,
+      160,
+      192,
+      224,
+      256
+    ]
+  }
+}

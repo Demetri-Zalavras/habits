@@ -1,0 +1,25 @@
+{
+  "rarity": "common",
+  "category": "crafting",
+  "trigger": {
+    "type": "craft",
+    "chance": 0.0167
+  },
+  "icon": "minecraft:crafting_table",
+  "art": "minecraft:oak_planks",
+  "perk": {
+    "mechanic": "habits:handy",
+    "values": [
+      3.0,
+      6.0,
+      9.0,
+      12.0,
+      15.0,
+      18.0,
+      21.0,
+      24.0,
+      27.0,
+      30.0
+    ]
+  }
+}

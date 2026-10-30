@@ -1,0 +1,29 @@
+{
+  "rarity": "uncommon",
+  "category": "exploration",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:lost",
+    "chance": 1.0
+  },
+  "icon": "minecraft:glow_berries",
+  "art": "minecraft:mossy_stone_bricks",
+  "perk": {
+    "mechanic": "habits:movement/lost_and_found",
+    "params": {
+      "delay": "10..0"
+    },
+    "values": [
+      64,
+      114,
+      164,
+      213,
+      263,
+      313,
+      363,
+      412,
+      462,
+      512
+    ]
+  }
+}

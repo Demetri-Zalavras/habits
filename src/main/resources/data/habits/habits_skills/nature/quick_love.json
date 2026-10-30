@@ -1,0 +1,25 @@
+{
+  "rarity": "rare",
+  "category": "nature",
+  "trigger": {
+    "type": "breed",
+    "chance": 0.00833
+  },
+  "icon": "minecraft:golden_carrot",
+  "art": "minecraft:hay_block",
+  "perk": {
+    "mechanic": "habits:nature/quick_love",
+    "values": [
+      10,
+      19,
+      28,
+      37,
+      46,
+      54,
+      63,
+      72,
+      81,
+      90
+    ]
+  }
+}

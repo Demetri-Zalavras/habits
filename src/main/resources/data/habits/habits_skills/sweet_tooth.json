@@ -1,0 +1,33 @@
+{
+  "rarity": "common",
+  "category": "guardian",
+  "trigger": {
+    "type": "eat",
+    "match": [
+      "minecraft:cookie",
+      "minecraft:pumpkin_pie",
+      "minecraft:honey_bottle"
+    ],
+    "chance": 0.1
+  },
+  "icon": "minecraft:cookie",
+  "art": "minecraft:pink_wool",
+  "perk": {
+    "mechanic": "habits:survival/sweet_tooth",
+    "params": {
+      "amp": "0,0,0,0,0,1,1,1,1,1"
+    },
+    "values": [
+      5,
+      9,
+      13,
+      17,
+      21,
+      24,
+      28,
+      32,
+      36,
+      40
+    ]
+  }
+}

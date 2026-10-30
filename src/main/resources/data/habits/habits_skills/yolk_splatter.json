@@ -1,0 +1,29 @@
+{
+  "rarity": "uncommon",
+  "category": "ranger",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:egg_hit",
+    "chance": 0.0156
+  },
+  "icon": "minecraft:egg",
+  "art": "minecraft:yellow_wool",
+  "perk": {
+    "mechanic": "habits:yolk_splatter",
+    "values": [
+      1.0,
+      1.4,
+      1.9,
+      2.3,
+      2.8,
+      3.2,
+      3.7,
+      4.1,
+      4.6,
+      5.0
+    ],
+    "params": {
+      "calm": "10..70"
+    }
+  }
+}

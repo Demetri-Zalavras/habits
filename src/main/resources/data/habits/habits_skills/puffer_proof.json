@@ -1,0 +1,29 @@
+{
+  "rarity": "uncommon",
+  "category": "guardian",
+  "trigger": {
+    "type": "eat",
+    "match": "minecraft:pufferfish",
+    "chance": 0.312
+  },
+  "icon": "minecraft:pufferfish",
+  "art": "minecraft:prismarine",
+  "perk": {
+    "mechanic": "habits:survival/puffer_proof",
+    "params": {
+      "regen_seconds": "1..10"
+    },
+    "values": [
+      20,
+      29,
+      38,
+      47,
+      56,
+      64,
+      73,
+      82,
+      91,
+      100
+    ]
+  }
+}

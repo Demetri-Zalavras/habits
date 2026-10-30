@@ -1,0 +1,32 @@
+{
+  "rarity": "uncommon",
+  "category": "building",
+  "trigger": {
+    "type": "place_block",
+    "match": [
+      "minecraft:lantern",
+      "minecraft:soul_lantern"
+    ],
+    "chance": 0.0156
+  },
+  "icon": "minecraft:lantern",
+  "art": "minecraft:spruce_planks",
+  "perk": {
+    "mechanic": "habits:lantern_bearer",
+    "values": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "params": {
+      "value_max": "15"
+    }
+  }
+}

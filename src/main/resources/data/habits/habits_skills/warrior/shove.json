@@ -1,0 +1,31 @@
+{
+  "rarity": "common",
+  "category": "warrior",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:enchanted_kill/knockback",
+    "chance": 0.0333
+  },
+  "icon": "minecraft:sticky_piston",
+  "art": "minecraft:packed_mud",
+  "perk": {
+    "type": "attribute",
+    "params": {
+      "attribute": "minecraft:attack_knockback",
+      "operation": "add_value"
+    },
+    "values": [
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      1.0,
+      1.2,
+      1.4,
+      1.6,
+      1.8,
+      2.0
+    ]
+  },
+  "perk_text": "Knockback +{v} on your hits"
+}

@@ -1,0 +1,33 @@
+{
+  "rarity": "common",
+  "category": "farming",
+  "trigger": {
+    "type": "plant",
+    "match": [
+      "minecraft:carrots",
+      "minecraft:potatoes"
+    ],
+    "chance": 0.0025
+  },
+  "icon": "minecraft:potato",
+  "art": "minecraft:farmland",
+  "perk": {
+    "type": "drop_bonus",
+    "params": {
+      "block": "minecraft:carrots,minecraft:potatoes"
+    },
+    "values": [
+      5,
+      10,
+      15,
+      20,
+      25,
+      30,
+      35,
+      40,
+      45,
+      50
+    ]
+  },
+  "perk_text": "{v}% chance carrots and potatoes drop twice"
+}

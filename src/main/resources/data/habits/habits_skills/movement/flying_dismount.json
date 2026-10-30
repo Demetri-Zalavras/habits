@@ -1,0 +1,30 @@
+{
+  "rarity": "common",
+  "category": "movement",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:moving_dismount",
+    "chance": 0.1
+  },
+  "icon": "minecraft:minecart",
+  "art": "minecraft:rail",
+  "perk": {
+    "mechanic": "habits:movement/flying_dismount",
+    "params": {
+      "lift": "0.3..0.6",
+      "min_speed": "0.2"
+    },
+    "values": [
+      40,
+      52,
+      64,
+      77,
+      89,
+      101,
+      113,
+      126,
+      138,
+      150
+    ]
+  }
+}

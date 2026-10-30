@@ -1,0 +1,35 @@
+{
+  "rarity": "uncommon",
+  "category": "nature",
+  "trigger": {
+    "type": "break_block",
+    "match": [
+      "minecraft:sand",
+      "minecraft:gravel"
+    ],
+    "item": "#minecraft:shovels",
+    "chance": 0.00104
+  },
+  "icon": "minecraft:nautilus_shell",
+  "art": "minecraft:sand",
+  "perk": {
+    "mechanic": "habits:nature/shell_seeker",
+    "values": [
+      2,
+      3,
+      5,
+      6,
+      8,
+      9,
+      11,
+      12,
+      14,
+      15
+    ],
+    "params": {
+      "blocks": "minecraft:sand,minecraft:gravel",
+      "biome": "#minecraft:is_beach",
+      "items": "minecraft:bone_meal*6,minecraft:prismarine_shard*3,minecraft:prismarine_crystals*3,minecraft:turtle_scute*1,minecraft:nautilus_shell*1"
+    }
+  }
+}

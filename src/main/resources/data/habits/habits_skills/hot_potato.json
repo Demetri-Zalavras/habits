@@ -1,0 +1,29 @@
+{
+  "rarity": "common",
+  "category": "farming",
+  "trigger": {
+    "type": "harvest_crop",
+    "match": "minecraft:potatoes",
+    "chance": 0.0025
+  },
+  "icon": "minecraft:baked_potato",
+  "art": "minecraft:farmland",
+  "perk": {
+    "mechanic": "habits:hot_potato",
+    "params": {
+      "poison": "50,0"
+    },
+    "values": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60,
+      70,
+      80,
+      90,
+      100
+    ]
+  }
+}

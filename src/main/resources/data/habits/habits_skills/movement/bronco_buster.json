@@ -1,0 +1,35 @@
+{
+  "rarity": "rare",
+  "category": "movement",
+  "trigger": {
+    "type": "interact_entity",
+    "match": [
+      "minecraft:horse",
+      "minecraft:donkey",
+      "minecraft:mule",
+      "minecraft:llama"
+    ],
+    "chance": 0.0056
+  },
+  "icon": "minecraft:golden_carrot",
+  "art": "minecraft:oak_log",
+  "perk": {
+    "type": "tame_chance",
+    "params": {
+      "entity": "minecraft:horse,minecraft:donkey,minecraft:mule,minecraft:llama"
+    },
+    "values": [
+      5,
+      10,
+      15,
+      20,
+      25,
+      30,
+      35,
+      40,
+      45,
+      50
+    ]
+  },
+  "perk_text": "Taming chance +{v}% for horses and llamas"
+}

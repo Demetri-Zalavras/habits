@@ -1,0 +1,50 @@
+{
+  "rarity": "epic",
+  "category": "movement",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:steep_dive",
+    "chance": 0.0083
+  },
+  "icon": "minecraft:mace",
+  "art": "minecraft:light_blue_wool",
+  "perk": {
+    "mechanic": "habits:movement/peregrine",
+    "params": {
+      "min_speed": "1.0"
+    },
+    "values": [
+      4,
+      6,
+      8,
+      9,
+      11,
+      13,
+      15,
+      16,
+      18,
+      20
+    ]
+  },
+  "forks": [
+    {
+      "level": 5,
+      "options": [
+        {
+          "id": "low_dive",
+          "scale": 0.75,
+          "params": {
+            "min_speed": "0.6"
+          }
+        },
+        {
+          "id": "hard_dive",
+          "scale": 1.3,
+          "params": {
+            "min_speed": "1.6"
+          }
+        }
+      ]
+    }
+  ]
+}

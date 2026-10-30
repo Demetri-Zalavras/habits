@@ -1,0 +1,33 @@
+{
+  "rarity": "rare",
+  "category": "ranger",
+  "trigger": {
+    "type": "drink_potion",
+    "match": [
+      "minecraft:invisibility",
+      "minecraft:long_invisibility",
+      "minecraft:strong_invisibility"
+    ],
+    "chance": 0.0333
+  },
+  "icon": "minecraft:fermented_spider_eye",
+  "art": "minecraft:glass",
+  "perk": {
+    "mechanic": "habits:survival/vanishing_act",
+    "params": {
+      "hide_armor": "0,0,0,0,0,0,0,0,0,1"
+    },
+    "values": [
+      10,
+      19,
+      28,
+      37,
+      46,
+      54,
+      63,
+      72,
+      81,
+      90
+    ]
+  }
+}

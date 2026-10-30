@@ -1,0 +1,30 @@
+{
+  "rarity": "uncommon",
+  "category": "mining",
+  "trigger": {
+    "type": "break_block",
+    "match": [
+      "minecraft:end_stone",
+      "minecraft:purpur_block",
+      "minecraft:purpur_pillar"
+    ],
+    "chance": 0.00156
+  },
+  "icon": "minecraft:ender_pearl",
+  "art": "minecraft:end_stone",
+  "perk": {
+    "mechanic": "habits:telekinesis",
+    "values": [
+      10.0,
+      20.0,
+      30.0,
+      40.0,
+      50.0,
+      60.0,
+      70.0,
+      80.0,
+      90.0,
+      100.0
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "rarity": "common",
+  "category": "building",
+  "trigger": {
+    "type": "break_block",
+    "match": "#minecraft:wool",
+    "item": "minecraft:shears",
+    "chance": 0.005
+  },
+  "icon": "minecraft:shears",
+  "art": "minecraft:white_wool",
+  "perk": {
+    "type": "durability_save",
+    "values": [
+      8.0,
+      16.0,
+      24.0,
+      32.0,
+      40.0,
+      48.0,
+      56.0,
+      64.0,
+      72.0,
+      80.0
+    ],
+    "params": {
+      "item": "minecraft:shears"
+    }
+  },
+  "perk_text": "{v}% chance shears take no wear"
+}

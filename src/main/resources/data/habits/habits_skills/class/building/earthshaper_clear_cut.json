@@ -1,0 +1,36 @@
+{
+  "rarity": "rare",
+  "category": "building",
+  "class": "habits:class/building/earthshaper",
+  "trigger": {
+    "type": "break_block",
+    "match": [
+      "minecraft:short_grass",
+      "minecraft:tall_grass",
+      "minecraft:fern",
+      "minecraft:large_fern",
+      "minecraft:dead_bush"
+    ],
+    "chance": 0.0006
+  },
+  "icon": "minecraft:shears",
+  "art": "minecraft:moss_block",
+  "perk": {
+    "mechanic": "habits:building/brush_clearer",
+    "values": [
+      2,
+      2,
+      3,
+      3,
+      3,
+      4,
+      4,
+      4,
+      5,
+      5
+    ],
+    "params": {
+      "per_tick": "24"
+    }
+  }
+}

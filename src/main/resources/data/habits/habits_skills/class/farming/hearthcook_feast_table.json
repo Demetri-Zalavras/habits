@@ -1,0 +1,35 @@
+{
+  "rarity": "rare",
+  "category": "farming",
+  "class": "habits:class/farming/hearthcook",
+  "trigger": {
+    "type": "craft",
+    "match": [
+      "minecraft:bread",
+      "minecraft:cake",
+      "minecraft:pumpkin_pie",
+      "minecraft:cookie",
+      "minecraft:mushroom_stew",
+      "minecraft:rabbit_stew",
+      "minecraft:beetroot_soup"
+    ],
+    "chance": 0.03
+  },
+  "icon": "minecraft:cake",
+  "art": "minecraft:crafting_table",
+  "perk": {
+    "mechanic": "habits:farming/chefs_special",
+    "values": [
+      10,
+      14,
+      18,
+      22,
+      26,
+      30,
+      34,
+      38,
+      44,
+      50
+    ]
+  }
+}

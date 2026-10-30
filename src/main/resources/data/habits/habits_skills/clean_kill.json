@@ -1,0 +1,29 @@
+{
+  "rarity": "uncommon",
+  "category": "warrior",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:one_shot",
+    "chance": 0.0208
+  },
+  "icon": "minecraft:experience_bottle",
+  "art": "minecraft:emerald_block",
+  "perk": {
+    "mechanic": "habits:melee/clean_kill",
+    "params": {
+      "loot": "5,50"
+    },
+    "values": [
+      25.0,
+      44.0,
+      64.0,
+      83.0,
+      103.0,
+      122.0,
+      142.0,
+      161.0,
+      181.0,
+      200.0
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "rarity": "rare",
+  "category": "mining",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:mining/tnt_ore",
+    "chance": 0.05
+  },
+  "icon": "minecraft:tnt",
+  "art": "minecraft:iron_ore",
+  "perk": {
+    "mechanic": "habits:mining/powder_miner",
+    "values": [
+      25,
+      33,
+      42,
+      50,
+      58,
+      67,
+      75,
+      83,
+      92,
+      100
+    ]
+  }
+}

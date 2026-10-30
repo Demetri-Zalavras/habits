@@ -1,0 +1,9 @@
+{
+  "habits.hud.coords": "XYZ: %s %s %s  Facing %s",
+  "habits.hud.facing.north": "North",
+  "habits.hud.facing.south": "South",
+  "habits.hud.facing.east": "East",
+  "habits.hud.facing.west": "West",
+  "habits.hud.facing.up": "Up",
+  "habits.hud.facing.down": "Down"
+}

@@ -1,0 +1,28 @@
+{
+  "rarity": "common",
+  "category": "exploration",
+  "trigger": {
+    "type": "sprint_distance",
+    "chance": 0.0006
+  },
+  "icon": "minecraft:oak_sign",
+  "art": "minecraft:gravel",
+  "perk": {
+    "mechanic": "habits:exploration/mile_markers",
+    "params": {
+      "amount": "1"
+    },
+    "values": [
+      80,
+      73,
+      66,
+      58,
+      51,
+      44,
+      37,
+      29,
+      22,
+      15
+    ]
+  }
+}

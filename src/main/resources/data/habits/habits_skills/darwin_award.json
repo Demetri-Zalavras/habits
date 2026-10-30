@@ -1,0 +1,26 @@
+{
+  "rarity": "uncommon",
+  "category": "guardian",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:new_death_type",
+    "chance": 1.0
+  },
+  "icon": "minecraft:skeleton_skull",
+  "art": "minecraft:bone_block",
+  "perk": {
+    "mechanic": "habits:darwin_award",
+    "values": [
+      10,
+      22,
+      34,
+      46,
+      58,
+      70,
+      82,
+      94,
+      106,
+      120
+    ]
+  }
+}

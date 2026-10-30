@@ -1,0 +1,30 @@
+{
+  "rarity": "rare",
+  "category": "nature",
+  "trigger": {
+    "type": "interact_entity",
+    "match": "minecraft:dolphin",
+    "item": [
+      "minecraft:cod",
+      "minecraft:salmon"
+    ],
+    "chance": 0.0167
+  },
+  "icon": "minecraft:heart_of_the_sea",
+  "art": "minecraft:prismarine",
+  "perk": {
+    "mechanic": "habits:pod_swimmer",
+    "values": [
+      10,
+      12,
+      14,
+      17,
+      19,
+      21,
+      23,
+      26,
+      28,
+      30
+    ]
+  }
+}

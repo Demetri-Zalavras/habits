@@ -1,0 +1,33 @@
+{
+  "rarity": "common",
+  "category": "crafting",
+  "trigger": {
+    "type": "craft",
+    "match": [
+      "#minecraft:swords",
+      "#minecraft:pickaxes",
+      "#minecraft:axes",
+      "#minecraft:shovels",
+      "#minecraft:hoes",
+      "#minecraft:trimmable_armor"
+    ],
+    "chance": 0.05
+  },
+  "icon": "minecraft:iron_pickaxe",
+  "art": "minecraft:iron_block",
+  "perk": {
+    "mechanic": "habits:tinkerer",
+    "values": [
+      10,
+      25,
+      40,
+      55,
+      70,
+      85,
+      100,
+      115,
+      130,
+      150
+    ]
+  }
+}

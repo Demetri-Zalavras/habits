@@ -1,0 +1,28 @@
+{
+  "rarity": "uncommon",
+  "category": "movement",
+  "trigger": {
+    "type": "jump",
+    "chance": 0.00104
+  },
+  "icon": "minecraft:piston",
+  "art": "minecraft:slime_block",
+  "perk": {
+    "mechanic": "habits:movement/coiled_spring",
+    "params": {
+      "charge": "1..0.5"
+    },
+    "values": [
+      1,
+      1.4,
+      1.9,
+      2.3,
+      2.8,
+      3.2,
+      3.7,
+      4.1,
+      4.6,
+      5
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "rarity": "uncommon",
+  "category": "guardian",
+  "trigger": {
+    "type": "drink_potion",
+    "chance": 0.0625
+  },
+  "icon": "minecraft:potion",
+  "art": "minecraft:polished_blackstone",
+  "perk": {
+    "mechanic": "habits:survival/quick_quaff",
+    "values": [
+      10,
+      17,
+      24,
+      32,
+      39,
+      46,
+      53,
+      61,
+      68,
+      75
+    ]
+  }
+}

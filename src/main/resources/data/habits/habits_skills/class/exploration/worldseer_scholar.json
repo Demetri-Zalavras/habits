@@ -1,0 +1,28 @@
+{
+  "rarity": "epic",
+  "category": "exploration",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:new_structure",
+    "chance": 0.053
+  },
+  "icon": "minecraft:enchanted_book",
+  "art": "minecraft:bookshelf",
+  "perk": {
+    "type": "xp_bonus",
+    "values": [
+      8,
+      12,
+      15,
+      19,
+      22,
+      26,
+      29,
+      33,
+      36,
+      40
+    ]
+  },
+  "class": "habits:class/exploration/worldseer",
+  "perk_text": "XP +{v}%"
+}

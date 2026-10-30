@@ -1,0 +1,29 @@
+{
+  "rarity": "uncommon",
+  "category": "guardian",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:sleep_blocked",
+    "chance": 0.625
+  },
+  "icon": "minecraft:white_bed",
+  "art": "minecraft:white_wool",
+  "perk": {
+    "mechanic": "habits:survival/light_sleeper",
+    "params": {
+      "glow_seconds": "5"
+    },
+    "values": [
+      8,
+      7,
+      6,
+      5,
+      4,
+      3,
+      2,
+      1,
+      1,
+      0
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "rarity": "common",
+  "category": "mining",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:mining/stair_dig",
+    "chance": 0.0125
+  },
+  "icon": "minecraft:cobblestone_stairs",
+  "art": "minecraft:stone",
+  "perk": {
+    "mechanic": "habits:mining/step_cutter",
+    "values": [
+      25,
+      33,
+      42,
+      50,
+      58,
+      67,
+      75,
+      83,
+      92,
+      100
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "rarity": "uncommon",
+  "category": "nature",
+  "trigger": {
+    "type": "bucket_empty",
+    "match": [
+      "minecraft:cod_bucket",
+      "minecraft:salmon_bucket",
+      "minecraft:tropical_fish_bucket",
+      "minecraft:pufferfish_bucket"
+    ],
+    "chance": 0.125
+  },
+  "icon": "minecraft:cod_bucket",
+  "art": "minecraft:prismarine",
+  "perk": {
+    "mechanic": "habits:nature/chum_bucket",
+    "values": [
+      60,
+      120,
+      180,
+      240,
+      300,
+      360,
+      420,
+      480,
+      540,
+      600
+    ],
+    "params": {
+      "cut": "30,70",
+      "radius": "8,16"
+    }
+  }
+}

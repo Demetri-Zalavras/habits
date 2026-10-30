@@ -1,0 +1,27 @@
+{
+  "rarity": "common",
+  "category": "crafting",
+  "trigger": {
+    "type": "interact_block",
+    "match": "minecraft:brewing_stand",
+    "item": "minecraft:blaze_powder",
+    "chance": 0.1
+  },
+  "icon": "minecraft:blaze_powder",
+  "art": "minecraft:nether_bricks",
+  "perk": {
+    "mechanic": "habits:blaze_saver",
+    "values": [
+      25,
+      30,
+      35,
+      40,
+      46,
+      52,
+      58,
+      64,
+      72,
+      80
+    ]
+  }
+}

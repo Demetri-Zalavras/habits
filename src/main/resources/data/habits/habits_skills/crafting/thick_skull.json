@@ -1,0 +1,18 @@
+{
+  "rarity": "common",
+  "category": "crafting",
+  "trigger": {
+    "type": "anvil",
+    "chance": 0.1
+  },
+  "icon": "minecraft:iron_helmet",
+  "art": "minecraft:anvil",
+  "perk": {
+    "type": "damage_type_resist",
+    "values": [10, 19, 28, 37, 46, 54, 63, 72, 81, 90],
+    "params": {
+      "damage": "minecraft:falling_anvil,minecraft:falling_block,minecraft:falling_stalactite"
+    }
+  },
+  "perk_text": "Falling block damage -{v}%"
+}

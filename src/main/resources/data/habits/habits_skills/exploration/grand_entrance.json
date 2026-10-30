@@ -1,0 +1,25 @@
+{
+  "rarity": "uncommon",
+  "category": "exploration",
+  "trigger": {
+    "type": "enter_dimension",
+    "chance": 0.2
+  },
+  "icon": "minecraft:obsidian",
+  "art": "minecraft:crying_obsidian",
+  "perk": {
+    "mechanic": "habits:exploration/grand_entrance",
+    "values": [
+      5,
+      9,
+      13,
+      17,
+      21,
+      24,
+      28,
+      32,
+      36,
+      40
+    ]
+  }
+}

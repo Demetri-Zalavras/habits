@@ -1,0 +1,26 @@
+{
+  "rarity": "epic",
+  "category": "farming",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:farming/full_field",
+    "chance": 0.0033
+  },
+  "icon": "minecraft:hay_block",
+  "art": "minecraft:hay_block",
+  "perk": {
+    "mechanic": "habits:farming/giant_crop",
+    "values": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  }
+}

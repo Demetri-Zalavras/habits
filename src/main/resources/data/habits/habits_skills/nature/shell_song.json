@@ -1,0 +1,31 @@
+{
+  "rarity": "rare",
+  "category": "nature",
+  "trigger": {
+    "type": "pickup_item",
+    "match": "minecraft:nautilus_shell",
+    "chance": 0.667
+  },
+  "icon": "minecraft:conduit",
+  "art": "minecraft:prismarine_bricks",
+  "perk": {
+    "type": "mob_effect_conditional",
+    "values": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      2
+    ],
+    "params": {
+      "effect": "minecraft:conduit_power",
+      "condition": "in_water"
+    }
+  },
+  "perk_text": "Conduit Power {v} in water"
+}

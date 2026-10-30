@@ -1,0 +1,30 @@
+{
+  "rarity": "uncommon",
+  "category": "ranger",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:arrow_hit_stone",
+    "chance": 0.0104
+  },
+  "icon": "minecraft:arrow",
+  "art": "minecraft:stone",
+  "perk": {
+    "mechanic": "habits:ricochet",
+    "values": [
+      1,
+      1,
+      2,
+      2,
+      2,
+      3,
+      3,
+      3,
+      4,
+      4
+    ],
+    "params": {
+      "speed": "50..90",
+      "aim": "0,0,0,0,0,2,2,3,3,4"
+    }
+  }
+}

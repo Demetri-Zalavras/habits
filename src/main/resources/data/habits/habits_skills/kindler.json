@@ -1,0 +1,32 @@
+{
+  "rarity": "common",
+  "category": "building",
+  "trigger": {
+    "type": "interact_block",
+    "chance": 0.0333,
+    "item": [
+      "minecraft:flint_and_steel",
+      "minecraft:fire_charge"
+    ]
+  },
+  "icon": "minecraft:flint_and_steel",
+  "art": "minecraft:netherrack",
+  "perk": {
+    "mechanic": "habits:kindler",
+    "params": {
+      "no_wear": "10..100"
+    },
+    "values": [
+      1,
+      2,
+      3,
+      4,
+      4,
+      5,
+      6,
+      7,
+      7,
+      8
+    ]
+  }
+}

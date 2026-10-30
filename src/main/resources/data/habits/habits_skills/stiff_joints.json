@@ -1,0 +1,28 @@
+{
+  "rarity": "common",
+  "category": "guardian",
+  "trigger": {
+    "type": "custom",
+    "match": [
+      "habits:effect_slowness"
+    ],
+    "chance": 0.1
+  },
+  "icon": "minecraft:cobweb",
+  "art": "minecraft:cobblestone",
+  "perk": {
+    "mechanic": "habits:survival/stiff_joints",
+    "values": [
+      10,
+      17,
+      23,
+      30,
+      37,
+      43,
+      50,
+      57,
+      63,
+      70
+    ]
+  }
+}

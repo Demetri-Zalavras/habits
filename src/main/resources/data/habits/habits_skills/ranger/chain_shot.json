@@ -1,0 +1,54 @@
+{
+  "rarity": "epic",
+  "category": "ranger",
+  "trigger": {
+    "type": "kill_entity",
+    "match": "minecraft:ghast",
+    "item": [
+      "minecraft:bow",
+      "minecraft:crossbow"
+    ],
+    "chance": 0.1
+  },
+  "icon": "minecraft:ghast_tear",
+  "art": "minecraft:soul_sand",
+  "perk": {
+    "mechanic": "habits:ranged/chain_shot",
+    "values": [
+      4.0,
+      5.0,
+      6.0,
+      7.0,
+      8.0,
+      9.0,
+      10.0,
+      11.0,
+      12.0,
+      13.0
+    ],
+    "params": {
+      "dmg": "50..100"
+    }
+  },
+  "forks": [
+    {
+      "level": 5,
+      "options": [
+        {
+          "id": "long_chain",
+          "scale": 1.5,
+          "params": {
+            "dmg": "30..60"
+          }
+        },
+        {
+          "id": "close_chain",
+          "scale": 0.6,
+          "params": {
+            "dmg": "80..150"
+          }
+        }
+      ]
+    }
+  ]
+}

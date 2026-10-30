@@ -1,0 +1,25 @@
+{
+  "rarity": "common",
+  "category": "guardian",
+  "trigger": {
+    "type": "shield_block",
+    "chance": 0.0167
+  },
+  "icon": "minecraft:shield",
+  "art": "minecraft:oak_planks",
+  "perk": {
+    "mechanic": "habits:survival/shield_wall",
+    "values": [
+      10,
+      18,
+      26,
+      33,
+      41,
+      49,
+      57,
+      64,
+      72,
+      80
+    ]
+  }
+}

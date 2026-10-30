@@ -1,0 +1,26 @@
+{
+  "rarity": "rare",
+  "category": "mining",
+  "trigger": {
+    "type": "break_block",
+    "match": "#minecraft:diamond_ores",
+    "chance": 0.0333
+  },
+  "icon": "minecraft:diamond",
+  "art": "minecraft:diamond_ore",
+  "perk": {
+    "mechanic": "habits:diamond_dowsing",
+    "values": [
+      8,
+      12,
+      16,
+      20,
+      24,
+      28,
+      32,
+      38,
+      43,
+      48
+    ]
+  }
+}

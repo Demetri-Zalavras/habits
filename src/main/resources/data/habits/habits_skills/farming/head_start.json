@@ -1,0 +1,29 @@
+{
+  "rarity": "uncommon",
+  "category": "farming",
+  "trigger": {
+    "type": "plant",
+    "match": "minecraft:cocoa",
+    "chance": 0.0104
+  },
+  "icon": "minecraft:cocoa_beans",
+  "art": "minecraft:jungle_log",
+  "perk": {
+    "mechanic": "habits:farming/head_start",
+    "params": {
+      "max": "25,75"
+    },
+    "values": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60,
+      70,
+      80,
+      90,
+      100
+    ]
+  }
+}

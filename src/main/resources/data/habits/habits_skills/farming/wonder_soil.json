@@ -1,0 +1,29 @@
+{
+  "rarity": "epic",
+  "category": "farming",
+  "trigger": {
+    "type": "till",
+    "item": [
+      "minecraft:diamond_hoe",
+      "minecraft:netherite_hoe"
+    ],
+    "chance": 0.0004
+  },
+  "icon": "minecraft:netherite_hoe",
+  "art": "minecraft:farmland",
+  "perk": {
+    "mechanic": "habits:farming/wonder_soil",
+    "values": [
+      2,
+      4,
+      6,
+      8,
+      10,
+      12,
+      14,
+      16,
+      18,
+      20
+    ]
+  }
+}

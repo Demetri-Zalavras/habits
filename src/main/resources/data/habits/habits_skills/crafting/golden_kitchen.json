@@ -1,0 +1,19 @@
+{
+  "rarity": "rare",
+  "category": "crafting",
+  "trigger": {
+    "type": "craft",
+    "match": ["minecraft:golden_carrot", "minecraft:golden_apple"],
+    "chance": 0.06667
+  },
+  "icon": "minecraft:golden_carrot",
+  "art": "minecraft:gold_block",
+  "perk": {
+    "type": "food_bonus",
+    "values": [10, 20, 30, 40, 50, 60, 70, 80, 90, 100],
+    "params": {
+      "item": "minecraft:golden_carrot,minecraft:golden_apple,minecraft:enchanted_golden_apple"
+    }
+  },
+  "perk_text": "Golden food fills {v}% more"
+}

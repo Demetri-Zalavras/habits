@@ -1,0 +1,30 @@
+{
+  "rarity": "rare",
+  "category": "ranger",
+  "trigger": {
+    "type": "damage_taken",
+    "match": "minecraft:player_explosion",
+    "chance": 0.0167
+  },
+  "icon": "minecraft:tnt",
+  "art": "minecraft:tnt",
+  "perk": {
+    "mechanic": "habits:survival/rocket_jumper",
+    "params": {
+      "fling": "1.2..3",
+      "no_fall": "0,0,0,0,0,0,0,0,0,1"
+    },
+    "values": [
+      30,
+      37,
+      44,
+      52,
+      59,
+      66,
+      73,
+      81,
+      88,
+      95
+    ]
+  }
+}

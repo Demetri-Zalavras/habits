@@ -1,0 +1,30 @@
+{
+  "rarity": "common",
+  "category": "exploration",
+  "trigger": {
+    "type": "boat_distance",
+    "chance": 0.0004
+  },
+  "icon": "minecraft:oak_boat",
+  "art": "minecraft:oak_planks",
+  "perk": {
+    "type": "damage_type_resist",
+    "params": {
+      "damage": "minecraft:drown",
+      "value_max": "100"
+    },
+    "values": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60,
+      70,
+      80,
+      90,
+      100
+    ]
+  },
+  "perk_text": "Drowning damage -{v}%"
+}

@@ -1,0 +1,33 @@
+{
+  "rarity": "common",
+  "category": "building",
+  "trigger": {
+    "type": "interact_block",
+    "chance": 0.01,
+    "match": [
+      "#minecraft:doors",
+      "#minecraft:trapdoors",
+      "#minecraft:fence_gates"
+    ]
+  },
+  "icon": "minecraft:oak_door",
+  "art": "minecraft:oak_planks",
+  "perk": {
+    "mechanic": "habits:doorkeeper",
+    "params": {
+      "auto_open_level": "8"
+    },
+    "values": [
+      3.0,
+      2.8,
+      2.6,
+      2.3,
+      2.1,
+      1.9,
+      1.7,
+      1.4,
+      1.2,
+      1.0
+    ]
+  }
+}

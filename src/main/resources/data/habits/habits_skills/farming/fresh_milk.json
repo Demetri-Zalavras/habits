@@ -1,0 +1,26 @@
+{
+  "rarity": "uncommon",
+  "category": "farming",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:farming/drink_milk",
+    "chance": 0.06
+  },
+  "icon": "minecraft:milk_bucket",
+  "art": "minecraft:white_wool",
+  "perk": {
+    "mechanic": "habits:farming/fresh_milk",
+    "values": [
+      5,
+      8,
+      11,
+      13,
+      16,
+      19,
+      22,
+      24,
+      27,
+      30
+    ]
+  }
+}

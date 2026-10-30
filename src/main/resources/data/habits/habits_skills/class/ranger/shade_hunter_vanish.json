@@ -1,0 +1,32 @@
+{
+  "rarity": "rare",
+  "category": "ranger",
+  "class": "habits:class/ranger/shade_hunter",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:low_hp_survived",
+    "chance": 0.05
+  },
+  "icon": "minecraft:ink_sac",
+  "art": "minecraft:coal_block",
+  "perk": {
+    "mechanic": "habits:ranged/smoke_bomb",
+    "values": [
+      4.0,
+      4.4,
+      4.9,
+      5.3,
+      5.8,
+      6.2,
+      6.7,
+      7.1,
+      7.6,
+      8.0
+    ],
+    "params": {
+      "blind": "3..6",
+      "hide": "3..8",
+      "cooldown": "50..20"
+    }
+  }
+}

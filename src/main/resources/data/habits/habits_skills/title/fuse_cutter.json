@@ -1,0 +1,34 @@
+{
+  "rarity": "uncommon",
+  "category": "guardian",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:never",
+    "chance": 0
+  },
+  "icon": "minecraft:gunpowder",
+  "art": "minecraft:tnt",
+  "perk": {
+    "type": "damage_type_resist",
+    "params": {
+      "damage": "#minecraft:is_explosion"
+    },
+    "values": [
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5
+    ]
+  },
+  "title": {
+    "stat_type": "minecraft:killed",
+    "stat": "minecraft:creeper",
+    "min": 200
+  }
+}

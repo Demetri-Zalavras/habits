@@ -1,0 +1,54 @@
+{
+  "rarity": "epic",
+  "category": "ranger",
+  "trigger": {
+    "type": "kill_entity",
+    "match": "minecraft:evoker",
+    "item": [
+      "minecraft:bow",
+      "minecraft:crossbow"
+    ],
+    "chance": 0.25
+  },
+  "icon": "minecraft:totem_of_undying",
+  "art": "minecraft:dark_oak_log",
+  "perk": {
+    "mechanic": "habits:ranged/fang_arrows",
+    "values": [
+      5.0,
+      8.0,
+      11.0,
+      14.0,
+      17.0,
+      20.0,
+      23.0,
+      26.0,
+      29.0,
+      32.0
+    ],
+    "params": {
+      "fangs": "1,1,1,2,2,2,3,3,3,4"
+    }
+  },
+  "forks": [
+    {
+      "level": 5,
+      "options": [
+        {
+          "id": "fang_volley",
+          "scale": 0.6,
+          "params": {
+            "fangs": "1,1,1,2,3,3,4,4,4,6"
+          }
+        },
+        {
+          "id": "fang_rain",
+          "scale": 1.6,
+          "params": {
+            "fangs": "1,1,1,2,1,1,2,2,2,2"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "rarity": "common",
+  "category": "nature",
+  "trigger": {
+    "type": "break_block",
+    "match": "minecraft:sunflower",
+    "chance": 0.05
+  },
+  "icon": "minecraft:sunflower",
+  "art": "minecraft:grass_block",
+  "perk": {
+    "type": "show_coords",
+    "values": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "params": {
+      "condition": "holding=minecraft:sunflower"
+    }
+  },
+  "perk_text": "Shows your coordinates while you hold a sunflower"
+}

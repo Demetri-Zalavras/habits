@@ -1,0 +1,33 @@
+{
+  "rarity": "common",
+  "category": "farming",
+  "trigger": {
+    "type": "till",
+    "match": [
+      "minecraft:dirt",
+      "minecraft:grass_block",
+      "minecraft:dirt_path",
+      "minecraft:coarse_dirt",
+      "minecraft:rooted_dirt"
+    ],
+    "item": "#minecraft:hoes",
+    "chance": 0.0025
+  },
+  "icon": "minecraft:iron_hoe",
+  "art": "minecraft:farmland",
+  "perk": {
+    "mechanic": "habits:tiller",
+    "values": [
+      3,
+      3,
+      3,
+      5,
+      5,
+      5,
+      7,
+      7,
+      9,
+      9
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "rarity": "common",
+  "category": "warrior",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:armored_hit",
+    "item": "#minecraft:swords",
+    "chance": 0.0033
+  },
+  "icon": "minecraft:target",
+  "art": "minecraft:polished_andesite",
+  "perk": {
+    "mechanic": "habits:melee/expose",
+    "params": {
+      "stacks": "2,5",
+      "seconds": "4,8",
+      "value_max": "15"
+    },
+    "values": [
+      2.0,
+      3.0,
+      3.0,
+      4.0,
+      5.0,
+      5.0,
+      6.0,
+      7.0,
+      7.0,
+      8.0
+    ]
+  }
+}

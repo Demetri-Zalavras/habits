@@ -1,0 +1,26 @@
+{
+  "rarity": "rare",
+  "category": "exploration",
+  "trigger": {
+    "type": "enter_biome",
+    "match": "minecraft:mushroom_fields",
+    "chance": 0.667
+  },
+  "icon": "minecraft:red_mushroom",
+  "art": "minecraft:red_mushroom_block",
+  "perk": {
+    "mechanic": "habits:movement/mushroom_pilgrim",
+    "values": [
+      4,
+      6,
+      8,
+      11,
+      13,
+      15,
+      17,
+      20,
+      22,
+      24
+    ]
+  }
+}

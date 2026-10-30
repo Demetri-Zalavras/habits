@@ -1,0 +1,31 @@
+{
+  "rarity": "uncommon",
+  "category": "mining",
+  "trigger": {
+    "type": "enter_dimension",
+    "match": "minecraft:the_end",
+    "chance": 0.3
+  },
+  "icon": "minecraft:ender_pearl",
+  "art": "minecraft:end_stone",
+  "perk": {
+    "mechanic": "habits:mining/void_pearl",
+    "params": {
+      "block": "minecraft:end_stone,minecraft:end_stone_bricks",
+      "item": "minecraft:ender_pearl",
+      "count": "1"
+    },
+    "values": [
+      0.5,
+      1,
+      1.5,
+      2,
+      2.5,
+      3,
+      3.5,
+      4,
+      4.5,
+      5
+    ]
+  }
+}

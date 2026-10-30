@@ -1,0 +1,29 @@
+{
+  "rarity": "common",
+  "category": "nature",
+  "trigger": {
+    "type": "harvest_crop",
+    "match": "minecraft:sweet_berry_bush",
+    "chance": 0.005
+  },
+  "icon": "minecraft:sweet_berries",
+  "art": "minecraft:podzol",
+  "perk": {
+    "mechanic": "habits:nature/berry_picker",
+    "values": [
+      10,
+      17,
+      23,
+      30,
+      37,
+      43,
+      50,
+      57,
+      63,
+      70
+    ],
+    "params": {
+      "extra": "1,3"
+    }
+  }
+}

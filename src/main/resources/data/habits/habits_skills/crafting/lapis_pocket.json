@@ -1,0 +1,14 @@
+{
+  "rarity": "common",
+  "category": "crafting",
+  "trigger": {
+    "type": "enchant",
+    "chance": 0.2
+  },
+  "icon": "minecraft:lapis_lazuli",
+  "art": "minecraft:lapis_block",
+  "perk": {
+    "mechanic": "habits:crafting/lapis_pocket",
+    "values": [3, 6, 9, 12, 16, 20, 26, 32, 48, 64]
+  }
+}

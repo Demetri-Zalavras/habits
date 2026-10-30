@@ -1,0 +1,36 @@
+{
+  "rarity": "epic",
+  "category": "warrior",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:never",
+    "chance": 0
+  },
+  "icon": "minecraft:netherite_ingot",
+  "art": "minecraft:blackstone",
+  "perk": {
+    "type": "attribute",
+    "params": {
+      "attribute": "minecraft:generic.armor",
+      "operation": "add_value"
+    },
+    "values": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "title": {
+    "stat_type": "minecraft:killed",
+    "stat": "cataclysm:netherite_monstrosity",
+    "min": 1
+  },
+  "perk_text": "Armor +{v}"
+}

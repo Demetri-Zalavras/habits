@@ -1,0 +1,46 @@
+{
+  "rarity": "epic",
+  "category": "building",
+  "trigger": {
+    "type": "place_block",
+    "match": "#minecraft:wool",
+    "chance": 0.00167
+  },
+  "icon": "minecraft:white_wool",
+  "art": "minecraft:white_wool",
+  "perk": {
+    "mechanic": "habits:building/elevator",
+    "values": [
+      4,
+      6,
+      8,
+      10,
+      13,
+      16,
+      20,
+      24,
+      28,
+      32
+    ],
+    "params": {
+      "block": "#minecraft:wool"
+    }
+  },
+  "forks": [
+    {
+      "level": 5,
+      "options": [
+        {
+          "id": "wool_pads"
+        },
+        {
+          "id": "iron_lift",
+          "scale": 1.6,
+          "params": {
+            "block": "minecraft:iron_block"
+          }
+        }
+      ]
+    }
+  ]
+}

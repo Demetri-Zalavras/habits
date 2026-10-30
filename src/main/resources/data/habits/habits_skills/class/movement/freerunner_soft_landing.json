@@ -1,0 +1,31 @@
+{
+  "rarity": "uncommon",
+  "category": "movement",
+  "trigger": {
+    "type": "fall",
+    "min": 4,
+    "chance": 0.03
+  },
+  "icon": "minecraft:white_wool",
+  "art": "minecraft:white_wool",
+  "perk": {
+    "type": "attribute",
+    "params": {
+      "attribute": "minecraft:generic.safe_fall_distance"
+    },
+    "values": [
+      1,
+      1.4,
+      1.9,
+      2.3,
+      2.8,
+      3.2,
+      3.7,
+      4.1,
+      4.6,
+      5
+    ]
+  },
+  "class": "habits:class/movement/freerunner",
+  "perk_text": "Safe fall +{v} blocks"
+}

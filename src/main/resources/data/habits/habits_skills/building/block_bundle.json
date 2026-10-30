@@ -1,0 +1,26 @@
+{
+  "rarity": "common",
+  "category": "building",
+  "trigger": {
+    "type": "use_item",
+    "match": "minecraft:bundle",
+    "chance": 0.0167
+  },
+  "icon": "minecraft:bundle",
+  "art": "minecraft:brown_wool",
+  "perk": {
+    "mechanic": "habits:bundle_up",
+    "values": [
+      1.5,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  }
+}

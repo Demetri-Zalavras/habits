@@ -1,0 +1,14 @@
+{
+  "rarity": "common",
+  "category": "crafting",
+  "trigger": {
+    "type": "brew",
+    "chance": 0.01667
+  },
+  "icon": "minecraft:experience_bottle",
+  "art": "minecraft:nether_bricks",
+  "perk": {
+    "mechanic": "habits:crafting/distillers_pay",
+    "values": [0.5, 1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "rarity": "legendary",
+  "category": "warrior",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:last_breath_kill",
+    "chance": 0.167
+  },
+  "icon": "minecraft:totem_of_undying",
+  "art": "minecraft:red_nether_bricks",
+  "perk": {
+    "mechanic": "habits:melee/undying_fury",
+    "params": {
+      "cooldown": "300,90",
+      "heal": "2,6",
+      "level": "0,0,0,0,0,1,1,1,1,1"
+    },
+    "values": [
+      3.0,
+      4.0,
+      4.0,
+      5.0,
+      5.0,
+      6.0,
+      6.0,
+      7.0,
+      7.0,
+      8.0
+    ]
+  },
+  "forks": [
+    {
+      "level": 5,
+      "options": [
+        {
+          "id": "long_fury",
+          "scale": 1.5,
+          "params": {
+            "cooldown": "400,150"
+          }
+        },
+        {
+          "id": "quick_fury",
+          "scale": 0.6,
+          "params": {
+            "cooldown": "180,50"
+          }
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "options": [
+        {
+          "id": "bloodthirst",
+          "params": {
+            "heal": "3,10",
+            "level": "0"
+          }
+        },
+        {
+          "id": "wrath",
+          "params": {
+            "heal": "1,3",
+            "level": "2"
+          }
+        }
+      ]
+    }
+  ]
+}

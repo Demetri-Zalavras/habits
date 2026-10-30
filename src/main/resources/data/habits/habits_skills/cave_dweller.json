@@ -1,0 +1,32 @@
+{
+  "rarity": "common",
+  "category": "exploration",
+  "trigger": {
+    "type": "enter_biome",
+    "match": [
+      "minecraft:dripstone_caves",
+      "minecraft:lush_caves"
+    ],
+    "chance": 0.2
+  },
+  "icon": "minecraft:pointed_dripstone",
+  "art": "minecraft:dripstone_block",
+  "perk": {
+    "mechanic": "habits:movement/cave_dweller",
+    "params": {
+      "cooldown": "10..2"
+    },
+    "values": [
+      8,
+      11,
+      13,
+      16,
+      19,
+      21,
+      24,
+      27,
+      29,
+      32
+    ]
+  }
+}

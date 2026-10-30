@@ -1,0 +1,31 @@
+{
+  "rarity": "rare",
+  "category": "farming",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:farming/rain_harvest",
+    "chance": 0.00083
+  },
+  "icon": "minecraft:water_bucket",
+  "art": "minecraft:farmland",
+  "perk": {
+    "type": "crop_growth_aura",
+    "params": {
+      "radius": "8",
+      "condition": "in_rain"
+    },
+    "values": [
+      5,
+      10,
+      15,
+      20,
+      25,
+      30,
+      35,
+      40,
+      45,
+      50
+    ]
+  },
+  "perk_text": "In the rain, crops within 8 blocks get a {v}% growth chance every second"
+}

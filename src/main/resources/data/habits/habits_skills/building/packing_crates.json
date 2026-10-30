@@ -1,0 +1,26 @@
+{
+  "rarity": "common",
+  "category": "building",
+  "trigger": {
+    "type": "place_block",
+    "match": "minecraft:barrel",
+    "chance": 0.05
+  },
+  "icon": "minecraft:barrel",
+  "art": "minecraft:barrel",
+  "perk": {
+    "mechanic": "habits:barrel_roll",
+    "values": [
+      3,
+      6,
+      9,
+      12,
+      15,
+      18,
+      21,
+      24,
+      26,
+      27
+    ]
+  }
+}

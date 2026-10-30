@@ -1,0 +1,31 @@
+{
+  "rarity": "epic",
+  "category": "guardian",
+  "class": "habits:class/guardian/unbroken",
+  "trigger": {
+    "type": "damage_taken",
+    "match": "#minecraft:is_explosion",
+    "chance": 0.15
+  },
+  "icon": "minecraft:tnt",
+  "art": "minecraft:obsidian",
+  "perk": {
+    "type": "damage_type_resist",
+    "values": [
+      10,
+      14,
+      18,
+      22,
+      26,
+      29,
+      33,
+      37,
+      41,
+      45
+    ],
+    "params": {
+      "damage": "#minecraft:is_explosion,#minecraft:is_fire"
+    }
+  },
+  "perk_text": "{v}% less fire and blast damage"
+}

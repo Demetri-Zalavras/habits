@@ -1,0 +1,29 @@
+{
+  "rarity": "rare",
+  "category": "mining",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:mining/full_pack",
+    "chance": 0.00333
+  },
+  "icon": "minecraft:gravel",
+  "art": "minecraft:cobblestone",
+  "perk": {
+    "mechanic": "habits:mining/rock_crusher",
+    "params": {
+      "junk": "minecraft:cobblestone,minecraft:cobbled_deepslate,minecraft:netherrack,minecraft:granite,minecraft:diorite,minecraft:andesite,minecraft:tuff,minecraft:dirt,minecraft:gravel,minecraft:calcite"
+    },
+    "values": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60,
+      70,
+      80,
+      90,
+      100
+    ]
+  }
+}

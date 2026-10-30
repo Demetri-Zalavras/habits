@@ -1,0 +1,29 @@
+{
+  "rarity": "rare",
+  "category": "guardian",
+  "trigger": {
+    "type": "die",
+    "match": "minecraft:generic_kill",
+    "chance": 0.667
+  },
+  "icon": "minecraft:command_block",
+  "art": "minecraft:bedrock",
+  "perk": {
+    "mechanic": "habits:survival/back_for_more",
+    "params": {
+      "amp": "0..2"
+    },
+    "values": [
+      5,
+      11,
+      17,
+      23,
+      29,
+      36,
+      42,
+      48,
+      54,
+      60
+    ]
+  }
+}

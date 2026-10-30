@@ -1,0 +1,26 @@
+{
+  "rarity": "common",
+  "category": "crafting",
+  "trigger": {
+    "type": "trade",
+    "chance": 0.0167
+  },
+  "icon": "minecraft:emerald",
+  "art": "minecraft:emerald_block",
+  "perk": {
+    "mechanic": "habits:haggler",
+    "params": {"value_max": "75"},
+    "values": [
+      3,
+      7,
+      11,
+      15,
+      19,
+      23,
+      27,
+      31,
+      35,
+      40
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "rarity": "rare",
+  "category": "farming",
+  "trigger": {
+    "type": "eat",
+    "match": "minecraft:golden_carrot",
+    "chance": 0.033
+  },
+  "icon": "minecraft:golden_carrot",
+  "art": "minecraft:gold_block",
+  "perk": {
+    "mechanic": "habits:survival/golden_glutton",
+    "params": {
+      "resist_seconds": "2..20"
+    },
+    "values": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      4,
+      4,
+      4,
+      4,
+      4
+    ]
+  }
+}

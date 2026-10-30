@@ -1,0 +1,30 @@
+{
+  "rarity": "uncommon",
+  "category": "exploration",
+  "trigger": {
+    "type": "enter_dimension",
+    "match": "minecraft:the_nether",
+    "chance": 0.312
+  },
+  "icon": "minecraft:flint_and_steel",
+  "art": "minecraft:obsidian",
+  "perk": {
+    "mechanic": "habits:movement/portal_hopper",
+    "params": {
+      "resistance": "0,0,0,0,0,0,0,0,0,5",
+      "calm_level": "10"
+    },
+    "values": [
+      4.0,
+      3.6,
+      3.2,
+      2.7,
+      2.3,
+      1.9,
+      1.5,
+      1.0,
+      0.6,
+      0.2
+    ]
+  }
+}

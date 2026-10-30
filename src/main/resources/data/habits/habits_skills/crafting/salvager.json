@@ -1,0 +1,14 @@
+{
+  "rarity": "uncommon",
+  "category": "crafting",
+  "trigger": {
+    "type": "item_break",
+    "chance": 0.625
+  },
+  "icon": "minecraft:iron_ingot",
+  "art": "minecraft:cobblestone",
+  "perk": {
+    "mechanic": "habits:crafting/salvager",
+    "values": [0.5, 0.8, 1.1, 1.3, 1.6, 1.9, 2.2, 2.4, 2.7, 3]
+  }
+}

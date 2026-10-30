@@ -1,0 +1,50 @@
+{
+  "rarity": "epic",
+  "category": "nature",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:lava_catch",
+    "chance": 0.00833
+  },
+  "icon": "minecraft:magma_cream",
+  "art": "minecraft:magma_block",
+  "perk": {
+    "mechanic": "habits:lava_angler",
+    "params": {
+      "scrap": "0,1"
+    },
+    "values": [
+      33,
+      40,
+      48,
+      55,
+      63,
+      70,
+      78,
+      85,
+      93,
+      100
+    ]
+  },
+  "forks": [
+    {
+      "level": 5,
+      "options": [
+        {
+          "id": "quick_bite",
+          "scale": 1.3,
+          "params": {
+            "scrap": "0,0.5"
+          }
+        },
+        {
+          "id": "deep_lava",
+          "scale": 0.75,
+          "params": {
+            "scrap": "0,2.5"
+          }
+        }
+      ]
+    }
+  ]
+}

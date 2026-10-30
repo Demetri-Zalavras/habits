@@ -1,0 +1,29 @@
+{
+  "rarity": "common",
+  "category": "mining",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:mining/ladder_underground",
+    "chance": 0.01667
+  },
+  "icon": "minecraft:ladder",
+  "art": "minecraft:oak_planks",
+  "perk": {
+    "mechanic": "habits:mining/ladder_thrift",
+    "params": {
+      "block": "minecraft:ladder,minecraft:scaffolding"
+    },
+    "values": [
+      10,
+      17,
+      24,
+      32,
+      39,
+      46,
+      53,
+      61,
+      68,
+      75
+    ]
+  }
+}

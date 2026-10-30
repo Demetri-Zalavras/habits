@@ -1,0 +1,31 @@
+{
+  "rarity": "uncommon",
+  "category": "nature",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:sneak_kill",
+    "chance": 0.0625
+  },
+  "icon": "minecraft:leather_boots",
+  "art": "minecraft:grass_block",
+  "perk": {
+    "type": "damage_bonus",
+    "values": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60,
+      70,
+      80,
+      90,
+      100
+    ],
+    "params": {
+      "entity": "minecraft:cow,minecraft:pig,minecraft:sheep,minecraft:chicken,minecraft:rabbit,minecraft:goat,minecraft:hoglin,minecraft:polar_bear,minecraft:fox,minecraft:llama",
+      "condition": "sneaking"
+    }
+  },
+  "perk_text": "+{v}% damage to animals while sneaking"
+}

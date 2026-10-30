@@ -1,0 +1,26 @@
+{
+  "rarity": "uncommon",
+  "category": "ranger",
+  "trigger": {
+    "type": "kill_entity",
+    "match": "minecraft:breeze",
+    "chance": 0.0312
+  },
+  "icon": "minecraft:breeze_rod",
+  "art": "minecraft:tuff_bricks",
+  "perk": {
+    "mechanic": "habits:breeze_breaker",
+    "values": [
+      10.0,
+      20.0,
+      30.0,
+      40.0,
+      50.0,
+      60.0,
+      70.0,
+      80.0,
+      90.0,
+      100.0
+    ]
+  }
+}

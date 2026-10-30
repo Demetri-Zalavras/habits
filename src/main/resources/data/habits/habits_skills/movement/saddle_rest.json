@@ -1,0 +1,30 @@
+{
+  "rarity": "uncommon",
+  "category": "movement",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:long_ride",
+    "chance": 0.2
+  },
+  "icon": "minecraft:hay_block",
+  "art": "minecraft:hay_block",
+  "perk": {
+    "type": "regen",
+    "params": {
+      "condition": "riding"
+    },
+    "values": [
+      2,
+      4,
+      6,
+      8,
+      10,
+      12,
+      14,
+      16,
+      18,
+      20
+    ]
+  },
+  "perk_text": "Heal {v} per minute while riding"
+}

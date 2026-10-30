@@ -1,0 +1,26 @@
+{
+  "rarity": "common",
+  "category": "farming",
+  "trigger": {
+    "type": "craft",
+    "match": "minecraft:composter",
+    "chance": 0.25
+  },
+  "icon": "minecraft:composter",
+  "art": "minecraft:composter",
+  "perk": {
+    "mechanic": "habits:farming/hot_compost",
+    "values": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60,
+      70,
+      80,
+      90,
+      100
+    ]
+  }
+}

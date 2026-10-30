@@ -1,0 +1,26 @@
+{
+  "rarity": "legendary",
+  "category": "farming",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:farming/harvest_streak",
+    "chance": 0.0083
+  },
+  "icon": "minecraft:netherite_hoe",
+  "art": "minecraft:farmland",
+  "perk": {
+    "mechanic": "habits:farming/thousand_hands",
+    "values": [
+      16,
+      24,
+      32,
+      48,
+      64,
+      96,
+      128,
+      160,
+      192,
+      256
+    ]
+  }
+}

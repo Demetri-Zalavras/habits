@@ -1,0 +1,31 @@
+{
+  "rarity": "common",
+  "category": "exploration",
+  "trigger": {
+    "type": "break_block",
+    "match": "minecraft:decorated_pot",
+    "chance": 0.1
+  },
+  "icon": "minecraft:decorated_pot",
+  "art": "minecraft:tuff_bricks",
+  "perk": {
+    "type": "attribute",
+    "params": {
+      "attribute": "minecraft:generic.luck",
+      "condition": "underground"
+    },
+    "values": [
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      1,
+      1.2,
+      1.4,
+      1.6,
+      1.8,
+      2
+    ]
+  },
+  "perk_text": "Luck +{v} underground"
+}

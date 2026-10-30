@@ -1,0 +1,28 @@
+{
+  "rarity": "uncommon",
+  "category": "movement",
+  "trigger": {
+    "type": "elytra_distance",
+    "chance": 3.47e-05
+  },
+  "icon": "minecraft:phantom_membrane",
+  "art": "minecraft:light_gray_wool",
+  "perk": {
+    "mechanic": "habits:movement/air_brake",
+    "params": {
+      "cooldown": "2..0.5"
+    },
+    "values": [
+      30,
+      36,
+      41,
+      47,
+      52,
+      58,
+      63,
+      69,
+      74,
+      80
+    ]
+  }
+}

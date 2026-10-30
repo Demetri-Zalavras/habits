@@ -1,0 +1,27 @@
+{
+  "rarity": "legendary",
+  "category": "building",
+  "class": "habits:class/building/worldwright",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:building/high_place",
+    "chance": 0.000833
+  },
+  "icon": "minecraft:elytra",
+  "art": "minecraft:white_concrete",
+  "perk": {
+    "mechanic": "habits:building/sky_builder",
+    "values": [
+      10,
+      15,
+      20,
+      25,
+      30,
+      35,
+      40,
+      45,
+      50,
+      60
+    ]
+  }
+}

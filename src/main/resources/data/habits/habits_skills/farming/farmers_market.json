@@ -1,0 +1,34 @@
+{
+  "rarity": "uncommon",
+  "category": "farming",
+  "trigger": {
+    "type": "trade",
+    "match": [
+      "minecraft:bread",
+      "minecraft:pumpkin_pie",
+      "minecraft:apple",
+      "minecraft:cookie",
+      "minecraft:cake",
+      "minecraft:golden_carrot",
+      "minecraft:suspicious_stew"
+    ],
+    "chance": 0.0104
+  },
+  "icon": "minecraft:emerald",
+  "art": "minecraft:composter",
+  "perk": {
+    "type": "trade_discount",
+    "values": [
+      2,
+      4,
+      6,
+      8,
+      10,
+      12,
+      14,
+      16,
+      18,
+      20
+    ]
+  }
+}

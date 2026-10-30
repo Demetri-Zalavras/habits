@@ -1,0 +1,29 @@
+{
+  "rarity": "common",
+  "category": "mining",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:make_path",
+    "chance": 0.005
+  },
+  "icon": "minecraft:dirt_path",
+  "art": "minecraft:dirt_path",
+  "perk": {
+    "mechanic": "habits:path_maker",
+    "params": {
+      "speed": "5..30"
+    },
+    "values": [
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2
+    ]
+  }
+}

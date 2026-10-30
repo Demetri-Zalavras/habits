@@ -1,0 +1,30 @@
+{
+  "rarity": "common",
+  "category": "farming",
+  "trigger": {
+    "type": "item_break",
+    "match": "#minecraft:hoes",
+    "chance": 0.5
+  },
+  "icon": "minecraft:wooden_hoe",
+  "art": "minecraft:oak_planks",
+  "perk": {
+    "type": "durability_save",
+    "params": {
+      "item": "#minecraft:hoes"
+    },
+    "values": [
+      10,
+      19,
+      28,
+      37,
+      46,
+      54,
+      63,
+      72,
+      81,
+      90
+    ]
+  },
+  "perk_text": "{v}% chance a hoe use costs no durability"
+}

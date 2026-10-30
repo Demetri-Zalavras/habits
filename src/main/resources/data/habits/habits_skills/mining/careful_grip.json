@@ -1,0 +1,35 @@
+{
+  "rarity": "common",
+  "category": "mining",
+  "trigger": {
+    "type": "break_block",
+    "match": [
+      "minecraft:stone_bricks",
+      "minecraft:cracked_stone_bricks",
+      "minecraft:mossy_stone_bricks",
+      "minecraft:chiseled_stone_bricks"
+    ],
+    "chance": 0.0025
+  },
+  "icon": "minecraft:iron_pickaxe",
+  "art": "minecraft:stone_bricks",
+  "perk": {
+    "type": "durability_save",
+    "params": {
+      "item": "#minecraft:pickaxes"
+    },
+    "values": [
+      5,
+      9,
+      14,
+      18,
+      23,
+      27,
+      32,
+      36,
+      41,
+      45
+    ]
+  },
+  "perk_text": "{v}% chance a pickaxe swing costs no durability"
+}

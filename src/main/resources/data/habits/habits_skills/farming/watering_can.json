@@ -1,0 +1,26 @@
+{
+  "rarity": "uncommon",
+  "category": "farming",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:farming/irrigate",
+    "chance": 0.031
+  },
+  "icon": "minecraft:potion",
+  "art": "minecraft:farmland",
+  "perk": {
+    "mechanic": "habits:farming/watering_can",
+    "values": [
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      3,
+      3,
+      3,
+      4
+    ]
+  }
+}

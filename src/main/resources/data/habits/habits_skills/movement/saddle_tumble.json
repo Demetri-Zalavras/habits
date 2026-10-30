@@ -1,0 +1,39 @@
+{
+  "rarity": "common",
+  "category": "movement",
+  "trigger": {
+    "type": "ride_distance",
+    "match": [
+      "minecraft:horse",
+      "minecraft:donkey",
+      "minecraft:mule",
+      "minecraft:skeleton_horse",
+      "minecraft:zombie_horse",
+      "minecraft:camel",
+      "minecraft:llama"
+    ],
+    "chance": 0.000208
+  },
+  "icon": "minecraft:saddle",
+  "art": "minecraft:hay_block",
+  "perk": {
+    "type": "damage_type_resist",
+    "params": {
+      "damage": "minecraft:fall",
+      "condition": "riding"
+    },
+    "values": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60,
+      70,
+      80,
+      90,
+      100
+    ]
+  },
+  "perk_text": "Fall damage -{v}% while riding"
+}

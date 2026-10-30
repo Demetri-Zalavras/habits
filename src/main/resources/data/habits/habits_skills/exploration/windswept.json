@@ -1,0 +1,35 @@
+{
+  "rarity": "uncommon",
+  "category": "exploration",
+  "trigger": {
+    "type": "enter_biome",
+    "match": [
+      "minecraft:windswept_hills",
+      "minecraft:windswept_forest",
+      "minecraft:windswept_gravelly_hills",
+      "minecraft:windswept_savanna"
+    ],
+    "chance": 0.15
+  },
+  "icon": "minecraft:feather",
+  "art": "minecraft:gravel",
+  "perk": {
+    "type": "attribute",
+    "params": {
+      "attribute": "minecraft:generic.safe_fall_distance"
+    },
+    "values": [
+      0.5,
+      1,
+      1.5,
+      2,
+      2.5,
+      3,
+      3.5,
+      4,
+      4.5,
+      5
+    ]
+  },
+  "perk_text": "Fall {v} more blocks safely"
+}

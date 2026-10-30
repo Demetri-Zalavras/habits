@@ -1,0 +1,30 @@
+{
+  "rarity": "common",
+  "category": "ranger",
+  "trigger": {
+    "type": "shoot_projectile",
+    "match": "minecraft:crossbow",
+    "chance": 0.01
+  },
+  "icon": "minecraft:string",
+  "art": "minecraft:oak_planks",
+  "perk": {
+    "type": "durability_save",
+    "values": [
+      5.0,
+      10.0,
+      15.0,
+      20.0,
+      25.0,
+      30.0,
+      35.0,
+      40.0,
+      45.0,
+      50.0
+    ],
+    "params": {
+      "item": "#c:tools/ranged_weapon"
+    }
+  },
+  "perk_text": "{v}% chance bows, crossbows and tridents take no wear"
+}

@@ -1,0 +1,29 @@
+{
+  "rarity": "common",
+  "category": "movement",
+  "trigger": {
+    "type": "stat_increment",
+    "match": "minecraft:walk_under_water_one_cm",
+    "chance": 1e-05
+  },
+  "icon": "minecraft:turtle_helmet",
+  "art": "minecraft:gravel",
+  "perk": {
+    "mechanic": "habits:movement/seabed_walker",
+    "params": {
+      "jump_level": "5"
+    },
+    "values": [
+      40,
+      47,
+      53,
+      60,
+      67,
+      73,
+      80,
+      87,
+      93,
+      100
+    ]
+  }
+}

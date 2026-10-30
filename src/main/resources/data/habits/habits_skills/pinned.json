@@ -1,0 +1,30 @@
+{
+  "rarity": "uncommon",
+  "category": "warrior",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:melee_kill",
+    "chance": 0.0312,
+    "entity": "minecraft:enderman"
+  },
+  "icon": "minecraft:ender_pearl",
+  "art": "minecraft:end_stone",
+  "perk": {
+    "mechanic": "habits:melee/pinned",
+    "params": {
+      "pearl": "10,100"
+    },
+    "values": [
+      2.0,
+      3.0,
+      5.0,
+      6.0,
+      8.0,
+      9.0,
+      11.0,
+      12.0,
+      14.0,
+      15.0
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "rarity": "epic",
+  "category": "nature",
+  "class": "habits:class/nature/stormherald",
+  "trigger": {
+    "type": "custom_units",
+    "match": "habits:nature_rain_walk",
+    "chance": 6.44e-05
+  },
+  "icon": "minecraft:copper_ingot",
+  "art": "minecraft:copper_block",
+  "perk": {
+    "type": "damage_type_resist",
+    "values": [
+      30.0,
+      37.8,
+      45.6,
+      53.3,
+      61.1,
+      68.9,
+      76.7,
+      84.4,
+      92.2,
+      100.0
+    ],
+    "params": {
+      "damage": "minecraft:lightning_bolt"
+    }
+  }
+}

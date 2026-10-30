@@ -1,0 +1,29 @@
+{
+  "rarity": "common",
+  "category": "movement",
+  "trigger": {
+    "type": "stat_increment",
+    "match": "minecraft:swim_one_cm",
+    "chance": 5.56e-06
+  },
+  "icon": "minecraft:tropical_fish",
+  "art": "minecraft:brain_coral_block",
+  "perk": {
+    "mechanic": "habits:movement/dolphin_kick",
+    "params": {
+      "leap_level": "5"
+    },
+    "values": [
+      10,
+      22,
+      34,
+      47,
+      59,
+      71,
+      83,
+      96,
+      108,
+      120
+    ]
+  }
+}

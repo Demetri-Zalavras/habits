@@ -1,0 +1,50 @@
+{
+  "rarity": "epic",
+  "category": "guardian",
+  "trigger": {
+    "type": "damage_taken",
+    "match": "minecraft:dragon_breath",
+    "chance": 0.077
+  },
+  "icon": "minecraft:dragon_breath",
+  "art": "minecraft:end_stone_bricks",
+  "perk": {
+    "mechanic": "habits:survival/breath_bottler",
+    "params": {
+      "bottle_interval": "10..2"
+    },
+    "values": [
+      10,
+      18,
+      26,
+      33,
+      41,
+      49,
+      57,
+      64,
+      72,
+      80
+    ]
+  },
+  "forks": [
+    {
+      "level": 5,
+      "options": [
+        {
+          "id": "bottler",
+          "scale": 0.7,
+          "params": {
+            "bottle_interval": "6..1"
+          }
+        },
+        {
+          "id": "breath_ward",
+          "scale": 1.2,
+          "params": {
+            "bottle_interval": "15..4"
+          }
+        }
+      ]
+    }
+  ]
+}

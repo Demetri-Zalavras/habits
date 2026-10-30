@@ -1,0 +1,32 @@
+{
+  "rarity": "common",
+  "category": "farming",
+  "trigger": {
+    "type": "break_block",
+    "match": [
+      "minecraft:sugar_cane",
+      "minecraft:bamboo",
+      "minecraft:cactus",
+      "minecraft:kelp",
+      "minecraft:kelp_plant"
+    ],
+    "chance": 0.0025
+  },
+  "icon": "minecraft:sugar_cane",
+  "art": "minecraft:bamboo_block",
+  "perk": {
+    "mechanic": "habits:stalk_cutter",
+    "values": [
+      1,
+      1,
+      2,
+      2,
+      3,
+      3,
+      4,
+      4,
+      5,
+      5
+    ]
+  }
+}

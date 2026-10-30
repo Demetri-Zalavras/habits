@@ -1,0 +1,26 @@
+{
+  "rarity": "uncommon",
+  "category": "crafting",
+  "class": "habits:class/crafting/tinker",
+  "trigger": {
+    "type": "anvil",
+    "chance": 0.2
+  },
+  "icon": "minecraft:anvil",
+  "art": "minecraft:cut_copper",
+  "perk": {
+    "type": "anvil_discount",
+    "values": [
+      10,
+      13,
+      17,
+      20,
+      23,
+      27,
+      30,
+      33,
+      37,
+      40
+    ]
+  }
+}

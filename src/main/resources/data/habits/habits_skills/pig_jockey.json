@@ -1,0 +1,29 @@
+{
+  "rarity": "uncommon",
+  "category": "movement",
+  "trigger": {
+    "type": "ride_distance",
+    "match": "minecraft:pig",
+    "chance": 0.000347
+  },
+  "icon": "minecraft:carrot_on_a_stick",
+  "art": "minecraft:pink_wool",
+  "perk": {
+    "mechanic": "habits:movement/pig_jockey",
+    "params": {
+      "stick": "10..100"
+    },
+    "values": [
+      20,
+      40,
+      60,
+      80,
+      100,
+      120,
+      140,
+      160,
+      180,
+      200
+    ]
+  }
+}

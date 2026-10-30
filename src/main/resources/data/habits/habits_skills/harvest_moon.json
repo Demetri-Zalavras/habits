@@ -1,0 +1,50 @@
+{
+  "rarity": "legendary",
+  "category": "farming",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:full_moon_harvest",
+    "chance": 0.000208
+  },
+  "icon": "minecraft:clock",
+  "art": "minecraft:hay_block",
+  "perk": {
+    "mechanic": "habits:harvest_moon",
+    "params": {
+      "radius": "8,48"
+    },
+    "values": [
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2,
+      3,
+      3,
+      3
+    ]
+  },
+  "forks": [
+    {
+      "level": 5,
+      "options": [
+        {
+          "id": "wide_moon",
+          "scale": 0.67,
+          "params": {
+            "radius": "12,72"
+          }
+        },
+        {
+          "id": "full_moon",
+          "scale": 1.5,
+          "params": {
+            "radius": "6,32"
+          }
+        }
+      ]
+    }
+  ]
+}

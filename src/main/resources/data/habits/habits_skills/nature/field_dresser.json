@@ -1,0 +1,37 @@
+{
+  "rarity": "common",
+  "category": "nature",
+  "trigger": {
+    "type": "kill_entity",
+    "match": [
+      "minecraft:cow",
+      "minecraft:pig",
+      "minecraft:sheep",
+      "minecraft:chicken",
+      "minecraft:rabbit",
+      "minecraft:mooshroom"
+    ],
+    "chance": 0.0333
+  },
+  "icon": "minecraft:beef",
+  "art": "minecraft:spruce_planks",
+  "perk": {
+    "mechanic": "habits:melee/butcher",
+    "params": {
+      "cooked": "10,100",
+      "hide": "0,0,0,0,0,0,0,0,0,1"
+    },
+    "values": [
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2,
+      3,
+      3
+    ]
+  }
+}

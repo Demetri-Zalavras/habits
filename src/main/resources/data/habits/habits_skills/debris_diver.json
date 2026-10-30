@@ -1,0 +1,72 @@
+{
+  "rarity": "legendary",
+  "category": "mining",
+  "trigger": {
+    "type": "break_block",
+    "match": "minecraft:ancient_debris",
+    "chance": 0.0167
+  },
+  "icon": "minecraft:ancient_debris",
+  "art": "minecraft:netherrack",
+  "perk": {
+    "mechanic": "habits:debris_diver",
+    "params": {
+      "speed": "2..50",
+      "fire_s": "3..15",
+      "min_y": "8",
+      "max_y": "22"
+    },
+    "values": [
+      4,
+      7,
+      10,
+      13,
+      16,
+      19,
+      22,
+      25,
+      28,
+      32
+    ]
+  },
+  "forks": [
+    {
+      "level": 5,
+      "options": [
+        {
+          "id": "wide_sense",
+          "scale": 1.4,
+          "params": {
+            "speed": "2..25"
+          }
+        },
+        {
+          "id": "fast_dig",
+          "scale": 0.7,
+          "params": {
+            "speed": "2..80"
+          }
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "options": [
+        {
+          "id": "fire_diver",
+          "scale": 0.85,
+          "params": {
+            "fire_s": "3..30"
+          }
+        },
+        {
+          "id": "full_nether",
+          "scale": 0.75,
+          "params": {
+            "max_y": "119"
+          }
+        }
+      ]
+    }
+  ]
+}

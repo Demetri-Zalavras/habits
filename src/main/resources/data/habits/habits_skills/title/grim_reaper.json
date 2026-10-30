@@ -1,0 +1,31 @@
+{
+  "rarity": "epic",
+  "category": "warrior",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:never",
+    "chance": 0
+  },
+  "icon": "minecraft:netherite_hoe",
+  "art": "minecraft:obsidian",
+  "perk": {
+    "type": "lifesteal",
+    "values": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ]
+  },
+  "title": {
+    "stat_type": "minecraft:custom",
+    "stat": "minecraft:mob_kills",
+    "min": 10000
+  }
+}

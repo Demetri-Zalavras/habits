@@ -1,0 +1,34 @@
+{
+  "rarity": "epic",
+  "category": "ranger",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:never",
+    "chance": 0
+  },
+  "icon": "minecraft:echo_shard",
+  "art": "minecraft:sculk",
+  "perk": {
+    "type": "damage_type_resist",
+    "params": {
+      "damage": "minecraft:sonic_boom"
+    },
+    "values": [
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10
+    ]
+  },
+  "title": {
+    "stat_type": "minecraft:killed",
+    "stat": "minecraft:warden",
+    "min": 1
+  }
+}

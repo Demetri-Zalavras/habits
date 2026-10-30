@@ -1,0 +1,31 @@
+{
+  "rarity": "uncommon",
+  "category": "warrior",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:melee_kill",
+    "chance": 0.0312,
+    "entity": "minecraft:creeper"
+  },
+  "icon": "minecraft:gunpowder",
+  "art": "minecraft:tnt",
+  "perk": {
+    "mechanic": "habits:melee/volatile",
+    "params": {
+      "damage": "3,10",
+      "radius": "2,3"
+    },
+    "values": [
+      5.0,
+      8.0,
+      12.0,
+      15.0,
+      18.0,
+      22.0,
+      25.0,
+      28.0,
+      32.0,
+      35.0
+    ]
+  }
+}

@@ -1,0 +1,1 @@
+{"rarity":"uncommon","category":"guardian","trigger":{"type":"eat","match":"ends_delight:chorus_cookie","chance":0.08},"icon":"ends_delight:chorus_cookie","art":"minecraft:chorus_fruit","perk":{"type":"attribute","params":{"attribute":"minecraft:safe_fall_distance","operation":"add_value"},"base":1,"per_level":1}}

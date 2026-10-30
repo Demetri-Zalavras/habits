@@ -1,0 +1,26 @@
+{
+  "rarity": "uncommon",
+  "category": "farming",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:farming/mob_trample",
+    "chance": 0.06
+  },
+  "icon": "minecraft:oak_fence",
+  "art": "minecraft:farmland",
+  "perk": {
+    "mechanic": "habits:farming/crop_guard",
+    "values": [
+      4,
+      7,
+      10,
+      13,
+      16,
+      20,
+      23,
+      26,
+      29,
+      32
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "rarity": "common",
+  "category": "exploration",
+  "trigger": {
+    "type": "enter_biome",
+    "match": "#minecraft:is_savanna",
+    "chance": 0.2
+  },
+  "icon": "minecraft:acacia_sapling",
+  "art": "minecraft:acacia_log",
+  "perk": {
+    "mechanic": "habits:movement/savanna_stalker",
+    "params": {
+      "mark": "0,0,0,0,5,10,15,20,25,30"
+    },
+    "values": [
+      2.0,
+      2.9,
+      3.8,
+      4.7,
+      5.6,
+      6.4,
+      7.3,
+      8.2,
+      9.1,
+      10.0
+    ]
+  }
+}

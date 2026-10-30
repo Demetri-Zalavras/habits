@@ -1,0 +1,33 @@
+{
+  "rarity": "uncommon",
+  "category": "exploration",
+  "trigger": {
+    "type": "enter_biome",
+    "match": [
+      "#minecraft:is_mountain",
+      "minecraft:stony_peaks"
+    ],
+    "chance": 0.125
+  },
+  "icon": "minecraft:goat_horn",
+  "art": "minecraft:calcite",
+  "perk": {
+    "mechanic": "habits:movement/peak_climber",
+    "params": {
+      "goat": "20..100",
+      "min_y": "100"
+    },
+    "values": [
+      10,
+      18,
+      26,
+      33,
+      41,
+      49,
+      57,
+      64,
+      72,
+      80
+    ]
+  }
+}

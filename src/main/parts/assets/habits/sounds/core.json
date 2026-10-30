@@ -1,0 +1,29 @@
+{
+  "core.card_add": {
+    "subtitle": "subtitles.habits.card_add",
+    "sounds": [
+      {
+        "name": "minecraft:block.amethyst_block.chime",
+        "type": "event"
+      }
+    ]
+  },
+  "core.card_level_up": {
+    "subtitle": "subtitles.habits.card_level_up",
+    "sounds": [
+      {
+        "name": "minecraft:entity.player.levelup",
+        "type": "event"
+      }
+    ]
+  },
+  "core.card_refuse": {
+    "subtitle": "subtitles.habits.card_refuse",
+    "sounds": [
+      {
+        "name": "minecraft:block.note_block.bass",
+        "type": "event"
+      }
+    ]
+  }
+}

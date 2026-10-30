@@ -1,0 +1,30 @@
+{
+  "rarity": "rare",
+  "category": "exploration",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:recovery_compass",
+    "chance": 0.667
+  },
+  "icon": "minecraft:recovery_compass",
+  "art": "minecraft:soul_soil",
+  "perk": {
+    "mechanic": "habits:movement/recovery_run",
+    "params": {
+      "duration": "30..600",
+      "keep_level": "10"
+    },
+    "values": [
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2,
+      3,
+      3,
+      3
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "rarity": "legendary",
+  "category": "crafting",
+  "class": "habits:class/crafting/mythsmith",
+  "trigger": {
+    "type": "craft",
+    "match": [
+      "#c:tools",
+      "#c:armors"
+    ],
+    "chance": 0.04
+  },
+  "icon": "minecraft:netherite_pickaxe",
+  "art": "minecraft:ancient_debris",
+  "perk": {
+    "mechanic": "habits:crafting/living_metal",
+    "values": [
+      10,
+      9,
+      8,
+      7,
+      6,
+      5,
+      4,
+      3,
+      2.5,
+      2
+    ]
+  }
+}

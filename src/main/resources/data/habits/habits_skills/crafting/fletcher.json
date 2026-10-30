@@ -1,0 +1,19 @@
+{
+  "rarity": "uncommon",
+  "category": "crafting",
+  "trigger": {
+    "type": "craft",
+    "match": "minecraft:arrow",
+    "chance": 0.0625
+  },
+  "icon": "minecraft:arrow",
+  "art": "minecraft:fletching_table",
+  "perk": {
+    "mechanic": "habits:crafting/fletcher",
+    "values": [10, 16, 21, 27, 32, 38, 43, 49, 54, 60],
+    "params": {
+      "items": "minecraft:arrow",
+      "extra": "2..8"
+    }
+  }
+}

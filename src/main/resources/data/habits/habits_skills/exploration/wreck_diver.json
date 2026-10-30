@@ -1,0 +1,35 @@
+{
+  "rarity": "uncommon",
+  "category": "exploration",
+  "trigger": {
+    "type": "enter_structure",
+    "match": [
+      "minecraft:shipwreck",
+      "minecraft:ocean_ruin_cold",
+      "minecraft:ocean_ruin_warm"
+    ],
+    "chance": 0.3
+  },
+  "icon": "minecraft:heart_of_the_sea",
+  "art": "minecraft:prismarine",
+  "perk": {
+    "mechanic": "habits:exploration/wreck_diver",
+    "params": {
+      "effect": "minecraft:dolphins_grace",
+      "structure": "minecraft:shipwreck,minecraft:ocean_ruin_cold,minecraft:ocean_ruin_warm,minecraft:monument",
+      "level": "1"
+    },
+    "values": [
+      3,
+      6,
+      9,
+      12,
+      15,
+      18,
+      21,
+      24,
+      27,
+      30
+    ]
+  }
+}

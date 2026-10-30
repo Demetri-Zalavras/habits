@@ -1,0 +1,36 @@
+{
+  "rarity": "common",
+  "category": "farming",
+  "trigger": {
+    "type": "smelt",
+    "match": [
+      "minecraft:cooked_beef",
+      "minecraft:cooked_porkchop",
+      "minecraft:cooked_mutton",
+      "minecraft:cooked_chicken",
+      "minecraft:cooked_rabbit"
+    ],
+    "chance": 0.025
+  },
+  "icon": "minecraft:cooked_beef",
+  "art": "minecraft:smoker",
+  "perk": {
+    "type": "smelt_bonus",
+    "params": {
+      "item": "minecraft:cooked_beef,minecraft:cooked_porkchop,minecraft:cooked_mutton,minecraft:cooked_chicken,minecraft:cooked_rabbit"
+    },
+    "values": [
+      5,
+      10,
+      15,
+      20,
+      25,
+      30,
+      35,
+      40,
+      45,
+      50
+    ]
+  },
+  "perk_text": "{v}% chance roast meat comes out double"
+}

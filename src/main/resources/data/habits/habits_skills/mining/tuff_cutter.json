@@ -1,0 +1,31 @@
+{
+  "rarity": "common",
+  "category": "mining",
+  "trigger": {
+    "type": "break_block",
+    "match": "minecraft:tuff",
+    "chance": 0.005
+  },
+  "icon": "minecraft:iron_nugget",
+  "art": "minecraft:tuff",
+  "perk": {
+    "mechanic": "habits:mining/tuff_cutter",
+    "params": {
+      "block": "minecraft:tuff,minecraft:tuff_bricks,minecraft:polished_tuff",
+      "item": "minecraft:iron_nugget",
+      "count": "1..3"
+    },
+    "values": [
+      5,
+      7.8,
+      10.6,
+      13.3,
+      16.1,
+      18.9,
+      21.7,
+      24.4,
+      27.2,
+      30
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "rarity": "uncommon",
+  "category": "mining",
+  "trigger": {
+    "type": "pickup_item",
+    "match": "minecraft:amethyst_shard",
+    "chance": 0.01042
+  },
+  "icon": "minecraft:amethyst_cluster",
+  "art": "minecraft:amethyst_block",
+  "perk": {
+    "mechanic": "habits:mining/crystal_calm",
+    "params": {
+      "block": "minecraft:amethyst_cluster,minecraft:large_amethyst_bud",
+      "effect": "minecraft:regeneration",
+      "amplifier": "1..2"
+    },
+    "values": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "rarity": "common",
+  "category": "exploration",
+  "trigger": {
+    "type": "enter_structure",
+    "match": [
+      "minecraft:mineshaft",
+      "minecraft:mineshaft_mesa"
+    ],
+    "chance": 0.5
+  },
+  "icon": "minecraft:rail",
+  "art": "minecraft:oak_planks",
+  "perk": {
+    "mechanic": "habits:movement/mine_rat",
+    "params": {
+      "poison_level": "6"
+    },
+    "values": [
+      10,
+      16,
+      21,
+      27,
+      32,
+      38,
+      43,
+      49,
+      54,
+      60
+    ]
+  }
+}

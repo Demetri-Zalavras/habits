@@ -1,0 +1,18 @@
+{
+  "rarity": "mythical",
+  "category": "guardian",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:clutch_frontier",
+    "chance": 0.2
+  },
+  "icon": "minecraft:totem_of_undying",
+  "art": "minecraft:crying_obsidian",
+  "perk": {
+    "mechanic": "habits:survival/ninth_life",
+    "params": {
+      "hearts": "2,3,4,5,6,6,7,8,9,10"
+    },
+    "values": [60, 55, 50, 45, 40, 35, 30, 25, 20, 15]
+  }
+}

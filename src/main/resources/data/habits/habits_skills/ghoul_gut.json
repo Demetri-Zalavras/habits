@@ -1,0 +1,29 @@
+{
+  "rarity": "common",
+  "category": "guardian",
+  "trigger": {
+    "type": "eat",
+    "match": "minecraft:rotten_flesh",
+    "chance": 0.1
+  },
+  "icon": "minecraft:rotten_flesh",
+  "art": "minecraft:soul_soil",
+  "perk": {
+    "mechanic": "habits:survival/ghoul_gut",
+    "params": {
+      "ignore_seconds": "2..20"
+    },
+    "values": [
+      20,
+      29,
+      38,
+      47,
+      56,
+      64,
+      73,
+      82,
+      91,
+      100
+    ]
+  }
+}

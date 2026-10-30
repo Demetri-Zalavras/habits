@@ -1,0 +1,36 @@
+{
+  "rarity": "uncommon",
+  "category": "building",
+  "trigger": {
+    "type": "place_block",
+    "match": [
+      "minecraft:iron_bars",
+      "minecraft:chain",
+      "minecraft:iron_door",
+      "minecraft:iron_trapdoor",
+      "minecraft:heavy_weighted_pressure_plate"
+    ],
+    "chance": 0.00833
+  },
+  "icon": "minecraft:iron_bars",
+  "art": "minecraft:iron_block",
+  "perk": {
+    "type": "mining_speed",
+    "params": {
+      "block": "minecraft:iron_bars,minecraft:chain,minecraft:iron_door,minecraft:iron_trapdoor,minecraft:heavy_weighted_pressure_plate,#minecraft:anvil,minecraft:iron_block,minecraft:hopper,minecraft:cauldron"
+    },
+    "values": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60,
+      70,
+      80,
+      90,
+      100
+    ]
+  },
+  "perk_text": "Breaking iron fixtures +{v}%"
+}

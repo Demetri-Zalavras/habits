@@ -1,0 +1,52 @@
+{
+  "rarity": "epic",
+  "category": "warrior",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:melee_kill",
+    "chance": 0.0167,
+    "entity": "minecraft:iron_golem",
+    "item": "minecraft:air"
+  },
+  "icon": "minecraft:lead",
+  "art": "minecraft:iron_block",
+  "perk": {
+    "mechanic": "habits:melee/heave",
+    "params": {
+      "throw": "6,20"
+    },
+    "values": [
+      10.0,
+      20.0,
+      30.0,
+      40.0,
+      50.0,
+      60.0,
+      70.0,
+      80.0,
+      90.0,
+      100.0
+    ]
+  },
+  "forks": [
+    {
+      "level": 5,
+      "options": [
+        {
+          "id": "strongman",
+          "scale": 1.5,
+          "params": {
+            "throw": "4,12"
+          }
+        },
+        {
+          "id": "pitcher",
+          "scale": 0.7,
+          "params": {
+            "throw": "8,32"
+          }
+        }
+      ]
+    }
+  ]
+}

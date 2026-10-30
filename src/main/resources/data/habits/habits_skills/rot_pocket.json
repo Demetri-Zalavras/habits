@@ -1,0 +1,29 @@
+{
+  "rarity": "common",
+  "category": "farming",
+  "trigger": {
+    "type": "interact_block",
+    "match": "minecraft:composter",
+    "chance": 0.005
+  },
+  "icon": "minecraft:composter",
+  "art": "minecraft:composter",
+  "perk": {
+    "mechanic": "habits:rot_pocket",
+    "params": {
+      "interval": "60,10"
+    },
+    "values": [
+      32,
+      28,
+      25,
+      21,
+      18,
+      14,
+      11,
+      8,
+      6,
+      4
+    ]
+  }
+}

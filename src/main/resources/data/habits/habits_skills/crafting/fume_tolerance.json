@@ -1,0 +1,18 @@
+{
+  "rarity": "common",
+  "category": "crafting",
+  "trigger": {
+    "type": "brew",
+    "chance": 0.01667
+  },
+  "icon": "minecraft:splash_potion",
+  "art": "minecraft:nether_wart_block",
+  "perk": {
+    "type": "damage_type_resist",
+    "values": [4, 8, 12, 16, 20, 24, 28, 32, 36, 40],
+    "params": {
+      "damage": "minecraft:magic,minecraft:indirect_magic"
+    }
+  },
+  "perk_text": "Potion and magic damage -{v}%"
+}

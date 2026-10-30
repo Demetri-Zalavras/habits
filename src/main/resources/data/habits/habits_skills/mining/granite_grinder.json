@@ -1,0 +1,33 @@
+{
+  "rarity": "common",
+  "category": "mining",
+  "trigger": {
+    "type": "break_block",
+    "match": [
+      "minecraft:granite",
+      "minecraft:diorite"
+    ],
+    "chance": 0.002
+  },
+  "icon": "minecraft:polished_granite",
+  "art": "minecraft:granite",
+  "perk": {
+    "type": "mining_speed",
+    "params": {
+      "block": "minecraft:granite,minecraft:diorite,minecraft:andesite,minecraft:tuff,minecraft:calcite"
+    },
+    "values": [
+      5,
+      10,
+      15,
+      20,
+      25,
+      30,
+      35,
+      40,
+      45,
+      50
+    ]
+  },
+  "perk_text": "Granite, diorite, andesite, tuff and calcite mine +{v}% faster"
+}

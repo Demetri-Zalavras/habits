@@ -1,0 +1,19 @@
+{
+  "rarity": "common",
+  "category": "crafting",
+  "trigger": {
+    "type": "smelt",
+    "match": "minecraft:charcoal",
+    "chance": 0.05
+  },
+  "icon": "minecraft:magma_cream",
+  "art": "minecraft:magma_block",
+  "perk": {
+    "type": "damage_type_resist",
+    "values": [3, 6, 9, 12, 15, 18, 21, 24, 27, 30],
+    "params": {
+      "damage": "#minecraft:is_fire,minecraft:hot_floor"
+    }
+  },
+  "perk_text": "Fire and hot floor damage -{v}%"
+}

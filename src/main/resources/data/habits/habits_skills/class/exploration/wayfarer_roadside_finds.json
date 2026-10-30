@@ -1,0 +1,29 @@
+{
+  "rarity": "epic",
+  "category": "exploration",
+  "trigger": {
+    "type": "walk_distance",
+    "chance": 6.4e-05
+  },
+  "icon": "minecraft:emerald",
+  "art": "minecraft:gravel",
+  "perk": {
+    "mechanic": "habits:exploration/wayfarer_roadside_finds",
+    "params": {
+      "items": "minecraft:bread,minecraft:arrow,minecraft:string,minecraft:iron_nugget,minecraft:gold_nugget,minecraft:emerald,minecraft:torch,minecraft:bone"
+    },
+    "values": [
+      400,
+      365,
+      330,
+      300,
+      265,
+      235,
+      200,
+      165,
+      135,
+      100
+    ]
+  },
+  "class": "habits:class/exploration/wayfarer"
+}

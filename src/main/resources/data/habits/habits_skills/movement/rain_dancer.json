@@ -1,0 +1,31 @@
+{
+  "rarity": "common",
+  "category": "movement",
+  "trigger": {
+    "type": "custom_units",
+    "match": "habits:rain_walk",
+    "chance": 0.000386
+  },
+  "icon": "minecraft:lily_pad",
+  "art": "minecraft:mud",
+  "perk": {
+    "type": "mob_effect_conditional",
+    "params": {
+      "effect": "minecraft:speed",
+      "condition": "in_rain"
+    },
+    "values": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2,
+      2
+    ]
+  },
+  "perk_text": "Speed {v} in the rain"
+}

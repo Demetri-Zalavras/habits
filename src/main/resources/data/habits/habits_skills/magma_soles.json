@@ -1,0 +1,30 @@
+{
+  "rarity": "common",
+  "category": "guardian",
+  "trigger": {
+    "type": "damage_taken",
+    "match": "minecraft:hot_floor",
+    "chance": 0.000833
+  },
+  "icon": "minecraft:magma_block",
+  "art": "minecraft:magma_block",
+  "perk": {
+    "mechanic": "habits:survival/magma_soles",
+    "params": {
+      "speed": "-1,-1,-1,-1,0,0,0,0,0,0",
+      "regen": "-1,-1,-1,-1,-1,-1,-1,-1,-1,0"
+    },
+    "values": [
+      20,
+      29,
+      38,
+      47,
+      56,
+      64,
+      73,
+      82,
+      91,
+      100
+    ]
+  }
+}

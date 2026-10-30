@@ -1,0 +1,50 @@
+{
+  "rarity": "epic",
+  "category": "exploration",
+  "trigger": {
+    "type": "enter_structure",
+    "match": "minecraft:stronghold",
+    "chance": 1.0
+  },
+  "icon": "minecraft:ender_eye",
+  "art": "minecraft:stone_bricks",
+  "perk": {
+    "mechanic": "habits:movement/stronghold_seeker",
+    "params": {
+      "distance": "1.5..4"
+    },
+    "values": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60,
+      70,
+      80,
+      90,
+      100
+    ]
+  },
+  "forks": [
+    {
+      "level": 5,
+      "options": [
+        {
+          "id": "careful_eyes",
+          "scale": 1.3,
+          "params": {
+            "distance": "1.2..2.5"
+          }
+        },
+        {
+          "id": "far_throw",
+          "scale": 0.75,
+          "params": {
+            "distance": "2..6"
+          }
+        }
+      ]
+    }
+  ]
+}

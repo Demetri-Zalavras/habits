@@ -1,0 +1,29 @@
+{
+  "rarity": "rare",
+  "category": "nature",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:thunder_catch",
+    "chance": 0.0111
+  },
+  "icon": "minecraft:lightning_rod",
+  "art": "minecraft:prismarine",
+  "perk": {
+    "mechanic": "habits:storm_angler",
+    "params": {
+      "thunder": "0,75"
+    },
+    "values": [
+      5,
+      10,
+      15,
+      20,
+      25,
+      30,
+      35,
+      40,
+      45,
+      50
+    ]
+  }
+}

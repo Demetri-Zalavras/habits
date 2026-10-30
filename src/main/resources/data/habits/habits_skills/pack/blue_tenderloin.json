@@ -1,0 +1,1 @@
+{"rarity":"uncommon","category":"guardian","trigger":{"type":"eat","match":"mynethersdelight:blue_tenderloin_steak","chance":0.08},"icon":"mynethersdelight:blue_tenderloin_steak","art":"minecraft:warped_planks","perk":{"type":"attribute","params":{"attribute":"minecraft:max_health","operation":"add_value"},"base":1,"per_level":1}}

@@ -1,0 +1,30 @@
+{
+  "rarity": "uncommon",
+  "category": "nature",
+  "trigger": {
+    "type": "interact_entity",
+    "match": "minecraft:allay",
+    "chance": 0.0312
+  },
+  "icon": "minecraft:amethyst_shard",
+  "art": "minecraft:amethyst_block",
+  "perk": {
+    "mechanic": "habits:allay_pal",
+    "params": {
+      "dupe_cd": "300,0",
+      "range": "1.5,3"
+    },
+    "values": [
+      25,
+      45,
+      65,
+      85,
+      105,
+      125,
+      145,
+      165,
+      185,
+      200
+    ]
+  }
+}

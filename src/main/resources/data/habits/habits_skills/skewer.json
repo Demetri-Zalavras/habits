@@ -1,0 +1,29 @@
+{
+  "rarity": "rare",
+  "category": "ranger",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:bolt_pierce_two",
+    "chance": 0.0333
+  },
+  "icon": "minecraft:crossbow",
+  "art": "minecraft:iron_block",
+  "perk": {
+    "mechanic": "habits:skewer",
+    "values": [
+      10.0,
+      14.44,
+      18.89,
+      23.33,
+      27.78,
+      32.22,
+      36.67,
+      41.11,
+      45.56,
+      50.0
+    ],
+    "params": {
+      "drag": "0..4"
+    }
+  }
+}

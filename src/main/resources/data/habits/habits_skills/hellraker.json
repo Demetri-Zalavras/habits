@@ -1,0 +1,29 @@
+{
+  "rarity": "common",
+  "category": "mining",
+  "trigger": {
+    "type": "break_block",
+    "match": "#minecraft:base_stone_nether",
+    "chance": 0.00125
+  },
+  "icon": "minecraft:netherrack",
+  "art": "minecraft:netherrack",
+  "perk": {
+    "mechanic": "habits:hellraker",
+    "params": {
+      "per_tick": "6"
+    },
+    "values": [
+      2,
+      3,
+      5,
+      7,
+      9,
+      12,
+      15,
+      18,
+      21,
+      25
+    ]
+  }
+}

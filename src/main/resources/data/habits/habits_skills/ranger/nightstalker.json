@@ -1,0 +1,35 @@
+{
+  "rarity": "uncommon",
+  "category": "ranger",
+  "trigger": {
+    "type": "kill_entity",
+    "match": "minecraft:phantom",
+    "item": [
+      "minecraft:bow",
+      "minecraft:crossbow"
+    ],
+    "chance": 0.1
+  },
+  "icon": "minecraft:phantom_membrane",
+  "art": "minecraft:black_concrete",
+  "perk": {
+    "type": "damage_bonus",
+    "values": [
+      5.0,
+      10.0,
+      15.0,
+      20.0,
+      25.0,
+      30.0,
+      35.0,
+      40.0,
+      45.0,
+      50.0
+    ],
+    "params": {
+      "damage": "#minecraft:is_projectile",
+      "condition": "night"
+    }
+  },
+  "perk_text": "Projectile damage at night +{v}%"
+}

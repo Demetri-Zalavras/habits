@@ -1,0 +1,38 @@
+{
+  "rarity": "rare",
+  "category": "guardian",
+  "trigger": {
+    "type": "shield_block",
+    "entity": [
+      "minecraft:ravager",
+      "minecraft:hoglin",
+      "minecraft:zoglin",
+      "minecraft:piglin_brute",
+      "minecraft:vindicator"
+    ],
+    "chance": 0.04
+  },
+  "icon": "minecraft:shield",
+  "art": "minecraft:polished_blackstone_bricks",
+  "perk": {
+    "mechanic": "habits:survival/shield_rush",
+    "values": [
+      0.6,
+      0.71,
+      0.82,
+      0.93,
+      1.04,
+      1.16,
+      1.27,
+      1.38,
+      1.49,
+      1.6
+    ],
+    "params": {
+      "reach": "3",
+      "damage": "2..8",
+      "knock": "0.6..1.5",
+      "cooldown": "8..3"
+    }
+  }
+}

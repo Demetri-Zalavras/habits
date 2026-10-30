@@ -1,0 +1,1 @@
+{"rarity":"uncommon","category":"warrior","trigger":{"type":"eat","match":"mynethersdelight:bullet_pepper","chance":0.08},"icon":"mynethersdelight:bullet_pepper","art":"minecraft:nether_wart_block","perk":{"type":"attribute","params":{"attribute":"minecraft:attack_damage","operation":"add_value"},"base":0.3,"per_level":0.2}}

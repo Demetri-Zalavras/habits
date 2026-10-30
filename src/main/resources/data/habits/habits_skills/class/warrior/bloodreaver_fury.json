@@ -1,0 +1,33 @@
+{
+  "rarity": "epic",
+  "category": "warrior",
+  "class": "habits:class/warrior/bloodreaver",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:low_hp_kill",
+    "chance": 0.03
+  },
+  "icon": "minecraft:blaze_powder",
+  "art": "minecraft:nether_wart_block",
+  "perk": {
+    "type": "attribute",
+    "params": {
+      "attribute": "minecraft:generic.attack_speed",
+      "operation": "add_multiplied_base",
+      "condition": "low_health"
+    },
+    "values": [
+      10,
+      13,
+      17,
+      20,
+      23,
+      27,
+      30,
+      33,
+      37,
+      40
+    ]
+  },
+  "perk_text": "Below 30% health, swing {v}% faster"
+}

@@ -1,0 +1,26 @@
+{
+  "rarity": "common",
+  "category": "ranger",
+  "trigger": {
+    "type": "damage_taken",
+    "match": "minecraft:thrown",
+    "chance": 0.025
+  },
+  "icon": "minecraft:snowball",
+  "art": "minecraft:snow_block",
+  "perk": {
+    "mechanic": "habits:survival/snowball_catcher",
+    "values": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60,
+      70,
+      80,
+      90,
+      100
+    ]
+  }
+}

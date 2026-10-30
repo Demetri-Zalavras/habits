@@ -1,0 +1,26 @@
+{
+  "rarity": "common",
+  "category": "exploration",
+  "trigger": {
+    "type": "enter_biome",
+    "match": "#minecraft:is_jungle",
+    "chance": 0.2
+  },
+  "icon": "minecraft:vine",
+  "art": "minecraft:jungle_log",
+  "perk": {
+    "mechanic": "habits:movement/jungle_explorer",
+    "values": [
+      2.0,
+      2.9,
+      3.8,
+      4.7,
+      5.6,
+      6.4,
+      7.3,
+      8.2,
+      9.1,
+      10.0
+    ]
+  }
+}

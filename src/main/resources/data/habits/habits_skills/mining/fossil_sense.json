@@ -1,0 +1,31 @@
+{
+  "rarity": "uncommon",
+  "category": "mining",
+  "trigger": {
+    "type": "enter_biome",
+    "match": "minecraft:soul_sand_valley",
+    "chance": 0.1
+  },
+  "icon": "minecraft:skeleton_skull",
+  "art": "minecraft:bone_block",
+  "perk": {
+    "mechanic": "habits:mining/fossil_sense",
+    "params": {
+      "block": "minecraft:bone_block",
+      "color": "F2EBD3",
+      "glow_s": "6..15"
+    },
+    "values": [
+      8,
+      11,
+      13,
+      16,
+      19,
+      21,
+      24,
+      27,
+      29,
+      32
+    ]
+  }
+}

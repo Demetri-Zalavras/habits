@@ -1,0 +1,31 @@
+{
+  "rarity": "rare",
+  "category": "building",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:building/build_streak",
+    "chance": 0.0667
+  },
+  "icon": "minecraft:clock",
+  "art": "minecraft:smooth_stone",
+  "perk": {
+    "mechanic": "habits:building/flow_state",
+    "values": [
+      10,
+      15,
+      20,
+      25,
+      30,
+      35,
+      40,
+      45,
+      50,
+      60
+    ],
+    "params": {
+      "places": "20",
+      "window_s": "30",
+      "amp": "0..1"
+    }
+  }
+}

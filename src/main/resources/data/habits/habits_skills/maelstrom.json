@@ -1,0 +1,29 @@
+{
+  "rarity": "uncommon",
+  "category": "warrior",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:underwater_hit",
+    "chance": 0.00313
+  },
+  "icon": "minecraft:heart_of_the_sea",
+  "art": "minecraft:dark_prismarine",
+  "perk": {
+    "mechanic": "habits:melee/maelstrom",
+    "params": {
+      "damage": "0,2"
+    },
+    "values": [
+      2.0,
+      2.6,
+      3.1,
+      3.7,
+      4.2,
+      4.8,
+      5.3,
+      5.9,
+      6.4,
+      7.0
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "rarity": "rare",
+  "category": "ranger",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:ranged/arrow_kill_low_hp",
+    "chance": 0.05
+  },
+  "icon": "minecraft:fermented_spider_eye",
+  "art": "minecraft:red_nether_bricks",
+  "perk": {
+    "mechanic": "habits:ranged/leech",
+    "values": [
+      3,
+      4,
+      5,
+      7,
+      8,
+      9,
+      11,
+      12,
+      13,
+      15
+    ]
+  }
+}

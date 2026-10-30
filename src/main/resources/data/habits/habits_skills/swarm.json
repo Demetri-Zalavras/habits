@@ -1,0 +1,26 @@
+{
+  "rarity": "epic",
+  "category": "nature",
+  "trigger": {
+    "type": "breed",
+    "match": "minecraft:bee",
+    "chance": 0.00556
+  },
+  "icon": "minecraft:bee_nest",
+  "art": "minecraft:honey_block",
+  "perk": {
+    "mechanic": "habits:swarm",
+    "values": [
+      1,
+      1,
+      2,
+      2,
+      3,
+      3,
+      4,
+      5,
+      5,
+      6
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "rarity": "uncommon",
+  "category": "building",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:stonecutter_take",
+    "chance": 0.0104
+  },
+  "icon": "minecraft:stonecutter",
+  "art": "minecraft:chiseled_stone_bricks",
+  "perk": {
+    "mechanic": "habits:stone_sense",
+    "values": [
+      1,
+      2,
+      3,
+      4,
+      6,
+      8,
+      12,
+      16,
+      24,
+      36
+    ]
+  }
+}

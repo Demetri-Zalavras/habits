@@ -1,0 +1,26 @@
+{
+  "rarity": "common",
+  "category": "movement",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:mount_fall",
+    "chance": 0.2
+  },
+  "icon": "minecraft:leather_horse_armor",
+  "art": "minecraft:packed_mud",
+  "perk": {
+    "mechanic": "habits:movement/sure_hooves",
+    "values": [
+      20,
+      29,
+      38,
+      47,
+      56,
+      64,
+      73,
+      82,
+      91,
+      100
+    ]
+  }
+}

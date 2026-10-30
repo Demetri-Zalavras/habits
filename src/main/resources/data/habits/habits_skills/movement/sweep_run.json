@@ -1,0 +1,30 @@
+{
+  "rarity": "uncommon",
+  "category": "movement",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:long_sprint",
+    "chance": 0.05
+  },
+  "icon": "minecraft:hopper",
+  "art": "minecraft:gravel",
+  "perk": {
+    "type": "magnet_pickup",
+    "params": {
+      "condition": "sprinting"
+    },
+    "values": [
+      1,
+      1.6,
+      2.1,
+      2.7,
+      3.2,
+      3.8,
+      4.3,
+      4.9,
+      5.4,
+      6
+    ]
+  },
+  "perk_text": "Pull items from {v} blocks while sprinting"
+}

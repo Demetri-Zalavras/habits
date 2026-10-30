@@ -1,0 +1,29 @@
+{
+  "rarity": "uncommon",
+  "category": "mining",
+  "trigger": {
+    "type": "item_break",
+    "chance": 0.625,
+    "match": "#c:tools"
+  },
+  "icon": "minecraft:anvil",
+  "art": "minecraft:anvil",
+  "perk": {
+    "mechanic": "habits:tireless_tools",
+    "params": {
+      "cooldown_min": "20..2"
+    },
+    "values": [
+      5.0,
+      10.0,
+      15.0,
+      20.0,
+      25.0,
+      30.0,
+      35.0,
+      40.0,
+      45.0,
+      50.0
+    ]
+  }
+}

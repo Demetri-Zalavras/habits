@@ -1,0 +1,17 @@
+{
+  "rarity": "uncommon",
+  "category": "crafting",
+  "trigger": {
+    "type": "trade",
+    "chance": 0.01042
+  },
+  "icon": "minecraft:pumpkin_pie",
+  "art": "minecraft:hay_block",
+  "perk": {
+    "mechanic": "habits:crafting/bakers_dozen",
+    "values": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50],
+    "params": {
+      "exclude": "minecraft:emerald,minecraft:emerald_block"
+    }
+  }
+}

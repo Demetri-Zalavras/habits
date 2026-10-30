@@ -1,0 +1,32 @@
+{
+  "rarity": "uncommon",
+  "category": "movement",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:long_jump",
+    "chance": 0.0156
+  },
+  "icon": "minecraft:rabbit_foot",
+  "art": "minecraft:slime_block",
+  "perk": {
+    "type": "attribute",
+    "params": {
+      "attribute": "minecraft:generic.jump_strength",
+      "operation": "add_multiplied_base"
+    },
+    "values": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  "class": "habits:class/movement/freerunner",
+  "perk_text": "Jump +{v}%"
+}

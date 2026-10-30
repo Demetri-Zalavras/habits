@@ -1,0 +1,26 @@
+{
+  "rarity": "uncommon",
+  "category": "exploration",
+  "trigger": {
+    "type": "enter_structure",
+    "match": "minecraft:nether_fossil",
+    "chance": 0.312
+  },
+  "icon": "minecraft:bone",
+  "art": "minecraft:bone_block",
+  "perk": {
+    "mechanic": "habits:movement/fossil_finder",
+    "values": [
+      8,
+      12,
+      17,
+      21,
+      26,
+      30,
+      35,
+      39,
+      44,
+      48
+    ]
+  }
+}

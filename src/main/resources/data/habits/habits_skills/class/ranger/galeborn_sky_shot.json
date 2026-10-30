@@ -1,0 +1,32 @@
+{
+  "rarity": "epic",
+  "category": "ranger",
+  "class": "habits:class/ranger/galeborn",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:gliding_hit",
+    "chance": 0.0333
+  },
+  "icon": "minecraft:elytra",
+  "art": "minecraft:purpur_block",
+  "perk": {
+    "mechanic": "habits:sky_gunner",
+    "values": [
+      40.0,
+      55.6,
+      71.1,
+      86.7,
+      102.2,
+      117.8,
+      133.3,
+      148.9,
+      164.4,
+      180.0
+    ],
+    "params": {
+      "homing": "1..5",
+      "turn": "15..30",
+      "lock": "12..24"
+    }
+  }
+}

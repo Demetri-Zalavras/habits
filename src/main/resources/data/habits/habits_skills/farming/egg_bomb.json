@@ -1,0 +1,29 @@
+{
+  "rarity": "rare",
+  "category": "farming",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:farming/egg_hatched",
+    "chance": 0.11
+  },
+  "icon": "minecraft:egg",
+  "art": "minecraft:tnt",
+  "perk": {
+    "mechanic": "habits:farming/egg_bomb",
+    "params": {
+      "slow": "1,4"
+    },
+    "values": [
+      1,
+      1,
+      2,
+      2,
+      3,
+      3,
+      4,
+      4,
+      5,
+      6
+    ]
+  }
+}

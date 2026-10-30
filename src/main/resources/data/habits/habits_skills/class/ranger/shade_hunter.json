@@ -1,0 +1,27 @@
+{
+  "rarity": "rare",
+  "category": "ranger",
+  "class_passive": true,
+  "trigger": {
+    "type": "custom",
+    "match": "habits:arrow_hit_hostile",
+    "chance": 0.0056
+  },
+  "icon": "minecraft:bow",
+  "art": "minecraft:black_wool",
+  "perk": {
+    "mechanic": "habits:ranged/ambush",
+    "values": [
+      15.0,
+      20.0,
+      25.0,
+      30.0,
+      35.0,
+      40.0,
+      45.0,
+      50.0,
+      55.0,
+      60.0
+    ]
+  }
+}

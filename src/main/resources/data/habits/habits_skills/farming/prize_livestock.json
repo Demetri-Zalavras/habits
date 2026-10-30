@@ -1,0 +1,29 @@
+{
+  "rarity": "epic",
+  "category": "farming",
+  "trigger": {
+    "type": "breed",
+    "match": [
+      "minecraft:cow",
+      "minecraft:sheep"
+    ],
+    "chance": 0.0042
+  },
+  "icon": "minecraft:golden_apple",
+  "art": "minecraft:gold_block",
+  "perk": {
+    "mechanic": "habits:farming/prize_livestock",
+    "values": [
+      5,
+      10,
+      15,
+      20,
+      25,
+      30,
+      35,
+      40,
+      45,
+      50
+    ]
+  }
+}

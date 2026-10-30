@@ -1,0 +1,26 @@
+{
+  "rarity": "rare",
+  "category": "movement",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:riptide",
+    "chance": 0.0056
+  },
+  "icon": "minecraft:trident",
+  "art": "minecraft:dark_prismarine",
+  "perk": {
+    "mechanic": "habits:movement/storm_surge",
+    "values": [
+      20,
+      34,
+      49,
+      63,
+      78,
+      92,
+      107,
+      121,
+      136,
+      150
+    ]
+  }
+}

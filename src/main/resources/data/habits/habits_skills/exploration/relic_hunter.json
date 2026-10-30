@@ -1,0 +1,51 @@
+{
+  "rarity": "epic",
+  "category": "exploration",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:loot_chest_first",
+    "chance": 0.04
+  },
+  "icon": "minecraft:enchanted_book",
+  "art": "minecraft:bookshelf",
+  "perk": {
+    "mechanic": "habits:exploration/relic_hunter",
+    "params": {
+      "levels": "10..30",
+      "value_max": "100"
+    },
+    "values": [
+      4,
+      7,
+      11,
+      14,
+      18,
+      21,
+      25,
+      28,
+      32,
+      35
+    ]
+  },
+  "forks": [
+    {
+      "level": 5,
+      "options": [
+        {
+          "id": "grand_tomes",
+          "scale": 0.6,
+          "params": {
+            "levels": "20..40"
+          }
+        },
+        {
+          "id": "many_tomes",
+          "scale": 1.6,
+          "params": {
+            "levels": "5..15"
+          }
+        }
+      ]
+    }
+  ]
+}

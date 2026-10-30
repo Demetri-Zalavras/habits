@@ -1,0 +1,35 @@
+{
+  "rarity": "rare",
+  "category": "warrior",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:never",
+    "chance": 0
+  },
+  "icon": "minecraft:bone",
+  "art": "minecraft:bone_block",
+  "perk": {
+    "type": "damage_bonus",
+    "params": {
+      "entity": "#minecraft:undead"
+    },
+    "values": [
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4
+    ]
+  },
+  "title": {
+    "stat_type": "minecraft:killed",
+    "stat": "iceandfire:dread_lich",
+    "min": 1
+  },
+  "perk_text": "Damage +{v}% to undead"
+}

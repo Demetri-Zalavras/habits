@@ -1,0 +1,30 @@
+{
+  "rarity": "common",
+  "category": "exploration",
+  "trigger": {
+    "type": "use_item",
+    "match": "minecraft:spyglass",
+    "chance": 0.05
+  },
+  "icon": "minecraft:spyglass",
+  "art": "minecraft:spruce_planks",
+  "perk": {
+    "type": "reach",
+    "params": {
+      "kind": "block"
+    },
+    "values": [
+      0.3,
+      0.6,
+      0.9,
+      1.2,
+      1.5,
+      1.8,
+      2.1,
+      2.4,
+      2.7,
+      3
+    ]
+  },
+  "perk_text": "Block reach +{v}"
+}

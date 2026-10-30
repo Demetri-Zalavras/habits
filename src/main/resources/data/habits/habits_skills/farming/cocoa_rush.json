@@ -1,0 +1,26 @@
+{
+  "rarity": "uncommon",
+  "category": "farming",
+  "trigger": {
+    "type": "eat",
+    "match": "minecraft:cookie",
+    "chance": 0.0625
+  },
+  "icon": "minecraft:cookie",
+  "art": "minecraft:jungle_planks",
+  "perk": {
+    "mechanic": "habits:farming/cocoa_rush",
+    "values": [
+      5,
+      11,
+      17,
+      23,
+      29,
+      36,
+      42,
+      48,
+      54,
+      60
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "rarity": "rare",
+  "category": "building",
+  "trigger": {
+    "type": "place_block",
+    "chance": 0.0111,
+    "match": [
+      "minecraft:piston",
+      "minecraft:sticky_piston"
+    ]
+  },
+  "icon": "minecraft:piston",
+  "art": "minecraft:smooth_stone",
+  "perk": {
+    "mechanic": "habits:piston_power",
+    "values": [
+      12,
+      14,
+      16,
+      18,
+      20,
+      23,
+      25,
+      27,
+      30,
+      32
+    ]
+  }
+}

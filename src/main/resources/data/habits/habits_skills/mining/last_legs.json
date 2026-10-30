@@ -1,0 +1,29 @@
+{
+  "rarity": "common",
+  "category": "mining",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:mining/worn_tool_break",
+    "chance": 0.00667
+  },
+  "icon": "minecraft:stone_pickaxe",
+  "art": "minecraft:cobblestone",
+  "perk": {
+    "mechanic": "habits:mining/last_legs",
+    "params": {
+      "below": "10..25"
+    },
+    "values": [
+      20,
+      40,
+      60,
+      80,
+      100,
+      120,
+      140,
+      160,
+      180,
+      200
+    ]
+  }
+}

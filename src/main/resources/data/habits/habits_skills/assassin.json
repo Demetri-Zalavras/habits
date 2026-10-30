@@ -1,0 +1,29 @@
+{
+  "rarity": "rare",
+  "category": "ranger",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:sneak_kill",
+    "chance": 0.0333
+  },
+  "icon": "minecraft:phantom_membrane",
+  "art": "minecraft:deepslate_tiles",
+  "perk": {
+    "mechanic": "habits:melee/assassin",
+    "params": {
+      "radius": "4,16"
+    },
+    "values": [
+      1.0,
+      1.6,
+      2.1,
+      2.7,
+      3.2,
+      3.8,
+      4.3,
+      4.9,
+      5.4,
+      6.0
+    ]
+  }
+}

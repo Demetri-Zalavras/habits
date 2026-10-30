@@ -1,0 +1,29 @@
+{
+  "rarity": "common",
+  "category": "guardian",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:shield_raise",
+    "chance": 0.0167
+  },
+  "icon": "minecraft:shield",
+  "art": "minecraft:spruce_planks",
+  "perk": {
+    "mechanic": "habits:survival/quick_guard",
+    "params": {
+      "speed": "10..80"
+    },
+    "values": [
+      1,
+      1,
+      2,
+      2,
+      3,
+      3,
+      4,
+      4,
+      5,
+      5
+    ]
+  }
+}

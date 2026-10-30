@@ -1,0 +1,34 @@
+{
+  "rarity": "rare",
+  "category": "exploration",
+  "trigger": {
+    "type": "enter_biome",
+    "match": [
+      "minecraft:end_highlands",
+      "minecraft:end_midlands",
+      "minecraft:small_end_islands",
+      "minecraft:end_barrens"
+    ],
+    "chance": 0.111
+  },
+  "icon": "minecraft:chorus_flower",
+  "art": "minecraft:end_stone",
+  "perk": {
+    "mechanic": "habits:movement/end_islander",
+    "params": {
+      "cooldown": "30..5"
+    },
+    "values": [
+      6,
+      9,
+      11,
+      14,
+      17,
+      19,
+      22,
+      25,
+      27,
+      30
+    ]
+  }
+}

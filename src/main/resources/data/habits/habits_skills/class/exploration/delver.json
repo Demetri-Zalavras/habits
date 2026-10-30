@@ -1,0 +1,29 @@
+{
+  "rarity": "rare",
+  "category": "exploration",
+  "trigger": {
+    "type": "enter_structure",
+    "chance": 0.04
+  },
+  "icon": "minecraft:trial_key",
+  "art": "minecraft:chiseled_stone_bricks",
+  "perk": {
+    "mechanic": "habits:exploration/delver",
+    "params": {
+      "side": "both"
+    },
+    "values": [
+      5,
+      7,
+      9,
+      12,
+      14,
+      16,
+      18,
+      21,
+      23,
+      25
+    ]
+  },
+  "class_passive": true
+}

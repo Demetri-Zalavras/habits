@@ -1,0 +1,26 @@
+{
+  "rarity": "rare",
+  "category": "mining",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:mining/ore_adjacent",
+    "chance": 0.00556
+  },
+  "icon": "minecraft:raw_iron",
+  "art": "minecraft:stone",
+  "perk": {
+    "mechanic": "habits:mining/rich_seam",
+    "values": [
+      3,
+      5,
+      7,
+      9,
+      11,
+      12,
+      14,
+      16,
+      18,
+      20
+    ]
+  }
+}

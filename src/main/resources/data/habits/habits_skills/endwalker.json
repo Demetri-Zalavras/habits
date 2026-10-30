@@ -1,0 +1,29 @@
+{
+  "rarity": "uncommon",
+  "category": "exploration",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:end_minute",
+    "chance": 0.0625
+  },
+  "icon": "minecraft:ender_pearl",
+  "art": "minecraft:end_stone",
+  "perk": {
+    "mechanic": "habits:movement/endwalker",
+    "params": {
+      "cooldown": "20..2"
+    },
+    "values": [
+      4,
+      5,
+      7,
+      8,
+      9,
+      11,
+      12,
+      13,
+      15,
+      16
+    ]
+  }
+}

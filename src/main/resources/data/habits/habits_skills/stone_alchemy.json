@@ -1,0 +1,33 @@
+{
+  "rarity": "uncommon",
+  "category": "mining",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:generator_stone",
+    "chance": 0.00208
+  },
+  "icon": "minecraft:cobblestone",
+  "art": "minecraft:cobblestone",
+  "perk": {
+    "mechanic": "habits:stone_alchemy",
+    "params": {
+      "cap_per_min": "20",
+      "diamond_chance": "2",
+      "iron_level": "4",
+      "redstone_level": "7",
+      "diamond_level": "10"
+    },
+    "values": [
+      0.5,
+      1.0,
+      1.5,
+      2.0,
+      2.5,
+      3.0,
+      3.5,
+      4.0,
+      4.5,
+      5.0
+    ]
+  }
+}

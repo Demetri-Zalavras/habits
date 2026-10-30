@@ -1,0 +1,30 @@
+{
+  "rarity": "uncommon",
+  "category": "exploration",
+  "trigger": {
+    "type": "trade",
+    "match": [
+      "minecraft:filled_map",
+      "minecraft:map",
+      "minecraft:compass"
+    ],
+    "chance": 0.15
+  },
+  "icon": "minecraft:map",
+  "art": "minecraft:cartography_table",
+  "perk": {
+    "type": "trade_discount",
+    "values": [
+      2,
+      4,
+      6,
+      8,
+      10,
+      12,
+      14,
+      16,
+      18,
+      20
+    ]
+  }
+}

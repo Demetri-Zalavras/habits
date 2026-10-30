@@ -1,0 +1,29 @@
+{
+  "rarity": "common",
+  "category": "building",
+  "trigger": {
+    "type": "place_block",
+    "chance": 0.005,
+    "match": "#minecraft:rails"
+  },
+  "icon": "minecraft:rail",
+  "art": "minecraft:gravel",
+  "perk": {
+    "mechanic": "habits:rail_layer",
+    "params": {
+      "powered_every": "8"
+    },
+    "values": [
+      2,
+      4,
+      7,
+      10,
+      14,
+      17,
+      21,
+      24,
+      28,
+      32
+    ]
+  }
+}

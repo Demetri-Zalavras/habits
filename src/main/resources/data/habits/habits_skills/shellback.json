@@ -1,0 +1,33 @@
+{
+  "rarity": "rare",
+  "category": "guardian",
+  "trigger": {
+    "type": "drink_potion",
+    "match": [
+      "minecraft:turtle_master",
+      "minecraft:long_turtle_master",
+      "minecraft:strong_turtle_master"
+    ],
+    "chance": 0.0333
+  },
+  "icon": "minecraft:turtle_helmet",
+  "art": "minecraft:sand",
+  "perk": {
+    "mechanic": "habits:survival/shellback",
+    "params": {
+      "resist_bonus": "0,0,0,0,0,1,1,1,1,1"
+    },
+    "values": [
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      3,
+      3,
+      3,
+      4
+    ]
+  }
+}

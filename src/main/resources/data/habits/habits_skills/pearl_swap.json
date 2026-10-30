@@ -1,0 +1,29 @@
+{
+  "rarity": "rare",
+  "category": "ranger",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:pearl_hit_mob",
+    "chance": 0.0667
+  },
+  "icon": "minecraft:ender_pearl",
+  "art": "minecraft:obsidian",
+  "perk": {
+    "mechanic": "habits:pearl_swap",
+    "values": [
+      0.5,
+      0.78,
+      1.06,
+      1.33,
+      1.61,
+      1.89,
+      2.17,
+      2.44,
+      2.72,
+      3.0
+    ],
+    "params": {
+      "dmg": "0..6"
+    }
+  }
+}

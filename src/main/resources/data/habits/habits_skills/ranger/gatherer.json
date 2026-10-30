@@ -1,0 +1,30 @@
+{
+  "rarity": "common",
+  "category": "ranger",
+  "trigger": {
+    "type": "pickup_item",
+    "match": "#minecraft:arrows",
+    "chance": 0.008
+  },
+  "icon": "minecraft:spectral_arrow",
+  "art": "minecraft:hay_block",
+  "perk": {
+    "type": "magnet_pickup",
+    "values": [
+      1.0,
+      1.5,
+      2.0,
+      2.5,
+      3.0,
+      3.5,
+      4.0,
+      4.5,
+      5.0,
+      5.5
+    ],
+    "params": {
+      "condition": "holding=#c:tools/ranged_weapon"
+    }
+  },
+  "perk_text": "Pull items from {v} blocks while holding a ranged weapon"
+}

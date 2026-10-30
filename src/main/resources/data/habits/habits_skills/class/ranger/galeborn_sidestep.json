@@ -1,0 +1,30 @@
+{
+  "rarity": "rare",
+  "category": "ranger",
+  "class": "habits:class/ranger/galeborn",
+  "trigger": {
+    "type": "damage_taken",
+    "match": "minecraft:arrow",
+    "chance": 0.015
+  },
+  "icon": "minecraft:phantom_membrane",
+  "art": "minecraft:packed_ice",
+  "perk": {
+    "mechanic": "habits:ranged/sidestep",
+    "values": [
+      6.0,
+      8.0,
+      10.0,
+      12.0,
+      14.0,
+      16.0,
+      18.0,
+      20.0,
+      22.0,
+      24.0
+    ],
+    "params": {
+      "sprint": "4..15"
+    }
+  }
+}

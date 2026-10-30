@@ -1,0 +1,26 @@
+{
+  "rarity": "epic",
+  "category": "building",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:building/palette",
+    "chance": 0.0333
+  },
+  "icon": "minecraft:andesite",
+  "art": "minecraft:mossy_stone_bricks",
+  "perk": {
+    "mechanic": "habits:building/palette_brush",
+    "values": [
+      10,
+      14,
+      19,
+      23,
+      28,
+      32,
+      37,
+      41,
+      46,
+      50
+    ]
+  }
+}

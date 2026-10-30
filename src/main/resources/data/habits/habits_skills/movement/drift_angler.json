@@ -1,0 +1,30 @@
+{
+  "rarity": "rare",
+  "category": "movement",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:boat_catch",
+    "chance": 0.0083
+  },
+  "icon": "minecraft:fishing_rod",
+  "art": "minecraft:spruce_planks",
+  "perk": {
+    "type": "fishing_speed",
+    "params": {
+      "condition": "riding"
+    },
+    "values": [
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2,
+      3,
+      3,
+      3
+    ]
+  },
+  "perk_text": "Lure +{v} while in a boat or saddle"
+}

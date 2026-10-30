@@ -1,0 +1,28 @@
+{
+  "rarity": "common",
+  "category": "ranger",
+  "trigger": {
+    "type": "custom",
+    "match": [
+      "habits:effect_glowing"
+    ],
+    "chance": 0.333
+  },
+  "icon": "minecraft:glow_ink_sac",
+  "art": "minecraft:glowstone",
+  "perk": {
+    "mechanic": "habits:survival/spotlight",
+    "values": [
+      4,
+      6,
+      8,
+      11,
+      13,
+      15,
+      17,
+      20,
+      22,
+      24
+    ]
+  }
+}

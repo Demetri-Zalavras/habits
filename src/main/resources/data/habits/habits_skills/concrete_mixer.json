@@ -1,0 +1,26 @@
+{
+  "rarity": "common",
+  "category": "building",
+  "trigger": {
+    "type": "place_block",
+    "chance": 0.00333,
+    "match": "#minecraft:concrete_powder"
+  },
+  "icon": "minecraft:white_concrete_powder",
+  "art": "minecraft:white_concrete",
+  "perk": {
+    "mechanic": "habits:concrete_mixer",
+    "values": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      12,
+      99
+    ]
+  }
+}

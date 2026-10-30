@@ -1,0 +1,27 @@
+{
+  "rarity": "epic",
+  "category": "building",
+  "class": "habits:class/building/earthshaper",
+  "trigger": {
+    "type": "bucket_empty",
+    "match": "minecraft:water_bucket",
+    "chance": 0.00417
+  },
+  "icon": "minecraft:water_bucket",
+  "art": "minecraft:prismarine_bricks",
+  "perk": {
+    "mechanic": "habits:building/pool_builder",
+    "values": [
+      16,
+      24,
+      32,
+      48,
+      64,
+      80,
+      96,
+      112,
+      120,
+      128
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "rarity": "rare",
+  "category": "exploration",
+  "trigger": {
+    "type": "enter_biome",
+    "match": "minecraft:ice_spikes",
+    "chance": 0.5
+  },
+  "icon": "minecraft:blue_ice",
+  "art": "minecraft:packed_ice",
+  "perk": {
+    "type": "damage_type_resist",
+    "params": {
+      "damage": "minecraft:freeze",
+      "value_max": "100"
+    },
+    "values": [
+      20,
+      29,
+      38,
+      47,
+      56,
+      64,
+      73,
+      82,
+      91,
+      100
+    ]
+  },
+  "perk_text": "Freezing damage -{v}%"
+}

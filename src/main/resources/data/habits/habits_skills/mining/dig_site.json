@@ -1,0 +1,36 @@
+{
+  "rarity": "uncommon",
+  "category": "mining",
+  "trigger": {
+    "type": "enter_structure",
+    "match": [
+      "minecraft:trail_ruins",
+      "minecraft:desert_pyramid",
+      "minecraft:ocean_ruin_warm",
+      "minecraft:ocean_ruin_cold"
+    ],
+    "chance": 0.15
+  },
+  "icon": "minecraft:suspicious_sand",
+  "art": "minecraft:suspicious_gravel",
+  "perk": {
+    "mechanic": "habits:mining/dig_site",
+    "params": {
+      "block": "minecraft:suspicious_sand,minecraft:suspicious_gravel",
+      "color": "E8C070",
+      "glow_s": "6..15"
+    },
+    "values": [
+      6,
+      8,
+      10,
+      12,
+      14,
+      16,
+      18,
+      20,
+      22,
+      24
+    ]
+  }
+}

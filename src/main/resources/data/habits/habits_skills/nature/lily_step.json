@@ -1,0 +1,29 @@
+{
+  "rarity": "uncommon",
+  "category": "nature",
+  "trigger": {
+    "type": "place_block",
+    "match": "minecraft:lily_pad",
+    "chance": 0.0125
+  },
+  "icon": "minecraft:lily_pad",
+  "art": "minecraft:mud",
+  "perk": {
+    "mechanic": "habits:nature/lily_step",
+    "values": [
+      3,
+      6,
+      9,
+      12,
+      15,
+      18,
+      21,
+      24,
+      27,
+      30
+    ],
+    "params": {
+      "radius": "1,2"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "movement.dash_not_ready": {
+    "subtitle": "subtitles.habits.movement.dash_not_ready",
+    "sounds": [
+      {
+        "name": "minecraft:ui.button.click",
+        "type": "event",
+        "volume": 0.2,
+        "pitch": 1.6
+      }
+    ]
+  }
+}

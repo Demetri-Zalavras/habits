@@ -1,0 +1,49 @@
+{
+  "rarity": "epic",
+  "category": "exploration",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:new_structure",
+    "chance": 0.04
+  },
+  "icon": "minecraft:golden_apple",
+  "art": "minecraft:gold_block",
+  "perk": {
+    "mechanic": "habits:exploration/discoverers_pride",
+    "params": {
+      "seconds": "60..180"
+    },
+    "values": [
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      3,
+      3,
+      3,
+      4
+    ]
+  },
+  "forks": [
+    {
+      "level": 5,
+      "options": [
+        {
+          "id": "long_shield",
+          "params": {
+            "seconds": "240..600"
+          }
+        },
+        {
+          "id": "thick_shield",
+          "scale": 1.5,
+          "params": {
+            "seconds": "30..90"
+          }
+        }
+      ]
+    }
+  ]
+}

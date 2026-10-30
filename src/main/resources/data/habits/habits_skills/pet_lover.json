@@ -1,0 +1,28 @@
+{
+  "rarity": "epic",
+  "category": "nature",
+  "trigger": {
+    "type": "tame",
+    "chance": 0.0167
+  },
+  "icon": "minecraft:name_tag",
+  "art": "minecraft:white_wool",
+  "perk": {
+    "mechanic": "habits:pet_lover",
+    "params": {
+      "per_day": "1,99"
+    },
+    "values": [
+      600,
+      535,
+      470,
+      405,
+      340,
+      275,
+      210,
+      145,
+      80,
+      30
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "rarity": "rare",
+  "category": "exploration",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:buried_treasure",
+    "chance": 0.667
+  },
+  "icon": "minecraft:heart_of_the_sea",
+  "art": "minecraft:sand",
+  "perk": {
+    "mechanic": "habits:movement/x_marks_the_spot",
+    "values": [
+      64,
+      171,
+      277,
+      384,
+      491,
+      597,
+      704,
+      811,
+      917,
+      1024
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "rarity": "common",
+  "category": "farming",
+  "trigger": {
+    "type": "craft",
+    "match": [
+      "minecraft:mushroom_stew",
+      "minecraft:beetroot_soup",
+      "minecraft:rabbit_stew",
+      "minecraft:suspicious_stew"
+    ],
+    "chance": 0.025
+  },
+  "icon": "minecraft:rabbit_stew",
+  "art": "minecraft:spruce_planks",
+  "perk": {
+    "type": "food_bonus",
+    "params": {
+      "item": "minecraft:mushroom_stew,minecraft:beetroot_soup,minecraft:rabbit_stew,minecraft:suspicious_stew"
+    },
+    "values": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60,
+      70,
+      80,
+      90,
+      100
+    ]
+  },
+  "perk_text": "Stews and soups fill {v}% more"
+}

@@ -1,0 +1,26 @@
+{
+  "rarity": "rare",
+  "category": "farming",
+  "class": "habits:class/farming/drover",
+  "trigger": {
+    "type": "breed",
+    "chance": 0.0083
+  },
+  "icon": "minecraft:golden_carrot",
+  "art": "minecraft:hay_block",
+  "perk": {
+    "mechanic": "habits:farming/quick_breed",
+    "values": [
+      20,
+      27,
+      34,
+      41,
+      48,
+      55,
+      62,
+      70,
+      80,
+      90
+    ]
+  }
+}

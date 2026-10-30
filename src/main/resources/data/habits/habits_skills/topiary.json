@@ -1,0 +1,29 @@
+{
+  "rarity": "common",
+  "category": "farming",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:shear_plant",
+    "chance": 0.005
+  },
+  "icon": "minecraft:shears",
+  "art": "minecraft:azalea_leaves",
+  "perk": {
+    "mechanic": "habits:topiary",
+    "params": {
+      "chance": "30,100"
+    },
+    "values": [
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2,
+      3,
+      3,
+      3
+    ]
+  }
+}

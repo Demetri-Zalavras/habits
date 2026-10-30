@@ -1,0 +1,29 @@
+{
+  "rarity": "common",
+  "category": "crafting",
+  "trigger": {
+    "type": "stat_increment",
+    "match": [
+      "minecraft:fill_cauldron",
+      "minecraft:use_cauldron"
+    ],
+    "chance": 0.0167
+  },
+  "icon": "minecraft:cauldron",
+  "art": "minecraft:mud_bricks",
+  "perk": {
+    "mechanic": "habits:witchs_ladle",
+    "values": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  }
+}

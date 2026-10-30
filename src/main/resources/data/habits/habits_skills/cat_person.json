@@ -1,0 +1,29 @@
+{
+  "rarity": "rare",
+  "category": "nature",
+  "trigger": {
+    "type": "tame",
+    "match": [
+      "minecraft:cat",
+      "minecraft:ocelot"
+    ],
+    "chance": 0.0667
+  },
+  "icon": "minecraft:cod",
+  "art": "minecraft:white_wool",
+  "perk": {
+    "mechanic": "habits:cat_person",
+    "values": [
+      2,
+      3,
+      5,
+      6,
+      8,
+      10,
+      11,
+      13,
+      14,
+      16
+    ]
+  }
+}

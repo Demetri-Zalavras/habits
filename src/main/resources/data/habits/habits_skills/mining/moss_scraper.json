@@ -1,0 +1,31 @@
+{
+  "rarity": "common",
+  "category": "mining",
+  "trigger": {
+    "type": "break_block",
+    "match": "minecraft:moss_block",
+    "chance": 0.005
+  },
+  "icon": "minecraft:glow_berries",
+  "art": "minecraft:moss_block",
+  "perk": {
+    "mechanic": "habits:mining/moss_scraper",
+    "params": {
+      "block": "minecraft:moss_block,minecraft:moss_carpet,minecraft:rooted_dirt",
+      "item": "minecraft:glow_berries",
+      "count": "1..2"
+    },
+    "values": [
+      4,
+      6.3,
+      8.7,
+      11,
+      13.3,
+      15.7,
+      18,
+      20.3,
+      22.7,
+      25
+    ]
+  }
+}

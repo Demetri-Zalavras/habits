@@ -1,0 +1,33 @@
+{
+  "rarity": "common",
+  "category": "mining",
+  "trigger": {
+    "type": "break_block",
+    "match": [
+      "#minecraft:dirt",
+      "minecraft:mud"
+    ],
+    "item": "#minecraft:shovels",
+    "chance": 0.00167
+  },
+  "icon": "minecraft:iron_shovel",
+  "art": "minecraft:dirt",
+  "perk": {
+    "mechanic": "habits:excavator",
+    "params": {
+      "per_tick": "6"
+    },
+    "values": [
+      2,
+      3,
+      4,
+      6,
+      8,
+      9,
+      11,
+      13,
+      15,
+      18
+    ]
+  }
+}

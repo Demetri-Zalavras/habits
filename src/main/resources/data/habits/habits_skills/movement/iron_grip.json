@@ -1,0 +1,26 @@
+{
+  "rarity": "common",
+  "category": "movement",
+  "trigger": {
+    "type": "custom_units",
+    "match": "habits:vine_climb",
+    "chance": 0.000709
+  },
+  "icon": "minecraft:vine",
+  "art": "minecraft:jungle_log",
+  "perk": {
+    "mechanic": "habits:movement/iron_grip",
+    "values": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60,
+      70,
+      80,
+      90,
+      100
+    ]
+  }
+}

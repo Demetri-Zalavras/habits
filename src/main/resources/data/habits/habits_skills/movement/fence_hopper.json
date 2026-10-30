@@ -1,0 +1,29 @@
+{
+  "rarity": "uncommon",
+  "category": "movement",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:fence_jump",
+    "chance": 0.031
+  },
+  "icon": "minecraft:oak_fence",
+  "art": "minecraft:oak_planks",
+  "perk": {
+    "mechanic": "habits:movement/fence_hopper",
+    "params": {
+      "push": "0.1..0.3"
+    },
+    "values": [
+      0.3,
+      0.4,
+      0.5,
+      0.6,
+      0.7,
+      0.8,
+      0.9,
+      1,
+      1.1,
+      1.2
+    ]
+  }
+}

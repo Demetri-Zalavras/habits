@@ -1,0 +1,15 @@
+{
+  "rarity": "uncommon",
+  "category": "crafting",
+  "trigger": {
+    "type": "anvil",
+    "min": 5,
+    "chance": 0.125
+  },
+  "icon": "minecraft:book",
+  "art": "minecraft:chiseled_bookshelf",
+  "perk": {
+    "mechanic": "habits:crafting/bookkeeper",
+    "values": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
+  }
+}

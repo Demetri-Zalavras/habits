@@ -1,0 +1,35 @@
+{
+  "rarity": "common",
+  "category": "farming",
+  "trigger": {
+    "type": "eat",
+    "match": [
+      "minecraft:apple",
+      "minecraft:melon_slice",
+      "minecraft:sweet_berries",
+      "minecraft:glow_berries"
+    ],
+    "chance": 0.1
+  },
+  "icon": "minecraft:melon_slice",
+  "art": "minecraft:melon",
+  "perk": {
+    "type": "food_bonus",
+    "params": {
+      "item": "minecraft:apple,minecraft:melon_slice,minecraft:sweet_berries,minecraft:glow_berries"
+    },
+    "values": [
+      15,
+      30,
+      45,
+      60,
+      75,
+      90,
+      105,
+      120,
+      135,
+      150
+    ]
+  },
+  "perk_text": "Fresh fruit fills {v}% more"
+}

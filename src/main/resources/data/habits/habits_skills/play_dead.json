@@ -1,0 +1,31 @@
+{
+  "rarity": "rare",
+  "category": "nature",
+  "trigger": {
+    "type": "bucket_fill",
+    "match": "minecraft:axolotl_bucket",
+    "chance": 0.0333
+  },
+  "icon": "minecraft:axolotl_bucket",
+  "art": "minecraft:clay",
+  "perk": {
+    "mechanic": "habits:play_dead",
+    "params": {
+      "amp": "0,2",
+      "seconds": "3,10",
+      "cooldown": "300,60"
+    },
+    "values": [
+      3.0,
+      3.2,
+      3.4,
+      3.7,
+      3.9,
+      4.1,
+      4.3,
+      4.6,
+      4.8,
+      5.0
+    ]
+  }
+}

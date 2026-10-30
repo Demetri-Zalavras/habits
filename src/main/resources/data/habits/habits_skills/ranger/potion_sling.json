@@ -1,0 +1,29 @@
+{
+  "rarity": "common",
+  "category": "ranger",
+  "trigger": {
+    "type": "shoot_projectile",
+    "match": [
+      "minecraft:splash_potion",
+      "minecraft:lingering_potion"
+    ],
+    "chance": 0.03
+  },
+  "icon": "minecraft:splash_potion",
+  "art": "minecraft:brewing_stand",
+  "perk": {
+    "mechanic": "habits:ranged/potion_sling",
+    "values": [
+      10.0,
+      20.0,
+      30.0,
+      40.0,
+      50.0,
+      60.0,
+      70.0,
+      80.0,
+      90.0,
+      100.0
+    ]
+  }
+}

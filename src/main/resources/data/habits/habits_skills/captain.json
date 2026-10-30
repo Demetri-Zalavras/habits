@@ -1,0 +1,26 @@
+{
+  "rarity": "rare",
+  "category": "movement",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:long_voyage",
+    "chance": 0.333
+  },
+  "icon": "minecraft:dark_oak_boat",
+  "art": "minecraft:dark_oak_planks",
+  "perk": {
+    "mechanic": "habits:movement/captain",
+    "values": [
+      20,
+      29,
+      38,
+      47,
+      56,
+      64,
+      73,
+      82,
+      91,
+      100
+    ]
+  }
+}

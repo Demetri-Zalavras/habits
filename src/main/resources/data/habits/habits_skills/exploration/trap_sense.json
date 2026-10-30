@@ -1,0 +1,34 @@
+{
+  "rarity": "common",
+  "category": "exploration",
+  "trigger": {
+    "type": "damage_taken",
+    "match": [
+      "minecraft:arrow",
+      "#minecraft:is_explosion"
+    ],
+    "chance": 0.08
+  },
+  "icon": "minecraft:tripwire_hook",
+  "art": "minecraft:chiseled_sandstone",
+  "perk": {
+    "mechanic": "habits:exploration/trap_sense",
+    "params": {
+      "side": "taken",
+      "damage": "#minecraft:is_projectile,#minecraft:is_explosion",
+      "value_max": "90"
+    },
+    "values": [
+      5,
+      10,
+      15,
+      20,
+      25,
+      30,
+      35,
+      40,
+      45,
+      50
+    ]
+  }
+}

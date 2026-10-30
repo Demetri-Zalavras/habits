@@ -1,0 +1,33 @@
+{
+  "rarity": "common",
+  "category": "nature",
+  "trigger": {
+    "type": "break_block",
+    "match": [
+      "minecraft:brown_mushroom",
+      "minecraft:red_mushroom"
+    ],
+    "chance": 0.0167
+  },
+  "icon": "minecraft:red_mushroom",
+  "art": "minecraft:mycelium",
+  "perk": {
+    "type": "drop_bonus",
+    "values": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60,
+      70,
+      80,
+      90,
+      100
+    ],
+    "params": {
+      "block": "minecraft:brown_mushroom,minecraft:red_mushroom"
+    }
+  },
+  "perk_text": "{v}% chance mushrooms drop twice"
+}

@@ -1,0 +1,62 @@
+{
+  "rarity": "epic",
+  "category": "exploration",
+  "trigger": {
+    "type": "enter_dimension",
+    "chance": 0.04
+  },
+  "icon": "minecraft:ender_pearl",
+  "art": "minecraft:obsidian",
+  "perk": {
+    "type": "damage_type_resist",
+    "params": {
+      "damage": "#minecraft:is_fire,minecraft:fall",
+      "value_max": "100"
+    },
+    "values": [
+      3,
+      6,
+      9,
+      12,
+      15,
+      18,
+      21,
+      24,
+      27,
+      30
+    ]
+  },
+  "perk_text": "Fire and fall damage -{v}%",
+  "forks": [
+    {
+      "level": 5,
+      "options": [
+        {
+          "id": "two_worlds"
+        },
+        {
+          "id": "fireborn",
+          "scale": 1.8,
+          "params": {
+            "damage": "#minecraft:is_fire"
+          }
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "options": [
+        {
+          "id": "everywhere"
+        },
+        {
+          "id": "nether_bound",
+          "scale": 1.7,
+          "params": {
+            "condition": "dimension=minecraft:the_nether"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "rarity": "epic",
+  "category": "nature",
+  "trigger": {
+    "type": "breed",
+    "match": [
+      "minecraft:panda",
+      "minecraft:turtle",
+      "minecraft:sniffer",
+      "minecraft:axolotl",
+      "minecraft:frog",
+      "minecraft:armadillo"
+    ],
+    "chance": 0.0167
+  },
+  "icon": "minecraft:pink_tulip",
+  "art": "minecraft:moss_block",
+  "perk": {
+    "mechanic": "habits:pheromones",
+    "params": {
+      "cooldown": "300,30"
+    },
+    "values": [
+      3,
+      4,
+      6,
+      7,
+      9,
+      10,
+      12,
+      13,
+      15,
+      16
+    ]
+  },
+  "forks": [
+    {
+      "level": 5,
+      "options": [
+        {
+          "id": "wide_musk",
+          "scale": 1.4,
+          "params": {
+            "cooldown": "400,60"
+          }
+        },
+        {
+          "id": "quick_musk",
+          "scale": 0.7,
+          "params": {
+            "cooldown": "150,15"
+          }
+        }
+      ]
+    }
+  ]
+}

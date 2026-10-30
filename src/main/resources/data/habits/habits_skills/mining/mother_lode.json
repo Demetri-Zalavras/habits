@@ -1,0 +1,26 @@
+{
+  "rarity": "legendary",
+  "category": "mining",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:mining/vein_marathon",
+    "chance": 0.1
+  },
+  "icon": "minecraft:diamond_ore",
+  "art": "minecraft:deepslate_diamond_ore",
+  "perk": {
+    "mechanic": "habits:mining/mother_lode",
+    "values": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  }
+}

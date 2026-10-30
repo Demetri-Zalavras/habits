@@ -1,0 +1,29 @@
+{
+  "rarity": "common",
+  "category": "movement",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:sprint_sneak",
+    "chance": 0.05
+  },
+  "icon": "minecraft:leather_leggings",
+  "art": "minecraft:polished_andesite",
+  "perk": {
+    "mechanic": "habits:movement/power_slide",
+    "params": {
+      "cooldown": "4..1"
+    },
+    "values": [
+      3,
+      3.7,
+      4.3,
+      5,
+      5.7,
+      6.3,
+      7,
+      7.7,
+      8.3,
+      9
+    ]
+  }
+}

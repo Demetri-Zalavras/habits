@@ -1,0 +1,1 @@
+{"rarity":"epic","category":"guardian","trigger":{"type":"kill_entity","match":"bosses_of_mass_destruction:lich","chance":1.0},"icon":"bosses_of_mass_destruction:ancient_anima","art":"minecraft:soul_lantern","perk":{"type":"regen","base":1,"per_level":1},"forks":[{"level":5,"options":[{"id":"steady_mend"},{"id":"grave_pulse","scale":1.8,"params":{"condition":"night"}}]}]}

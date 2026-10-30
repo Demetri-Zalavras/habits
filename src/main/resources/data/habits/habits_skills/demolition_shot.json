@@ -1,0 +1,30 @@
+{
+  "rarity": "rare",
+  "category": "ranger",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:tnt_flame_arrow",
+    "chance": 0.0667
+  },
+  "icon": "minecraft:tnt",
+  "art": "minecraft:tnt",
+  "perk": {
+    "mechanic": "habits:demolition_shot",
+    "values": [
+      10,
+      14,
+      19,
+      23,
+      28,
+      32,
+      37,
+      41,
+      46,
+      50
+    ],
+    "params": {
+      "power": "0.5..2",
+      "gap": "10"
+    }
+  }
+}

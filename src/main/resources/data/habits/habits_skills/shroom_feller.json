@@ -1,0 +1,33 @@
+{
+  "rarity": "uncommon",
+  "category": "farming",
+  "trigger": {
+    "type": "break_block",
+    "match": [
+      "minecraft:red_mushroom_block",
+      "minecraft:brown_mushroom_block",
+      "minecraft:mushroom_stem"
+    ],
+    "chance": 0.00208
+  },
+  "icon": "minecraft:red_mushroom",
+  "art": "minecraft:mushroom_stem",
+  "perk": {
+    "mechanic": "habits:shroom_feller",
+    "params": {
+      "bonus": "0,2"
+    },
+    "values": [
+      20,
+      40,
+      60,
+      80,
+      100,
+      120,
+      140,
+      160,
+      180,
+      512
+    ]
+  }
+}

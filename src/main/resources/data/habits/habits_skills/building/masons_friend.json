@@ -1,0 +1,36 @@
+{
+  "rarity": "uncommon",
+  "category": "building",
+  "trigger": {
+    "type": "trade",
+    "match": [
+      "#minecraft:terracotta",
+      "minecraft:quartz_block",
+      "minecraft:quartz_pillar",
+      "minecraft:dripstone_block",
+      "minecraft:polished_andesite",
+      "minecraft:polished_diorite",
+      "minecraft:polished_granite",
+      "minecraft:chiseled_stone_bricks",
+      "minecraft:bricks"
+    ],
+    "chance": 0.0104
+  },
+  "icon": "minecraft:emerald",
+  "art": "minecraft:quartz_block",
+  "perk": {
+    "type": "trade_discount",
+    "values": [
+      2,
+      4,
+      6,
+      8,
+      10,
+      12,
+      14,
+      16,
+      18,
+      20
+    ]
+  }
+}

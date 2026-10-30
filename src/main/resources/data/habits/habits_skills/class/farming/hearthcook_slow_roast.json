@@ -1,0 +1,39 @@
+{
+  "rarity": "rare",
+  "category": "farming",
+  "class": "habits:class/farming/hearthcook",
+  "trigger": {
+    "type": "smelt",
+    "match": [
+      "minecraft:cooked_beef",
+      "minecraft:cooked_porkchop",
+      "minecraft:cooked_mutton",
+      "minecraft:cooked_chicken",
+      "minecraft:cooked_rabbit",
+      "minecraft:cooked_cod",
+      "minecraft:cooked_salmon",
+      "minecraft:baked_potato"
+    ],
+    "chance": 0.01
+  },
+  "icon": "minecraft:cooked_beef",
+  "art": "minecraft:furnace",
+  "perk": {
+    "type": "smelt_bonus",
+    "values": [
+      10.0,
+      15.0,
+      20.0,
+      25.0,
+      30.0,
+      35.0,
+      40.0,
+      45.0,
+      50.0,
+      55.0
+    ],
+    "params": {
+      "item": "minecraft:cooked_beef,minecraft:cooked_porkchop,minecraft:cooked_mutton,minecraft:cooked_chicken,minecraft:cooked_rabbit,minecraft:cooked_cod,minecraft:cooked_salmon,minecraft:baked_potato"
+    }
+  }
+}

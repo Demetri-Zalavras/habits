@@ -1,0 +1,18 @@
+{
+  "rarity": "mythical",
+  "category": "farming",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:eight_crops_day",
+    "chance": 0.33
+  },
+  "icon": "minecraft:golden_carrot",
+  "art": "minecraft:hay_block",
+  "perk": {
+    "mechanic": "habits:edens_touch",
+    "values": [2, 3, 4, 5, 6, 7, 8, 9, 10, 12],
+    "params": {
+      "notch": "0.5"
+    }
+  }
+}

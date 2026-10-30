@@ -1,0 +1,29 @@
+{
+  "rarity": "uncommon",
+  "category": "mining",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:gold_tool_break",
+    "chance": 0.00125
+  },
+  "icon": "minecraft:golden_pickaxe",
+  "art": "minecraft:gold_block",
+  "perk": {
+    "mechanic": "habits:goldsmith",
+    "params": {
+      "bonus_drop": "5..40"
+    },
+    "values": [
+      1.5,
+      2.4,
+      3.3,
+      4.2,
+      5.2,
+      6.1,
+      7.1,
+      8,
+      9,
+      10
+    ]
+  }
+}

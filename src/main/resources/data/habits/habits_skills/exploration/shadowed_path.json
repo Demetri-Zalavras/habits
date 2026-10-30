@@ -1,0 +1,32 @@
+{
+  "rarity": "common",
+  "category": "exploration",
+  "trigger": {
+    "type": "enter_biome",
+    "match": "minecraft:dark_forest",
+    "chance": 0.2
+  },
+  "icon": "minecraft:dark_oak_sapling",
+  "art": "minecraft:dark_oak_log",
+  "perk": {
+    "type": "damage_type_resist",
+    "params": {
+      "damage": "#minecraft:is_explosion",
+      "condition": "biome=minecraft:dark_forest",
+      "value_max": "100"
+    },
+    "values": [
+      10,
+      19,
+      28,
+      37,
+      46,
+      54,
+      63,
+      72,
+      81,
+      90
+    ]
+  },
+  "perk_text": "Explosion damage -{v}% in dark forests"
+}

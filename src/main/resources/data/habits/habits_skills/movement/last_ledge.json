@@ -1,0 +1,26 @@
+{
+  "rarity": "legendary",
+  "category": "movement",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:close_fall",
+    "chance": 0.25
+  },
+  "icon": "minecraft:totem_of_undying",
+  "art": "minecraft:gold_block",
+  "perk": {
+    "mechanic": "habits:movement/last_ledge",
+    "values": [
+      30,
+      27,
+      24,
+      21,
+      18,
+      15,
+      12,
+      10,
+      7,
+      5
+    ]
+  }
+}

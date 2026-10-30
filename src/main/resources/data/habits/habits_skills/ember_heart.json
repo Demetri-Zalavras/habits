@@ -1,0 +1,30 @@
+{
+  "rarity": "uncommon",
+  "category": "warrior",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:melee_kill",
+    "chance": 0.0208,
+    "entity": "minecraft:blaze"
+  },
+  "icon": "minecraft:blaze_rod",
+  "art": "minecraft:shroomlight",
+  "perk": {
+    "mechanic": "habits:melee/ember_heart",
+    "params": {
+      "hits": "1,8"
+    },
+    "values": [
+      3.0,
+      5.0,
+      7.0,
+      9.0,
+      11.0,
+      12.0,
+      14.0,
+      16.0,
+      18.0,
+      20.0
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "rarity": "common",
+  "category": "building",
+  "trigger": {
+    "type": "pickup_item",
+    "match": [
+      "#minecraft:planks",
+      "#minecraft:stone_bricks",
+      "#minecraft:wool",
+      "#minecraft:terracotta",
+      "#minecraft:logs"
+    ],
+    "chance": 0.01
+  },
+  "icon": "minecraft:hopper",
+  "art": "minecraft:oak_planks",
+  "perk": {
+    "type": "magnet_pickup",
+    "values": [
+      1,
+      1.5,
+      2,
+      2.5,
+      3,
+      3.5,
+      4,
+      4.5,
+      5,
+      6
+    ]
+  }
+}

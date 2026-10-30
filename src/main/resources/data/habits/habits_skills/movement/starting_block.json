@@ -1,0 +1,31 @@
+{
+  "rarity": "common",
+  "category": "movement",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:sprint_start",
+    "chance": 0.033
+  },
+  "icon": "minecraft:stone_pressure_plate",
+  "art": "minecraft:smooth_stone",
+  "perk": {
+    "mechanic": "habits:movement/starting_block",
+    "params": {
+      "amp": "0,0,0,0,1,1,1,1,1,2",
+      "cooldown": "10..3",
+      "still": "1"
+    },
+    "values": [
+      1,
+      1.3,
+      1.7,
+      2,
+      2.3,
+      2.7,
+      3,
+      3.3,
+      3.7,
+      4
+    ]
+  }
+}

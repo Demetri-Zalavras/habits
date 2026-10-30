@@ -1,0 +1,31 @@
+{
+  "rarity": "epic",
+  "category": "crafting",
+  "class": "habits:class/crafting/mythsmith",
+  "trigger": {
+    "type": "smelt",
+    "match": "#c:ingots",
+    "chance": 0.017
+  },
+  "icon": "minecraft:gold_ingot",
+  "art": "minecraft:raw_gold_block",
+  "perk": {
+    "type": "smelt_bonus",
+    "values": [
+      10,
+      13,
+      17,
+      20,
+      23,
+      27,
+      30,
+      33,
+      37,
+      40
+    ],
+    "params": {
+      "item": "#c:ingots"
+    }
+  },
+  "perk_text": "{v}% chance smelted ingots come out doubled"
+}

@@ -1,0 +1,1 @@
+{"rarity":"rare","category":"exploration","trigger":{"type":"enter_structure","match":"betterstrongholds:stronghold","chance":0.5},"icon":"minecraft:ender_eye","art":"minecraft:stone_bricks","perk":{"type":"enchant_discount","base":5,"per_level":4}}

@@ -1,0 +1,31 @@
+{
+  "rarity": "uncommon",
+  "category": "mining",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:mining/flooded_dig",
+    "chance": 0.02083
+  },
+  "icon": "minecraft:turtle_helmet",
+  "art": "minecraft:prismarine",
+  "perk": {
+    "type": "attribute",
+    "params": {
+      "attribute": "minecraft:generic.oxygen_bonus",
+      "condition": "underground"
+    },
+    "values": [
+      0.5,
+      1,
+      1.5,
+      2,
+      2.5,
+      3,
+      3.5,
+      4,
+      4.5,
+      5
+    ]
+  },
+  "perk_text": "Underground you hold your breath longer (+{v})"
+}

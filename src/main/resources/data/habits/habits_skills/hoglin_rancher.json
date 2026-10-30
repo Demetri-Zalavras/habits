@@ -1,0 +1,50 @@
+{
+  "rarity": "epic",
+  "category": "nature",
+  "trigger": {
+    "type": "breed",
+    "match": "minecraft:hoglin",
+    "chance": 0.00833
+  },
+  "icon": "minecraft:crimson_fungus",
+  "art": "minecraft:crimson_nylium",
+  "perk": {
+    "mechanic": "habits:hoglin_rancher",
+    "params": {
+      "health": "0,50"
+    },
+    "values": [
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      3,
+      3,
+      4,
+      4
+    ]
+  },
+  "forks": [
+    {
+      "level": 5,
+      "options": [
+        {
+          "id": "big_herd",
+          "scale": 1.5,
+          "params": {
+            "health": "0,20"
+          }
+        },
+        {
+          "id": "prize_hogs",
+          "scale": 0.75,
+          "params": {
+            "health": "0,100"
+          }
+        }
+      ]
+    }
+  ]
+}

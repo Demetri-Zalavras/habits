@@ -1,0 +1,55 @@
+{
+  "rarity": "epic",
+  "category": "nature",
+  "trigger": {
+    "type": "kill_entity",
+    "match": [
+      "minecraft:cow",
+      "minecraft:pig",
+      "minecraft:sheep",
+      "minecraft:chicken",
+      "minecraft:rabbit",
+      "minecraft:goat",
+      "minecraft:hoglin",
+      "minecraft:polar_bear"
+    ],
+    "chance": 0.00556
+  },
+  "icon": "minecraft:cooked_beef",
+  "art": "minecraft:coarse_dirt",
+  "perk": {
+    "mechanic": "habits:nature/apex",
+    "values": [
+      1,
+      2,
+      2,
+      3,
+      3,
+      4,
+      4,
+      5,
+      5,
+      6
+    ],
+    "params": {
+      "sat": "0.5,4"
+    }
+  },
+  "forks": [
+    {
+      "level": 5,
+      "options": [
+        {
+          "id": "balanced_meal"
+        },
+        {
+          "id": "rich_feast",
+          "scale": 0.5,
+          "params": {
+            "sat": "1,8"
+          }
+        }
+      ]
+    }
+  ]
+}

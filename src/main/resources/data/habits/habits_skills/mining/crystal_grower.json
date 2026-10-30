@@ -1,0 +1,50 @@
+{
+  "rarity": "epic",
+  "category": "mining",
+  "trigger": {
+    "type": "break_block",
+    "match": "minecraft:budding_amethyst",
+    "chance": 0.01667
+  },
+  "icon": "minecraft:budding_amethyst",
+  "art": "minecraft:amethyst_block",
+  "perk": {
+    "mechanic": "habits:mining/crystal_grower",
+    "params": {
+      "radius": "8..16"
+    },
+    "values": [
+      5,
+      10,
+      15,
+      20,
+      25,
+      30,
+      35,
+      40,
+      45,
+      50
+    ]
+  },
+  "forks": [
+    {
+      "level": 5,
+      "options": [
+        {
+          "id": "wide_grove",
+          "scale": 0.6,
+          "params": {
+            "radius": "12..24"
+          }
+        },
+        {
+          "id": "tight_grove",
+          "scale": 1.5,
+          "params": {
+            "radius": "5..10"
+          }
+        }
+      ]
+    }
+  ]
+}

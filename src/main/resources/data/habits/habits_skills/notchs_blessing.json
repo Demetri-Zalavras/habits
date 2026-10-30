@@ -1,0 +1,26 @@
+{
+  "rarity": "legendary",
+  "category": "guardian",
+  "trigger": {
+    "type": "eat",
+    "match": "minecraft:enchanted_golden_apple",
+    "chance": 0.33
+  },
+  "icon": "minecraft:enchanted_golden_apple",
+  "art": "minecraft:gold_block",
+  "perk": {
+    "mechanic": "habits:survival/notchs_blessing",
+    "values": [
+      30,
+      93,
+      157,
+      220,
+      283,
+      347,
+      410,
+      473,
+      537,
+      600
+    ]
+  }
+}

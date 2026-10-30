@@ -1,0 +1,18 @@
+{
+  "rarity": "uncommon",
+  "category": "crafting",
+  "trigger": {
+    "type": "interact_block",
+    "match": "minecraft:water_cauldron",
+    "chance": 0.0625
+  },
+  "icon": "minecraft:cauldron",
+  "art": "minecraft:blue_ice",
+  "perk": {
+    "mechanic": "habits:crafting/quench",
+    "values": [2, 4, 6, 8, 10, 12, 14, 16, 18, 20],
+    "params": {
+      "cooldown": "30..5"
+    }
+  }
+}

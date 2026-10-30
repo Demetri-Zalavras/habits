@@ -1,0 +1,30 @@
+{
+  "rarity": "uncommon",
+  "category": "building",
+  "class": "habits:class/building/steeplejack",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:fall_place",
+    "chance": 0.0333
+  },
+  "icon": "minecraft:lead",
+  "art": "minecraft:white_wool",
+  "perk": {
+    "type": "damage_type_resist",
+    "values": [
+      20.0,
+      26.7,
+      33.3,
+      40.0,
+      46.7,
+      53.3,
+      60.0,
+      66.7,
+      73.3,
+      80.0
+    ],
+    "params": {
+      "damage": "minecraft:fall"
+    }
+  }
+}

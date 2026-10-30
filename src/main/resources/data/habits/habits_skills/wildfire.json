@@ -1,0 +1,29 @@
+{
+  "rarity": "common",
+  "category": "warrior",
+  "trigger": {
+    "type": "custom_units",
+    "match": "habits:wildfire",
+    "chance": 0.005
+  },
+  "icon": "minecraft:flint_and_steel",
+  "art": "minecraft:netherrack",
+  "perk": {
+    "mechanic": "habits:melee/wildfire",
+    "params": {
+      "radius": "1,4"
+    },
+    "values": [
+      30.0,
+      38.0,
+      46.0,
+      53.0,
+      61.0,
+      69.0,
+      77.0,
+      84.0,
+      92.0,
+      100.0
+    ]
+  }
+}

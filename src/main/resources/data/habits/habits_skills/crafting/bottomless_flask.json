@@ -1,0 +1,15 @@
+{
+  "rarity": "rare",
+  "category": "crafting",
+  "trigger": {
+    "type": "brew",
+    "min": 3,
+    "chance": 0.01667
+  },
+  "icon": "minecraft:dragon_breath",
+  "art": "minecraft:glass",
+  "perk": {
+    "mechanic": "habits:crafting/bottomless_flask",
+    "values": [5, 9, 13, 17, 21, 24, 28, 32, 36, 40]
+  }
+}

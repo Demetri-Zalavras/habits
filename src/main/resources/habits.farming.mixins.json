@@ -1,0 +1,23 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.habits.perk.farming.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "AllayAiMixin",
+    "BeehiveBlockEntityMixin",
+    "EntityMixin",
+    "FarmBlockMixin",
+    "FishingHookMixin",
+    "LivingEntityMixin",
+    "MobMixin",
+    "NearestItemSensorMixin",
+    "PandaMixin",
+    "PandaSneezeGoalMixin",
+    "PhantomSweepAttackGoalMixin"
+  ],
+  "client": [
+    "MinecraftMixin"
+  ],
+  "injectors": {"defaultRequire": 1}
+}

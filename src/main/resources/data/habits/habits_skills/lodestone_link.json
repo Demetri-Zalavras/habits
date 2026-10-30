@@ -1,0 +1,30 @@
+{
+  "rarity": "rare",
+  "category": "exploration",
+  "trigger": {
+    "type": "interact_block",
+    "match": "minecraft:lodestone",
+    "item": "minecraft:compass",
+    "chance": 0.0667
+  },
+  "icon": "minecraft:lodestone",
+  "art": "minecraft:chiseled_stone_bricks",
+  "perk": {
+    "mechanic": "habits:movement/lodestone_link",
+    "params": {
+      "cooldown": "30..2"
+    },
+    "values": [
+      10.0,
+      9.1,
+      8.2,
+      7.3,
+      6.4,
+      5.6,
+      4.7,
+      3.8,
+      2.9,
+      2.0
+    ]
+  }
+}

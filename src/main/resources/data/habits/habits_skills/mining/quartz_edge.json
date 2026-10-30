@@ -1,0 +1,31 @@
+{
+  "rarity": "uncommon",
+  "category": "mining",
+  "trigger": {
+    "type": "pickup_item",
+    "match": "minecraft:quartz",
+    "chance": 0.01042
+  },
+  "icon": "minecraft:quartz",
+  "art": "minecraft:nether_quartz_ore",
+  "perk": {
+    "mechanic": "habits:mining/quartz_edge",
+    "params": {
+      "block": "minecraft:nether_quartz_ore",
+      "effect": "minecraft:strength",
+      "amplifier": "1..2"
+    },
+    "values": [
+      3,
+      4,
+      6,
+      7,
+      8,
+      10,
+      11,
+      12,
+      14,
+      15
+    ]
+  }
+}

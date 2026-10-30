@@ -1,0 +1,30 @@
+{
+  "rarity": "rare",
+  "category": "building",
+  "class_passive": true,
+  "trigger": {
+    "type": "custom",
+    "match": "habits:building/high_place",
+    "chance": 0.0033
+  },
+  "icon": "minecraft:scaffolding",
+  "art": "minecraft:spruce_planks",
+  "perk": {
+    "type": "reach",
+    "values": [
+      1,
+      1,
+      1.5,
+      1.5,
+      2,
+      2,
+      2.5,
+      2.5,
+      3,
+      3
+    ],
+    "params": {
+      "kind": "block"
+    }
+  }
+}

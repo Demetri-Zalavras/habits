@@ -1,0 +1,51 @@
+{
+  "rarity": "epic",
+  "category": "ranger",
+  "trigger": {
+    "type": "kill_entity",
+    "match": "minecraft:guardian",
+    "item": "minecraft:trident",
+    "chance": 0.02
+  },
+  "icon": "minecraft:prismarine_shard",
+  "art": "minecraft:sea_lantern",
+  "perk": {
+    "mechanic": "habits:ranged/whirlpool",
+    "values": [
+      2.0,
+      2.5,
+      3.0,
+      3.5,
+      4.0,
+      4.5,
+      5.0,
+      5.5,
+      6.0,
+      6.5
+    ],
+    "params": {
+      "pull": "0.4..0.9"
+    }
+  },
+  "forks": [
+    {
+      "level": 5,
+      "options": [
+        {
+          "id": "wide_pull",
+          "scale": 1.5,
+          "params": {
+            "pull": "0.25..0.6"
+          }
+        },
+        {
+          "id": "hard_pull",
+          "scale": 0.65,
+          "params": {
+            "pull": "0.7..1.5"
+          }
+        }
+      ]
+    }
+  ]
+}

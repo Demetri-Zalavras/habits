@@ -1,0 +1,29 @@
+{
+  "rarity": "uncommon",
+  "category": "ranger",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:headshot",
+    "chance": 0.0625
+  },
+  "icon": "minecraft:zombie_head",
+  "art": "minecraft:target",
+  "perk": {
+    "mechanic": "habits:headshot",
+    "values": [
+      25,
+      40,
+      55,
+      65,
+      80,
+      95,
+      110,
+      120,
+      135,
+      150
+    ],
+    "params": {
+      "head": "1..15"
+    }
+  }
+}

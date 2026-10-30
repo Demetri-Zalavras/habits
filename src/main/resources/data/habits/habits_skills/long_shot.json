@@ -1,0 +1,30 @@
+{
+  "rarity": "uncommon",
+  "category": "ranger",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:arrow_hit_30",
+    "chance": 0.0625
+  },
+  "icon": "minecraft:spyglass",
+  "art": "minecraft:target",
+  "perk": {
+    "mechanic": "habits:long_shot",
+    "values": [
+      1.0,
+      1.4,
+      1.9,
+      2.3,
+      2.8,
+      3.2,
+      3.7,
+      4.1,
+      4.6,
+      5.0
+    ],
+    "params": {
+      "cap": "30..150",
+      "from": "15"
+    }
+  }
+}

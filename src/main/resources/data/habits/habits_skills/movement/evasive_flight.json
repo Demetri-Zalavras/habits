@@ -1,0 +1,31 @@
+{
+  "rarity": "rare",
+  "category": "movement",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:shot_gliding",
+    "chance": 0.2
+  },
+  "icon": "minecraft:arrow",
+  "art": "minecraft:white_concrete",
+  "perk": {
+    "type": "damage_type_resist",
+    "params": {
+      "damage": "#minecraft:is_projectile",
+      "condition": "gliding"
+    },
+    "values": [
+      8,
+      16,
+      24,
+      32,
+      40,
+      48,
+      56,
+      64,
+      72,
+      80
+    ]
+  },
+  "perk_text": "Projectile damage -{v}% while gliding"
+}

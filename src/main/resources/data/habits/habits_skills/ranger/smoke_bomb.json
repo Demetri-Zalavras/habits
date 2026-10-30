@@ -1,0 +1,31 @@
+{
+  "rarity": "rare",
+  "category": "ranger",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:low_hp_survived",
+    "chance": 0.05
+  },
+  "icon": "minecraft:gray_dye",
+  "art": "minecraft:smooth_basalt",
+  "perk": {
+    "mechanic": "habits:ranged/smoke_bomb",
+    "values": [
+      3.0,
+      3.5,
+      4.0,
+      4.5,
+      5.0,
+      5.5,
+      6.0,
+      6.5,
+      7.0,
+      7.5
+    ],
+    "params": {
+      "blind": "2..5",
+      "hide": "2..6",
+      "cooldown": "60..30"
+    }
+  }
+}

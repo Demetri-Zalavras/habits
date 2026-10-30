@@ -1,0 +1,20 @@
+{
+  "danger.rises": {
+    "subtitle": "subtitles.habits.danger_rises",
+    "sounds": [
+      {
+        "name": "minecraft:block.note_block.basedrum",
+        "type": "event"
+      }
+    ]
+  },
+  "danger.shield_block": {
+    "subtitle": "subtitles.habits.danger_shield",
+    "sounds": [
+      {
+        "name": "minecraft:item.shield.block",
+        "type": "event"
+      }
+    ]
+  }
+}

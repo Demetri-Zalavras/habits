@@ -1,0 +1,44 @@
+{
+  "rarity": "common",
+  "category": "building",
+  "trigger": {
+    "type": "smelt",
+    "match": [
+      "minecraft:brick",
+      "minecraft:glass",
+      "minecraft:smooth_stone",
+      "minecraft:stone",
+      "minecraft:terracotta",
+      "minecraft:nether_brick",
+      "minecraft:cracked_stone_bricks",
+      "minecraft:smooth_sandstone",
+      "minecraft:smooth_red_sandstone",
+      "minecraft:smooth_quartz",
+      "minecraft:deepslate",
+      "minecraft:cracked_deepslate_bricks",
+      "minecraft:cracked_deepslate_tiles"
+    ],
+    "chance": 0.025
+  },
+  "icon": "minecraft:brick",
+  "art": "minecraft:terracotta",
+  "perk": {
+    "type": "smelt_bonus",
+    "values": [
+      5.0,
+      10.0,
+      15.0,
+      20.0,
+      25.0,
+      30.0,
+      35.0,
+      40.0,
+      45.0,
+      50.0
+    ],
+    "params": {
+      "item": "minecraft:brick,minecraft:glass,minecraft:smooth_stone,minecraft:stone,minecraft:terracotta,minecraft:nether_brick,minecraft:cracked_stone_bricks,minecraft:smooth_sandstone,minecraft:smooth_red_sandstone,minecraft:smooth_quartz,minecraft:deepslate,minecraft:cracked_deepslate_bricks,minecraft:cracked_deepslate_tiles"
+    }
+  },
+  "perk_text": "{v}% chance bricks, glass and stone smelt double"
+}

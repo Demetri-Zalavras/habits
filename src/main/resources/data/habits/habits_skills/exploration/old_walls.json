@@ -1,0 +1,30 @@
+{
+  "rarity": "rare",
+  "category": "exploration",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:new_structure",
+    "chance": 0.06
+  },
+  "icon": "minecraft:cracked_stone_bricks",
+  "art": "minecraft:cracked_stone_bricks",
+  "perk": {
+    "mechanic": "habits:exploration/old_walls",
+    "params": {
+      "side": "taken",
+      "value_max": "60"
+    },
+    "values": [
+      3,
+      6,
+      9,
+      12,
+      15,
+      18,
+      21,
+      24,
+      27,
+      30
+    ]
+  }
+}

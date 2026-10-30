@@ -1,0 +1,25 @@
+{
+  "rarity": "rare",
+  "category": "nature",
+  "trigger": {
+    "type": "sneak_distance",
+    "chance": 0.000427
+  },
+  "icon": "minecraft:spyglass",
+  "art": "minecraft:coarse_dirt",
+  "perk": {
+    "mechanic": "habits:nature/game_tracker",
+    "values": [
+      12,
+      16,
+      20,
+      24,
+      28,
+      32,
+      36,
+      40,
+      44,
+      48
+    ]
+  }
+}

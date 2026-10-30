@@ -1,0 +1,29 @@
+{
+  "rarity": "uncommon",
+  "category": "exploration",
+  "trigger": {
+    "type": "elytra_distance",
+    "chance": 0.00006
+  },
+  "icon": "minecraft:elytra",
+  "art": "minecraft:purpur_pillar",
+  "perk": {
+    "type": "durability_save",
+    "params": {
+      "item": "minecraft:elytra"
+    },
+    "values": [
+      5,
+      10,
+      15,
+      20,
+      25,
+      30,
+      35,
+      40,
+      45,
+      50
+    ]
+  },
+  "perk_text": "{v}% chance the elytra takes no wear"
+}

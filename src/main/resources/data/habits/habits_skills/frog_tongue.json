@@ -1,0 +1,29 @@
+{
+  "rarity": "rare",
+  "category": "nature",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:froglight",
+    "chance": 0.167
+  },
+  "icon": "minecraft:verdant_froglight",
+  "art": "minecraft:mud",
+  "perk": {
+    "mechanic": "habits:frog_tongue",
+    "params": {
+      "mobs_level": "10,10"
+    },
+    "values": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  }
+}

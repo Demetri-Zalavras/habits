@@ -1,0 +1,50 @@
+{
+  "rarity": "legendary",
+  "category": "movement",
+  "trigger": {
+    "type": "custom_units",
+    "match": "habits:group_sprint",
+    "chance": 2.5e-05
+  },
+  "icon": "minecraft:bell",
+  "art": "minecraft:gold_block",
+  "perk": {
+    "mechanic": "habits:movement/pace_setter",
+    "params": {
+      "amp": "0,0,0,0,0,1,1,1,1,1"
+    },
+    "values": [
+      4,
+      6,
+      8,
+      11,
+      13,
+      15,
+      17,
+      20,
+      22,
+      24
+    ]
+  },
+  "forks": [
+    {
+      "level": 5,
+      "options": [
+        {
+          "id": "wide_pace",
+          "scale": 1.6,
+          "params": {
+            "amp": "0"
+          }
+        },
+        {
+          "id": "fast_pace",
+          "scale": 0.6,
+          "params": {
+            "amp": "0,0,0,0,1,1,1,1,1,2"
+          }
+        }
+      ]
+    }
+  ]
+}

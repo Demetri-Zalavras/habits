@@ -1,0 +1,33 @@
+{
+  "rarity": "rare",
+  "category": "building",
+  "trigger": {
+    "type": "place_block",
+    "match": [
+      "minecraft:glowstone",
+      "minecraft:sea_lantern",
+      "minecraft:shroomlight",
+      "minecraft:ochre_froglight",
+      "minecraft:verdant_froglight",
+      "minecraft:pearlescent_froglight"
+    ],
+    "chance": 0.00833
+  },
+  "icon": "minecraft:glowstone_dust",
+  "art": "minecraft:glowstone",
+  "perk": {
+    "mechanic": "habits:building/hidden_light",
+    "values": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ]
+  }
+}

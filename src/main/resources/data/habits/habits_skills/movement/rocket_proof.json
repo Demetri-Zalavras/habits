@@ -1,0 +1,30 @@
+{
+  "rarity": "common",
+  "category": "movement",
+  "trigger": {
+    "type": "damage_taken",
+    "match": "minecraft:fireworks",
+    "chance": 0.2
+  },
+  "icon": "minecraft:firework_star",
+  "art": "minecraft:red_concrete",
+  "perk": {
+    "type": "damage_type_resist",
+    "params": {
+      "damage": "minecraft:fireworks"
+    },
+    "values": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60,
+      70,
+      80,
+      90,
+      100
+    ]
+  },
+  "perk_text": "Firework damage -{v}%"
+}

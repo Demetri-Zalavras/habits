@@ -1,0 +1,29 @@
+{
+  "rarity": "rare",
+  "category": "exploration",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:brush_done",
+    "chance": 0.04
+  },
+  "icon": "minecraft:archer_pottery_sherd",
+  "art": "minecraft:suspicious_sand",
+  "perk": {
+    "mechanic": "habits:exploration/sherd_seeker",
+    "params": {
+      "value_max": "100"
+    },
+    "values": [
+      4,
+      7,
+      10,
+      13,
+      16,
+      18,
+      21,
+      24,
+      27,
+      30
+    ]
+  }
+}

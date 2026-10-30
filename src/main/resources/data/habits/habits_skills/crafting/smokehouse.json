@@ -1,0 +1,19 @@
+{
+  "rarity": "uncommon",
+  "category": "crafting",
+  "trigger": {
+    "type": "smelt",
+    "match": ["minecraft:cooked_beef", "minecraft:cooked_porkchop", "minecraft:cooked_chicken", "minecraft:cooked_mutton", "minecraft:cooked_rabbit", "minecraft:cooked_cod", "minecraft:cooked_salmon", "minecraft:baked_potato"],
+    "chance": 0.03125
+  },
+  "icon": "minecraft:cooked_beef",
+  "art": "minecraft:smoker",
+  "perk": {
+    "type": "smelt_bonus",
+    "values": [4, 8, 12, 16, 20, 24, 28, 32, 36, 40],
+    "params": {
+      "item": "minecraft:cooked_beef,minecraft:cooked_porkchop,minecraft:cooked_chicken,minecraft:cooked_mutton,minecraft:cooked_rabbit,minecraft:cooked_cod,minecraft:cooked_salmon,minecraft:baked_potato"
+    }
+  },
+  "perk_text": "{v}% chance of double cooked food"
+}

@@ -1,0 +1,26 @@
+{
+  "rarity": "uncommon",
+  "category": "nature",
+  "trigger": {
+    "type": "interact_entity",
+    "match": "minecraft:parrot",
+    "chance": 0.0312
+  },
+  "icon": "minecraft:feather",
+  "art": "minecraft:jungle_leaves",
+  "perk": {
+    "mechanic": "habits:nature/wingman",
+    "values": [
+      20,
+      29,
+      38,
+      47,
+      56,
+      64,
+      73,
+      82,
+      91,
+      100
+    ]
+  }
+}

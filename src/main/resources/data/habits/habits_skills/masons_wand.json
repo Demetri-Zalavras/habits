@@ -1,0 +1,25 @@
+{
+  "rarity": "common",
+  "category": "building",
+  "trigger": {
+    "type": "place_block",
+    "chance": 0.00333
+  },
+  "icon": "minecraft:bricks",
+  "art": "minecraft:bricks",
+  "perk": {
+    "mechanic": "habits:masons_wand",
+    "values": [
+      1,
+      3,
+      5,
+      8,
+      11,
+      14,
+      17,
+      20,
+      23,
+      25
+    ]
+  }
+}

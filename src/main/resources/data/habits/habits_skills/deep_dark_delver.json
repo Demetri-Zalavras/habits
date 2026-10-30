@@ -1,0 +1,26 @@
+{
+  "rarity": "epic",
+  "category": "exploration",
+  "trigger": {
+    "type": "enter_biome",
+    "match": "minecraft:deep_dark",
+    "chance": 0.167
+  },
+  "icon": "minecraft:sculk_shrieker",
+  "art": "minecraft:sculk",
+  "perk": {
+    "mechanic": "habits:movement/deep_dark_delver",
+    "values": [
+      10,
+      18,
+      26,
+      33,
+      41,
+      49,
+      57,
+      64,
+      72,
+      80
+    ]
+  }
+}

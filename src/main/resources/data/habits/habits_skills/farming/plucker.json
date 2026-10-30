@@ -1,0 +1,26 @@
+{
+  "rarity": "common",
+  "category": "farming",
+  "trigger": {
+    "type": "pickup_item",
+    "match": "minecraft:feather",
+    "chance": 0.01
+  },
+  "icon": "minecraft:feather",
+  "art": "minecraft:white_wool",
+  "perk": {
+    "mechanic": "habits:farming/plucker",
+    "values": [
+      300,
+      270,
+      240,
+      210,
+      180,
+      150,
+      120,
+      90,
+      60,
+      30
+    ]
+  }
+}

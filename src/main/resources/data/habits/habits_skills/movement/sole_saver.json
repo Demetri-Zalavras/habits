@@ -1,0 +1,30 @@
+{
+  "rarity": "common",
+  "category": "movement",
+  "trigger": {
+    "type": "damage_taken",
+    "match": "minecraft:fall",
+    "chance": 0.0167
+  },
+  "icon": "minecraft:iron_boots",
+  "art": "minecraft:coarse_dirt",
+  "perk": {
+    "type": "durability_save",
+    "params": {
+      "item": "#minecraft:foot_armor"
+    },
+    "values": [
+      5,
+      10,
+      15,
+      20,
+      25,
+      30,
+      35,
+      40,
+      45,
+      50
+    ]
+  },
+  "perk_text": "Boots: {v}% chance to save durability"
+}

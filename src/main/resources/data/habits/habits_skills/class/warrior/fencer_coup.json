@@ -1,0 +1,31 @@
+{
+  "rarity": "epic",
+  "category": "warrior",
+  "class": "habits:class/warrior/fencer",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:one_shot",
+    "item": "#minecraft:swords",
+    "chance": 0.0083
+  },
+  "icon": "minecraft:diamond_sword",
+  "art": "minecraft:gold_block",
+  "perk": {
+    "mechanic": "habits:melee/execution",
+    "params": {
+      "below": "20,40"
+    },
+    "values": [
+      80,
+      99,
+      118,
+      137,
+      156,
+      174,
+      193,
+      212,
+      231,
+      250
+    ]
+  }
+}

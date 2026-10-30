@@ -1,0 +1,30 @@
+{
+  "rarity": "rare",
+  "category": "exploration",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:loot_chest_first",
+    "chance": 0.1
+  },
+  "icon": "minecraft:tripwire_hook",
+  "art": "minecraft:mossy_stone_bricks",
+  "perk": {
+    "mechanic": "habits:exploration/delver_lockpick",
+    "params": {
+      "value_max": "100"
+    },
+    "values": [
+      5,
+      8,
+      11,
+      13,
+      16,
+      19,
+      22,
+      24,
+      27,
+      30
+    ]
+  },
+  "class": "habits:class/exploration/delver"
+}

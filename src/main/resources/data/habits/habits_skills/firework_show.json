@@ -1,0 +1,29 @@
+{
+  "rarity": "common",
+  "category": "ranger",
+  "trigger": {
+    "type": "use_item",
+    "match": "minecraft:firework_rocket",
+    "chance": 0.0167
+  },
+  "icon": "minecraft:firework_rocket",
+  "art": "minecraft:red_wool",
+  "perk": {
+    "mechanic": "habits:firework_show",
+    "params": {
+      "seconds": "3..10"
+    },
+    "values": [
+      6,
+      8,
+      10,
+      12,
+      14,
+      16,
+      18,
+      20,
+      22,
+      24
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "rarity": "common",
+  "category": "mining",
+  "trigger": {
+    "type": "break_block",
+    "match": "minecraft:glow_lichen",
+    "chance": 0.01
+  },
+  "icon": "minecraft:glow_ink_sac",
+  "art": "minecraft:glow_lichen",
+  "perk": {
+    "mechanic": "habits:mining/lichen_scraper",
+    "params": {
+      "block": "minecraft:glow_lichen",
+      "item": "minecraft:glow_ink_sac",
+      "count": "1"
+    },
+    "values": [
+      3,
+      4.9,
+      6.8,
+      8.7,
+      10.6,
+      12.4,
+      14.3,
+      16.2,
+      18.1,
+      20
+    ]
+  }
+}

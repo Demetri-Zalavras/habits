@@ -1,0 +1,31 @@
+{
+  "rarity": "uncommon",
+  "category": "ranger",
+  "trigger": {
+    "type": "custom",
+    "match": [
+      "habits:effect_levitation"
+    ],
+    "chance": 0.0625
+  },
+  "icon": "minecraft:anvil",
+  "art": "minecraft:end_stone",
+  "perk": {
+    "mechanic": "habits:survival/gravity_anchor",
+    "params": {
+      "sneak_clear": "0,0,0,0,0,0,0,0,0,1"
+    },
+    "values": [
+      20,
+      28,
+      36,
+      43,
+      51,
+      59,
+      67,
+      74,
+      82,
+      90
+    ]
+  }
+}

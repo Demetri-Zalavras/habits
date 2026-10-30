@@ -1,0 +1,29 @@
+{
+  "rarity": "uncommon",
+  "category": "movement",
+  "trigger": {
+    "type": "custom_units",
+    "match": "habits:sea_swim",
+    "chance": 0.000347
+  },
+  "icon": "minecraft:nautilus_shell",
+  "art": "minecraft:tube_coral_block",
+  "perk": {
+    "mechanic": "habits:movement/swim_rhythm",
+    "params": {
+      "rate": "2..8"
+    },
+    "values": [
+      10,
+      18,
+      26,
+      33,
+      41,
+      49,
+      57,
+      64,
+      72,
+      80
+    ]
+  }
+}

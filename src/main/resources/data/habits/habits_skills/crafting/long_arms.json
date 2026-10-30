@@ -1,0 +1,18 @@
+{
+  "rarity": "rare",
+  "category": "crafting",
+  "trigger": {
+    "type": "stat_increment",
+    "match": "minecraft:interact_with_crafting_table",
+    "chance": 0.00556
+  },
+  "icon": "minecraft:stick",
+  "art": "minecraft:crafting_table",
+  "perk": {
+    "type": "reach",
+    "values": [0.3, 0.6, 0.9, 1.2, 1.5, 1.8, 2.1, 2.4, 2.7, 3],
+    "params": {
+      "kind": "block"
+    }
+  }
+}

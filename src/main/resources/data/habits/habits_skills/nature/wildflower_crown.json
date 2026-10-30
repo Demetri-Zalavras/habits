@@ -1,0 +1,30 @@
+{
+  "rarity": "rare",
+  "category": "nature",
+  "trigger": {
+    "type": "bonemeal",
+    "match": "#minecraft:small_flowers",
+    "chance": 0.00222
+  },
+  "icon": "minecraft:oxeye_daisy",
+  "art": "minecraft:flowering_azalea_leaves",
+  "perk": {
+    "type": "regen",
+    "values": [
+      4,
+      6,
+      8,
+      11,
+      13,
+      15,
+      17,
+      20,
+      22,
+      24
+    ],
+    "params": {
+      "condition": "biome=#c:is_floral"
+    }
+  },
+  "perk_text": "Heal {v} per minute in flower biomes"
+}

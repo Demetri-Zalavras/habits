@@ -1,0 +1,16 @@
+{
+  "rarity": "uncommon",
+  "category": "crafting",
+  "trigger": {
+    "type": "interact_entity",
+    "match": "minecraft:iron_golem",
+    "item": "minecraft:iron_ingot",
+    "chance": 0.0625
+  },
+  "icon": "minecraft:poppy",
+  "art": "minecraft:iron_block",
+  "perk": {
+    "mechanic": "habits:crafting/golem_mechanic",
+    "values": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
+  }
+}

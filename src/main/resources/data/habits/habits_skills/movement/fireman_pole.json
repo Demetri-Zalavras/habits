@@ -1,0 +1,28 @@
+{
+  "rarity": "common",
+  "category": "movement",
+  "trigger": {
+    "type": "climb_distance",
+    "chance": 0.000709
+  },
+  "icon": "minecraft:ladder",
+  "art": "minecraft:oak_planks",
+  "perk": {
+    "mechanic": "habits:movement/fireman_pole",
+    "params": {
+      "pitch": "50"
+    },
+    "values": [
+      6,
+      7.6,
+      9.1,
+      10.7,
+      12.2,
+      13.8,
+      15.3,
+      16.9,
+      18.4,
+      20
+    ]
+  }
+}

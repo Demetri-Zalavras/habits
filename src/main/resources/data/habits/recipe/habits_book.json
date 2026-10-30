@@ -1,0 +1,6 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [{"item": "minecraft:book"}, {"item": "minecraft:paper"}, {"item": "minecraft:string"}],
+  "result": {"id": "habits:habits_book", "count": 1}
+}

@@ -1,0 +1,29 @@
+{
+  "rarity": "common",
+  "category": "movement",
+  "trigger": {
+    "type": "custom_units",
+    "match": "habits:pet_walk",
+    "chance": 0.000386
+  },
+  "icon": "minecraft:bone",
+  "art": "minecraft:podzol",
+  "perk": {
+    "mechanic": "habits:movement/walkies",
+    "params": {
+      "amp": "0,0,0,0,0,1,1,1,1,1"
+    },
+    "values": [
+      8,
+      11,
+      13,
+      16,
+      19,
+      21,
+      24,
+      27,
+      29,
+      32
+    ]
+  }
+}

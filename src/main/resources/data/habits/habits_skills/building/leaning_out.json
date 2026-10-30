@@ -1,0 +1,31 @@
+{
+  "rarity": "rare",
+  "category": "building",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:edge_bridge",
+    "chance": 0.00222
+  },
+  "icon": "minecraft:oak_trapdoor",
+  "art": "minecraft:oak_planks",
+  "perk": {
+    "type": "reach",
+    "values": [
+      0.3,
+      0.6,
+      0.9,
+      1.2,
+      1.5,
+      1.8,
+      2.1,
+      2.4,
+      2.7,
+      3.0
+    ],
+    "params": {
+      "kind": "block",
+      "condition": "sneaking"
+    }
+  },
+  "perk_text": "Reach +{v} blocks while sneaking"
+}

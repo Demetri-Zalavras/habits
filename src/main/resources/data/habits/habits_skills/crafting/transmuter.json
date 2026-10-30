@@ -1,0 +1,46 @@
+{
+  "rarity": "legendary",
+  "category": "crafting",
+  "trigger": {
+    "type": "smelt",
+    "match": "#c:ingots",
+    "chance": 0.00417
+  },
+  "icon": "minecraft:gold_ingot",
+  "art": "minecraft:gold_block",
+  "perk": {
+    "mechanic": "habits:crafting/transmuter",
+    "values": [
+      0.5,
+      1,
+      1.5,
+      2,
+      2.5,
+      3,
+      3.5,
+      4,
+      4.5,
+      5
+    ],
+    "params": {
+      "table": "minecraft:copper_ingot=minecraft:iron_ingot,minecraft:iron_ingot=minecraft:gold_ingot,minecraft:gold_ingot=minecraft:diamond"
+    }
+  },
+  "forks": [
+    {
+      "level": 5,
+      "options": [
+        {
+          "id": "full_chain"
+        },
+        {
+          "id": "gold_rush",
+          "scale": 2.5,
+          "params": {
+            "table": "minecraft:copper_ingot=minecraft:iron_ingot,minecraft:iron_ingot=minecraft:gold_ingot"
+          }
+        }
+      ]
+    }
+  ]
+}

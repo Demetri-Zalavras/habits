@@ -1,0 +1,32 @@
+{
+  "rarity": "uncommon",
+  "category": "nature",
+  "trigger": {
+    "type": "kill_entity",
+    "match": [
+      "minecraft:squid",
+      "minecraft:glow_squid"
+    ],
+    "chance": 0.0312
+  },
+  "icon": "minecraft:glow_ink_sac",
+  "art": "minecraft:black_concrete",
+  "perk": {
+    "mechanic": "habits:nature/ink_cloud",
+    "values": [
+      10,
+      16,
+      21,
+      27,
+      32,
+      38,
+      43,
+      49,
+      54,
+      60
+    ],
+    "params": {
+      "seconds": "2,6"
+    }
+  }
+}

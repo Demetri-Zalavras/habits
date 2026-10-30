@@ -1,0 +1,28 @@
+{
+  "rarity": "common",
+  "category": "farming",
+  "trigger": {
+    "type": "bonemeal",
+    "chance": 0.00667
+  },
+  "icon": "minecraft:bone_meal",
+  "art": "minecraft:moss_block",
+  "perk": {
+    "mechanic": "habits:fertilizer",
+    "params": {
+      "chance": "30,100"
+    },
+    "values": [
+      1,
+      1,
+      2,
+      2,
+      2,
+      3,
+      3,
+      3,
+      4,
+      4
+    ]
+  }
+}

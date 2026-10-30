@@ -1,0 +1,30 @@
+{
+  "rarity": "uncommon",
+  "category": "warrior",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:melee_kill",
+    "chance": 0.0625,
+    "entity": "minecraft:witch"
+  },
+  "icon": "minecraft:fermented_spider_eye",
+  "art": "minecraft:purple_terracotta",
+  "perk": {
+    "mechanic": "habits:melee/hex_breaker",
+    "params": {
+      "steal": "0,40"
+    },
+    "values": [
+      10.0,
+      16.0,
+      21.0,
+      27.0,
+      32.0,
+      38.0,
+      43.0,
+      49.0,
+      54.0,
+      60.0
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "rarity": "uncommon",
+  "category": "ranger",
+  "class": "habits:class/ranger/shade_hunter",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:ranged/sneak_near_hostile",
+    "chance": 0.03
+  },
+  "icon": "minecraft:fern",
+  "art": "minecraft:podzol",
+  "perk": {
+    "mechanic": "habits:ranged/low_profile",
+    "values": [
+      20.0,
+      25.0,
+      30.0,
+      35.0,
+      40.0,
+      45.0,
+      50.0,
+      55.0,
+      60.0,
+      65.0
+    ]
+  }
+}

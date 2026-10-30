@@ -1,0 +1,32 @@
+{
+  "rarity": "rare",
+  "category": "farming",
+  "trigger": {
+    "type": "plant",
+    "match": [
+      "minecraft:torchflower_crop",
+      "minecraft:pitcher_crop"
+    ],
+    "chance": 0.05
+  },
+  "icon": "minecraft:torchflower_seeds",
+  "art": "minecraft:moss_block",
+  "perk": {
+    "mechanic": "habits:farming/fertile_ground",
+    "params": {
+      "radius": "6,16"
+    },
+    "values": [
+      5,
+      10,
+      15,
+      20,
+      25,
+      30,
+      35,
+      40,
+      45,
+      50
+    ]
+  }
+}

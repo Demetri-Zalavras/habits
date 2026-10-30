@@ -1,0 +1,32 @@
+{
+  "rarity": "rare",
+  "category": "guardian",
+  "class": "habits:class/guardian/oathsworn",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:low_hp_survived",
+    "chance": 0.3
+  },
+  "icon": "minecraft:iron_door",
+  "art": "minecraft:smooth_stone",
+  "perk": {
+    "type": "mob_effect_conditional",
+    "values": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "params": {
+      "effect": "minecraft:resistance",
+      "condition": "low_health"
+    }
+  },
+  "perk_text": "Resistance {v} while badly hurt"
+}

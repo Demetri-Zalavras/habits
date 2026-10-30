@@ -1,0 +1,29 @@
+{
+  "rarity": "uncommon",
+  "category": "mining",
+  "trigger": {
+    "type": "break_block",
+    "match": "#minecraft:redstone_ores",
+    "chance": 0.0208
+  },
+  "icon": "minecraft:redstone",
+  "art": "minecraft:redstone_ore",
+  "perk": {
+    "mechanic": "habits:ore_pulse",
+    "params": {
+      "glow_s": "3..12"
+    },
+    "values": [
+      6,
+      9,
+      12,
+      15,
+      18,
+      21,
+      24,
+      27,
+      30,
+      32
+    ]
+  }
+}

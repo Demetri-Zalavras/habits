@@ -1,0 +1,26 @@
+{
+  "rarity": "common",
+  "category": "movement",
+  "trigger": {
+    "type": "custom_units",
+    "match": "habits:forest_walk",
+    "chance": 0.000386
+  },
+  "icon": "minecraft:oak_leaves",
+  "art": "minecraft:oak_leaves",
+  "perk": {
+    "mechanic": "habits:movement/pathless",
+    "values": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2,
+      2
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "rarity": "epic",
+  "category": "crafting",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:cured_villager",
+    "chance": 0.333
+  },
+  "icon": "minecraft:golden_apple",
+  "art": "minecraft:gold_block",
+  "perk": {
+    "mechanic": "habits:golden_tongue",
+    "params": {
+      "value_max": "5",
+      "radius": "16..64"
+    },
+    "values": [
+      1,
+      1,
+      2,
+      2,
+      3,
+      3,
+      4,
+      4,
+      5,
+      5
+    ]
+  },
+  "forks": [
+    {
+      "level": 5,
+      "options": [
+        {
+          "id": "wide_charm",
+          "scale": 0.8,
+          "params": {
+            "radius": "32..128"
+          }
+        },
+        {
+          "id": "close_haggle",
+          "scale": 1.4,
+          "params": {
+            "radius": "8..32"
+          }
+        }
+      ]
+    }
+  ]
+}

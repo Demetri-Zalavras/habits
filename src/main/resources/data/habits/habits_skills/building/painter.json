@@ -1,0 +1,29 @@
+{
+  "rarity": "rare",
+  "category": "building",
+  "trigger": {
+    "type": "place_block",
+    "match": "#minecraft:wool",
+    "chance": 0.00333
+  },
+  "icon": "minecraft:magenta_dye",
+  "art": "minecraft:magenta_wool",
+  "perk": {
+    "mechanic": "habits:building/painter",
+    "values": [
+      1,
+      2,
+      4,
+      6,
+      8,
+      12,
+      16,
+      20,
+      26,
+      32
+    ],
+    "params": {
+      "per_dye": "4..16"
+    }
+  }
+}

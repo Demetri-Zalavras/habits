@@ -1,0 +1,25 @@
+{
+  "rarity": "common",
+  "category": "crafting",
+  "trigger": {
+    "type": "xp_pickup",
+    "chance": 0.0025
+  },
+  "icon": "minecraft:experience_bottle",
+  "art": "minecraft:lime_concrete",
+  "perk": {
+    "mechanic": "habits:orb_magnet",
+    "values": [
+      8,
+      11,
+      13,
+      16,
+      19,
+      21,
+      24,
+      27,
+      29,
+      32
+    ]
+  }
+}

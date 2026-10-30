@@ -1,0 +1,18 @@
+{
+  "rarity": "rare",
+  "category": "crafting",
+  "trigger": {
+    "type": "stat_increment",
+    "match": "minecraft:interact_with_brewingstand",
+    "chance": 0.01667
+  },
+  "icon": "minecraft:blaze_rod",
+  "art": "minecraft:nether_bricks",
+  "perk": {
+    "mechanic": "habits:crafting/brew_rush",
+    "values": [2, 3, 5, 6, 8, 9, 11, 12, 14, 15],
+    "params": {
+      "cooldown": "10"
+    }
+  }
+}

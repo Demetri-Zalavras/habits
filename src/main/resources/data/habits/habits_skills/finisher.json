@@ -1,0 +1,26 @@
+{
+  "rarity": "rare",
+  "category": "ranger",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:one_shot_kill",
+    "chance": 0.0167
+  },
+  "icon": "minecraft:iron_sword",
+  "art": "minecraft:redstone_block",
+  "perk": {
+    "mechanic": "habits:finisher",
+    "values": [
+      5,
+      6.5,
+      8,
+      9.5,
+      11,
+      12.5,
+      14,
+      15.5,
+      17,
+      20
+    ]
+  }
+}

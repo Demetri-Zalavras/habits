@@ -1,0 +1,29 @@
+{
+  "rarity": "common",
+  "category": "farming",
+  "trigger": {
+    "type": "break_block",
+    "match": "#minecraft:flowers",
+    "chance": 0.005
+  },
+  "icon": "minecraft:poppy",
+  "art": "minecraft:grass_block",
+  "perk": {
+    "mechanic": "habits:flower_power",
+    "params": {
+      "amp": "0,1"
+    },
+    "values": [
+      3,
+      9,
+      16,
+      22,
+      29,
+      35,
+      41,
+      48,
+      54,
+      60
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "rarity": "uncommon",
+  "category": "movement",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:close_fall",
+    "chance": 0.25
+  },
+  "icon": "minecraft:glistering_melon_slice",
+  "art": "minecraft:red_terracotta",
+  "perk": {
+    "type": "mob_effect_conditional",
+    "params": {
+      "effect": "minecraft:speed",
+      "condition": "low_health"
+    },
+    "values": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2,
+      2
+    ]
+  },
+  "perk_text": "Speed {v} when low on health"
+}

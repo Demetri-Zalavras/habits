@@ -1,0 +1,30 @@
+{
+  "rarity": "rare",
+  "category": "warrior",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:melee_kill",
+    "entity": "minecraft:pillager",
+    "chance": 0.0111
+  },
+  "icon": "minecraft:emerald",
+  "art": "minecraft:dark_oak_planks",
+  "perk": {
+    "type": "looting_bonus",
+    "params": {
+      "value_max": "4"
+    },
+    "values": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      2.0,
+      2.0,
+      2.0,
+      2.0,
+      3.0,
+      3.0
+    ]
+  }
+}

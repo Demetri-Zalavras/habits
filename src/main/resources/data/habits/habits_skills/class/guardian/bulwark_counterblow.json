@@ -1,0 +1,30 @@
+{
+  "rarity": "rare",
+  "category": "guardian",
+  "class": "habits:class/guardian/bulwark",
+  "trigger": {
+    "type": "shield_block",
+    "match": "minecraft:mob_attack",
+    "chance": 0.008
+  },
+  "icon": "minecraft:iron_sword",
+  "art": "minecraft:iron_block",
+  "perk": {
+    "mechanic": "habits:survival/counterblow",
+    "values": [
+      20,
+      27,
+      33,
+      40,
+      47,
+      53,
+      60,
+      67,
+      73,
+      80
+    ],
+    "params": {
+      "window": "3"
+    }
+  }
+}

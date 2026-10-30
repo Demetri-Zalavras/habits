@@ -1,0 +1,30 @@
+{
+  "rarity": "epic",
+  "category": "ranger",
+  "class_passive": true,
+  "trigger": {
+    "type": "custom",
+    "match": "habits:moving_hit",
+    "chance": 0.006
+  },
+  "icon": "minecraft:wind_charge",
+  "art": "minecraft:smooth_quartz",
+  "perk": {
+    "mechanic": "habits:ranged/galeborn",
+    "values": [
+      20,
+      25,
+      30,
+      35,
+      40,
+      45,
+      50,
+      56,
+      63,
+      70
+    ],
+    "params": {
+      "speed": "2..5"
+    }
+  }
+}

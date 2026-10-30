@@ -1,0 +1,46 @@
+{
+  "rarity": "epic",
+  "category": "nature",
+  "trigger": {
+    "type": "fish",
+    "match": "#minecraft:fishes",
+    "chance": 0.0049
+  },
+  "icon": "minecraft:tropical_fish_bucket",
+  "art": "minecraft:tube_coral_block",
+  "perk": {
+    "mechanic": "habits:nature/school",
+    "values": [
+      2,
+      3,
+      3,
+      4,
+      5,
+      5,
+      6,
+      7,
+      7,
+      8
+    ],
+    "params": {
+      "max": "2,10"
+    }
+  },
+  "forks": [
+    {
+      "level": 5,
+      "options": [
+        {
+          "id": "tight_net"
+        },
+        {
+          "id": "wide_net",
+          "scale": 1.5,
+          "params": {
+            "max": "1,6"
+          }
+        }
+      ]
+    }
+  ]
+}

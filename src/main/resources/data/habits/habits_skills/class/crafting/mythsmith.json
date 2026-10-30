@@ -1,0 +1,31 @@
+{
+  "rarity": "legendary",
+  "category": "crafting",
+  "class_passive": true,
+  "trigger": {
+    "type": "craft",
+    "chance": 0.0028
+  },
+  "icon": "minecraft:netherite_ingot",
+  "art": "minecraft:gilded_blackstone",
+  "perk": {
+    "mechanic": "habits:crafting/mythsmith",
+    "values": [
+      15,
+      19,
+      23,
+      27,
+      31,
+      34,
+      38,
+      42,
+      46,
+      50
+    ],
+    "params": {
+      "damage": "10..25",
+      "armor": "10..25",
+      "durability": "25..100"
+    }
+  }
+}

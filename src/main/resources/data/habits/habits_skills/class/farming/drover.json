@@ -1,0 +1,26 @@
+{
+  "rarity": "rare",
+  "category": "farming",
+  "class_passive": true,
+  "trigger": {
+    "type": "breed",
+    "chance": 0.0083
+  },
+  "icon": "minecraft:lead",
+  "art": "minecraft:hay_block",
+  "perk": {
+    "type": "breed_twins",
+    "values": [
+      10,
+      13,
+      16,
+      19,
+      22,
+      25,
+      28,
+      31,
+      35,
+      40
+    ]
+  }
+}

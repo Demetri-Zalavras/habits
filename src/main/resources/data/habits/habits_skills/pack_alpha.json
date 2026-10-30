@@ -1,0 +1,26 @@
+{
+  "rarity": "rare",
+  "category": "nature",
+  "trigger": {
+    "type": "tame",
+    "match": "minecraft:wolf",
+    "chance": 0.0333
+  },
+  "icon": "minecraft:bone",
+  "art": "minecraft:podzol",
+  "perk": {
+    "mechanic": "habits:pack_alpha",
+    "values": [
+      5,
+      9,
+      13,
+      17,
+      21,
+      24,
+      28,
+      32,
+      36,
+      40
+    ]
+  }
+}

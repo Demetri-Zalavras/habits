@@ -1,0 +1,1 @@
+{"rarity":"rare","category":"guardian","trigger":{"type":"kill_entity","match":"mowziesmobs:naga","chance":0.4},"icon":"mowziesmobs:naga_fang_dagger","art":"minecraft:black_wool","perk":{"type":"damage_type_resist","params":{"damage":"minecraft:fall"},"base":10,"per_level":9}}

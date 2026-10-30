@@ -1,0 +1,30 @@
+{
+  "rarity": "uncommon",
+  "category": "ranger",
+  "trigger": {
+    "type": "drink_potion",
+    "match": [
+      "minecraft:leaping",
+      "minecraft:long_leaping",
+      "minecraft:strong_leaping"
+    ],
+    "chance": 0.0625
+  },
+  "icon": "minecraft:rabbit_foot",
+  "art": "minecraft:slime_block",
+  "perk": {
+    "mechanic": "habits:survival/spring_heels",
+    "values": [
+      0.3,
+      0.36,
+      0.41,
+      0.47,
+      0.52,
+      0.58,
+      0.63,
+      0.69,
+      0.74,
+      0.8
+    ]
+  }
+}

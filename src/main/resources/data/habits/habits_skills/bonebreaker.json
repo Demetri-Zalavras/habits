@@ -1,0 +1,30 @@
+{
+  "rarity": "common",
+  "category": "warrior",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:melee_kill",
+    "chance": 0.025,
+    "entity": "#minecraft:skeletons"
+  },
+  "icon": "minecraft:bone",
+  "art": "minecraft:bone_block",
+  "perk": {
+    "mechanic": "habits:melee/bonebreaker",
+    "params": {
+      "radius": "2,5"
+    },
+    "values": [
+      2.0,
+      2.7,
+      3.3,
+      4.0,
+      4.7,
+      5.3,
+      6.0,
+      6.7,
+      7.3,
+      8.0
+    ]
+  }
+}

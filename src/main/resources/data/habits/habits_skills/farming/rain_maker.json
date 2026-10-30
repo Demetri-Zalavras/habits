@@ -1,0 +1,61 @@
+{
+  "rarity": "legendary",
+  "category": "farming",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:farming/irrigate",
+    "chance": 0.004
+  },
+  "icon": "minecraft:water_bucket",
+  "art": "minecraft:farmland",
+  "perk": {
+    "type": "crop_growth_aura",
+    "params": {
+      "radius": "12"
+    },
+    "values": [
+      6,
+      8,
+      10,
+      12,
+      14,
+      16,
+      18,
+      20,
+      22,
+      25
+    ]
+  },
+  "forks": [
+    {
+      "level": 5,
+      "options": [
+        {
+          "id": "wide_field"
+        },
+        {
+          "id": "close_garden",
+          "scale": 2.0,
+          "params": {
+            "radius": "6"
+          }
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "options": [
+        {
+          "id": "fair_weather"
+        },
+        {
+          "id": "storm_tended",
+          "scale": 3.0,
+          "params": {
+            "condition": "in_rain"
+          }
+        }
+      ]
+    }
+  ]
+}

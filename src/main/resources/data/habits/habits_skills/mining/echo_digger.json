@@ -1,0 +1,63 @@
+{
+  "rarity": "legendary",
+  "category": "mining",
+  "trigger": {
+    "type": "enter_structure",
+    "match": "minecraft:ancient_city",
+    "chance": 0.08
+  },
+  "icon": "minecraft:echo_shard",
+  "art": "minecraft:sculk",
+  "perk": {
+    "mechanic": "habits:mining/echo_digger",
+    "params": {
+      "block": "minecraft:deepslate_tiles,minecraft:deepslate_bricks,minecraft:cracked_deepslate_tiles,minecraft:cracked_deepslate_bricks,minecraft:chiseled_deepslate,minecraft:polished_deepslate,minecraft:sculk",
+      "item": "minecraft:echo_shard",
+      "count": "1"
+    },
+    "values": [
+      0.5,
+      1,
+      1.5,
+      2,
+      2.5,
+      3,
+      3.5,
+      4,
+      4.5,
+      5
+    ]
+  },
+  "forks": [
+    {
+      "level": 5,
+      "options": [
+        {
+          "id": "pure_seam"
+        },
+        {
+          "id": "any_deepslate",
+          "scale": 0.03,
+          "params": {
+            "block": "minecraft:deepslate_tiles,minecraft:deepslate_bricks,minecraft:cracked_deepslate_tiles,minecraft:cracked_deepslate_bricks,minecraft:chiseled_deepslate,minecraft:polished_deepslate,minecraft:sculk,minecraft:deepslate,minecraft:cobbled_deepslate"
+          }
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "options": [
+        {
+          "id": "steady_echo"
+        },
+        {
+          "id": "echo_burst",
+          "scale": 0.4,
+          "params": {
+            "count": "3"
+          }
+        }
+      ]
+    }
+  ]
+}

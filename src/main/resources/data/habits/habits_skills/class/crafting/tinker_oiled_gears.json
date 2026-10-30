@@ -1,0 +1,27 @@
+{
+  "rarity": "rare",
+  "category": "crafting",
+  "class": "habits:class/crafting/tinker",
+  "trigger": {
+    "type": "item_break",
+    "match": "#c:tools",
+    "chance": 0.33
+  },
+  "icon": "minecraft:honey_bottle",
+  "art": "minecraft:weathered_copper",
+  "perk": {
+    "type": "mining_speed",
+    "values": [
+      5,
+      7,
+      9,
+      12,
+      14,
+      16,
+      18,
+      21,
+      23,
+      25
+    ]
+  }
+}

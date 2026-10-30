@@ -1,0 +1,26 @@
+{
+  "rarity": "common",
+  "category": "movement",
+  "trigger": {
+    "type": "jump",
+    "chance": 0.00167
+  },
+  "icon": "minecraft:rabbit_foot",
+  "art": "minecraft:grass_block",
+  "perk": {
+    "type": "hunger_save",
+    "values": [
+      2,
+      4,
+      6,
+      8,
+      10,
+      12,
+      14,
+      16,
+      18,
+      20
+    ]
+  },
+  "perk_text": "Hunger -{v}%"
+}

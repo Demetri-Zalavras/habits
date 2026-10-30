@@ -1,0 +1,30 @@
+{
+  "rarity": "common",
+  "category": "exploration",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:long_walk",
+    "chance": 0.25
+  },
+  "icon": "minecraft:leather_boots",
+  "art": "minecraft:cobblestone",
+  "perk": {
+    "type": "attribute",
+    "params": {
+      "attribute": "minecraft:generic.step_height"
+    },
+    "values": [
+      0.1,
+      0.1,
+      0.2,
+      0.2,
+      0.3,
+      0.3,
+      0.3,
+      0.4,
+      0.4,
+      0.5
+    ]
+  },
+  "perk_text": "Step up +{v} blocks"
+}

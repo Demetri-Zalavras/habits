@@ -1,0 +1,26 @@
+{
+  "rarity": "uncommon",
+  "category": "movement",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:edge_peek",
+    "chance": 0.0208
+  },
+  "icon": "minecraft:scaffolding",
+  "art": "minecraft:stone_bricks",
+  "perk": {
+    "mechanic": "habits:movement/edge_sense",
+    "values": [
+      0.3,
+      0.38,
+      0.46,
+      0.53,
+      0.61,
+      0.69,
+      0.77,
+      0.84,
+      0.92,
+      1.0
+    ]
+  }
+}

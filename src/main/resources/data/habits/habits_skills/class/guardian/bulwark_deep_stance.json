@@ -1,0 +1,33 @@
+{
+  "rarity": "uncommon",
+  "category": "guardian",
+  "class": "habits:class/guardian/bulwark",
+  "trigger": {
+    "type": "custom_units",
+    "match": "habits:shield_up_seconds",
+    "chance": 0.002
+  },
+  "icon": "minecraft:iron_boots",
+  "art": "minecraft:stone_bricks",
+  "perk": {
+    "type": "attribute",
+    "values": [
+      2,
+      3,
+      3,
+      4,
+      5,
+      5,
+      6,
+      7,
+      7,
+      8
+    ],
+    "params": {
+      "attribute": "minecraft:generic.armor",
+      "operation": "add_value",
+      "condition": "sneaking"
+    }
+  },
+  "perk_text": "+{v} armor while sneaking"
+}

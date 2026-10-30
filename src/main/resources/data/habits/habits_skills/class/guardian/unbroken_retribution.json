@@ -1,0 +1,28 @@
+{
+  "rarity": "legendary",
+  "category": "guardian",
+  "class": "habits:class/guardian/unbroken",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:block_streak",
+    "min": 10,
+    "chance": 0.008
+  },
+  "icon": "minecraft:netherite_sword",
+  "art": "minecraft:blackstone",
+  "perk": {
+    "type": "thorns",
+    "values": [
+      15,
+      19,
+      23,
+      27,
+      31,
+      34,
+      38,
+      42,
+      46,
+      50
+    ]
+  }
+}

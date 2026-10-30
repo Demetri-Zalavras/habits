@@ -1,0 +1,30 @@
+{
+  "rarity": "epic",
+  "category": "farming",
+  "trigger": {
+    "type": "harvest_crop",
+    "match": "#minecraft:crops",
+    "item": [
+      "minecraft:diamond_hoe",
+      "minecraft:netherite_hoe"
+    ],
+    "chance": 0.0004
+  },
+  "icon": "minecraft:diamond_hoe",
+  "art": "minecraft:hay_block",
+  "perk": {
+    "mechanic": "habits:farming/scythe",
+    "values": [
+      3,
+      4,
+      4,
+      5,
+      5,
+      6,
+      6,
+      7,
+      7,
+      8
+    ]
+  }
+}

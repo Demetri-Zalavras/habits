@@ -1,0 +1,32 @@
+{
+  "rarity": "uncommon",
+  "category": "building",
+  "trigger": {
+    "type": "place_block",
+    "match": [
+      "minecraft:obsidian",
+      "minecraft:crying_obsidian"
+    ],
+    "chance": 0.0312
+  },
+  "icon": "minecraft:obsidian",
+  "art": "minecraft:obsidian",
+  "perk": {
+    "mechanic": "habits:obsidian_breaker",
+    "values": [
+      10.0,
+      18.89,
+      27.78,
+      36.67,
+      45.56,
+      54.44,
+      63.33,
+      72.22,
+      81.11,
+      90.0
+    ],
+    "params": {
+      "iron_level": "5"
+    }
+  }
+}

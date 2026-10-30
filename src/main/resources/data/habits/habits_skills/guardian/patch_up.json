@@ -1,0 +1,27 @@
+{
+  "rarity": "common",
+  "category": "guardian",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:guard_hurt",
+    "chance": 0.05,
+    "min": 50
+  },
+  "icon": "minecraft:shield",
+  "art": "minecraft:spruce_planks",
+  "perk": {
+    "mechanic": "habits:survival/patch_up",
+    "values": [
+      10,
+      14,
+      19,
+      23,
+      28,
+      32,
+      37,
+      41,
+      46,
+      50
+    ]
+  }
+}

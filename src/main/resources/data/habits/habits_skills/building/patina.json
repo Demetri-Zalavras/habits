@@ -1,0 +1,26 @@
+{
+  "rarity": "uncommon",
+  "category": "building",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:copper_work",
+    "chance": 0.0208
+  },
+  "icon": "minecraft:oxidized_copper",
+  "art": "minecraft:weathered_copper",
+  "perk": {
+    "mechanic": "habits:building/patina",
+    "values": [
+      1,
+      2,
+      3,
+      4,
+      6,
+      8,
+      10,
+      12,
+      14,
+      16
+    ]
+  }
+}

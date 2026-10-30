@@ -1,0 +1,29 @@
+{
+  "rarity": "uncommon",
+  "category": "mining",
+  "trigger": {
+    "type": "break_block",
+    "match": "minecraft:nether_quartz_ore",
+    "chance": 0.00625
+  },
+  "icon": "minecraft:quartz",
+  "art": "minecraft:nether_quartz_ore",
+  "perk": {
+    "mechanic": "habits:crystal_splinter",
+    "params": {
+      "radius": "3..6"
+    },
+    "values": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      12
+    ]
+  }
+}

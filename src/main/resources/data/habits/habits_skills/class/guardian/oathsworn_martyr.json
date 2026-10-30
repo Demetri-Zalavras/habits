@@ -1,0 +1,33 @@
+{
+  "rarity": "epic",
+  "category": "guardian",
+  "class": "habits:class/guardian/oathsworn",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:ally_close_call",
+    "min": 50,
+    "chance": 0.055
+  },
+  "icon": "minecraft:golden_apple",
+  "art": "minecraft:gold_block",
+  "perk": {
+    "type": "attribute",
+    "values": [
+      2,
+      3,
+      3,
+      4,
+      5,
+      5,
+      6,
+      7,
+      7,
+      8
+    ],
+    "params": {
+      "attribute": "minecraft:generic.max_health",
+      "operation": "add_value"
+    }
+  },
+  "perk_text": "+{v} max health"
+}

@@ -1,0 +1,27 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "habits:item/progression/sigil_potent",
+    "layer1": "habits:item/progression/sigil_potent_glyph"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "habits:kind": 0.1
+      },
+      "model": "habits:item/progression/sigil_swift"
+    },
+    {
+      "predicate": {
+        "habits:kind": 0.2
+      },
+      "model": "habits:item/progression/sigil_reach"
+    },
+    {
+      "predicate": {
+        "habits:kind": 0.3
+      },
+      "model": "habits:item/progression/sigil_lucky"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "rarity": "common",
+  "category": "exploration",
+  "trigger": {
+    "type": "enter_biome",
+    "match": [
+      "minecraft:plains",
+      "minecraft:sunflower_plains"
+    ],
+    "chance": 0.2
+  },
+  "icon": "minecraft:wheat",
+  "art": "minecraft:grass_block",
+  "perk": {
+    "type": "attribute",
+    "params": {
+      "attribute": "minecraft:generic.movement_speed",
+      "operation": "add_multiplied_base",
+      "condition": "biome=minecraft:plains,minecraft:sunflower_plains"
+    },
+    "values": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  "perk_text": "Speed +{v}% on plains"
+}

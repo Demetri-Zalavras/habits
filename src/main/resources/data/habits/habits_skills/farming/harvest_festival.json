@@ -1,0 +1,26 @@
+{
+  "rarity": "legendary",
+  "category": "farming",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:farming/big_streak",
+    "chance": 0.028
+  },
+  "icon": "minecraft:cake",
+  "art": "minecraft:hay_block",
+  "perk": {
+    "mechanic": "habits:farming/harvest_festival",
+    "values": [
+      10,
+      16,
+      21,
+      27,
+      32,
+      38,
+      43,
+      49,
+      54,
+      60
+    ]
+  }
+}

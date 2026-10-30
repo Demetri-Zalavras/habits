@@ -1,0 +1,1 @@
+{"rarity":"uncommon","category":"warrior","trigger":{"type":"kill_entity","match":"mowziesmobs:foliaath","chance":0.3},"icon":"mowziesmobs:foliaath_seed","art":"minecraft:jungle_leaves","perk":{"type":"damage_bonus","params":{"entity":"mowziesmobs:foliaath"},"base":5,"per_level":5}}

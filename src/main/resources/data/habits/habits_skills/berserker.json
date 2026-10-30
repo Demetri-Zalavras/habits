@@ -1,0 +1,30 @@
+{
+  "rarity": "uncommon",
+  "category": "warrior",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:low_hp_kill",
+    "chance": 0.125
+  },
+  "icon": "minecraft:netherite_axe",
+  "art": "minecraft:crimson_planks",
+  "perk": {
+    "mechanic": "habits:melee/berserker",
+    "params": {
+      "below": "20,50",
+      "speed": "0,40"
+    },
+    "values": [
+      15.0,
+      22.0,
+      29.0,
+      37.0,
+      44.0,
+      51.0,
+      58.0,
+      66.0,
+      73.0,
+      80.0
+    ]
+  }
+}

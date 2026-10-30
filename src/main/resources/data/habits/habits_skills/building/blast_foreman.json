@@ -1,0 +1,30 @@
+{
+  "rarity": "uncommon",
+  "category": "building",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:tnt_big_blast",
+    "chance": 0.125
+  },
+  "icon": "minecraft:tnt",
+  "art": "minecraft:tnt",
+  "perk": {
+    "type": "damage_type_resist",
+    "values": [
+      10.0,
+      17.78,
+      25.56,
+      33.33,
+      41.11,
+      48.89,
+      56.67,
+      64.44,
+      72.22,
+      80.0
+    ],
+    "params": {
+      "damage": "#minecraft:is_explosion"
+    }
+  },
+  "perk_text": "Explosions hurt {v}% less"
+}

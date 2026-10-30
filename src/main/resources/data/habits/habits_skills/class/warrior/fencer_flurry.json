@@ -1,0 +1,34 @@
+{
+  "rarity": "rare",
+  "category": "warrior",
+  "class": "habits:class/warrior/fencer",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:melee_hit",
+    "item": "#minecraft:swords",
+    "chance": 0.00083
+  },
+  "icon": "minecraft:golden_sword",
+  "art": "minecraft:quartz_block",
+  "perk": {
+    "type": "attribute",
+    "params": {
+      "attribute": "minecraft:generic.attack_speed",
+      "operation": "add_multiplied_base",
+      "condition": "holding=#minecraft:swords"
+    },
+    "values": [
+      4,
+      6,
+      8,
+      9,
+      11,
+      13,
+      15,
+      16,
+      18,
+      20
+    ]
+  },
+  "perk_text": "Swing a sword {v}% faster"
+}

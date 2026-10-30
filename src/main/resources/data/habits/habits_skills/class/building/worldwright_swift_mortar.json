@@ -1,0 +1,32 @@
+{
+  "rarity": "legendary",
+  "category": "building",
+  "class": "habits:class/building/worldwright",
+  "trigger": {
+    "type": "place_block",
+    "match": [
+      "minecraft:bricks",
+      "#minecraft:stone_bricks",
+      "minecraft:mud_bricks",
+      "minecraft:deepslate_bricks"
+    ],
+    "chance": 0.000556
+  },
+  "icon": "minecraft:brick",
+  "art": "minecraft:bricks",
+  "perk": {
+    "mechanic": "habits:building/quick_hands",
+    "values": [
+      3,
+      2.7,
+      2.4,
+      2.1,
+      1.8,
+      1.5,
+      1.3,
+      1.1,
+      0.9,
+      0.7
+    ]
+  }
+}

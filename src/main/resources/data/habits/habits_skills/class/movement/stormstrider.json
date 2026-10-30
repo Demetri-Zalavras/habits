@@ -1,0 +1,30 @@
+{
+  "rarity": "legendary",
+  "category": "movement",
+  "trigger": {
+    "type": "sprint_distance",
+    "chance": 5e-05
+  },
+  "icon": "minecraft:lightning_rod",
+  "art": "minecraft:oxidized_copper",
+  "perk": {
+    "mechanic": "habits:movement/stormstrider",
+    "params": {
+      "step": "0.4..1.0",
+      "safe_fall": "2..8"
+    },
+    "values": [
+      10,
+      13,
+      17,
+      20,
+      23,
+      27,
+      30,
+      33,
+      37,
+      40
+    ]
+  },
+  "class_passive": true
+}

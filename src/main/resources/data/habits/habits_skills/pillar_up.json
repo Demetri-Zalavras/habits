@@ -1,0 +1,26 @@
+{
+  "rarity": "common",
+  "category": "building",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:jump_pillar",
+    "chance": 0.005
+  },
+  "icon": "minecraft:oak_planks",
+  "art": "minecraft:oak_planks",
+  "perk": {
+    "mechanic": "habits:pillar_up",
+    "values": [
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      2
+    ]
+  }
+}

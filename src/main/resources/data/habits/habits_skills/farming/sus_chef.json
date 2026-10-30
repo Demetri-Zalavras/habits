@@ -1,0 +1,26 @@
+{
+  "rarity": "rare",
+  "category": "farming",
+  "trigger": {
+    "type": "craft",
+    "match": "minecraft:suspicious_stew",
+    "chance": 0.05
+  },
+  "icon": "minecraft:suspicious_stew",
+  "art": "minecraft:mushroom_stem",
+  "perk": {
+    "mechanic": "habits:survival/sus_connoisseur",
+    "values": [
+      20,
+      51,
+      82,
+      113,
+      144,
+      176,
+      207,
+      238,
+      269,
+      300
+    ]
+  }
+}

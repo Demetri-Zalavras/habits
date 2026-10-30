@@ -1,0 +1,26 @@
+{
+  "rarity": "common",
+  "category": "exploration",
+  "trigger": {
+    "type": "enter_biome",
+    "match": "#minecraft:is_taiga",
+    "chance": 0.2
+  },
+  "icon": "minecraft:sweet_berries",
+  "art": "minecraft:spruce_log",
+  "perk": {
+    "mechanic": "habits:movement/taiga_tracker",
+    "values": [
+      5,
+      11,
+      17,
+      23,
+      29,
+      36,
+      42,
+      48,
+      54,
+      60
+    ]
+  }
+}

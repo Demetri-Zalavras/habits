@@ -1,0 +1,30 @@
+{
+  "rarity": "uncommon",
+  "category": "movement",
+  "trigger": {
+    "type": "damage_taken",
+    "match": "minecraft:mob_attack",
+    "chance": 0.0104
+  },
+  "icon": "minecraft:leather_chestplate",
+  "art": "minecraft:cobblestone",
+  "perk": {
+    "mechanic": "habits:movement/evasion",
+    "params": {
+      "amp": "0,0,0,0,0,1,1,1,1,1",
+      "cooldown": "8..3"
+    },
+    "values": [
+      1,
+      1.4,
+      1.9,
+      2.3,
+      2.8,
+      3.2,
+      3.7,
+      4.1,
+      4.6,
+      5
+    ]
+  }
+}

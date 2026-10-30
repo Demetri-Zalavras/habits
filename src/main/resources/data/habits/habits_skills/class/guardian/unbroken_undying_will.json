@@ -1,0 +1,32 @@
+{
+  "rarity": "legendary",
+  "category": "guardian",
+  "class": "habits:class/guardian/unbroken",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:survive_1hp",
+    "chance": 0.4
+  },
+  "icon": "minecraft:totem_of_undying",
+  "art": "minecraft:crying_obsidian",
+  "perk": {
+    "type": "mob_effect_conditional",
+    "values": [
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2,
+      2,
+      3
+    ],
+    "params": {
+      "effect": "minecraft:regeneration",
+      "condition": "low_health"
+    }
+  },
+  "perk_text": "Regeneration {v} while badly hurt"
+}

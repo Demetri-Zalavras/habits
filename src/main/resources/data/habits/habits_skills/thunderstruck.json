@@ -1,0 +1,75 @@
+{
+  "rarity": "epic",
+  "category": "warrior",
+  "trigger": {
+    "type": "damage_taken",
+    "match": "minecraft:lightning_bolt",
+    "chance": 0.833
+  },
+  "icon": "minecraft:lightning_rod",
+  "art": "minecraft:copper_block",
+  "perk": {
+    "mechanic": "habits:survival/thunderstruck",
+    "params": {
+      "charges": "1..5",
+      "chain": "1..3",
+      "chain_damage": "4",
+      "chain_range": "6",
+      "storm_call": "0,0,0,0,0,0,0,0,0,1",
+      "storm_cooldown": "60"
+    },
+    "values": [
+      20,
+      29,
+      38,
+      47,
+      56,
+      64,
+      73,
+      82,
+      91,
+      100
+    ]
+  },
+  "forks": [
+    {
+      "level": 5,
+      "options": [
+        {
+          "id": "many_charges",
+          "params": {
+            "charges": "2..8",
+            "chain_damage": "2.5"
+          }
+        },
+        {
+          "id": "big_charges",
+          "params": {
+            "charges": "1..3",
+            "chain_damage": "7"
+          }
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "options": [
+        {
+          "id": "wide_arc",
+          "params": {
+            "chain": "2..5",
+            "chain_range": "9",
+            "storm_cooldown": "120"
+          }
+        },
+        {
+          "id": "storm_lord",
+          "params": {
+            "chain": "1..2",
+            "storm_cooldown": "30"
+          }
+        }
+      ]
+    }
+  ]
+}

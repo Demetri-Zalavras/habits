@@ -1,0 +1,72 @@
+{
+  "rarity": "epic",
+  "category": "guardian",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:ally_close_call",
+    "chance": 0.1,
+    "min": 75
+  },
+  "icon": "minecraft:totem_of_undying",
+  "art": "minecraft:quartz_block",
+  "perk": {
+    "mechanic": "habits:survival/guardian_angel",
+    "values": [
+      10,
+      9,
+      8,
+      7,
+      6,
+      6,
+      5,
+      4,
+      3,
+      2
+    ],
+    "params": {
+      "radius": "6..16",
+      "share": "50..25",
+      "notice": "8"
+    }
+  },
+  "forks": [
+    {
+      "level": 5,
+      "options": [
+        {
+          "id": "wide_wings",
+          "scale": 1.3,
+          "params": {
+            "radius": "10..24"
+          }
+        },
+        {
+          "id": "near_wings",
+          "scale": 0.75,
+          "params": {
+            "radius": "4..10"
+          }
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "options": [
+        {
+          "id": "martyr",
+          "scale": 0.6,
+          "params": {
+            "share": "40..40"
+          }
+        },
+        {
+          "id": "distant_ward",
+          "scale": 1.5,
+          "params": {
+            "share": "10..10"
+          }
+        }
+      ]
+    }
+  ]
+}

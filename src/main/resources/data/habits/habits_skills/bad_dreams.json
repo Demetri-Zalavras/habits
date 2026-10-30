@@ -1,0 +1,31 @@
+{
+  "rarity": "rare",
+  "category": "guardian",
+  "trigger": {
+    "type": "damage_taken",
+    "match": "minecraft:bad_respawn_point",
+    "chance": 0.667
+  },
+  "icon": "minecraft:red_bed",
+  "art": "minecraft:crying_obsidian",
+  "perk": {
+    "mechanic": "habits:survival/bad_dreams",
+    "params": {
+      "launch": "2..12",
+      "mob_blast": "0,0,0,0,0,0,0,0,0,2",
+      "mob_radius": "5"
+    },
+    "values": [
+      20,
+      29,
+      38,
+      47,
+      56,
+      64,
+      73,
+      82,
+      91,
+      100
+    ]
+  }
+}

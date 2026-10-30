@@ -1,0 +1,26 @@
+{
+  "rarity": "uncommon",
+  "category": "building",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:silk_break",
+    "chance": 0.00313
+  },
+  "icon": "minecraft:white_carpet",
+  "art": "minecraft:white_wool",
+  "perk": {
+    "mechanic": "habits:feather_pick",
+    "values": [
+      30.0,
+      37.78,
+      45.56,
+      53.33,
+      61.11,
+      68.89,
+      76.67,
+      84.44,
+      92.22,
+      100.0
+    ]
+  }
+}

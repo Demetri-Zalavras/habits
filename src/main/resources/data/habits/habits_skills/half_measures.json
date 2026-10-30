@@ -1,0 +1,29 @@
+{
+  "rarity": "common",
+  "category": "building",
+  "trigger": {
+    "type": "place_block",
+    "chance": 0.00333,
+    "match": "#minecraft:slabs"
+  },
+  "icon": "minecraft:stone_slab",
+  "art": "minecraft:smooth_stone",
+  "perk": {
+    "mechanic": "habits:half_measures",
+    "params": {
+      "top_level": "5"
+    },
+    "values": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "rarity": "rare",
+  "category": "nature",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:nature_weather_change",
+    "chance": 0.476
+  },
+  "icon": "minecraft:prismarine_crystals",
+  "art": "minecraft:white_stained_glass",
+  "perk": {
+    "mechanic": "habits:nature/rainbow",
+    "values": [
+      30,
+      60,
+      90,
+      120,
+      150,
+      180,
+      210,
+      240,
+      270,
+      300
+    ],
+    "params": {
+      "amp": "0,2"
+    }
+  }
+}

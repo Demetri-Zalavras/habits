@@ -1,0 +1,27 @@
+{
+  "rarity": "common",
+  "category": "building",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:swap_hands",
+    "chance": 0.01
+  },
+  "icon": "minecraft:chest",
+  "art": "minecraft:oak_planks",
+  "perk": {
+    "mechanic": "habits:hotbar_swap",
+    "params": {"value_max": "3"},
+    "values": [
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      3,
+      3,
+      3,
+      3
+    ]
+  }
+}

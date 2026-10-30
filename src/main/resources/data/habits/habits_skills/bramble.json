@@ -1,0 +1,30 @@
+{
+  "rarity": "uncommon",
+  "category": "warrior",
+  "trigger": {
+    "type": "damage_dealt",
+    "match": "minecraft:thorns",
+    "chance": 0.00625
+  },
+  "icon": "minecraft:sweet_berries",
+  "art": "minecraft:moss_block",
+  "perk": {
+    "mechanic": "habits:melee/bramble",
+    "params": {
+      "radius": "1,4",
+      "slowness": "0,0,0,1,1,1,1,2,2,2"
+    },
+    "values": [
+      1.0,
+      1.3,
+      1.7,
+      2.0,
+      2.3,
+      2.7,
+      3.0,
+      3.3,
+      3.7,
+      4.0
+    ]
+  }
+}

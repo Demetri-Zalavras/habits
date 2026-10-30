@@ -1,0 +1,8 @@
+{
+  "rarity": "mythical",
+  "category": "guardian",
+  "trigger": {"type": "custom", "match": "habits:flawless_boss", "entity": ["cataclysm:ignis", "cataclysm:the_harbinger", "cataclysm:netherite_monstrosity", "cataclysm:the_leviathan", "cataclysm:ancient_remnant", "cataclysm:maledictus", "cataclysm:scylla", "cataclysm:ender_guardian"], "chance": 0.33},
+  "icon": "cataclysm:ignitium_ingot",
+  "art": "cataclysm:ignitium_block",
+  "perk": {"mechanic": "habits:melee/untouchable", "values": [50, 47, 43, 40, 37, 33, 30, 27, 23, 20]}
+}

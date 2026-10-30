@@ -1,0 +1,26 @@
+{
+  "rarity": "common",
+  "category": "movement",
+  "trigger": {
+    "type": "custom_units",
+    "match": "habits:downhill",
+    "chance": 0.001
+  },
+  "icon": "minecraft:cobblestone_stairs",
+  "art": "minecraft:andesite",
+  "perk": {
+    "mechanic": "habits:movement/downhill",
+    "values": [
+      10,
+      14,
+      19,
+      23,
+      28,
+      32,
+      37,
+      41,
+      46,
+      50
+    ]
+  }
+}

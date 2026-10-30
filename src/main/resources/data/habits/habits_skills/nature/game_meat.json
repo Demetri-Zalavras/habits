@@ -1,0 +1,34 @@
+{
+  "rarity": "common",
+  "category": "nature",
+  "trigger": {
+    "type": "eat",
+    "match": [
+      "minecraft:cooked_rabbit",
+      "minecraft:rabbit_stew",
+      "minecraft:cooked_mutton"
+    ],
+    "chance": 0.2
+  },
+  "icon": "minecraft:rabbit_stew",
+  "art": "minecraft:spruce_planks",
+  "perk": {
+    "type": "food_bonus",
+    "values": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60,
+      70,
+      80,
+      90,
+      100
+    ],
+    "params": {
+      "item": "minecraft:cooked_rabbit,minecraft:rabbit_stew,minecraft:cooked_mutton,minecraft:cooked_beef,minecraft:cooked_chicken,minecraft:cooked_porkchop"
+    }
+  },
+  "perk_text": "Cooked meat fills {v}% more"
+}

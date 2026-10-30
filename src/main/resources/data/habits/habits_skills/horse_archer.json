@@ -1,0 +1,30 @@
+{
+  "rarity": "uncommon",
+  "category": "ranger",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:mounted_hit",
+    "chance": 0.00625
+  },
+  "icon": "minecraft:saddle",
+  "art": "minecraft:hay_block",
+  "perk": {
+    "mechanic": "habits:horse_archer",
+    "values": [
+      10,
+      18,
+      25,
+      33,
+      40,
+      48,
+      55,
+      63,
+      70,
+      80
+    ],
+    "params": {
+      "speed_s": "1..3",
+      "speed_amp": "0,0,0,1,1,1,2,2,2,2"
+    }
+  }
+}

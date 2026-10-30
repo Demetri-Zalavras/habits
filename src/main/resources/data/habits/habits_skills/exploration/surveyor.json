@@ -1,0 +1,26 @@
+{
+  "rarity": "uncommon",
+  "category": "exploration",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:new_structure",
+    "chance": 0.2
+  },
+  "icon": "minecraft:spyglass",
+  "art": "minecraft:smooth_stone",
+  "perk": {
+    "mechanic": "habits:exploration/surveyor",
+    "values": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60,
+      70,
+      80,
+      90,
+      100
+    ]
+  }
+}

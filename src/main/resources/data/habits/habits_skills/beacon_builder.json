@@ -1,0 +1,50 @@
+{
+  "rarity": "epic",
+  "category": "building",
+  "trigger": {
+    "type": "advancement",
+    "chance": 1.0,
+    "match": [
+      "minecraft:nether/create_beacon",
+      "minecraft:nether/create_full_beacon"
+    ]
+  },
+  "icon": "minecraft:beacon",
+  "art": "minecraft:iron_block",
+  "perk": {
+    "mechanic": "habits:beacon_builder",
+    "params": {
+      "bonus_level": "10"
+    },
+    "values": [
+      10.0,
+      20.0,
+      30.0,
+      40.0,
+      50.0,
+      60.0,
+      70.0,
+      80.0,
+      90.0,
+      100.0
+    ]
+  },
+  "forks": [
+    {
+      "level": 5,
+      "options": [
+        {
+          "id": "wide_beacon",
+          "scale": 1.3
+        },
+        {
+          "id": "early_power",
+          "scale": 0.6,
+          "params": {
+            "bonus_level": "5"
+          }
+        }
+      ]
+    }
+  ]
+}

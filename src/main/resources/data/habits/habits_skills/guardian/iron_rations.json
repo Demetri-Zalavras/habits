@@ -1,0 +1,29 @@
+{
+  "rarity": "uncommon",
+  "category": "guardian",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:eat_in_fight",
+    "chance": 0.08
+  },
+  "icon": "minecraft:bread",
+  "art": "minecraft:barrel",
+  "perk": {
+    "mechanic": "habits:survival/iron_rations",
+    "values": [
+      15,
+      20,
+      25,
+      30,
+      35,
+      40,
+      45,
+      50,
+      55,
+      60
+    ],
+    "params": {
+      "fight_seconds": "5"
+    }
+  }
+}

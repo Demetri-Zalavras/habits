@@ -1,0 +1,15 @@
+{
+  "rarity": "epic",
+  "category": "crafting",
+  "trigger": {
+    "type": "enchant",
+    "min": 3,
+    "chance": 0.03333
+  },
+  "icon": "minecraft:amethyst_shard",
+  "art": "minecraft:amethyst_block",
+  "perk": {
+    "mechanic": "habits:crafting/arcane_echo",
+    "values": [3, 6, 9, 12, 15, 18, 21, 24, 27, 30]
+  }
+}

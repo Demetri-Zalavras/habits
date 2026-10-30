@@ -1,0 +1,26 @@
+{
+  "rarity": "uncommon",
+  "category": "guardian",
+  "trigger": {
+    "type": "eat",
+    "match": "minecraft:suspicious_stew",
+    "chance": 0.125
+  },
+  "icon": "minecraft:suspicious_stew",
+  "art": "minecraft:mushroom_stem",
+  "perk": {
+    "mechanic": "habits:survival/sus_connoisseur",
+    "values": [
+      20,
+      51,
+      82,
+      113,
+      144,
+      176,
+      207,
+      238,
+      269,
+      300
+    ]
+  }
+}

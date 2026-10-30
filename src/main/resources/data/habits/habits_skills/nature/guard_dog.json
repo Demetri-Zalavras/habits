@@ -1,0 +1,30 @@
+{
+  "rarity": "rare",
+  "category": "nature",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:pet_kill",
+    "chance": 0.0333
+  },
+  "icon": "minecraft:wolf_armor",
+  "art": "minecraft:podzol",
+  "perk": {
+    "mechanic": "habits:nature/guard_dog",
+    "values": [
+      8,
+      11,
+      13,
+      16,
+      19,
+      21,
+      24,
+      27,
+      29,
+      32
+    ],
+    "params": {
+      "cooldown": "20,5",
+      "seconds": "5,15"
+    }
+  }
+}

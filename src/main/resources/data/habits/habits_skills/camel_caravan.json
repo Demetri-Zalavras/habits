@@ -1,0 +1,26 @@
+{
+  "rarity": "uncommon",
+  "category": "movement",
+  "trigger": {
+    "type": "ride_distance",
+    "match": "minecraft:camel",
+    "chance": 0.000189
+  },
+  "icon": "minecraft:cactus",
+  "art": "minecraft:smooth_sandstone",
+  "perk": {
+    "mechanic": "habits:movement/camel_caravan",
+    "values": [
+      10,
+      18,
+      26,
+      33,
+      41,
+      49,
+      57,
+      64,
+      72,
+      80
+    ]
+  }
+}

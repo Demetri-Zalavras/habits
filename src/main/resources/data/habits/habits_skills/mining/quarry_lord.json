@@ -1,0 +1,31 @@
+{
+  "rarity": "rare",
+  "category": "mining",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:mining/long_shift",
+    "chance": 0.2
+  },
+  "icon": "minecraft:diamond_pickaxe",
+  "art": "minecraft:stone",
+  "perk": {
+    "type": "mining_speed",
+    "params": {
+      "block": "#minecraft:mineable/pickaxe",
+      "condition": "underground"
+    },
+    "values": [
+      5,
+      9,
+      13,
+      17,
+      21,
+      24,
+      28,
+      32,
+      36,
+      40
+    ]
+  },
+  "perk_text": "Underground, pickaxe blocks mine +{v}% faster"
+}

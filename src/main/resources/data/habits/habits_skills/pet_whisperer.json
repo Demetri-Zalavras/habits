@@ -1,0 +1,29 @@
+{
+  "rarity": "uncommon",
+  "category": "nature",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:name_pet",
+    "chance": 0.208
+  },
+  "icon": "minecraft:lead",
+  "art": "minecraft:white_wool",
+  "perk": {
+    "mechanic": "habits:pet_whisperer",
+    "params": {
+      "revive_from": "10"
+    },
+    "values": [
+      64,
+      71,
+      78,
+      85,
+      92,
+      100,
+      107,
+      114,
+      121,
+      128
+    ]
+  }
+}

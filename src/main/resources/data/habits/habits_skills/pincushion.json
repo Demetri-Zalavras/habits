@@ -1,0 +1,26 @@
+{
+  "rarity": "common",
+  "category": "guardian",
+  "trigger": {
+    "type": "damage_taken",
+    "match": "minecraft:arrow",
+    "chance": 0.025
+  },
+  "icon": "minecraft:arrow",
+  "art": "minecraft:target",
+  "perk": {
+    "mechanic": "habits:survival/pincushion",
+    "values": [
+      4,
+      9,
+      13,
+      18,
+      22,
+      27,
+      31,
+      36,
+      40,
+      45
+    ]
+  }
+}

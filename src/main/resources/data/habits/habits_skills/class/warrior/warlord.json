@@ -1,0 +1,32 @@
+{
+  "rarity": "legendary",
+  "category": "warrior",
+  "class_passive": true,
+  "trigger": {
+    "type": "custom",
+    "match": "habits:melee_kill",
+    "chance": 0.0021
+  },
+  "icon": "minecraft:white_banner",
+  "art": "minecraft:gilded_blackstone",
+  "perk": {
+    "mechanic": "habits:melee/warlord",
+    "params": {
+      "strength": "1,1,1,1,1,2,2,2,2,2",
+      "resistance": "0,0,0,1,1,1,1,1,1,1",
+      "weakness": "1"
+    },
+    "values": [
+      8,
+      9,
+      11,
+      12,
+      13,
+      15,
+      16,
+      17,
+      19,
+      20
+    ]
+  }
+}

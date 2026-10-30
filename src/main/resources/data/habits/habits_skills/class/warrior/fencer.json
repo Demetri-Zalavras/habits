@@ -1,0 +1,32 @@
+{
+  "rarity": "rare",
+  "category": "warrior",
+  "class_passive": true,
+  "trigger": {
+    "type": "custom",
+    "match": "habits:crit",
+    "item": "#minecraft:swords",
+    "chance": 0.0022
+  },
+  "icon": "minecraft:iron_sword",
+  "art": "minecraft:white_concrete",
+  "perk": {
+    "type": "crit_damage",
+    "params": {
+      "condition": "holding=#minecraft:swords"
+    },
+    "values": [
+      20,
+      25,
+      30,
+      35,
+      40,
+      45,
+      50,
+      55,
+      60,
+      65
+    ]
+  },
+  "perk_text": "Sword crits deal {v}% more damage"
+}

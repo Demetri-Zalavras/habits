@@ -1,0 +1,46 @@
+{
+  "rarity": "epic",
+  "category": "mining",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:mining/dig_out",
+    "chance": 0.15
+  },
+  "icon": "minecraft:lead",
+  "art": "minecraft:stone",
+  "perk": {
+    "mechanic": "habits:mining/escape_rope",
+    "params": {
+      "item": "minecraft:string"
+    },
+    "values": [
+      300,
+      270,
+      240,
+      210,
+      180,
+      150,
+      120,
+      90,
+      60,
+      30
+    ]
+  },
+  "forks": [
+    {
+      "level": 5,
+      "options": [
+        {
+          "id": "cheap_rope"
+        },
+        {
+          "id": "climbing_lead",
+          "scale": 0.5,
+          "params": {
+            "item": "minecraft:lead"
+          }
+        }
+      ]
+    }
+  ]
+}

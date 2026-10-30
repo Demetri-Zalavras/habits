@@ -1,0 +1,26 @@
+{
+  "rarity": "common",
+  "category": "farming",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:farming/egg_laid_near",
+    "chance": 0.1
+  },
+  "icon": "minecraft:egg",
+  "art": "minecraft:hay_block",
+  "perk": {
+    "mechanic": "habits:farming/double_yolk",
+    "values": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60,
+      70,
+      80,
+      90,
+      100
+    ]
+  }
+}

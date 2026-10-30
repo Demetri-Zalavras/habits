@@ -1,0 +1,29 @@
+{
+  "rarity": "rare",
+  "category": "ranger",
+  "trigger": {
+    "type": "damage_taken",
+    "match": "minecraft:wind_charge",
+    "chance": 0.00833
+  },
+  "icon": "minecraft:wind_charge",
+  "art": "minecraft:tuff_bricks",
+  "perk": {
+    "mechanic": "habits:survival/wind_rider",
+    "params": {
+      "slow_fall": "0..3"
+    },
+    "values": [
+      1.2,
+      1.34,
+      1.49,
+      1.63,
+      1.78,
+      1.92,
+      2.07,
+      2.21,
+      2.36,
+      2.5
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "rarity": "uncommon",
+  "category": "guardian",
+  "trigger": {
+    "type": "drink_potion",
+    "match": [
+      "minecraft:poison",
+      "minecraft:long_poison",
+      "minecraft:strong_poison",
+      "minecraft:weakness",
+      "minecraft:long_weakness",
+      "minecraft:strong_weakness",
+      "minecraft:slowness",
+      "minecraft:long_slowness",
+      "minecraft:strong_slowness",
+      "minecraft:harming",
+      "minecraft:long_harming",
+      "minecraft:strong_harming"
+    ],
+    "chance": 0.0625
+  },
+  "icon": "minecraft:fermented_spider_eye",
+  "art": "minecraft:mycelium",
+  "perk": {
+    "mechanic": "habits:survival/bitter_taste",
+    "values": [
+      10,
+      18,
+      26,
+      33,
+      41,
+      49,
+      57,
+      64,
+      72,
+      80
+    ]
+  }
+}

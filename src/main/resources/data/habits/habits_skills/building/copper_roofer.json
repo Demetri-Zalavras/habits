@@ -1,0 +1,36 @@
+{
+  "rarity": "uncommon",
+  "category": "building",
+  "trigger": {
+    "type": "place_block",
+    "match": [
+      "minecraft:copper_block",
+      "minecraft:cut_copper",
+      "minecraft:cut_copper_stairs",
+      "minecraft:cut_copper_slab",
+      "minecraft:copper_grate",
+      "minecraft:chiseled_copper",
+      "minecraft:copper_bulb",
+      "minecraft:copper_door",
+      "minecraft:copper_trapdoor"
+    ],
+    "chance": 0.0104
+  },
+  "icon": "minecraft:cut_copper",
+  "art": "minecraft:copper_block",
+  "perk": {
+    "mechanic": "habits:copper_keeper",
+    "values": [
+      2,
+      4,
+      8,
+      12,
+      18,
+      24,
+      32,
+      40,
+      52,
+      64
+    ]
+  }
+}

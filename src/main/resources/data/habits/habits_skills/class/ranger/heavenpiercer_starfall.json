@@ -1,0 +1,32 @@
+{
+  "rarity": "legendary",
+  "category": "ranger",
+  "class": "habits:class/ranger/heavenpiercer",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:steep_arrow_hit",
+    "chance": 0.0083
+  },
+  "icon": "minecraft:nether_star",
+  "art": "minecraft:gold_block",
+  "perk": {
+    "mechanic": "habits:rain_of_arrows",
+    "values": [
+      6.0,
+      7.0,
+      8.0,
+      9.0,
+      10.0,
+      11.0,
+      12.0,
+      13.0,
+      14.0,
+      15.0
+    ],
+    "params": {
+      "radius": "2..5",
+      "cooldown": "6..2",
+      "steep": "55"
+    }
+  }
+}

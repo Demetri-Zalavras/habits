@@ -1,0 +1,32 @@
+{
+  "rarity": "uncommon",
+  "category": "guardian",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:low_hp_survived",
+    "chance": 0.208
+  },
+  "icon": "minecraft:glistering_melon_slice",
+  "art": "minecraft:red_terracotta",
+  "perk": {
+    "mechanic": "habits:survival/second_wind",
+    "params": {
+      "regen_amp": "0,0,0,1,1,1,2,2,2,2",
+      "regen_seconds": "3..6",
+      "speed_amp": "-1,-1,-1,0,0,0,0,1,1,1",
+      "threshold": "4"
+    },
+    "values": [
+      300,
+      273,
+      247,
+      220,
+      193,
+      167,
+      140,
+      113,
+      87,
+      60
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "rarity": "rare",
+  "category": "movement",
+  "trigger": {
+    "type": "elytra_distance",
+    "chance": 1.85e-05
+  },
+  "icon": "minecraft:leather",
+  "art": "minecraft:purpur_block",
+  "perk": {
+    "type": "durability_save",
+    "params": {
+      "item": "minecraft:elytra"
+    },
+    "values": [
+      5,
+      10,
+      15,
+      20,
+      25,
+      30,
+      35,
+      40,
+      45,
+      50
+    ]
+  },
+  "perk_text": "Elytra: {v}% chance to save durability"
+}

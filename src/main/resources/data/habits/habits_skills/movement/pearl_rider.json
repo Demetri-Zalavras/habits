@@ -1,0 +1,26 @@
+{
+  "rarity": "epic",
+  "category": "movement",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:mounted_pearl",
+    "chance": 0.033
+  },
+  "icon": "minecraft:ender_eye",
+  "art": "minecraft:end_stone",
+  "perk": {
+    "mechanic": "habits:movement/pearl_rider",
+    "values": [
+      16,
+      28,
+      41,
+      53,
+      66,
+      78,
+      91,
+      103,
+      116,
+      128
+    ]
+  }
+}

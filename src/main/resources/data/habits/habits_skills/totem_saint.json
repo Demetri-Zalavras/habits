@@ -1,0 +1,50 @@
+{
+  "rarity": "legendary",
+  "category": "guardian",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:totem_pop",
+    "chance": 0.33
+  },
+  "icon": "minecraft:totem_of_undying",
+  "art": "minecraft:emerald_block",
+  "perk": {
+    "mechanic": "habits:survival/totem_saint",
+    "params": {
+      "keep": "2..25"
+    },
+    "values": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60,
+      70,
+      80,
+      90,
+      100
+    ]
+  },
+  "forks": [
+    {
+      "level": 5,
+      "options": [
+        {
+          "id": "long_blessing",
+          "scale": 1.4,
+          "params": {
+            "keep": "1..12"
+          }
+        },
+        {
+          "id": "second_chance",
+          "scale": 0.6,
+          "params": {
+            "keep": "4..45"
+          }
+        }
+      ]
+    }
+  ]
+}

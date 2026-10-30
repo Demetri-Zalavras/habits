@@ -1,0 +1,26 @@
+{
+  "rarity": "uncommon",
+  "category": "farming",
+  "trigger": {
+    "type": "craft",
+    "match": "minecraft:glistering_melon_slice",
+    "chance": 0.1
+  },
+  "icon": "minecraft:glistering_melon_slice",
+  "art": "minecraft:melon",
+  "perk": {
+    "mechanic": "habits:farming/melon_medic",
+    "values": [
+      1,
+      1,
+      2,
+      2,
+      2,
+      3,
+      3,
+      3,
+      4,
+      4
+    ]
+  }
+}

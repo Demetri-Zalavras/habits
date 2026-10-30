@@ -1,0 +1,31 @@
+{
+  "rarity": "rare",
+  "category": "movement",
+  "trigger": {
+    "type": "sprint_distance",
+    "chance": 0.0002
+  },
+  "icon": "minecraft:oak_stairs",
+  "art": "minecraft:oak_planks",
+  "perk": {
+    "type": "attribute",
+    "params": {
+      "attribute": "minecraft:generic.step_height",
+      "condition": "sprinting"
+    },
+    "values": [
+      0.4,
+      0.5,
+      0.5,
+      0.6,
+      0.7,
+      0.7,
+      0.8,
+      0.9,
+      0.9,
+      1
+    ]
+  },
+  "class": "habits:class/movement/freerunner",
+  "perk_text": "Step up +{v} blocks while sprinting"
+}

@@ -1,0 +1,29 @@
+{
+  "rarity": "common",
+  "category": "building",
+  "trigger": {
+    "type": "place_block",
+    "match": [
+      "minecraft:chest",
+      "minecraft:trapped_chest"
+    ],
+    "chance": 0.05
+  },
+  "icon": "minecraft:chest",
+  "art": "minecraft:oak_planks",
+  "perk": {
+    "mechanic": "habits:rummager",
+    "values": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      2
+    ]
+  }
+}

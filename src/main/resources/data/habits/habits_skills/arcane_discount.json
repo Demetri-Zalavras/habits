@@ -1,0 +1,28 @@
+{
+  "rarity": "uncommon",
+  "category": "crafting",
+  "trigger": {
+    "type": "enchant",
+    "chance": 0.125
+  },
+  "icon": "minecraft:lapis_lazuli",
+  "art": "minecraft:lapis_block",
+  "perk": {
+    "mechanic": "habits:arcane_discount",
+    "params": {
+      "levels": "0..2"
+    },
+    "values": [
+      10.0,
+      20.0,
+      30.0,
+      40.0,
+      50.0,
+      60.0,
+      70.0,
+      80.0,
+      90.0,
+      100.0
+    ]
+  }
+}

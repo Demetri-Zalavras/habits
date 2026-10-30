@@ -1,0 +1,29 @@
+{
+  "rarity": "rare",
+  "category": "building",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:fall_place",
+    "chance": 0.0333
+  },
+  "icon": "minecraft:phantom_membrane",
+  "art": "minecraft:white_wool",
+  "perk": {
+    "mechanic": "habits:air_place",
+    "params": {
+      "cooldown_s": "2..0"
+    },
+    "values": [
+      1,
+      1,
+      2,
+      2,
+      3,
+      3,
+      4,
+      4,
+      5,
+      5
+    ]
+  }
+}

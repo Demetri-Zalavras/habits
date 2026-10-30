@@ -1,0 +1,30 @@
+{
+  "rarity": "common",
+  "category": "exploration",
+  "trigger": {
+    "type": "enter_dimension",
+    "match": "minecraft:overworld",
+    "chance": 0.15
+  },
+  "icon": "minecraft:sunflower",
+  "art": "minecraft:moss_block",
+  "perk": {
+    "type": "regen",
+    "params": {
+      "condition": "day,dimension=minecraft:overworld"
+    },
+    "values": [
+      0.5,
+      1,
+      1.5,
+      2,
+      2.5,
+      3,
+      3.5,
+      4,
+      4.5,
+      5
+    ]
+  },
+  "perk_text": "Heal {v} health per minute in daylight"
+}

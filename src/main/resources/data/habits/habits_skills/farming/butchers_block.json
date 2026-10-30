@@ -1,0 +1,38 @@
+{
+  "rarity": "common",
+  "category": "farming",
+  "trigger": {
+    "type": "kill_entity",
+    "match": [
+      "minecraft:cow",
+      "minecraft:pig",
+      "minecraft:sheep",
+      "minecraft:chicken",
+      "minecraft:rabbit",
+      "minecraft:goat",
+      "minecraft:mooshroom"
+    ],
+    "chance": 0.0333
+  },
+  "icon": "minecraft:porkchop",
+  "art": "minecraft:stripped_oak_log",
+  "perk": {
+    "mechanic": "habits:melee/butcher",
+    "params": {
+      "cooked": "10,100",
+      "hide": "0,0,0,0,0,0,0,0,0,1"
+    },
+    "values": [
+      1.0,
+      1.0,
+      2.0,
+      2.0,
+      2.0,
+      3.0,
+      3.0,
+      3.0,
+      4.0,
+      4.0
+    ]
+  }
+}

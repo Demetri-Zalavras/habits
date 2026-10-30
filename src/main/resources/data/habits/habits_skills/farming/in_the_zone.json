@@ -1,0 +1,26 @@
+{
+  "rarity": "rare",
+  "category": "farming",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:farming/harvest_streak",
+    "chance": 0.033
+  },
+  "icon": "minecraft:sugar",
+  "art": "minecraft:hay_block",
+  "perk": {
+    "mechanic": "habits:farming/in_the_zone",
+    "values": [
+      10,
+      16,
+      21,
+      27,
+      32,
+      38,
+      43,
+      49,
+      54,
+      60
+    ]
+  }
+}

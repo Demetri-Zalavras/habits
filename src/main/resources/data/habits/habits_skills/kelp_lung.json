@@ -1,0 +1,32 @@
+{
+  "rarity": "common",
+  "category": "farming",
+  "trigger": {
+    "type": "break_block",
+    "match": [
+      "minecraft:kelp",
+      "minecraft:kelp_plant"
+    ],
+    "chance": 0.00333
+  },
+  "icon": "minecraft:kelp",
+  "art": "minecraft:dried_kelp_block",
+  "perk": {
+    "mechanic": "habits:kelp_lung",
+    "params": {
+      "cap": "30,300"
+    },
+    "values": [
+      2.0,
+      2.9,
+      3.8,
+      4.7,
+      5.6,
+      6.4,
+      7.3,
+      8.2,
+      9.1,
+      10.0
+    ]
+  }
+}

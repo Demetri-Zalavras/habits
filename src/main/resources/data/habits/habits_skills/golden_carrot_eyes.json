@@ -1,0 +1,26 @@
+{
+  "rarity": "uncommon",
+  "category": "ranger",
+  "trigger": {
+    "type": "eat",
+    "match": "minecraft:golden_carrot",
+    "chance": 0.0625
+  },
+  "icon": "minecraft:golden_carrot",
+  "art": "minecraft:gold_block",
+  "perk": {
+    "mechanic": "habits:survival/golden_carrot_eyes",
+    "values": [
+      15,
+      47,
+      78,
+      110,
+      142,
+      173,
+      205,
+      237,
+      268,
+      300
+    ]
+  }
+}

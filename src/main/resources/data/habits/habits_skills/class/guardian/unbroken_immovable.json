@@ -1,0 +1,32 @@
+{
+  "rarity": "epic",
+  "category": "guardian",
+  "class": "habits:class/guardian/unbroken",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:hit_in_heavy_armor",
+    "chance": 0.0028
+  },
+  "icon": "minecraft:anvil",
+  "art": "minecraft:netherite_block",
+  "perk": {
+    "type": "attribute",
+    "values": [
+      5,
+      7,
+      9,
+      12,
+      14,
+      16,
+      18,
+      21,
+      23,
+      25
+    ],
+    "params": {
+      "attribute": "minecraft:generic.armor",
+      "operation": "add_multiplied_total"
+    }
+  },
+  "perk_text": "+{v}% armor"
+}

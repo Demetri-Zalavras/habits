@@ -1,0 +1,26 @@
+{
+  "rarity": "rare",
+  "category": "nature",
+  "trigger": {
+    "type": "custom_units",
+    "match": "habits:forest_walk",
+    "chance": 0.000129
+  },
+  "icon": "minecraft:azalea_leaves",
+  "art": "minecraft:flowering_azalea_leaves",
+  "perk": {
+    "mechanic": "habits:nature/dryad",
+    "values": [
+      10,
+      18,
+      26,
+      33,
+      41,
+      49,
+      57,
+      64,
+      72,
+      80
+    ]
+  }
+}

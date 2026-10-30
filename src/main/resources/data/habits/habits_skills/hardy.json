@@ -1,0 +1,26 @@
+{
+  "rarity": "common",
+  "category": "guardian",
+  "trigger": {
+    "type": "damage_taken",
+    "chance": 0.0167
+  },
+  "icon": "minecraft:iron_chestplate",
+  "art": "minecraft:iron_block",
+  "perk": {
+    "mechanic": "habits:survival/hardy",
+    "params": {"value_max": "20"},
+    "values": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  }
+}

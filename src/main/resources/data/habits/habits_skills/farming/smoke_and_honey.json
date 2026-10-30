@@ -1,0 +1,26 @@
+{
+  "rarity": "rare",
+  "category": "farming",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:farming/smoked_hive",
+    "chance": 0.033
+  },
+  "icon": "minecraft:campfire",
+  "art": "minecraft:beehive",
+  "perk": {
+    "mechanic": "habits:farming/smoke_and_honey",
+    "values": [
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      3,
+      3,
+      3,
+      4
+    ]
+  }
+}

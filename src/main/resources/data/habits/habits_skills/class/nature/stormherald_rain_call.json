@@ -1,0 +1,30 @@
+{
+  "rarity": "epic",
+  "category": "nature",
+  "class": "habits:class/nature/stormherald",
+  "trigger": {
+    "type": "drink_potion",
+    "match": "minecraft:water",
+    "chance": 0.0167
+  },
+  "icon": "minecraft:potion",
+  "art": "minecraft:light_blue_concrete",
+  "perk": {
+    "mechanic": "habits:nature/rainmaker",
+    "values": [
+      30,
+      26,
+      22,
+      18,
+      15,
+      12,
+      9,
+      7,
+      5,
+      3
+    ],
+    "params": {
+      "minutes": "10,30"
+    }
+  }
+}

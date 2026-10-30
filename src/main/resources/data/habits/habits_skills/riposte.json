@@ -1,0 +1,29 @@
+{
+  "rarity": "uncommon",
+  "category": "warrior",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:riposte",
+    "chance": 0.0312
+  },
+  "icon": "minecraft:shield",
+  "art": "minecraft:polished_andesite",
+  "perk": {
+    "mechanic": "habits:melee/riposte",
+    "params": {
+      "window": "0.5,2"
+    },
+    "values": [
+      20.0,
+      34.0,
+      49.0,
+      63.0,
+      78.0,
+      92.0,
+      107.0,
+      121.0,
+      136.0,
+      150.0
+    ]
+  }
+}

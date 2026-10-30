@@ -1,0 +1,26 @@
+{
+  "rarity": "rare",
+  "category": "crafting",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:mass_craft",
+    "chance": 0.0667
+  },
+  "icon": "minecraft:writable_book",
+  "art": "minecraft:oak_planks",
+  "perk": {
+    "mechanic": "habits:signature_work",
+    "values": [
+      5.0,
+      10.0,
+      15.0,
+      20.0,
+      25.0,
+      30.0,
+      35.0,
+      40.0,
+      45.0,
+      50.0
+    ]
+  }
+}

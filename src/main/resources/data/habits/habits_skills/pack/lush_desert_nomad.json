@@ -1,0 +1,1 @@
+{"rarity":"uncommon","category":"exploration","trigger":{"type":"enter_biome","match":["terralith:lush_desert","terralith:desert_oasis","terralith:arid_highlands"],"chance":0.3},"icon":"minecraft:cactus","art":"minecraft:red_sand","perk":{"type":"hunger_save","base":5,"per_level":4}}

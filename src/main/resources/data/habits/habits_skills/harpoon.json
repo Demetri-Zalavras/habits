@@ -1,0 +1,26 @@
+{
+  "rarity": "common",
+  "category": "ranger",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:trident_aquatic_hit",
+    "chance": 0.0333
+  },
+  "icon": "minecraft:trident",
+  "art": "minecraft:water",
+  "perk": {
+    "mechanic": "habits:harpoon",
+    "values": [
+      3,
+      4,
+      5,
+      6,
+      8,
+      10,
+      12,
+      14,
+      17,
+      20
+    ]
+  }
+}

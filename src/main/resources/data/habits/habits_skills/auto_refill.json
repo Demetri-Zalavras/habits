@@ -1,0 +1,26 @@
+{
+  "rarity": "common",
+  "category": "building",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:stack_used_up",
+    "chance": 0.1
+  },
+  "icon": "minecraft:cobblestone",
+  "art": "minecraft:cobblestone",
+  "perk": {
+    "mechanic": "habits:auto_refill",
+    "values": [
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2,
+      2,
+      3
+    ]
+  }
+}

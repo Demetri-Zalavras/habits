@@ -1,0 +1,26 @@
+{
+  "rarity": "common",
+  "category": "crafting",
+  "trigger": {
+    "type": "stat_increment",
+    "match": "minecraft:open_barrel",
+    "chance": 0.0333
+  },
+  "icon": "minecraft:barrel",
+  "art": "minecraft:barrel",
+  "perk": {
+    "mechanic": "habits:barrel_roll",
+    "values": [
+      3,
+      6,
+      9,
+      12,
+      15,
+      18,
+      21,
+      24,
+      26,
+      27
+    ]
+  }
+}

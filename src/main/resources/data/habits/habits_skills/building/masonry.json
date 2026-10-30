@@ -1,0 +1,39 @@
+{
+  "rarity": "common",
+  "category": "building",
+  "trigger": {
+    "type": "place_block",
+    "match": [
+      "minecraft:bricks",
+      "#minecraft:stone_bricks",
+      "minecraft:mud_bricks",
+      "minecraft:nether_bricks",
+      "minecraft:deepslate_bricks",
+      "minecraft:polished_blackstone_bricks",
+      "minecraft:quartz_bricks",
+      "minecraft:end_stone_bricks"
+    ],
+    "chance": 0.00667
+  },
+  "icon": "minecraft:stone_bricks",
+  "art": "minecraft:bricks",
+  "perk": {
+    "type": "mining_speed",
+    "values": [
+      10.0,
+      20.0,
+      30.0,
+      40.0,
+      50.0,
+      60.0,
+      70.0,
+      80.0,
+      90.0,
+      100.0
+    ],
+    "params": {
+      "block": "#minecraft:stairs,#minecraft:slabs,#minecraft:walls,minecraft:bricks,#minecraft:stone_bricks,minecraft:mud_bricks,minecraft:nether_bricks,minecraft:deepslate_bricks,minecraft:polished_blackstone_bricks,minecraft:quartz_bricks,minecraft:end_stone_bricks"
+    }
+  },
+  "perk_text": "Breaking bricks, stairs, slabs and walls +{v}%"
+}

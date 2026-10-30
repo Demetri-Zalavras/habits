@@ -1,0 +1,1 @@
+{"rarity":"rare","category":"warrior","trigger":{"type":"eat","match":"ends_delight:dragon_leg","chance":0.1},"icon":"ends_delight:dragon_leg","art":"minecraft:dragon_head","perk":{"type":"attribute","params":{"attribute":"minecraft:attack_damage","operation":"add_value"},"base":0.5,"per_level":0.3}}

@@ -1,0 +1,29 @@
+{
+  "rarity": "uncommon",
+  "category": "guardian",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:heal_splash_ally",
+    "chance": 0.0625
+  },
+  "icon": "minecraft:glistering_melon_slice",
+  "art": "minecraft:pink_wool",
+  "perk": {
+    "mechanic": "habits:field_medic",
+    "values": [
+      10.0,
+      20.0,
+      30.0,
+      40.0,
+      50.0,
+      60.0,
+      70.0,
+      80.0,
+      90.0,
+      100.0
+    ],
+    "params": {
+      "homing": "0..5"
+    }
+  }
+}

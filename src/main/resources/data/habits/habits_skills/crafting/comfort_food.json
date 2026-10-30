@@ -1,0 +1,19 @@
+{
+  "rarity": "rare",
+  "category": "crafting",
+  "trigger": {
+    "type": "eat",
+    "match": ["minecraft:bread", "minecraft:cake", "minecraft:cookie", "minecraft:pumpkin_pie", "minecraft:mushroom_stew", "minecraft:rabbit_stew", "minecraft:beetroot_soup", "minecraft:suspicious_stew", "minecraft:golden_carrot"],
+    "chance": 0.06667
+  },
+  "icon": "minecraft:rabbit_stew",
+  "art": "minecraft:hay_block",
+  "perk": {
+    "mechanic": "habits:crafting/comfort_food",
+    "values": [3, 4, 6, 7, 8, 10, 11, 12, 14, 15],
+    "params": {
+      "items": "minecraft:bread,minecraft:cake,minecraft:cookie,minecraft:pumpkin_pie,minecraft:mushroom_stew,minecraft:rabbit_stew,minecraft:beetroot_soup,minecraft:suspicious_stew,minecraft:golden_carrot",
+      "amp": "0"
+    }
+  }
+}

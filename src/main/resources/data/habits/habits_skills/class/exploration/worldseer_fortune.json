@@ -1,0 +1,28 @@
+{
+  "rarity": "legendary",
+  "category": "exploration",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:loot_chest_first",
+    "chance": 0.02
+  },
+  "icon": "minecraft:gold_ingot",
+  "art": "minecraft:gold_block",
+  "perk": {
+    "type": "drop_bonus",
+    "values": [
+      3,
+      5,
+      7,
+      9,
+      11,
+      12,
+      14,
+      16,
+      18,
+      20
+    ]
+  },
+  "class": "habits:class/exploration/worldseer",
+  "perk_text": "{v}% chance drops come twice"
+}

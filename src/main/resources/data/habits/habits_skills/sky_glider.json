@@ -1,0 +1,29 @@
+{
+  "rarity": "rare",
+  "category": "movement",
+  "trigger": {
+    "type": "elytra_distance",
+    "chance": 1.85e-05
+  },
+  "icon": "minecraft:elytra",
+  "art": "minecraft:end_stone_bricks",
+  "perk": {
+    "mechanic": "habits:movement/sky_glider",
+    "params": {
+      "value_max": "100",
+      "level_glide_level": "10"
+    },
+    "values": [
+      5,
+      10,
+      15,
+      20,
+      25,
+      30,
+      35,
+      40,
+      45,
+      50
+    ]
+  }
+}

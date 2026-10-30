@@ -1,0 +1,29 @@
+{
+  "rarity": "uncommon",
+  "category": "building",
+  "trigger": {
+    "type": "craft",
+    "match": "#minecraft:planks",
+    "chance": 0.0208
+  },
+  "icon": "minecraft:jungle_planks",
+  "art": "minecraft:stripped_oak_log",
+  "perk": {
+    "mechanic": "habits:building/sawmill",
+    "values": [
+      10.0,
+      20.0,
+      30.0,
+      40.0,
+      50.0,
+      60.0,
+      70.0,
+      80.0,
+      90.0,
+      100.0
+    ],
+    "params": {
+      "bonus": "2"
+    }
+  }
+}

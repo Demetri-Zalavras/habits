@@ -1,0 +1,31 @@
+{
+  "rarity": "common",
+  "category": "mining",
+  "trigger": {
+    "type": "break_block",
+    "match": "minecraft:magma_block",
+    "chance": 0.00667
+  },
+  "icon": "minecraft:magma_cream",
+  "art": "minecraft:magma_block",
+  "perk": {
+    "mechanic": "habits:mining/magma_harvester",
+    "params": {
+      "block": "minecraft:magma_block",
+      "item": "minecraft:magma_cream",
+      "count": "1"
+    },
+    "values": [
+      5,
+      7.8,
+      10.6,
+      13.3,
+      16.1,
+      18.9,
+      21.7,
+      24.4,
+      27.2,
+      30
+    ]
+  }
+}

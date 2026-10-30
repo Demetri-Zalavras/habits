@@ -1,0 +1,30 @@
+{
+  "rarity": "uncommon",
+  "category": "warrior",
+  "trigger": {
+    "type": "custom",
+    "match": "habits:crit",
+    "chance": 0.00417,
+    "item": "minecraft:air"
+  },
+  "icon": "minecraft:piston",
+  "art": "minecraft:hay_block",
+  "perk": {
+    "mechanic": "habits:melee/haymaker",
+    "params": {
+      "distance": "3,12"
+    },
+    "values": [
+      2.0,
+      2.9,
+      3.8,
+      4.7,
+      5.6,
+      6.4,
+      7.3,
+      8.2,
+      9.1,
+      10.0
+    ]
+  }
+}
